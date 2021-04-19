@@ -72,7 +72,7 @@
 16	-jaː	_	SCONJ	CVB	Aspect=Res|VerbForm=Conv	15	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 13477, 13604
 17	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	15	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 13604, 13732
 18	iː-	_	PRON	PNG	_	19	aff:subj	_	GE= 3-|RX= PNG-|Times= 13732, 13859
-19	ktiː	_	AUX	AUX	Tense=Prf|Aspect=Aor	22	mod:relcl	_	GE= AOR|Gloss= become|RX=AUX,PRF|Times= 13859, 13987
+19	ktiː	_	AUX	AUX	Aspect=Aor|Tense=Prf	22	mod:relcl	_	GE= AOR|Gloss= become|RX=AUX,PRF|Times= 13859, 13987
 20	-na	_	PRON	PNG	Number=Plur	19	aff:subj	_	GE= -PL|RX= -PNG|Times= 13987, 14115
 21	i=	_	DET	DET	Definite=Def|Gender=Masc	22	det	_	GE= DEF,M=|RX= DET=|Times= 14115, 14306
 22	bʔaɖ	_	NOUN	N	Gender=Masc	24	subj	_	Gloss= mat|RX= N,M|Times= 14306, 14497
@@ -171,7 +171,7 @@
 12	-aː	_	SCONJ	CVB	Aspect=Res|VerbForm=Conv	11	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 32937, 33071
 13	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	11	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 33071, 33206
 14	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	15	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 33206, 33340
-15	kti	_	AUX	AUX	Tense=Prf|Aspect=Aor	16	comp	_	GE= AOR|Gloss= become|RX=AUX,PRF|Times= 33340, 33474
+15	kti	_	AUX	AUX	Aspect=Aor|Tense=Prf	16	comp	_	GE= AOR|Gloss= become|RX=AUX,PRF|Times= 33340, 33474
 16	=jeːb	_	SCONJ	CONJ	Gender=Masc|Number=Sing	1	mod:relcl	_	GE= =REL,SG,M|RX= =CONJ|Times= 33474, 33609
 17	/	_	PUNCT	PUNCT	_	7	punct	_	GE= PUNCT|RX=PUNCT|Times= 33609, 35009
 
@@ -236,7 +236,7 @@
 6	-aː	_	SCONJ	CVB	Aspect=Res|VerbForm=Conv	5	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 43591, 43730
 7	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	5	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 43730, 43870
 8	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	9	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 43870, 44009
-9	kti	_	AUX	AUX	Tense=Prf|Aspect=Aor	10	comp	_	GE= AOR|Gloss= become|RX= AUX,PRF|Times= 44009, 44148
+9	kti	_	AUX	AUX	Aspect=Aor|Tense=Prf	10	comp	_	GE= AOR|Gloss= become|RX= AUX,PRF|Times= 44009, 44148
 10	=jeːt	_	SCONJ	CONJ	Gender=Fem	1	mod:relcl	_	GE= =REL,F|RX= =CONJ|Times= 44148, 44288
 11	sallam	_	VERB	V2	_	17	conj:coord	_	Gloss= give|RX= V2|Times= 44288, 44392|VerbClass=2
 12	-ja	_	PRON	TAM, PNG	Gender=Masc|Number=Sing|Person=3	11	aff:subj	_	GE= -PFV,3SG,M|RX= -TAM,PNG|Times= 44392, 44497
@@ -503,7 +503,7 @@
 11	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 88535, 88719
 12	biri	_	NOUN	N	Gender=Masc	13	subj	_	Gloss= rain|RX= SBJ,N,M|Times= 88719, 88904
 13	ʈa~ʈakʷ	_	VERB	V2	_	20	comp	_	GE= PLAC|Gloss= drip|RX= V2,DER|Times= 88904, 89088|VerbClass=2
-14	-i	_	PRON	TAM, PNG	Gender=Masc|Number=Sing|Person=3|Aspect=Aor	13	aff:subj	_	GE= -AOR,3SG,M|RX= -TAM,PNG|Times= 89088, 89273
+14	-i	_	PRON	TAM, PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	13	aff:subj	_	GE= -AOR,3SG,M|RX= -TAM,PNG|Times= 89088, 89273
 15	/	_	PUNCT	PUNCT	_	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 89273, 89838
 16	i=	_	DET	DET	Definite=Def|Gender=Masc	17	det	_	GE= DEF,M=|RX= DET=|Times= 89838, 89922
 17	jam	_	NOUN	N	Gender=Masc|Number=Plur	18	comp	_	Gloss= water|RX= N,PL,M|Times= 89922, 90007
@@ -516,7 +516,7 @@
 24	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	26	mod	_	GE= =LOC,SG|RX= =POSTP|Times= 91243, 91426
 25	//	_	PUNCT	PUNCT	_	24	punct	_	GE= PUNCT|RX= PUNCT|Times= 91426, 92040
 26	kaɖaw	_	VERB	V2	_	30	parataxis:obj	_	Gloss= make_noise|RX= V2|Times= 92040, 92261|VerbClass=2
-27	-i	_	PRON	TAM, PNG	Gender=Masc|Number=Sing|Person=3|Aspect=Aor	26	aff:subj	_	GE= -AOR,3SG,M|RX= -TAM,PNG|Times= 92261, 92482
+27	-i	_	PRON	TAM, PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	26	aff:subj	_	GE= -AOR,3SG,M|RX= -TAM,PNG|Times= 92261, 92482
 28	mijʔat	_	NOUN	N	Gender=Masc	26	subj:obj	_	Gloss= footprint|RX= N,M|Times= 92482, 92925
 29	a-	_	PRON	PNG	Number=Sing|Person=1	30	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 92925, 93072
 30	maːsiw	_	VERB	V1	_	31	comp	_	GE= INT,PFV|Gloss= hear|RX= V1,DER|Times= 93072, 93219|VerbClass=1
