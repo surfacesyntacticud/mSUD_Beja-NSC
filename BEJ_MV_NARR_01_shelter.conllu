@@ -347,7 +347,7 @@
 26	-a	_	SCONJ	CVB	Aspect=Prf|VerbForm=Conv|TokenType=Aff	25	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 63115, 63264
 27	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	25	det	_	GE= =INDF,F|RX= =DET|Times= 63264, 63414
 28	ni-	_	PRON	PNG	Number=Plur|Person=1|TokenType=Aff	29	aff:subj	_	GE= 1PL-|RX= PNG-|Times= 63414, 63638
-29	ki	_	AUX	AUX	Aspect=Pfv|Aspect=Prf|TokenType=Stem	0	root	_	GE= PFV|Gloss= become|RX= AUX,PRF|Times= 63638, 63863
+29	ki	_	AUX	AUX	Aspect=Prf|TokenType=Stem	0	root	_	GE= PFV|Gloss= become|RX= AUX,PRF|Times= 63638, 63863
 30	/	_	PUNCT	PUNCT	_	29	punct	_	GE= PUNCT|RX= PUNCT|Times= 63863, 65384
 
 # sent_id = BEJ_MV_NARR_01_shelter_071-075
@@ -365,9 +365,9 @@
 7	kan	_	VERB	V1, IRG	Voice=Mid|TokenType=Stem|VerbClass=1	12	comp:aux	_	GE= MID|Gloss= know|RX= V1,DER,IRG|Times= 66939, 67048
 8	-aː	_	SCONJ	CVB	Aspect=Prf|VerbForm=Conv|TokenType=Aff	7	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 67048, 67157
 9	=ji	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes|TokenType=Clit	7	aff:obj	_	GE= =POSS,1SG,ACC|RX= =PRO|Times= 67157, 67266
-10	ki=	_	PART	PTCL, NEG	Aspect=Pfv|Aspect=Imp|Polarity=Neg|TokenType=Clit	12	mod	_	GE= NEG,IPFV=|RX= PTCL=|Times= 67266, 67375
+10	ki=	_	PART	PTCL, NEG	Aspect=Imp|Polarity=Neg|TokenType=Clit	12	mod	_	GE= NEG,IPFV=|RX= PTCL=|Times= 67266, 67375
 11	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	12	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 67375, 67484
-12	ki	_	AUX	AUX	Aspect=Pfv|Aspect=Prf|TokenType=Stem	0	root	_	GE= PFV|Gloss= become|RX= AUX,PRF|Times= 67484, 67594
+12	ki	_	AUX	AUX	Aspect=Prf|TokenType=Stem	0	root	_	GE= PFV|Gloss= become|RX= AUX,PRF|Times= 67484, 67594
 13	/	_	PUNCT	PUNCT	_	12	punct	_	GE= PUNCT|RX= PUNCT|Times= 67594, 67922
 14	ti=	_	DET	DET	Definite=Def|Gender=Fem|TokenType=Clit	15	det	_	GE= DEF,F=|RX= DET=|Times= 67922, 68197
 15	takat	_	NOUN	N	Gender=Fem|TokenType=Stem	16	comp:obj	_	Gloss= woman|RX= N,F|Times= 68197, 68473
@@ -540,7 +540,7 @@
 48	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	47	det	_	GE= =INDF,F|RX= =DET|Times= 98130, 98306
 49	hoːj	_	PRON	PRO	Case=Abl|TokenType=Stem	51	comp:obl	_	GE= ABL,3|RX= PRO|Times= 98306, 98657
 50	t-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3|TokenType=Aff	51	aff:subj	_	GE= 3SG,F-|RX= PNG-|Times= 98657, 98774
-51	heː	_	VERB	V1, IRG	Aspect=Pfv|Aspect=Imp|TokenType=Stem|VerbClass=1	52	comp	_	GE= IPFV|Gloss= be_there|RX= V1,IRG|Times= 98774, 98891
+51	heː	_	VERB	V1, IRG	Aspect=Imp|TokenType=Stem|VerbClass=1	52	comp	_	GE= IPFV|Gloss= be_there|RX= V1,IRG|Times= 98774, 98891
 52	=jeːt	_	SCONJ	CONJ	Gender=Fem|TokenType=Clit	42	mod:relcl	_	GE= =REL,F|RX= =CONJ|Times= 98891, 99008
 53	harʔiː	_	ADP	POSTP	TokenType=Stem	59	comp:obl	_	Gloss= after|RX= POSTP|Times= 99008, 99183
 54	=isi	_	PRON	PRO	Case=Abl|Number=Sing|Person=3|Poss=Yes|TokenType=Clit	53	comp	_	GE= =POSS,3SG,ABL|RX= =PRO|Times= 99183, 99359
@@ -875,10 +875,10 @@
 26	-oːj	_	SCONJ	N	TokenType=Aff	25	aff:mark	_	GE= -N,AC|RX= -N,V|Times= 151357, 151533
 27	ti=	_	SCONJ	REL	Definite=Def|Gender=Fem|TokenType=Clit	30	comp	_	GE= DEF,F=|RX= REL=|Times= 151533, 151664
 28	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	29	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 151664, 151796
-29	stoːbi	_	VERB	V1, IRG	Aspect=Pfv|Aspect=Imp|TokenType=Stem|VerbClass=1	27	comp	_	GE= IPFV|Gloss= convey|RX= V1,IRG|Times= 151796, 151928
+29	stoːbi	_	VERB	V1, IRG	Aspect=Imp|TokenType=Stem|VerbClass=1	27	comp	_	GE= IPFV|Gloss= convey|RX= V1,IRG|Times= 151796, 151928
 30	=jeːt	_	SCONJ	CONJ	Gender=Fem|TokenType=Clit	32	comp:obj	_	GE= =REL,F|RX= =CONJ|Times= 151928, 152060
 31	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	32	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 152060, 152235
-32	kteːn	_	VERB	V1, IRG	Aspect=Pfv|Aspect=Imp|Voice=Mid|TokenType=Stem|VerbClass=1	33	comp	_	GE= MID,IPFV|Gloss= know|RX= V1,DER,IRG|Times= 152235, 152411
+32	kteːn	_	VERB	V1, IRG	Aspect=Imp|Voice=Mid|TokenType=Stem|VerbClass=1	33	comp	_	GE= MID,IPFV|Gloss= know|RX= V1,DER,IRG|Times= 152235, 152411
 33	=aj	_	SCONJ	CONJ	TokenType=Clit	35	mod	_	GE= =CSL|RX= =CONJ|Times= 152411, 152587
 34	//	_	PUNCT	PUNCT	_	33	punct	_	GE= PUNCT|RX= PUNCT|Times= 152587, 153596
 35	sallam	_	VERB	V2	TokenType=Stem|VerbClass=2|ReportedSpeech=Yes	39	parataxis:obj	_	Gloss= give|RX= V2|Times= 153596, 153739
