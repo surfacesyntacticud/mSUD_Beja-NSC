@@ -35,7 +35,7 @@
 11	kaːm	_	NOUN	N	TokenType=Stem	13	comp:obj	_	Gloss= camel|RX= N|Times= 5666, 5763
 12	=iji	_	PRON	PRO	Case=Gen|Number=Sing|Person=1|Poss=Yes|TokenType=Clit	11	mod:poss	_	GE= =POSS,1SG,GEN|RX= =PRO|Times= 5763, 5860
 13	haraw	_	VERB	V1	TokenType=Stem|VerbClass=1	17	mod	_	GE= V1|Gloss= seek|Times= 5860, 6006
-14	-a	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	13	aff:mark	_	GE= -CVB,MNR|RX= -,|Times= 6006, 6152
+14	-a	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	13	aff:mark	_	GE= -CVB,MNR|Times= 6006, 6152
 15	/	_	PUNCT	PUNCT	_	13	punct	_	GE= PUNCT|RX=PUNCT|Times= 6152, 6713
 16	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	17	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 6713, 6799
 17	dif	_	VERB	V1	Aspect=Prf|TokenType=Stem|VerbClass=1	18	comp	_	GE= PFV|Gloss= leave|RX=V1|Times= 6799, 6885
@@ -62,7 +62,7 @@
 6	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	7	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 10016, 10220
 7	biri	_	NOUN	N	Gender=Masc|TokenType=Stem	8	comp:obj	_	Gloss= rain|RX= N,M|Times= 10220, 10424
 8	hariw	_	VERB	V1	TokenType=Stem|VerbClass=1	24	mod	_	GE= V1|Gloss= seek|Times= 10424, 10627
-9	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 10627, 10831
+9	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,SMLT|Times= 10627, 10831
 10	/	_	PUNCT	PUNCT	_	8	punct	_	GE= PUNCT|RX=PUNCT|Times= 10831, 12268
 11	liːlaːw	_	NOUN	N	Gender=Masc|TokenType=Stem	13	comp	_	Gloss= rock|RX= N,M|Times= 12268, 12410
 12	-i	_	PART	CASE	Case=Gen|TokenType=Aff	11	aff:case	_	GE= -GEN|RX= -CASE|Times= 12410, 12552
@@ -129,11 +129,11 @@
 # text =moːkeː moːkeː moːkeː uːn uːbiri / diːseːt ʔitjanhoːb // tak eːjaheːb ini //
 # user_id = ziane.rayan4
 1	moːk	_	VERB	V1	TokenType=Stem|VerbClass=1	3	conj:redup	_	GE= INT|Gloss= take_shelter|RX=V1,DER|Times= 23859, 24018
-2	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	1	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 24018, 24177
+2	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	1	aff:mark	_	GE= -CVB,SMLT|Times= 24018, 24177
 3	moːk	_	VERB	V1	TokenType=Stem|VerbClass=1	5	conj:redup	_	GE= INT|Gloss= take_shelter|RX=V1,DER|Times= 24177, 24336
-4	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	3	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 24336, 24495
+4	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	3	aff:mark	_	GE= -CVB,SMLT|Times= 24336, 24495
 5	moːk	_	VERB	V1	TokenType=Stem|VerbClass=1	12	mod	_	GE= INT|Gloss= take_shelter|RX=V1,DER|Times= 24495, 24654
-6	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	5	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 24654, 24813
+6	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	5	aff:mark	_	GE= -CVB,SMLT|Times= 24654, 24813
 7	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	9	det	_	GE= PROX,SG,M,NOM|RX=DEM|Times= 24813, 25131
 8	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	9	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 25131, 25290
 9	biri	_	NOUN	N	Gender=Masc|TokenType=Stem	12	subj	_	Gloss= rain|RX= SBJ,N,M|Times= 25290, 25449
@@ -388,7 +388,7 @@
 4	//	_	PUNCT	PUNCT	_	3	punct	_	GE= PUNCT|RX= PUNCT|Times= 71958, 72560
 5	j=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	6	det	_	GE= DEF,M=|RX= DET=|Times= 72560, 72714
 6	halak	_	NOUN	N	Gender=Masc|TokenType=Stem	10	comp:obj	_	Gloss= cloth|RX= N,M|Times= 72714, 72868
-7	-a	_	PART	_	Number=Plur|TokenType=Aff	6	aff:mark	_	GE= -PL|RX= -,|Times= 72868, 73023
+7	-a	_	PART	_	Number=Plur|TokenType=Aff	6	aff:mark	_	GE= -PL|Times= 72868, 73023
 8	/	_	PUNCT	PUNCT	_	6	punct	_	GE= PUNCT|RX= PUNCT|Times= 73023, 73487
 9	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	10	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 73487, 73727
 10	naːʃʔa	_	VERB	V1	Aspect=Prf|TokenType=Stem|VerbClass=1	11	comp:pred	_	GE= INT,PFV|Gloss= take_off|RX= V1,DER|Times= 73727, 73968
@@ -492,13 +492,13 @@
 # user_id = ziane.rayan4
 1	ameː-	_	AUX	V1	Voice=Pass|TokenType=Aff|VerbClass=1	2	aff:aux	_	GE= PASS,INT-|RX= V1,DER-|Times= 85492, 85680
 2	sa~sʔ	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	5	conj:redup	_	GE= PLAC,MID|Gloss= sit|RX= V1,DER|Times= 85680, 85869
-3	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	2	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 85869, 86058
+3	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	2	aff:mark	_	GE= -CVB,SMLT|Times= 85869, 86058
 4	ameː-	_	AUX	V1	Voice=Pass|TokenType=Aff|VerbClass=1	5	aff:aux	_	GE= PASS,INT-|RX= V1,DER-|Times= 86058, 86247
 5	sa~sʔ	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	8	conj:redup	_	GE= PLAC,MID|Gloss= sit|RX= V1,DER|Times= 86247, 86436
-6	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	5	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 86436, 86625
+6	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	5	aff:mark	_	GE= -CVB,SMLT|Times= 86436, 86625
 7	ameː-	_	AUX	V1	Voice=Pass|TokenType=Aff|VerbClass=1	8	aff:aux	_	GE= PASS,INT-|RX= V1,DER-|Times= 86625, 86814
 8	sa~sʔ	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	13	mod	_	GE= PLAC,MID|Gloss= sit|RX= V1,DER|Times= 86814, 87003
-9	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 87003, 87192
+9	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,SMLT|Times= 87003, 87192
 10	/	_	PUNCT	PUNCT	_	8	punct	_	GE= PUNCT|RX= PUNCT|Times= 87192, 88535
 11	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	12	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 88535, 88719
 12	biri	_	NOUN	N	Gender=Masc|TokenType=Stem	13	subj	_	Gloss= rain|RX= SBJ,N,M|Times= 88719, 88904
@@ -555,7 +555,7 @@
 63	baːji	_	ADP	POSTP	TokenType=Stem	65	comp:obl	_	Gloss= towards|RX= POSTP|Times= 102158, 102334
 64	=heːb	_	PRON	PRO	Number=Sing|Person=1|TokenType=Clit	65	aff:subj	_	GE= =OBJ,1SG|RX= =PRO|Times= 102334, 102511
 65	hiːreːr	_	VERB	V2	TokenType=Stem|VerbClass=2	67	comp	_	Gloss= walk|RX= V2|Times= 102511, 102687
-66	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	65	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 102687, 102864
+66	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	65	aff:mark	_	GE= -CVB,SMLT|Times= 102687, 102864
 67	rh	_	VERB	V2	TokenType=Stem|VerbClass=2	69	comp	_	Gloss= see|RX= V2|Times= 102864, 102981
 68	-an	_	PRON	TAM, PNG	Aspect=Pfv|Number=Sing|Person=1|TokenType=Aff	67	aff:subj	_	GE= -PFV,1SG|RX= -TAM,PNG|Times= 102981, 103099
 69	=hoːb	_	SCONJ	CONJ	TokenType=Clit	72	mod	_	Gloss= =when|RX= =CONJ|Times= 103099, 103217
@@ -576,7 +576,7 @@
 2	mhiːn	_	NOUN	N	Gender=Masc|TokenType=Stem	4	comp:obj	_	Gloss= place|RX= N,M|Times= 105605, 105698
 3	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes|TokenType=Clit	2	mod:poss	_	GE= =POSS,1SG,ACC|RX= =PRO|Times= 105698, 105791
 4	sʔ	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	20	mod	_	GE= MID|Gloss= sit|RX= V1,DER|Times= 105791, 105930
-5	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	4	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 105930, 106070
+5	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	4	aff:mark	_	GE= -CVB,SMLT|Times= 105930, 106070
 6	//	_	PUNCT	PUNCT	_	4	punct	_	GE= PUNCT|RX= PUNCT|Times= 106070, 107185
 7	koːba	_	NOUN	N	Gender=Fem|TokenType=Stem	9	comp	_	Gloss= container|RX= N,F|Times= 107185, 107330
 8	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	7	det	_	GE= =INDF,F|RX= =DET|Times= 107330, 107476
@@ -791,7 +791,7 @@
 9	ʔaraːw	_	NOUN	N	TokenType=Stem	11	comp:obj	_	Gloss= friend|RX= SBJ,N|Times= 138568, 138784
 10	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes|TokenType=Clit	9	mod:poss	_	GE= =POSS,1SG,NOM|RX= =PRO|Times= 138784, 139000
 11	aka	_	VERB	V1, IRG	TokenType=Stem|VerbClass=1	14	comp:obj	_	Gloss= become|RX= V1,IRG|Times= 139000, 139215
-12	-jeː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	11	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 139215, 139431
+12	-jeː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	11	aff:mark	_	GE= -CVB,SMLT|Times= 139215, 139431
 13	hoːj	_	PRON	PRO	Case=Abl|TokenType=Stem	14	comp:obl	_	GE= ABL,3|RX= PRO|Times= 139431, 139862
 14	giːg	_	VERB	V2	TokenType=Stem|VerbClass=2|ReportedSpeech=Yes	20	parataxis:obj	_	Gloss= leave|RX= V2|Times= 139862, 139969
 15	-is	_	AUX	V2	Voice=Cau|TokenType=Aff|VerbClass=2	14	aff:aux	_	GE= -CAUS|RX= -V2,DER|Times= 139969, 140077
@@ -836,7 +836,7 @@
 11	mhiːn	_	NOUN	N	Gender=Masc|TokenType=Stem	13	comp:obl	_	Gloss= place|RX= N,M|Times= 145368, 145501
 12	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes|TokenType=Clit	11	mod:poss	_	GE= =POSS,1SG,ACC|RX= =PRO|Times= 145501, 145634
 13	naː	_	VERB	V2	TokenType=Stem|VerbClass=2	0	root	_	Gloss= spend_the_night|RX= V2|Times= 145634, 145833
-14	-jeː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	13	aff:mark	_	GE= -CVB,SMLT|RX= -,|Times= 145833, 146033
+14	-jeː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	13	aff:mark	_	GE= -CVB,SMLT|Times= 145833, 146033
 15	mh	_	VERB	V2	TokenType=Stem|VerbClass=2	13	mod	_	Gloss= be_in_morning|RX= V2|Times= 146033, 146232
 16	-an	_	PRON	TAM, PNG	Aspect=Pfv|Number=Sing|Person=1|TokenType=Aff	15	aff:subj	_	GE= -PFV,1SG|RX= -TAM,PNG|Times= 146232, 146431
 17	/	_	PUNCT	PUNCT	_	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 146431, 147206
@@ -849,7 +849,7 @@
 # text = jhalakabwa / jiʔitakiːb areː eːn eːgaɖʔajeː na / ani tiknaːti / tistoːboːj tiʔastoːbjeːt akteːnaj // sallamaheːb tinitheːb /
 1	j=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	2	det	_	GE= DEF,M=|RX= DET=|Times= 147206, 147301
 2	halak	_	NOUN	N	Gender=Masc|TokenType=Stem	29	comp:obj	_	Gloss= cloth|RX= N,M|Times= 147301, 147396
-3	-a	_	PART	_	Number=Plur|TokenType=Aff	2	aff:mark	_	GE= -PL|RX= -,|Times= 147396, 147492
+3	-a	_	PART	_	Number=Plur|TokenType=Aff	2	aff:mark	_	GE= -PL|Times= 147396, 147492
 4	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	2	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 147492, 147587
 5	=wa	_	CCONJ	CCONJ	TokenType=Clit	2	cc	_	GE= =COORD|RX= CCONJ|Times= 147587, 147683
 6	/	_	PUNCT	PUNCT	_	2	punct	_	GE= PUNCT|RX= PUNCT|Times= 147683, 148160
@@ -922,3 +922,571 @@
 12	di	_	VERB	V1, IRG	Aspect=Prf|TokenType=Stem|VerbClass=1	0	root	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 159173, 159271
 13	eːn	_	VERB	V1, IRG	Aspect=Pfv|Number=Plur|Person=3|TokenType=Stem|VerbClass=1	12	discourse	_	GE= PFV,3PL|Gloss= say|RX= V1,IRG|Times= 159271, 159466
 14	//	_	PUNCT	PUNCT	_	12	punct	_	GE= PUNCT|RX= PUNCT|Times= 159466, 160103
+
+# user_id = ziane.rayan4
+# timestamp = 1619534049867
+# sent_id = BEJ_MV_NARR_03_camel_001-008
+# text = tak / ʔeːgirim // ʔajaːj tak -i iː- fi =t amsi iraːnaj rh -i / oː= kina / 
+# text_en = "There was an old man of my family and, gosh! I even saw him today.
+# tokenized_text = tak / ʔeːgirim // ʔajaːj tak -i iː- fi
+1	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	9	subj	_	Gloss= man|RX= SBJ,N,M|Times= 0, 351
+2	/	_	PUNCT	PUNCT	TokenType=Stem	1	punct	_	GE= PUNCT|RX= PUNCT|Times= 351, 1157
+3	ʔeːgirim	_	NOUN	CN	TokenType=Stem	1	mod	_	Gloss= elder|RX= CN|Times= 1157, 1424
+4	//	_	PUNCT	PUNCT	TokenType=Stem	1	punct	_	GE= PUNCT|RX= PUNCT|Times= 1424, 2257
+5	ʔajaːj	_	NOUN	N	TokenType=Stem	6	mod	_	Gloss= relatives|RX= N|Times= 2257, 2593
+6	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	1	conj:appos	_	Gloss= man|RX= N,M|Times= 2593, 2761
+7	-i	_	PART	CASE	Case=Gen|TokenType=Aff	6	aff:case	_	GE= -GEN|RX= -CASE|Times= 2761, 2930
+8	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	9	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 2930, 3042
+9	fi	_	VERB	V1, IRG	Aspect=Aor|TokenType=Stem|VerbClass=1	13	conj:coord	_	GE= AOR|Gloss= be_there|RX= V1,IRG|Times= 3042, 3154
+10	=t	_	CCONJ	CCONJ	TokenType=Clit	9	cc	_	GE= =COORD|RX= CCONJ|Times= 3154, 3267
+11	amsi	_	ADV	ADV	TokenType=Stem	13	mod	_	Gloss= today|RX= ADV|Times= 3267, 3603
+12	iraːnaj	_	INTJ	_	TokenType=Stem	13	discourse	_	Gloss= gosh|RX= EXCL|Times= 3603, 3940
+13	rh	_	VERB	V2	TokenType=Stem|VerbClass=2	_	_	_	Gloss= see|RX= V2|Times= 3940, 4108
+14	-i	_	PRON	TAM, PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3|TokenType=Aff	13	aff:subj	_	GE= -AOR,3SG,M|RX= -TAM,PNG|Times= 4108, 4277
+15	/	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 4277, 4764
+16	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	17	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 4764, 4921
+17	kina	_	PRON	PRO	Reflex=Yes|TokenType=Stem	13	dislocated:obj	_	Gloss= owner|RX= PRO,REFL|Times= 4921, 5079
+18	/	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 5079, 5895
+
+# user_id = ziane.rayan4
+# timestamp = 1619534090650
+# sent_id = BEJ_MV_NARR_03_camel_009-013
+# text = ʔiːd han jʔ -a =b =u =it / w= ʔiːd arraf -i / a- di =t a- ba i- ni // 
+# text_en = The Aid also had come and I went to wish him a blessed Aid", he said.
+# tokenized_text = ʔiːd han jʔ -a
+1	ʔiːd	_	NOUN	N	Gender=Masc|TokenType=Stem	3	subj	_	GE= Aid_feast|RX= SBJ,N,M|Times= 5895, 6131
+2	han	_	PART	PTCL	TokenType=Stem	1	mod	_	Gloss= also|RX= PTCL|Times= 6131, 6368
+3	jʔ	_	VERB	V2, IRG	TokenType=Stem|VerbClass=2	6	comp:aux	_	Gloss= come|RX= V2,IRG|Times= 6368, 6415
+4	-a	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	3	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 6415, 6462
+5	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	3	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 6462, 6509
+6	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	11	conj:coord	_	GE= =COP,3SG|RX= =PRED,N|Times= 6509, 6556
+7	=it	_	CCONJ	CCONJ	TokenType=Clit	6	cc	_	GE= =COORD|RX= CCONJ|Times= 6556, 6604
+8	/	_	PUNCT	PUNCT	TokenType=Stem	6	det	_	GE= PUNCT|RX= PUNCT|Times= 6604, 6841
+9	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	10	det	_	GE= DEF,SG,M=|RX= DET=|Times= 6841, 7011
+10	ʔiːd	_	NOUN	N	Gender=Masc|TokenType=Stem	11	comp:obj	_	GE= Aid_feast|RX= N,M|Times= 7011, 7182
+11	arraf	_	VERB	V2	TokenType=Stem|VerbClass=2	15	comp:svc	_	Gloss= congratulate|RX= V2|Times= 7182, 7352
+12	-i	_	PRON	TAM, PNG	Aspect=Aor|Number=Sing|Person=1|TokenType=Aff	11	aff:subj	_	GE= -AOR,1SG|RX= -TAM,PNG|Times= 7352, 7523
+13	/	_	PUNCT	PUNCT	TokenType=Stem	11	punct	_	GE= PUNCT|RX= PUNCT|Times= 7523, 8113
+14	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	15	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 8113, 8196
+15	di	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	18	conj:coord	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 8196, 8279
+16	=t	_	CCONJ	CCONJ	TokenType=Clit	15	cc	_	GE= =COORD|RX= CCONJ|Times= 8279, 8362
+17	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	18	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 8362, 8487
+18	ba	_	VERB	V1, IRG	Aspect=Pfv|ReportedSpeech=Yes|TokenType=Stem|VerbClass=1	20	parataxis:obj	_	GE= INT,PFV|Gloss= go|RX= V1,DER,IRG|Times= 8487, 8612
+19	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	20	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 8612, 8737
+20	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 8737, 8862
+21	//	_	PUNCT	PUNCT	TokenType=Stem	20	punct	_	GE= PUNCT|RX= PUNCT|Times= 8862, 10145
+
+# user_id = ziane.rayan4
+# timestamp = 1619534133731
+# sent_id = BEJ_MV_NARR_03_camel_014-019
+# text = dhaːj jʔ -an =hoːb oː= tak / meːk dh# ## eːja =ajt oː= gaw / tam -ja eːn // 
+# text_en = "When I went to visit him, a man, a donkey, hum, came and ate his tent, they said.
+# tokenized_text = dhaːj jʔ -an
+1	dhaːj	_	ADP	POSTP	TokenType=Stem	2	comp:obl	_	GE= DIR|RX= POSTP|Times= 10145, 10442
+2	jʔ	_	VERB	V2, IRG	TokenType=Stem|VerbClass=2	4	comp	_	Gloss= come|RX= V2,IRG|Times= 10442, 10541
+3	-an	_	PRON	TAM, PNG	Aspect=Pfv|Number=Sing|Person=1|TokenType=Aff	2	aff:subj	_	GE= -PFV,1SG|RX= -TAM,PNG|Times= 10541, 10640
+4	=hoːb	_	SCONJ	CONJ	TokenType=Clit	11	mod	_	Gloss= =when|RX= =CONJ|Times= 10640, 10740
+5	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	6	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 10740, 10888
+6	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	9	comp	_	Gloss= man|RX= N,M|Times= 10888, 11037
+7	/	_	PUNCT	PUNCT	TokenType=Stem	6	punct	_	GE= PUNCT|RX= PUNCT|Times= 11037, 11802
+8	meːk	_	NOUN	N	TokenType=Stem	11	subj	_	Gloss= donkey|RX= SBJ,N|Times= 11802, 11990
+9	dh#	_	ADP	FS	TokenType=Stem	11	comp:obl	_	GE= FS|RX= FS|Times= 11990, 12178
+10	##	_	PUNCT	PUNCT	TokenType=Stem	9	punct	_	GE= PUNCT|RX= PUNCT|Times= 12178, 12570
+11	eːja	_	VERB	V2, IRG	Aspect=Pfv|Gender=Masc|Number=Sing|Person=3|TokenType=Stem|VerbClass=2	16	conj:coord	_	GE= PFV,3SG,M|Gloss= come|RX= V2,IRG|Times= 12570, 12716
+12	=ajt	_	CCONJ	CONJ	TokenType=Clit	11	cc	_	GE= =CSL|RX= =CONJ|Times= 12716, 12863
+13	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	14	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 12863, 13009
+14	gaw	_	NOUN	N	Gender=Masc|TokenType=Stem	16	comp:obj	_	Gloss= house|RX= N,M|Times= 13009, 13156
+15	/	_	PUNCT	PUNCT	TokenType=Stem	14	punct	_	GE= PUNCT|RX= PUNCT|Times= 13156, 13449
+16	tam	_	VERB	V2	TokenType=Stem|VerbClass=2	_	_	_	Gloss= eat|RX= V2|Times= 13449, 13526
+17	-ja	_	PRON	TAM, PNG	Aspect=Pfv|Gender=Masc|Number=Sing|Person=3|TokenType=Aff	16	aff:subj	_	GE= -PFV,3SG,M|RX= -TAM,PNG|Times= 13526, 13603
+18	eːn	_	VERB	V1, IRG	Aspect=Pfv|Number=Plur|Person=3|TokenType=Stem|VerbClass=1	16	discourse	_	GE= PFV,3PL|Gloss= say|RX= V1,IRG|Times= 13603, 13757
+19	//	_	PUNCT	PUNCT	TokenType=Stem	16	punct	_	GE= PUNCT|RX= PUNCT|Times= 13757, 13911
+
+# user_id = ziane.rayan4
+# timestamp = 1619534156780
+# sent_id = BEJ_MV_NARR_03_camel_020-021
+# text = t= ʔoːr -ej oː= meːk fidin -i / galeːl -i -n i- di i- ni // 
+# text_en = "Girl! chase the donkey away!" he said, he said.
+# tokenized_text = t
+1	t=	_	DET	DET	Definite=Def|Gender=Fem|TokenType=Clit	2	det	_	GE= DEF,F=|RX= DET=|Times= 13911, 13996
+2	ʔoːr	_	NOUN	N	TokenType=Stem	6	vocative	_	Gloss= child|RX= N|Times= 13996, 14081
+3	-ej	_	PART	CASE	Case=Voc|TokenType=Aff	2	aff:case	_	GE= -VOC|RX= -CASE|Times= 14081, 14167
+4	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	5	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 14167, 14295
+5	meːk	_	NOUN	N	TokenType=Stem	6	comp:obj	_	Gloss= donkey|RX= N|Times= 14295, 14424
+6	fidin	_	VERB	V1	TokenType=Stem|VerbClass=1	9	comp:svc	_	Gloss= move_away|RX= V1|Times= 14424, 14552
+7	-i	_	PRON	TAM, PNG	Gender=Fem|Mood=Imp|Number=Sing|TokenType=Aff	6	aff:subj	_	GE= -IMP,SG,F|RX= -TAM,PNG|Times= 14552, 14681
+8	/	_	PUNCT	PUNCT	TokenType=Stem	6	punct	_	GE= PUNCT|RX= PUNCT|Times= 14681, 14938
+9	galeːl	_	VERB	V2	ReportedSpeech=Yes|TokenType=Stem|VerbClass=2	13	parataxis:obj	_	Gloss= drive_cattle|RX= V2|Times= 14938, 15040
+10	-i	_	PRON	TAM, PNG	Gender=Fem|Mood=Imp|Number=Sing|TokenType=Aff	9	aff:subj	_	GE= -IMP,SG,F|RX= -TAM,PNG|Times= 15040, 15142
+11	-n	_	PART	SUFX	TokenType=Aff	9	aff:emph	_	GE= -EMPH|RX= -SUFX|Times= 15142, 15244
+12	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	13	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 15244, 15397
+13	di	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 15397, 15551
+14	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	15	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 15551, 15704
+15	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	13	discourse	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 15704, 15857
+16	//	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 15857, 16164
+
+# user_id = ziane.rayan4
+# timestamp = 1619534195178
+# sent_id = BEJ_MV_NARR_03_camel_022-024
+# text = əəə dabaloː =t ʔoːr geːb / tiː- fi =aj // 
+# text_en = Because there was a small girl with him.
+# tokenized_text = əəə dabaloː
+1	əəə	_	INTJ	HESIT	TokenType=Stem	9	discourse	_	Gloss= er|RX= HESIT|Times= 16164, 16399
+2	dabaloː	_	ADJ	ADJ	TokenType=Stem	4	mod	_	Gloss= small|RX= ADJ|Times= 16399, 16516
+3	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	2	det	_	GE= =INDF,F|RX= =DET|Times= 16516, 16634
+4	ʔoːr	_	NOUN	N	TokenType=Stem	8	subj	_	Gloss= child|RX= SBJ,N|Times= 16634, 16869
+5	geːb	_	ADP	POSTP	TokenType=Stem	8	comp:obl	_	Gloss= beside|RX= POSTP|Times= 16869, 17104
+6	/	_	PUNCT	PUNCT	TokenType=Stem	5	punct	_	GE= PUNCT|RX= PUNCT|Times= 17104, 17339
+7	tiː-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3|TokenType=Aff	8	aff:subj	_	GE= 3SG,F-|RX= PNG-|Times= 17339, 17407
+8	fi	_	VERB	V1, IRG	Aspect=Aor|TokenType=Stem|VerbClass=1	9	comp	_	GE= AOR|Gloss= be_there|RX= V1,IRG|Times= 17407, 17475
+9	=aj	_	CCONJ	CONJ	TokenType=Clit	_	_	_	GE= =CSL|RX= =CONJ|Times= 17475, 17543
+10	//	_	PUNCT	PUNCT	TokenType=Stem	9	punct	_	GE= PUNCT|RX= PUNCT|Times= 17543, 19067
+
+# user_id = ziane.rayan4
+# timestamp = 1619534275409
+# sent_id = BEJ_MV_NARR_03_camel_025-034
+# text = t= ʔoːr / oː= meːk ti- fidin galeːl -tan =hoːb / doːr han / hoːb =uːn -ej iraːnaj / oː= meːk ʔam -a =b =wa ti- ni =hoːb ? ani i= meːk -i m- ʔam =eː sagi =b =i i- di i- ni // 
+# text_en = When the girl had chased the donkey away, so, when she asked: "Grand father, have you ever ridden a donkey?" he said: "I am far from having ridden a donkey!", he said.
+# tokenized_text = t
+1	t=	_	DET	DET	Definite=Def|Gender=Fem|TokenType=Clit	2	det	_	GE= DEF,F=|RX= DET=|Times= 19067, 19150
+2	ʔoːr	_	NOUN	N	TokenType=Stem	8	subj	_	Gloss= child|RX= SBJ,N|Times= 19150, 19233
+3	/	_	PUNCT	PUNCT	TokenType=Stem	2	punct	_	GE= PUNCT|RX= PUNCT|Times= 19233, 19988
+4	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	5	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 19988, 20204
+5	meːk	_	NOUN	N	TokenType=Stem	7	comp:obj	_	Gloss= donkey|RX= N|Times= 20204, 20420
+6	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3|TokenType=Aff	7	aff:subj	_	GE= 3SG,F-|RX= PNG-|Times= 20420, 20636
+7	fidin	_	VERB	V1	Aspect=Pfv|TokenType=Stem|VerbClass=1	8	comp:svc	_	GE= PFV|Gloss= move_away|RX= V1|Times= 20636, 20852
+8	galeːl	_	VERB	V2	TokenType=Stem|VerbClass=2	10	comp	_	Gloss= drive_cattle|RX= V2|Times= 20852, 20996
+9	-tan	_	PRON	TAM, PNG	Aspect=Pfv|Gender=Fem|Number=Sing|Person=3|TokenType=Aff	8	aff:subj	_	GE= -PFV,3SG,F|RX= -TAM,PNG|Times= 20996, 21140
+10	=hoːb	_	SCONJ	CONJ	ReportedSpeech=Yes|TokenType=Clit	27	parataxis:obj	_	Gloss= =when|RX= =CONJ|Times= 21140, 21284
+11	/	_	PUNCT	PUNCT	TokenType=Stem	10	punct	_	GE= PUNCT|RX= PUNCT|Times= 21284, 22302
+12	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	22	mod	_	Gloss= time|RX= N,M|Times= 22302, 22492
+13	han	_	ADV	ADV	TokenType=Stem	22	mod	_	GE= Q,PLR|RX= ADV,Q|Times= 22492, 22683
+14	/	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 22683, 22874
+15	hoːb	_	NOUN	N	Gender=Masc|TokenType=Stem	22	vocative	_	Gloss= grand-father|RX= N,M|Times= 22874, 22999
+16	=uːn	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|Polite=Form|Poss=Yes|TokenType=Clit	15	mod:poss	_	GE= =POSS,1PL,NOM|RX= =PRO,POL|Times= 22999, 23125
+17	-ej	_	PART	CASE	Case=Voc|TokenType=Aff	15	aff:case	_	GE= -VOC|RX= -CASE|Times= 23125, 23251
+18	iraːnaj	_	INTJ	_	TokenType=Stem	22	discourse	_	Gloss= gosh|RX= EXCL|Times= 23251, 23628
+19	/	_	PUNCT	PUNCT	TokenType=Stem	18	punct	_	GE= PUNCT|RX= PUNCT|Times= 23628, 24200
+20	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	21	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 24200, 24358
+21	meːk	_	NOUN	N	TokenType=Stem	22	comp:obj	_	Gloss= donkey|RX= N|Times= 24358, 24517
+22	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	25	comp:aux	_	GE= MID|Gloss= ride|RX= V1,DER|Times= 24517, 24596
+23	-a	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	22	aff	_	GE= -CVB,MNR|RX= -PRF|Times= 24596, 24675
+24	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	22	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 24675, 24754
+25	=wa	_	AUX	N, COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	27	parataxis:obj	_	GE= =COP,2SG,M|RX= =PRED,N|Times= 24754, 24834
+26	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3|TokenType=Aff	27	aff:subj	_	GE= 3SG,F-|RX= PNG-|Times= 24834, 24939
+27	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	28	comp	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 24939, 25045
+28	=hoːb	_	SCONJ	CONJ	TokenType=Clit	41	mod	_	Gloss= =when|RX= =CONJ|Times= 25045, 25151
+29	?	_	PUNCT	PUNCT	TokenType=Stem	28	punct	_	GE= PUNCT|RX= PUNCT|Times= 25151, 25469
+30	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|TokenType=Stem	39	subj	_	GE= 1SG,NOM|RX= SBJ,PRO|Times= 25469, 25766
+31	i=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	32	det	_	GE= DEF,M=|RX= DET=|Times= 25766, 25865
+32	meːk	_	NOUN	N	TokenType=Stem	35	mod	_	Gloss= donkey|RX= N|Times= 25865, 25964
+33	-i	_	PART	CASE	Case=Gen|TokenType=Aff	32	aff:case	_	GE= -GEN|RX= -CASE|Times= 25964, 26064
+34	m-	_	NOUN	N	TokenType=Aff	35	aff:mark	_	GE= N,AC-|RX= N,V-|Times= 26064, 26163
+35	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	36	comp	_	GE= MID|Gloss= ride|RX= V1,DER|Times= 26163, 26262
+36	=eː	_	SCONJ	CONJ	TokenType=Clit	39	comp:obj	_	GE= =REL|RX= =CONJ|Times= 26262, 26362
+37	sagi	_	ADJ	ADJ	TokenType=Stem	39	comp:pred	_	Gloss= far|RX= ADJ|Times= 26362, 26461
+38	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	37	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 26461, 26560
+39	=i	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	41	parataxis:obj	_	GE= =COP,1SG|RX= =PRED,N|Times= 26560, 26660
+40	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	41	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 26660, 26809
+41	di	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	43	discourse	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 26809, 26958
+42	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	43	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 26958, 27107
+43	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 27107, 27256
+44	//	_	PUNCT	PUNCT	TokenType=Stem	43	punct	_	GE= PUNCT|RX= PUNCT|Times= 27256, 28614
+
+# user_id = ziane.rayan4
+# timestamp = 1619534335738
+# sent_id = BEJ_MV_NARR_03_camel_035-042
+# text = doːr / oː= meːk oːn ba= a- akaj / kaːm han ʔam -aː =b =i i- ni // mhaj nafar -a nuːn / naː =t bi= t- ʔam =eːb // 
+# text_en = "Once, it's not a donkey but a camel that I rode, he said, that only three men could ride."
+# tokenized_text = doːr / oː
+1	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	8	mod	_	Gloss= time|RX= N,M|Times= 28614, 28792
+2	/	_	PUNCT	PUNCT	TokenType=Stem	1	punct	_	GE= PUNCT|RX= PUNCT|Times= 28792, 29410
+3	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	4	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 29410, 29552
+4	meːk	_	NOUN	N	TokenType=Stem	8	comp:obj	_	Gloss= donkey|RX= N|Times= 29552, 29695
+5	oːn	_	PRON	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	4	det	_	GE= PROX,SG,M,ACC|RX= DEM|Times= 29695, 29981
+6	ba=	_	AUX	PTCL	Mood=Opt|TokenType=Clit	10	mod:relcl	_	GE= OPT=|RX= PTCL=|Times= 29981, 30076
+7	a-	_	PART	PNG	Number=Sing|Person=1|TokenType=Aff	8	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 30076, 30171
+8	akaj	_	VERB	V1, IRG, NEG	Mood=Opt|Polarity=Neg|TokenType=Stem|VerbClass=1	6	comp:aux	_	GE= NEG,OPT|Gloss= become|RX= V1,IRG|Times= 30171, 30267
+9	/	_	PUNCT	PUNCT	TokenType=Stem	8	punct	_	GE= PUNCT|RX= PUNCT|Times= 30267, 30553
+10	kaːm	_	NOUN	N	TokenType=Stem	12	comp:obj	_	Gloss= camel|RX= N|Times= 30553, 30772
+11	han	_	PART	PTCL	TokenType=Stem	10	mod	_	Gloss= also|RX= PTCL,FOC|Times= 30772, 30991
+12	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	15	comp:aux	_	GE= MID|Gloss= ride|RX= V1,DER|Times= 30991, 31045
+13	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	12	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 31045, 31100
+14	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	12	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 31100, 31155
+15	=i	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	17	parataxis:obj	_	GE= =COP,1SG|RX= =PRED,N|Times= 31155, 31210
+16	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	17	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 31210, 31319
+17	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 31319, 31429
+18	//	_	PUNCT	PUNCT	TokenType=Stem	17	punct	_	GE= PUNCT|RX= PUNCT|Times= 31429, 31649
+19	mhaj	_	NUM	NUM	TokenType=Stem	20	det:num	_	Gloss= three|RX= NUM|Times= 31649, 31929
+20	nafar	_	NOUN	N	Foreign=Yes|Gender=Masc|TokenType=Stem	26	dislocated	_	Gloss= person|RX= N,M,BORR,ARA|Times= 31929, 32069
+21	-a	_	PART	_	Number=Plur|TokenType=Aff	20	aff	_	GE= -PL|Times= 32069, 32209
+22	nuːn	_	PART	PTCL	TokenType=Stem	20	mod	_	Gloss= only|RX= PTCL|Times= 32209, 32489
+23	/	_	PUNCT	PUNCT	TokenType=Stem	20	punct	_	GE= PUNCT|RX= PUNCT|Times= 32489, 33247
+24	naː	_	NOUN	N	Gender=Fem|TokenType=Stem	28	subj	_	Gloss= thing|RX= SBJ,N,F|Times= 33247, 33441
+25	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	24	det	_	GE= =INDF,F|RX= =DET|Times= 33441, 33635
+26	bi=	_	AUX	PTCL	Mood=Opt|TokenType=Clit	29	comp	_	GE= OPT=|RX= PTCL=|Times= 33635, 33732
+27	t-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3|TokenType=Aff	28	aff:subj	_	GE= 3SG,F-|RX= PNG-|Times= 33732, 33829
+28	ʔam	_	VERB	V1, NEG	Mood=Opt|Polarity=Neg|Voice=Mid|TokenType=Stem|VerbClass=1	26	comp:aux	_	GE= MID,NEG,OPT|Gloss= ride|RX= V1,DER|Times= 33829, 33926
+29	=eːb	_	SCONJ	CONJ	Gender=Masc|Number=Sing|TokenType=Clit	10	mod:relcl	_	GE= =REL,SG,M|RX= =CONJ|Times= 33926, 34024
+30	//	_	PUNCT	PUNCT	TokenType=Stem	17	punct	_	GE= //|RX= PUNCT|Times= 34024, 35599
+
+# user_id = ziane.rayan4
+# timestamp = 1619534397500
+# sent_id = BEJ_MV_NARR_03_camel_043-053
+# text = ontʔa / beːn / t= ʔoːt -i / i= bhali -jeː =da // i= kaːm -i wanas / dh =eː hadiːd -ja i- ni // 
+# text_en = "So, because of the words of this girl, he told me a story about the camel", he said.
+# tokenized_text = ontʔa / beːn / t
+1	ontʔa	_	PART	PTCL	TokenType=Stem	24	discourse	_	Gloss= now|RX= PTCL|Times= 35599, 35865
+2	/	_	PUNCT	PUNCT	TokenType=Stem	1	punct	_	GE= PUNCT|RX= PUNCT|Times= 35865, 36566
+3	beːn	_	PRON	DEM	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	21	discourse	_	GE= DIST,SG,M,NOM|RX= DEM|Times= 36566, 36796
+4	/	_	PUNCT	PUNCT	TokenType=Stem	3	punct	_	GE= PUNCT|RX= PUNCT|Times= 36796, 37632
+5	t=	_	DET	DET	Definite=Def|Gender=Fem|TokenType=Clit	6	det	_	GE= DEF,F=|RX= DET=|Times= 37632, 37723
+6	ʔoːt	_	NOUN	N	Gender=Fem|TokenType=Stem	10	mod	_	GE= F|Gloss= child|RX= N,F|Times= 37723, 37814
+7	-i	_	PART	CASE	Case=Gen|TokenType=Aff	6	aff:case	_	GE= -GEN|RX= -CASE|Times= 37814, 37905
+8	/	_	PUNCT	PUNCT	TokenType=Stem	6	punct	_	GE= PUNCT|RX= PUNCT|Times= 37905, 38697
+9	i=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	10	det	_	GE= DEF,M=|RX= DET=|Times= 38697, 38804
+10	bhali	_	NOUN	N	Gender=Masc|Number=Plur|TokenType=Stem	12	comp	_	Gloss= word|RX= N,PL,M|Times= 38804, 38911
+11	-jeː	_	PART	CASE	Case=Gen|Number=Plur|TokenType=Aff	10	aff:case	_	GE= -GEN,PL|RX= -CASE|Times= 38911, 39018
+12	=da	_	ADP	POSTP	TokenType=Clit	21	mod	_	GE= =DIR|RX= =POSTP|Times= 39018, 39125
+13	//	_	PUNCT	PUNCT	TokenType=Stem	12	punct	_	GE= PUNCT|RX= PUNCT|Times= 39125, 40347
+14	i=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	15	det	_	GE= DEF,M=|RX= DET=|Times= 40347, 40507
+15	kaːm	_	NOUN	N	TokenType=Stem	17	mod	_	Gloss= camel|RX= N|Times= 40507, 40667
+16	-i	_	PART	CASE	Case=Gen|TokenType=Aff	15	aff:case	_	GE= -GEN|RX= -CASE|Times= 40667, 40827
+17	wanas	_	NOUN	N	TokenType=Stem	21	comp:obj	_	GE= N,AC|Gloss= chat|RX= N,V|Times= 40827, 41308
+18	/	_	PUNCT	PUNCT	TokenType=Stem	17	punct	_	GE= PUNCT|RX= PUNCT|Times= 41308, 41789
+19	dh	_	ADP	POSTP	TokenType=Stem	21	comp:obl	_	GE= DIR|RX= POSTP|Times= 41789, 41930
+20	=eː	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes|TokenType=Clit	19	aff:poss	_	GE= =POSS,1SG,ACC|RX= =PRO|Times= 41930, 42072
+21	hadiːd	_	VERB	V2	ReportedSpeech=Yes|TokenType=Stem|VerbClass=2	24	parataxis:obj	_	Gloss= talk|RX= V2|Times= 42072, 42213
+22	-ja	_	PRON	TAM, PNG	Aspect=Pfv|Gender=Masc|Number=Sing|Person=3|TokenType=Aff	21	aff:subj	_	GE= -PFV,3SG,M|RX= -TAM,PNG|Times= 42213, 42355
+23	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	24	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 42355, 42496
+24	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 42496, 42638
+25	//	_	PUNCT	PUNCT	TokenType=Stem	24	punct	_	GE= PUNCT|RX= PUNCT|Times= 42638, 44118
+
+# user_id = ziane.rayan4
+# timestamp = 1619534497539
+# sent_id = BEJ_MV_NARR_03_camel_054-063
+# text = uː= kaːm / kak i- tʔi kaːm a- ni =t sakana -an =hoːb ? / uːn uː= kaːm / uːn ani / doːr -i ɖaːb -eː rh -aː =b =u / oːn oː= kaːm // 
+# text_en = When I asked about how the camel looked like, (he said): "This camel I have seen it run once, this camel.
+# tokenized_text = uː
+1	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	2	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 44118, 44232
+2	kaːm	_	NOUN	N	TokenType=Stem	6	subj	_	Gloss= camel|RX= SBJ,N|Times= 44232, 44346
+3	/	_	PUNCT	PUNCT	TokenType=Stem	2	punct	_	GE= PUNCT|RX= PUNCT|Times= 44346, 44575
+4	kak	_	ADV	ADV	TokenType=Stem	6	mod	_	Gloss= how|RX= ADV,Q|Times= 44575, 44763
+5	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	6	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 44763, 44857
+6	tʔi	_	VERB	V1, IRG	Aspect=Pfv|ReportedSpeech=Yes|TokenType=Stem|VerbClass=1	11	parataxis:obj	_	GE= PFV|Gloss= resemble|RX= V1,IRG|Times= 44857, 44952
+7	kaːm	_	NOUN	N	ReportedSpeech=Yes|TokenType=Stem	9	parataxis:obj	_	Gloss= camel|RX= N|Times= 45141, 45473
+8	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	9	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 45473, 45583
+9	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	11	conj:coord	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 45583, 45694
+10	=t	_	CCONJ	CCONJ	TokenType=Clit	9	cc	_	GE= =COORD|RX= CCONJ|Times= 45694, 45805
+11	sakana	_	VERB	V2	TokenType=Stem|VerbClass=2	13	comp	_	Gloss= ask_for_news|RX= V2|Times= 45805, 45915
+12	-an	_	PRON	TAM, PNG	Aspect=Pfv|Number=Sing|Person=1|TokenType=Aff	11	aff:subj	_	GE= -PFV,1SG|RX= -TAM,PNG|Times= 45915, 46026
+13	=hoːb	_	SCONJ	CONJ	TokenType=Clit	0	root	_	Gloss= =when|RX= =CONJ|Times= 46026, 46137
+14	?	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 44952, 45141
+15	/	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 46137, 46469
+16	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	18	det	_	GE= PROX,SG,M,NOM|RX= DEM|Times= 46469, 46685
+17	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	18	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 46685, 46793
+18	kaːm	_	NOUN	N	TokenType=Stem	25	subj	_	Gloss= camel|RX= N|Times= 46793, 46902
+19	/	_	PUNCT	PUNCT	TokenType=Stem	18	punct	_	GE= PUNCT|RX= PUNCT|Times= 46902, 48072
+20	uːn	_	PRON	DEM	Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	21	det	_	GE= PROX,SG,M|RX= DEM|Times= 48072, 48243
+21	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|TokenType=Stem	27	subj	_	GE= 1SG,NOM|RX= SBJ,PRO|Times= 48243, 48415
+22	/	_	PUNCT	PUNCT	TokenType=Stem	21	punct	_	GE= PUNCT|RX= PUNCT|Times= 48415, 49413
+23	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	_	_	_	Gloss= time|RX= N,M|Times= 49413, 49600
+24	-i	_	PART	CASE	Case=Gen|TokenType=Aff	23	aff:case	_	GE= -GEN|RX= -CASE|Times= 49600, 49787
+25	ɖaːb	_	VERB	V2	TokenType=Stem|VerbClass=2	27	comp:obj	_	Gloss= run|RX= V2|Times= 49787, 49974
+26	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	25	aff:mark	_	GE= -CVB,SMLT|Times= 49974, 50162
+27	rh	_	VERB	V2	TokenType=Stem|VerbClass=2	30	comp:aux	_	Gloss= see|RX= V2|Times= 50162, 50255
+28	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	27	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 50255, 50349
+29	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	27	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 50349, 50443
+30	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	13	parataxis:obj	_	GE= =COP,1SG|RX= =PRED,N|Times= 50443, 50537
+31	/	_	PUNCT	PUNCT	TokenType=Stem	27	punct	_	GE= PUNCT|RX= PUNCT|Times= 50537, 50912
+32	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	34	det	_	GE= PROX,SG,M,ACC|RX= DEM|Times= 50912, 51156
+33	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	34	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 51156, 51278
+34	kaːm	_	NOUN	N	TokenType=Stem	27	dislocated:obj	_	Gloss= camel|RX= N|Times= 51278, 51400
+35	//	_	PUNCT	PUNCT	TokenType=Stem	13	punct	_	GE= PUNCT|RX= PUNCT|Times= 51400, 52560
+
+# user_id = ziane.rayan4
+# timestamp = 1619535020545
+# sent_id = BEJ_MV_NARR_03_camel_064-067
+# text = da / bʔeː =b eːjaː -n =heːb i- ni // 
+# text_en = Men came to me one day", he said.
+# tokenized_text = da / bʔeː
+1	da	_	NOUN	N	Gender=Masc|Number=Plur|TokenType=Stem	5	subj	_	GE= PL|Gloss= man|RX= SBJ,N,M|Times= 52560, 52754
+2	/	_	PUNCT	PUNCT	TokenType=Stem	1	punct	_	GE= PUNCT|RX= PUNCT|Times= 52754, 53717
+3	bʔeː	_	NOUN	N	Gender=Masc|TokenType=Stem	5	mod	_	Gloss= day|RX= N,M|Times= 53717, 53884
+4	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	3	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 53884, 54051
+5	eːjaː	_	VERB	V2, IRG	Aspect=Pfv|ReportedSpeech=Yes|TokenType=Stem|VerbClass=2	9	parataxis:obj	_	GE= PFV|Gloss= come|RX= V2,IRG|Times= 54051, 54162
+6	-n	_	PRON	PNG	Number=Plur|Person=3|TokenType=Aff	5	aff:subj	_	GE= -3PL|RX= -PNG|Times= 54162, 54273
+7	=heːb	_	PRON	PRO	Number=Sing|Person=1|TokenType=Clit	5	comp:obj	_	GE= =OBJ,1SG|RX= =PRO|Times= 54273, 54385
+8	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	9	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 54385, 54552
+9	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 54552, 54719
+10	//	_	PUNCT	PUNCT	TokenType=Stem	9	punct	_	GE= PUNCT|RX= PUNCT|Times= 54719, 55636
+
+# user_id = ziane.rayan4
+# timestamp = 1619534556119
+# sent_id = BEJ_MV_NARR_03_camel_068-071
+# text = uː= dhaj kass =aː i- ktiːn -n =i kaːm =u =it / ʔajaːj tak =uːn hoːj am- mar~ri -ja eːn eː= nda / 
+# text_en = "Because it was a camel that everybody knew; one of our relatives (told) to these men:
+# tokenized_text = uː
+1	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	2	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 55636, 55855
+2	dhaj	_	NOUN	N	Gender=Masc|TokenType=Stem	6	subj	_	Gloss= people|RX= SBJ,N,COL,M|Times= 55855, 56075
+3	kass	_	DET	DET	TokenType=Stem	2	mod	_	Gloss= all|RX= DET|Times= 56075, 56294
+4	=aː	_	PRON	PRO	Case=Nom|Number=Plur|Person=3|Poss=Yes|TokenType=Clit	2	mod:poss	_	GE= =POSS,3PL,NOM|RX= =PRO|Times= 56294, 56514
+5	i-	_	PRON	PNG	TokenType=Aff	6	aff:subj	_	GE= 3-|RX= PNG-|Times= 56514, 56623
+6	ktiːn	_	VERB	V1, IRG	Aspect=Imp|Voice=Mid|TokenType=Stem|VerbClass=1	9	mod:relcl	_	GE= MID,IPFV|Gloss= know|RX= V1,DER,IRG|Times= 56623, 56733
+7	-n	_	PRON	PNG	Number=Plur|TokenType=Aff	6	aff:subj	_	GE= -PL|RX= -PNG|Times= 56733, 56843
+8	=i	_	SCONJ	CONJ	TokenType=Clit	6	comp	_	GE= =REL|RX= =CONJ|Times= 56843, 56953
+9	kaːm	_	NOUN	N	TokenType=Stem	10	subj	_	Gloss= camel|RX= N|Times= 56953, 57099
+10	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	11	comp	_	GE= =COP,3SG|RX= =PRED,N|Times= 57099, 57245
+11	=it	_	SCONJ	CONJ	TokenType=Clit	18	mod	_	GE= =CSL|RX= =CONJ|Times= 57245, 57392
+12	/	_	PUNCT	PUNCT	TokenType=Stem	11	punct	_	GE= PUNCT|RX= PUNCT|Times= 57392, 57995
+13	ʔajaːj	_	NOUN	N	TokenType=Stem	14	mod	_	Gloss= relatives|RX= N|Times= 57995, 58275
+14	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	18	subj	_	Gloss= man|RX= SBJ,N,M|Times= 58275, 58415
+15	=uːn	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|Poss=Yes|TokenType=Clit	14	mod:poss	_	GE= =POSS,1PL,NOM|RX= =PRO|Times= 58415, 58556
+16	hoːj	_	PRON	PRO	Case=Abl|TokenType=Stem	18	comp:obl	_	GE= ABL,3|RX= PRO|Times= 58556, 58837
+17	am-	_	AUX	V1	Voice=Rcp|TokenType=Aff|VerbClass=1	18	aff:aux	_	GE= RECP-|RX= V1,DER-|Times= 58837, 58930
+18	mar~ri	_	VERB	V1	TokenType=Stem|VerbClass=1	_	_	_	GE= find~PLAC|RX= V1,DER|Times= 58930, 59023
+19	-ja	_	PRON	TAM, PNG	Aspect=Pfv|Gender=Masc|Number=Sing|Person=3|TokenType=Aff	18	aff:subj	_	GE= -PFV,3SG,M|RX= -TAM,PNG|Times= 59023, 59117
+20	eːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	22	det	_	GE= PROX,PL,M,ACC|RX= DEM|Times= 59117, 59398
+21	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|TokenType=Clit	22	det	_	GE= DEF,PL,M,ACC=|RX= DET=|Times= 59398, 59538
+22	nda	_	NOUN	N	Gender=Masc|Number=Plur|TokenType=Stem	18	dislocated:obj	_	GE= PL|Gloss= man|RX= N,M|Times= 59538, 59679
+23	/	_	PUNCT	PUNCT	TokenType=Stem	18	punct	_	GE= PUNCT|RX= PUNCT|Times= 59679, 60529
+
+# user_id = ziane.rayan4
+# timestamp = 1619534568873
+# sent_id = BEJ_MV_NARR_03_camel_072-072
+# text = uː= tak ɖaːb -iːni kaːm i- bari / 
+# text_en = "The man has a race camel,
+# tokenized_text = uː
+1	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	2	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 60529, 60695
+2	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	7	subj	_	Gloss= man|RX= SBJ,N,M|Times= 60695, 60861
+3	ɖaːb	_	VERB	V2	TokenType=Stem|VerbClass=2	5	mod:relcl	_	Gloss= run|RX= V2|Times= 60861, 61027
+4	-iːni	_	PRON	TAM, PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=3|TokenType=Aff	3	aff:subj	_	GE= -IPFV,3SG,M|RX= -TAM,PNG|Times= 61027, 61193
+5	kaːm	_	NOUN	N	TokenType=Stem	7	comp:obj	_	Gloss= camel|RX= N|Times= 61193, 61525
+6	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	7	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 61525, 61691
+7	bari	_	VERB	V1, IRG	Aspect=Imp|TokenType=Stem|VerbClass=1	_	_	_	GE= IPFV|Gloss= have|RX= V1,IRG|Times= 61691, 61857
+8	/	_	PUNCT	PUNCT	TokenType=Stem	7	punct	_	GE= PUNCT|RX= PUNCT|Times= 61857, 62190
+
+# user_id = ziane.rayan4
+# timestamp = 1619534586619
+# sent_id = BEJ_MV_NARR_03_camel_073-073
+# text_en = (if you would like to, you would) precede it, ...
+# tokenized_text = 
+# text = suːr -teːn =aj / 
+1	suːr	_	VERB	V2	TokenType=Stem|VerbClass=2	3	comp	_	Gloss= precede|RX= V2|Times= 62190, 62337
+2	-teːn	_	PRON	TAM, PNG	Aspect=Imp|Number=Plur|Person=2|TokenType=Aff	1	aff:subj	_	GE= -IPFV,2PL|RX= -TAM,PNG|Times= 62337, 62485
+3	=aj	_	CCONJ	CCONJ	TokenType=Clit	_	_	_	GE= =COORD|RX= CCONJ|Times= 62485, 62633
+4	/	_	PUNCT	PUNCT	TokenType=Stem	3	punct	_	GE= PUNCT|RX= PUNCT|Times= 62633, 63076
+
+# user_id = ziane.rayan4
+# timestamp = 1619534631751
+# sent_id = BEJ_MV_NARR_03_camel_074-079
+# text = mʔ -aːna di -ja waliːk -a =b =u =it / sagi haːʃ =iː // beːn / ʔarjab =wa mariː =b i= dar =iː / 
+# text_en = So, he was calling (others), saying "Come!", from far away in the direction of Aryab.
+# tokenized_text = mʔ -aːna di -ja waliːk -a
+1	mʔ	_	VERB	V2, IRG	ReportedSpeech=Yes|TokenType=Stem|VerbClass=2	3	parataxis:obj	_	Gloss= come|RX= V2,IRG|Times= 63076, 63251
+2	-aːna	_	PRON	TAM, PNG	Mood=Imp|Number=Plur|TokenType=Aff	1	aff:subj	_	GE= -IMP,PL|RX= -TAM,PNG|Times= 63251, 63427
+3	di	_	VERB	V1, IRG	TokenType=Stem|VerbClass=1	8	mod	_	Gloss= say|RX= V1,IRG|Times= 63427, 63602
+4	-ja	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	3	aff:mark	_	GE= -CVB,MNR|Times= 63602, 63778
+5	waliːk	_	VERB	V2	TokenType=Stem|VerbClass=2	8	comp:aux	_	Gloss= call|RX= V2|Times= 63778, 63848
+6	-a	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	5	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 63848, 63918
+7	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	5	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 63918, 63988
+8	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	9	comp	_	GE= =COP,3SG|RX= =PRED,N|Times= 63988, 64058
+9	=it	_	SCONJ	CONJ	TokenType=Clit	0	root	_	GE= =CSL|RX= =CONJ|Times= 64058, 64129
+10	/	_	PUNCT	PUNCT	TokenType=Stem	9	punct	_	GE= PUNCT|RX= PUNCT|Times= 64129, 64480
+11	sagi	_	ADJ	ADJ	TokenType=Stem	12	mod	_	Gloss= far|RX= ADJ|Times= 64480, 64715
+12	haːʃ	_	NOUN	N	Gender=Masc|TokenType=Stem	5	conj:dicto	_	Gloss= land|RX= N,M|Times= 64715, 64832
+13	=iː	_	ADP	POSTP	Case=Abl|Number=Sing|TokenType=Clit	12	comp	_	GE= =ABL,SG|RX= =POSTP|Times= 64832, 64950
+14	//	_	PUNCT	PUNCT	TokenType=Stem	12	punct	_	GE= PUNCT|RX= PUNCT|Times= 64950, 65185
+15	beːn	_	ADV	ADV	TokenType=Stem	12	conj:dicto	_	Gloss= there|RX= ADV|Times= 65185, 65353
+16	/	_	PUNCT	PUNCT	TokenType=Stem	15	punct	_	GE= PUNCT|RX= PUNCT|Times= 65353, 65734
+17	ʔarjab	_	PROPN	NP	TokenType=Stem	15	conj:dicto	_	ProperName= Aryab|RX= N,PROP|Times= 65734, 65930
+18	=wa	_	CCONJ	CCONJ	TokenType=Clit	17	cc	_	GE= =COORD|RX= CCONJ|Times= 65930, 66126
+19	mariː	_	ADV	ADV	TokenType=Stem	17	conj:dicto	_	Gloss= from_the_direction|RX= ADV|Times= 66126, 66322
+20	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	19	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 66322, 66518
+21	i=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	22	det	_	GE= DEF,M=|RX= DET=|Times= 66518, 66648
+22	dar	_	NOUN	N	Gender=Masc|TokenType=Stem	19	conj:dicto	_	Gloss= side|RX= N,M|Times= 66648, 66779
+23	=iː	_	ADP	POSTP	Case=Abl|Number=Sing|TokenType=Clit	22	comp	_	GE= =ABL,SG|RX= =POSTP|Times= 66779, 66910
+24	/	_	PUNCT	PUNCT	TokenType=Stem	9	punct	_	GE= PUNCT|RX= PUNCT|Times= 66910, 68424
+
+# user_id = ziane.rayan4
+# timestamp = 1619534696651
+# sent_id = BEJ_MV_NARR_03_camel_080-085
+# text = winneːt / naʃʃalam -a kam // aː# eː= kina mitti -a =b // iː- biri -n // 
+# text_en = They had very athletic camels, even pure breeds,
+# tokenized_text = winneːt / naʃʃalam -a kam // aː# eː
+1	winneːt	_	ADV	ADV	TokenType=Stem	3	mod	_	Gloss= plenty|RX= ADV|Times= 68424, 68690
+2	/	_	PUNCT	PUNCT	TokenType=Stem	1	punct	_	GE= PUNCT|RX= PUNCT|Times= 68690, 69484
+3	naʃʃalam	_	ADJ	ADJ	TokenType=Stem	5	mod	_	Gloss= athletic|RX= ADJ|Times= 69484, 69679
+4	-a	_	PART	_	Number=Plur|TokenType=Aff	3	aff:mark	_	GE= -PL|Times= 69679, 69874
+5	kam	_	NOUN	N	Number=Plur|TokenType=Stem	15	comp:obj	_	GE= PL|Gloss= camel|RX= N|Times= 69874, 70265
+6	//	_	PUNCT	PUNCT	TokenType=Stem	5	punct	_	GE= PUNCT|RX= PUNCT|Times= 70265, 71814
+7	aː#	_	X	FS	TokenType=Stem	9	det	_	GE= FS|RX= FS|Times= 71814, 72145
+8	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|TokenType=Clit	7	conj:dicto	_	GE= DEF,PL,M,ACC=|RX= DET=|Times= 72145, 72311
+9	kina	_	PRON	PRO	Reflex=Yes|TokenType=Stem	10	mod	_	Gloss= owner|RX= PRO,REFL|Times= 72311, 72477
+10	mitti	_	NOUN	N	TokenType=Stem	5	mod	_	Gloss= pure_breed|RX= N|Times= 72477, 72587
+11	-a	_	PART	_	Number=Plur|TokenType=Aff	10	aff:mark	_	GE= -PL|Times= 72587, 72698
+12	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	10	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 72698, 72809
+13	//	_	PUNCT	PUNCT	TokenType=Stem	10	punct	_	GE= PUNCT|RX= PUNCT|Times= 72809, 73141
+14	iː-	_	PRON	PNG	TokenType=Aff	15	aff:subj	_	GE= 3-|RX= PNG-|Times= 73141, 73223
+15	biri	_	VERB	V1, IRG	Aspect=Aor|TokenType=Stem|VerbClass=1	_	_	_	GE= AOR|Gloss= have|RX= V1,IRG|Times= 73223, 73305
+16	-n	_	PRON	PNG	Number=Plur|TokenType=Aff	15	aff:subj	_	GE= -PL|RX= -PNG|Times= 73305, 73388
+17	//	_	PUNCT	PUNCT	TokenType=Stem	15	punct	_	GE= PUNCT|RX= PUNCT|Times= 73388, 73636
+
+# user_id = ziane.rayan4
+# timestamp = 1619534716279
+# sent_id = BEJ_MV_NARR_03_camel_086-089
+# text = iː- jheː -n =it / eːjaː -n =heːb i- ni // 
+# text_en = they took them and they came to me", he said.
+# tokenized_text = iː- jheː -n
+1	iː-	_	PRON	PNG	TokenType=Aff	2	aff:subj	_	GE= 3-|RX= PNG-|Times= 73636, 73719
+2	jheː	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	6	conj:coord	_	GE= PFV|Gloss= take|RX= V1,IRG|Times= 73719, 73803
+3	-n	_	PRON	PNG	Number=Plur|TokenType=Aff	2	aff:subj	_	GE= -PL|RX= -PNG|Times= 73803, 73887
+4	=it	_	CCONJ	CCONJ	TokenType=Clit	2	cc	_	GE= =COORD|RX= CCONJ|Times= 73887, 73971
+5	/	_	PUNCT	PUNCT	TokenType=Stem	2	punct	_	GE= PUNCT|RX= PUNCT|Times= 73971, 74543
+6	eːjaː	_	VERB	V2, IRG	Aspect=Pfv|ReportedSpeech=Yes|TokenType=Stem|VerbClass=2	10	parataxis:obj	_	GE= PFV|Gloss= come|RX= V2,IRG|Times= 74543, 74637
+7	-n	_	PRON	PNG	Number=Plur|Person=3|TokenType=Aff	6	aff:subj	_	GE= -3PL|RX= -PNG|Times= 74637, 74732
+8	=heːb	_	PRON	PRO	Number=Sing|Person=1|TokenType=Clit	6	comp:obj	_	GE= =OBJ,1SG|RX= =PRO|Times= 74732, 74827
+9	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	10	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 74827, 74969
+10	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 74969, 75111
+11	//	_	PUNCT	PUNCT	TokenType=Stem	10	punct	_	GE= PUNCT|RX= PUNCT|Times= 75111, 76156
+
+# user_id = ziane.rayan4
+# timestamp = 1619534738545
+# sent_id = BEJ_MV_NARR_03_camel_090-093
+# text = beːn aː= nda eːjaː -n =eːb oː= doːr / i= kaːm =i jam gʷʔa -s -aː =b =u / 
+# text_en = "When these men came,  I had given water to my camel,
+# tokenized_text = beːn aː
+1	beːn	_	DET	DEM	Case=Nom|Deixis=Remt|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	3	det	_	GE= DIST,SG,M,NOM|RX= DEM|Times= 76156, 76440
+2	aː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|TokenType=Clit	3	det	_	GE= DEF,PL,M,NOM=|RX= DET=|Times= 76440, 76582
+3	nda	_	NOUN	N	Gender=Masc|Number=Plur|TokenType=Stem	4	subj	_	GE= PL|Gloss= man|RX= SBJ,N,M|Times= 76582, 76724
+4	eːjaː	_	VERB	V2, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=2	6	comp	_	GE= PFV|Gloss= come|RX= V2,IRG|Times= 76724, 76819
+5	-n	_	PRON	PNG	Number=Plur|Person=3|TokenType=Aff	4	aff:subj	_	GE= -3PL|RX= -PNG|Times= 76819, 76914
+6	=eːb	_	SCONJ	CONJ	Gender=Masc|Number=Sing|TokenType=Clit	8	mod:relcl@fixed	_	GE= =REL,SG,M|RX= =CONJ|Times= 76914, 77009
+7	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	8	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 77009, 77151
+8	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	14	mod	_	Gloss= time|RX= N,M|Times= 77151, 77293
+9	/	_	PUNCT	PUNCT	TokenType=Stem	8	punct	_	GE= PUNCT|RX= PUNCT|Times= 77293, 78459
+10	i=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	11	det	_	GE= DEF,M=|RX= DET=|Times= 78459, 78599
+11	kaːm	_	NOUN	N	TokenType=Stem	14	comp:obj	_	Gloss= camel|RX= N|Times= 78599, 78739
+12	=i	_	PRON	PRO	Case=Acc|Number=Sing|TokenType=Clit	11	mod:poss	_	GE= =POSS1,SG,ACC|RX= =PRO|Times= 78739, 78880
+13	jam	_	NOUN	N	Gender=Masc|Number=Plur|TokenType=Stem	14	comp:obj	_	Gloss= water|RX= N,PL,M|Times= 78880, 79301
+14	gʷʔa	_	VERB	V2	TokenType=Stem|VerbClass=2	18	comp:aux	_	Gloss= drink|RX= V2|Times= 79301, 79385
+15	-s	_	AUX	V2	Case=Cau|TokenType=Aff|VerbClass=2	14	aff:aux	_	GE= -CAUS|RX= -V2,DER|Times= 79385, 79469
+16	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	15	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 79469, 79553
+17	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	14	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 79553, 79637
+18	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|TokenType=Clit	_	_	_	GE= =COP,1SG|RX= =PRED,N|Times= 79637, 79722
+19	/	_	PUNCT	PUNCT	TokenType=Stem	18	punct	_	GE= PUNCT|RX= PUNCT|Times= 79722, 80500
+
+# user_id = ziane.rayan4
+# timestamp = 1619534756033
+# sent_id = BEJ_MV_NARR_03_camel_094-095
+# text = oːn hallaːn hasara t= ʔabaː =t =iːb kirif -aː =b =u // 
+# text_en = but I have met them in the valley."
+# tokenized_text = oːn hallaːn hasara t
+1	oːn	_	PRON	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	8	discourse	_	GE= PROX,SG,M,ACC|RX= DEM|Times= 80500, 80927
+2	hallaːn	_	ADV	ADV	TokenType=Stem	8	discourse	_	Gloss= now|RX= ADV|Times= 80927, 81355
+3	hasara	_	ADV	PTCL	TokenType=Stem	8	mod	_	GE= ADVS|RX= PTCL|Times= 81355, 81783
+4	t=	_	DET	DET	Definite=Def|Gender=Fem|TokenType=Clit	5	det	_	GE= DEF,F=|RX= DET=|Times= 81783, 81890
+5	ʔabaː	_	NOUN	N	Gender=Fem|TokenType=Stem	7	comp	_	Gloss= river_branch|RX= N,F|Times= 81890, 81997
+6	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	5	det	_	GE= =INDF,F|RX= =DET|Times= 81997, 82104
+7	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing|TokenType=Clit	8	comp:obl	_	GE= =LOC,SG|RX= =POSTP|Times= 82104, 82211
+8	kirif	_	VERB	V1	TokenType=Stem|VerbClass=1	11	comp:aux	_	Gloss= cut_off|RX= V1|Times= 82211, 82318
+9	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 82318, 82425
+10	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	8	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 82425, 82532
+11	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|TokenType=Clit	_	_	_	GE= =COP,1SG|RX= =PRED,N|Times= 82532, 82639
+12	//	_	PUNCT	PUNCT	TokenType=Stem	11	punct	_	GE= PUNCT|RX= PUNCT|Times= 82639, 83812
+
+# user_id = ziane.rayan4
+# timestamp = 1619534767877
+# sent_id = BEJ_MV_NARR_03_camel_096-096
+# text = ja iraːnaj aːn hinin / 
+# text_en = gosh, us...
+# tokenized_text = ja iraːnaj aːn hinin /
+1	ja	_	PART	PTCL	TokenType=Stem	4	discourse	_	GE= ADRF|RX= PTCL|Times= 83812, 84054
+2	iraːnaj	_	INTJ	_	TokenType=Stem	4	discourse	_	Gloss= gosh|RX= EXCL|Times= 84054, 84296
+3	aːn	_	PRON	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	4	det	_	GE= PROX,PL,M,NOM|RX= DEM|Times= 84296, 84538
+4	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|TokenType=Stem	_	_	_	GE= 1PL,NOM|RX= SBJ,PRO|Times= 84538, 84780
+5	/	_	PUNCT	PUNCT	TokenType=Stem	4	punct	_	GE= PUNCT|RX= PUNCT|Times= 84780, 85022
+
+# user_id = ziane.rayan4
+# timestamp = 1619534815704
+# sent_id = BEJ_MV_NARR_03_camel_097-103
+# text = a- s- ganif daːji =t si- ganf -oːj aːn hinin / barijoːk ribi -jaː =b =a / oː= kaːm ni- ʃabb =eːt areː -na =aj / i- diː -n =heːb i- ni // 
+# text_en = I settled them down very well". They told me: "We've come to you because we would have liked to examine the camel", he said.
+# tokenized_text = a- s- ganif daːji
+1	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	3	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 85022, 85127
+2	s-	_	AUX	V1	Case=Cau|TokenType=Aff|VerbClass=1	3	aff:aux	_	GE= CAUS-|RX= V1,DER-|Times= 85127, 85233
+3	ganif	_	VERB	V1	Aspect=Pfv|ReportedSpeech=Yes|TokenType=Stem|VerbClass=1	32	parataxis:obj	_	GE= PFV|Gloss= kneel|RX= V1|Times= 85233, 85339
+4	daːji	_	ADJ	ADJ	TokenType=Stem	7	mod	_	Gloss= good|RX= ADJ|Times= 85339, 85497
+5	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	4	det	_	GE= =INDF,F|RX= =DET|Times= 85497, 85656
+6	si-	_	AUX	V1	Case=Cau|TokenType=Aff|VerbClass=1	7	aff:aux	_	GE= CAUS-|RX= V1,DER-|Times= 85656, 85761
+7	ganf	_	VERB	V1	TokenType=Stem|VerbClass=1	3	comp:obj	_	Gloss= make_kneel|RX= V1|Times= 85761, 85867
+8	-oːj	_	NOUN	N	TokenType=Aff	7	aff:mark	_	GE= -N,AC|RX= -N,V|Times= 85867, 85973
+9	aːn	_	PRON	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	10	det	_	GE= PROX,PL,M,NOM|RX= DEM|Times= 85973, 86290
+10	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|TokenType=Stem	13	subj	_	GE= 1PL,NOM|RX= SBJ,PRO|Times= 86290, 86607
+11	/	_	PUNCT	PUNCT	TokenType=Stem	10	punct	_	GE= PUNCT|RX= PUNCT|Times= 86607, 86925
+12	barijoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes|TokenType=Stem	13	comp:obl	_	GE= POSS,2SG,ACC|RX= PRO|Times= 86925, 87328
+13	ribi	_	VERB	V1	TokenType=Stem|VerbClass=1	16	comp:aux	_	Gloss= load|RX= V1|Times= 87328, 87428
+14	-jaː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	13	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 87428, 87529
+15	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	13	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 87529, 87630
+16	=a	_	AUX	N, COP	Number=Plur|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	28	parataxis:obj	_	GE= =COP,1PL|RX= =PRED,N|Times= 87630, 87731
+17	/	_	PUNCT	PUNCT	TokenType=Stem	16	punct	_	GE= PUNCT|RX= PUNCT|Times= 87731, 88965
+18	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	19	det	_	GE= DEF,SG,M,ACC=|RX= DET=|Times= 88965, 89181
+19	kaːm	_	NOUN	N	TokenType=Stem	21	comp:obj	_	Gloss= camel|RX= N|Times= 89181, 89398
+20	ni-	_	PRON	PNG	Number=Plur|Person=1|TokenType=Aff	21	aff:subj	_	GE= 1PL-|RX= PNG-|Times= 89398, 89542
+21	ʃabb	_	VERB	V1	Aspect=Pfv|TokenType=Stem|VerbClass=1	22	comp	_	GE= INT,PFV|Gloss= look|RX= V1,DER|Times= 89542, 89687
+22	=eːt	_	SCONJ	CONJ	Gender=Fem|TokenType=Clit	23	comp:obj	_	GE= =REL,F|RX= =CONJ|Times= 89687, 89832
+23	areː	_	VERB	V2	TokenType=Stem|VerbClass=2	25	comp	_	Gloss= like|RX= V2|Times= 89832, 89976
+24	-na	_	PRON	TAM, PNG	Aspect=Pfv|Number=Plur|Person=1|TokenType=Aff	23	aff:subj	_	GE= -PFV,1PL|RX= -TAM,PNG|Times= 89976, 90120
+25	=aj	_	SCONJ	CONJ	TokenType=Clit	16	mod	_	GE= =CSL|RX= =CONJ|Times= 90120, 90265
+26	/	_	PUNCT	PUNCT	TokenType=Stem	25	punct	_	GE= PUNCT|RX= PUNCT|Times= 90265, 90942
+27	i-	_	PRON	PNG	TokenType=Aff	28	aff:subj	_	GE= 3-|RX= PNG-|Times= 90942, 91026
+28	diː	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 91026, 91110
+29	-n	_	PRON	PNG	Number=Plur|TokenType=Aff	28	aff:subj	_	GE= -PL|RX= -PNG|Times= 91110, 91194
+30	=heːb	_	PRON	PRO	Number=Sing|Person=1|TokenType=Clit	28	comp:obj	_	GE= =OBJ,1SG|RX= =PRO|Times= 91194, 91279
+31	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=Aff	32	aff:subj	_	GE= 3SG,M-|RX= PNG-|Times= 91279, 91447
+32	ni	_	VERB	V1, IRG	Aspect=Pfv|TokenType=Stem|VerbClass=1	_	_	_	GE= PFV|Gloss= say|RX= V1,IRG|Times= 91447, 91616
+33	//	_	PUNCT	PUNCT	TokenType=Stem	32	punct	_	GE= PUNCT|RX= PUNCT|Times= 91616, 92425
+
+# user_id = ziane.rayan4
+# timestamp = 1619534884197
+# sent_id = BEJ_MV_NARR_03_camel_104-106
+# text = uːn uː= kaːm iraːnaj / fidig -a dʔi -jaː =b =u / 
+# text_en = "Gosh, this camel was let loose [and]
+# tokenized_text = uːn uː
+1	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	3	det	_	GE= PROX,SG,M,NOM|RX= DEM|Times= 92425, 92685
+2	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	3	det	_	GE= DEF,SG,M,NOM=|RX= DET=|Times= 92685, 92815
+3	kaːm	_	NOUN	N	TokenType=Stem	6	subj	_	Gloss= camel|RX= SBJ,N|Times= 92815, 92946
+4	iraːnaj	_	INTJ	_	TokenType=Stem	6	discourse	_	Gloss= gosh|RX= EXCL|Times= 92946, 93207
+5	/	_	PUNCT	PUNCT	TokenType=Stem	_	_	_	GE= PUNCT|RX= PUNCT|Times= 93207, 93619
+6	fidig	_	VERB	V1	TokenType=Stem|VerbClass=1	8	comp:aux	_	Gloss= untie|RX= V1|Times= 93619, 93811
+7	-a	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	6	aff:mark	_	GE= -CVB,MNR|Times= 93811, 94003
+8	dʔi	_	AUX	AUX, EMPH	TokenType=Stem	11	comp:aux	_	Gloss= do|RX= AUX,EMPH|Times= 94003, 94099
+9	-jaː	_	VERB	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 94099, 94195
+10	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	8	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 94195, 94291
+11	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|TokenType=Clit	_	_	_	GE= =COP,1SG|RX= =PRED,N|Times= 94291, 94387
+12	/	_	PUNCT	PUNCT	TokenType=Stem	11	punct	_	GE= PUNCT|RX= PUNCT|Times= 94387, 94772
+
+# user_id = ziane.rayan4
+# timestamp = 1619534911415
+# sent_id = BEJ_MV_NARR_03_camel_107-108
+# text = hamil -aː =b a- kati =jeː kaːm =u =it // haraw -aː =b haraw -aː =b =u // 
+# text_en = since I had let my camel loose, it needed to be looked for.
+# tokenized_text = hamil -aː
+1	hamil	_	VERB	V2	TokenType=Stem|VerbClass=2	5	comp:obj	_	Gloss= let|RX= V2|Times= 94772, 94898
+2	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	1	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 94898, 95025
+3	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	1	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 95025, 95152
+4	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=Aff	5	aff:subj	_	GE= 1SG-|RX= PNG-|Times= 95152, 95279
+5	kati	_	VERB	AUX	Aspect=Imp|TokenType=Stem	6	comp	_	GE= IPFV|Gloss= become|RX= AUX,PRF|Times= 95279, 95406
+6	=jeː	_	SCONJ	CONJ	TokenType=Clit	7	mod:relcl	_	Gloss= =REL|RX= =CONJ|Times= 95406, 95533
+7	kaːm	_	NOUN	N	TokenType=Stem	8	subj	_	Gloss= camel|RX= SBJ,N|Times= 95533, 95723
+8	=u	_	AUX	PRO	TokenType=Clit	9	comp	_	GE= =COP.3SG|RX= =PRED.NOM|Times= 95723, 95914
+9	=it	_	SCONJ	PRO	TokenType=Clit	17	mod	_	GE= =CSL|RX= =CONJ|Times= 95723, 95914
+10	//	_	PUNCT	PUNCT	TokenType=Stem	9	punct	_	GE= PUNCT|RX= PUNCT|Times= 95914, 96295
+11	haraw	_	VERB	V1	TokenType=Stem|VerbClass=1	14	comp:obj	_	Gloss= seek|RX= V1|Times= 96295, 96441
+12	-aː	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	11	aff:mark	_	GE= -CVB,MNR|Times= 96441, 96587
+13	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	11	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 96587, 96733
+14	haraw	_	VERB	V1	TokenType=Stem|VerbClass=1	17	comp:aux	_	Gloss= seek|RX= V1|Times= 96733, 96842
+15	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	14	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 96842, 96952
+16	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	14	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 96952, 97061
+17	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	_	_	_	GE= =COP,3SG|RX= =PRED,N|Times= 97061, 97171
+18	//	_	PUNCT	PUNCT	TokenType=Stem	17	punct	_	GE= PUNCT|RX= PUNCT|Times= 97171, 97609
