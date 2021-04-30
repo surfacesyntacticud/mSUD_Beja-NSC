@@ -371,9 +371,9 @@
 13	/	_	PUNCT	PUNCT	_	12	punct	_	GE= PUNCT|RX= PUNCT|Times= 67594, 67922
 14	ti=	_	DET	DET	Definite=Def|Gender=Fem|TokenType=Clit	15	det	_	GE= DEF,F=|RX= DET=|Times= 67922, 68197
 15	takat	_	NOUN	N	Gender=Fem|TokenType=Stem	16	comp:obj	_	Gloss= woman|RX= N,F|Times= 68197, 68473
-16	hiːs	_	VERB	V2	Aspect=Prf|TokenType=Stem|VerbClass=2	12	comp:aux	_	GE= PFV,[3SG,M]|Gloss= think|RX= V2|Times= 68473, 68656
+16	hiːs	_	VERB	V2	Aspect=Prf|TokenType=Stem|VerbClass=2	18	comp:obj	_	GE= PFV,[3SG,M]|Gloss= think|RX= V2|Times= 68473, 68656
 17	=heːb	_	PRON	PRO	Number=Sing|Person=1|TokenType=Clit	16	comp:obj	_	GE= =OBJ,1SG|RX= =PRO|Times= 68656, 68840
-18	=ajt	_	CCONJ	CONJ	TokenType=Clit	16	cc	_	GE= =CSL|RX= =CONJ|Times= 68840, 69024
+18	=ajt	_	SCONJ	CONJ	TokenType=Clit	12	mod	_	GE= =CSL|RX= =CONJ|Times= 68840, 69024
 19	//	_	PUNCT	PUNCT	_	12	punct	_	GE= PUNCT|RX= PUNCT|Times= 69024, 71270
 
 # sent_id = BEJ_MV_NARR_01_shelter_076-083
