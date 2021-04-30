@@ -157,7 +157,7 @@
 31	i=	_	DET	DET	Definite=Def|Gender=Masc|TokenType=Clit	32	det	_	GE= DEF,M=|RX= DET=|Times= 25766, 25865
 32	meːk	_	NOUN	N	TokenType=Stem	35	mod	_	Gloss= donkey|RX= N|Times= 25865, 25964
 33	-i	_	PART	CASE	Case=Gen|TokenType=Aff	32	aff:case	_	GE= -GEN|RX= -CASE|Times= 25964, 26064
-34	m-	_	NOUN	N	TokenType=Aff	35	aff:mark	_	GE= N,AC-|RX= N,V-|Times= 26064, 26163
+34	m-	_	SCONJ	N	TokenType=Aff	35	aff:mark	_	GE= N,AC-|RX= N,V-|Times= 26064, 26163
 35	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	36	comp:obj	_	GE= MID|Gloss= ride|RX= V1,DER|Times= 26163, 26262
 36	=eː	_	SCONJ	CONJ	TokenType=Clit	39	comp:obj	_	GE= =REL|RX= =CONJ|Times= 26262, 26362
 37	sagi	_	ADJ	ADJ	TokenType=Stem	39	comp:pred	_	Gloss= far|RX= ADJ|Times= 26362, 26461
@@ -396,8 +396,8 @@
 4	-a	_	PART	_	Number=Plur|TokenType=Aff	3	aff:mark	_	GE= -PL|Times= 69679, 69874
 5	kam	_	NOUN	N	Number=Plur|TokenType=Stem	15	comp:obj	_	GE= PL|Gloss= camel|RX= N|Times= 69874, 70265
 6	//	_	PUNCT	PUNCT	_	5	punct	_	GE= PUNCT|RX= PUNCT|Times= 70265, 71814
-7	aː#	_	X	FS	TokenType=Unfinished	9	det	_	GE= FS|RX= FS|Times= 71814, 72145
-8	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|TokenType=Clit	7	conj:dicto	_	GE= DEF,PL,M,ACC=|RX= DET=|Times= 72145, 72311
+7	aː#	_	X	FS	TokenType=Unfinished	8	conj:dicto	_	GE= FS|RX= FS|Times= 71814, 72145
+8	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|TokenType=Clit	9	det	_	GE= DEF,PL,M,ACC=|RX= DET=|Times= 72145, 72311
 9	kina	_	PRON	PRO	Reflex=Yes|TokenType=Stem	10	mod	_	Gloss= owner|RX= PRO,REFL|Times= 72311, 72477
 10	mitti	_	NOUN	N	TokenType=Stem	5	mod	_	Gloss= pure_breed|RX= N|Times= 72477, 72587
 11	-a	_	PART	_	Number=Plur|TokenType=Aff	10	aff:mark	_	GE= -PL|Times= 72587, 72698
