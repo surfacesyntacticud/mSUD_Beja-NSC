@@ -65,7 +65,7 @@
 6	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	9	comp:obj	_	Gloss= man|RX= N,M|Times= 10888, 11037
 7	/	_	PUNCT	PUNCT	TokenType=Stem	6	punct	_	GE= PUNCT|RX= PUNCT|Times= 11037, 11802
 8	meːk	_	NOUN	N	TokenType=Stem	11	subj	_	Gloss= donkey|RX= SBJ,N|Times= 11802, 11990
-9	dh#	_	ADP	FS	TokenType=Stem	11	comp:obl	_	GE= FS|RX= FS|Times= 11990, 12178
+9	dh#	_	ADP	FS	TokenType=Unfinished	11	comp:obl	_	GE= FS|RX= FS|Times= 11990, 12178
 10	##	_	PUNCT	PUNCT	TokenType=Stem	11	punct	_	GE= PUNCT|RX= PUNCT|Times= 12178, 12570
 11	eːja	_	VERB	V2, IRG	Aspect=Pfv|Gender=Masc|Number=Sing|Person=3|TokenType=Stem|VerbClass=2	16	conj:coord	_	GE= PFV,3SG,M|Gloss= come|RX= V2,IRG|Times= 12570, 12716
 12	=ajt	_	CCONJ	CONJ	TokenType=Clit	11	cc	_	GE= =CSL|RX= =CONJ|Times= 12716, 12863
@@ -395,7 +395,7 @@
 4	-a	_	PART	_	Number=Plur|TokenType=Aff	3	aff:mark	_	GE= -PL|Times= 69679, 69874
 5	kam	_	NOUN	N	Number=Plur|TokenType=Stem	15	comp:obj	_	GE= PL|Gloss= camel|RX= N|Times= 69874, 70265
 6	//	_	PUNCT	PUNCT	TokenType=Stem	5	punct	_	GE= PUNCT|RX= PUNCT|Times= 70265, 71814
-7	aː#	_	X	FS	TokenType=Stem	9	det	_	GE= FS|RX= FS|Times= 71814, 72145
+7	aː#	_	X	FS	TokenType=Unfinished	9	det	_	GE= FS|RX= FS|Times= 71814, 72145
 8	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|TokenType=Clit	7	conj:dicto	_	GE= DEF,PL,M,ACC=|RX= DET=|Times= 72145, 72311
 9	kina	_	PRON	PRO	Reflex=Yes|TokenType=Stem	10	mod	_	Gloss= owner|RX= PRO,REFL|Times= 72311, 72477
 10	mitti	_	NOUN	N	TokenType=Stem	5	mod	_	Gloss= pure_breed|RX= N|Times= 72477, 72587
@@ -536,7 +536,7 @@
 6	fidig	_	VERB	V1	TokenType=Stem|VerbClass=1	8	comp:aux	_	Gloss= untie|RX= V1|Times= 93619, 93811
 7	-a	_	SCONJ	CVB	VerbForm=Conv|TokenType=Aff	6	aff:mark	_	GE= -CVB,MNR|Times= 93811, 94003
 8	dʔi	_	AUX	AUX, EMPH	TokenType=Stem	11	comp:pred	_	Gloss= do|RX= AUX,EMPH|Times= 94003, 94099
-9	-jaː	_	VERB	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 94099, 94195
+9	-jaː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=Aff	8	aff:mark	_	GE= -CVB,MNR|RX= -PRF|Times= 94099, 94195
 10	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	8	det	_	GE= =INDF,M,ACC|RX= =DET|Times= 94195, 94291
 11	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|TokenType=Clit	0	root	_	GE= =COP,1SG|RX= =PRED,N|Times= 94291, 94387
 12	/	_	PUNCT	PUNCT	TokenType=Stem	11	punct	_	GE= PUNCT|RX= PUNCT|Times= 94387, 94772
