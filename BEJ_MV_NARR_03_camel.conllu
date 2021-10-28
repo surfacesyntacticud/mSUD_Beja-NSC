@@ -164,7 +164,7 @@
 2	/	_	PUNCT	PUNCT	TokenType=Break	1	punct	_	AlignBegin=28792|AlignEnd=29410
 3	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	4	det	_	GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|AlignBegin=29410|AlignEnd=29552
 4	meːk	_	NOUN	N	TokenType=Stem	8	comp:obj	_	GE=donkey|Gloss=donkey|RX=[N]|AlignBegin=29552|AlignEnd=29695
-5	oːn	_	PRON	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	4	det	_	GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|AlignBegin=29695|AlignEnd=29981
+5	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	4	det	_	GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|AlignBegin=29695|AlignEnd=29981
 6	ba=	_	AUX	PTCL	Mood=Opt|TokenType=Clit	10	mod:relcl	_	GE=[OPT]=|RX=[PTCL]=|AlignBegin=29981|AlignEnd=30076
 7	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=InflAff	8	aff:subj	_	GE=[1SG]-|RX=[PNG]-|AlignBegin=30076|AlignEnd=30171
 8	akaj	_	VERB	V1, IRG, NEG	Mood=Opt|Polarity=Neg|TokenType=Stem|VerbClass=1	6	comp:aux	_	GE=become\[NEG].[OPT]|Gloss=become|RX=[V1].[IRG]|AlignBegin=30171|AlignEnd=30267
@@ -244,7 +244,7 @@
 17	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	18	det	_	GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|AlignBegin=46685|AlignEnd=46793
 18	kaːm	_	NOUN	N	TokenType=Stem	25	subj	_	GE=camel|Gloss=camel|RX=[N]|AlignBegin=46793|AlignEnd=46902
 19	/	_	PUNCT	PUNCT	TokenType=Break	18	punct	_	AlignBegin=46902|AlignEnd=48072
-20	uːn	_	PRON	DEM	Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	21	det	_	GE=[PROX].[SG].[M]|RX=[DEM]|AlignBegin=48072|AlignEnd=48243
+20	uːn	_	DET	DEM	Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem|TokenType=Stem	21	det	_	GE=[PROX].[SG].[M]|RX=[DEM]|AlignBegin=48072|AlignEnd=48243
 21	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|TokenType=Stem	27	subj	_	GE=[1SG].[NOM]|RX=[SBJ].[PRO]|AlignBegin=48243|AlignEnd=48415
 22	/	_	PUNCT	PUNCT	TokenType=Break	21	punct	_	AlignBegin=48415|AlignEnd=49413
 23	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	25	mod	_	GE=time|Gloss=time|RX=[N].[M]|AlignBegin=49413|AlignEnd=49600
@@ -440,7 +440,7 @@
 # phonetic_text = ja iraːnaj aːn hinin /
 1	ja	_	PART	PTCL	TokenType=Stem	4	discourse	_	GE=[ADRF]|RX=[PTCL]|AlignBegin=83812|AlignEnd=84054
 2	iraːnaj	_	INTJ	_	TokenType=Stem	4	discourse	_	GE=gosh|Gloss=gosh|RX=[EXCL]|AlignBegin=84054|AlignEnd=84296
-3	aːn	_	PRON	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	4	det	_	GE=[PROX].[PL].[M].[NOM]|RX=[DEM]|AlignBegin=84296|AlignEnd=84538
+3	aːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	4	det	_	GE=[PROX].[PL].[M].[NOM]|RX=[DEM]|AlignBegin=84296|AlignEnd=84538
 4	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|TokenType=Stem	0	root	_	GE=[1PL].[NOM]|RX=[SBJ].[PRO]|AlignBegin=84538|AlignEnd=84780
 5	/	_	PUNCT	PUNCT	TokenType=Break	4	punct	_	AlignBegin=84780|AlignEnd=85022
 
@@ -456,7 +456,7 @@
 6	si-	_	AUX	V1	Voice=Cau|TokenType=DerAff|VerbClass=1	7	aff:aux	_	GE=[CAUS]-|RX=[V1].[DER]-|AlignBegin=85656|AlignEnd=85761
 7	ganf	_	VERB	V1	TokenType=Stem|VerbClass=1	3	comp:obj	_	GE=make_kneel|Gloss=make_kneel|RX=[V1]|AlignBegin=85761|AlignEnd=85867
 8	-oːj	_	SCONJ	N	TokenType=DerAff	7	aff:mark	_	GE=-[N].[AC]|RX=-[N].[V]|AlignBegin=85867|AlignEnd=85973
-9	aːn	_	PRON	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	10	det	_	GE=[PROX].[PL].[M].[NOM]|RX=[DEM]|AlignBegin=85973|AlignEnd=86290
+9	aːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem|TokenType=Stem	10	det	_	GE=[PROX].[PL].[M].[NOM]|RX=[DEM]|AlignBegin=85973|AlignEnd=86290
 10	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|TokenType=Stem	13	subj	_	GE=[1PL].[NOM]|RX=[SBJ].[PRO]|AlignBegin=86290|AlignEnd=86607
 11	/	_	PUNCT	PUNCT	TokenType=Break	10	punct	_	AlignBegin=86607|AlignEnd=86925
 12	barijoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes|TokenType=Stem	13	comp:obl	_	GE=[POSS].[2SG].[ACC]|RX=[PRO]|AlignBegin=86925|AlignEnd=87328
