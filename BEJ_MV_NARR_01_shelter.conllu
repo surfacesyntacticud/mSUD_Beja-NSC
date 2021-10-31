@@ -104,7 +104,7 @@
 8	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3|TokenType=InflAff	9	aff:subj	_	GE=[3SG].[M]-|RX=[PNG]-|AlignBegin=20011|AlignEnd=20136
 9	kti	_	VERB	V1, IRG	Aspect=Aor|TokenType=Stem|VerbClass=1	10	comp:obj	_	GE=become\[AOR]|Gloss=become|RX=[V1].[IRG]|AlignBegin=20136|AlignEnd=20261
 10	=jeːt	_	SCONJ	CONJ	Gender=Fem|TokenType=Clit	13	mod:relcl	_	GE==[REL].[F]|InIdiom=Yes|RX==[CONJ]|AlignBegin=20261|AlignEnd=20387
-11	/	_	X	PUNCT	TokenType=Break	10	dep	_	AlignBegin=20387|AlignEnd=20764|InIdiom=Yes
+11	/	_	PUNCT	PUNCT	TokenType=Break	10	punct	_	AlignBegin=20387|AlignEnd=20764|InIdiom=Yes
 12	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|TokenType=Clit	13	det	_	GE=[DEF].[SG].[F].[ACC]=|InIdiom=Yes|RX=[DET]=|AlignBegin=20764|AlignEnd=20867
 13	na	_	NOUN	CONJ	TokenType=Stem	16	comp:obj	_	ExtPos=SCONJ|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|AlignBegin=20867|AlignEnd=20970
 14	/	_	PUNCT	PUNCT	TokenType=Break	13	punct	_	AlignBegin=20970|AlignEnd=21408
@@ -652,7 +652,7 @@
 14	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=InflAff	15	aff:subj	_	GE=[1SG]-|RX=[PNG]-|AlignBegin=120968|AlignEnd=121065
 15	akaj	_	VERB	V1, IRG, NEG	Mood=Opt|Polarity=Neg|TokenType=Stem|VerbClass=1	16	comp:obj	_	GE=become\[NEG].[OPT]|Gloss=become|RX=[V1].[IRG]|AlignBegin=121065|AlignEnd=121162
 16	=eːt	_	SCONJ	CONJ	Gender=Fem|TokenType=Clit	19	mod:relcl	_	GE==[REL].[F]|InIdiom=Yes|RX==[CONJ]|AlignBegin=121162|AlignEnd=121259
-17	/	_	PUNCT	PUNCT	TokenType=Break	16	punct	_	AlignBegin=121259|AlignEnd=121801
+17	/	_	PUNCT	PUNCT	TokenType=Break	16	punct	_	AlignBegin=121259|AlignEnd=121801|InIdiom=Yes
 18	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|TokenType=Clit	19	det	_	GE=[DEF].[SG].[F].[ACC]=|InIdiom=Yes|RX=[DET]=|AlignBegin=121801|AlignEnd=121904
 19	na	_	NOUN	CONJ	TokenType=Stem	22	comp:obj	_	ExtPos=SCONJ|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|AlignBegin=121904|AlignEnd=122008
 20	/	_	PUNCT	PUNCT	TokenType=Break	19	punct	_	AlignBegin=122008|AlignEnd=122894
