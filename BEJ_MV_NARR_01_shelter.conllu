@@ -57,7 +57,7 @@
 4	muːki	_	VERB	V1	Aspect=Aor|TokenType=Stem|VerbClass=1	5	comp:obj	_	GE=take_shelter\[INT].[AOR]|Gloss=take_shelter|RX=[V1].[DER]|AlignBegin=9744|AlignEnd=9880
 5	=eːb	_	SCONJ	CONJ	Gender=Masc|Number=Sing|TokenType=Clit	1	mod@relcl	_	GE==[REL].[SG].[M]|RX==[CONJ]|AlignBegin=9880|AlignEnd=10016
 6	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	7	det	_	GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|AlignBegin=10016|AlignEnd=10220
-7	biri	_	NOUN	N	Gender=Masc|TokenType=Stem	8	comp:obj	_	GE=rain|Gloss=rain|RX=[N].[M]|AlignBegin=10220|AlignEnd=10424
+7	biri	_	NOUN	N	Gender=Masc|TokenType=Stem	4	comp:obj	_	GE=rain|Gloss=rain|RX=[N].[M]|AlignBegin=10220|AlignEnd=10424
 8	hariw	_	VERB	V1	TokenType=Stem|VerbClass=1	24	mod	_	RX=[V1]|GE=seek|Gloss=seek|AlignBegin=10424|AlignEnd=10627
 9	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=InflAff	8	aff:mark	_	GE=-[CVB].[SMLT]|AlignBegin=10627|AlignEnd=10831
 10	/	_	PUNCT	PUNCT	TokenType=Break	8	punct	_	AlignBegin=10831|AlignEnd=12268
@@ -347,7 +347,7 @@
 2	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	3	det	_	GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|AlignBegin=65579|AlignEnd=65676
 3	tak	_	NOUN	N	Gender=Masc|TokenType=Stem	7	subj	_	GE=man|Gloss=man|RX=[SBJ].[N].[M]|AlignBegin=65676|AlignEnd=65774
 4	/	_	PUNCT	PUNCT	TokenType=Break	3	punct	_	AlignBegin=65774|AlignEnd=66284
-5	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	7	mod:focus	_	GE=time|Gloss=time|Idiom=Yes|RX=[N].[M]|AlignBegin=66284|AlignEnd=66611
+5	doːr	_	NOUN	N	Gender=Masc|TokenType=Stem	7	mod	_	ExtPos=ADV|GE=time|Gloss=time|Idiom=Yes|RX=[N].[M]|AlignBegin=66284|AlignEnd=66611
 6	han	_	PART	PTCL	TokenType=Stem	5	mod	_	GE=also|Gloss=also|InIdiom=Yes|RX=[PTCL].[FOC]|AlignBegin=66611|AlignEnd=66939
 7	kan	_	VERB	V1, IRG	Voice=Mid|TokenType=Stem|VerbClass=1	12	comp:aux	_	GE=know\[MID]|Gloss=know|RX=[V1].[DER].[IRG]|AlignBegin=66939|AlignEnd=67048
 8	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=DerAff	7	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=67048|AlignEnd=67157
@@ -506,7 +506,7 @@
 33	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=InflAff	34	aff:subj	_	GE=[1SG]-|RX=[PNG]-|AlignBegin=94454|AlignEnd=94628
 34	nʔa	_	VERB	V1, IRG	Aspect=Perf|TokenType=Stem|VerbClass=1	36	parataxis	_	GE=be_down\[PFV]|Gloss=be_down|RX=[V1].[IRG]|AlignBegin=94628|AlignEnd=94802
 35	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=InflAff	36	aff:subj	_	GE=[1SG]-|RX=[PNG]-|AlignBegin=94802|AlignEnd=94918
-36	tir	_	VERB	V1	Aspect=Perf|TokenType=Stem|VerbClass=1	40	comp:obj	_	GE=lean\[PFV]|Gloss=lean|RX=[V1]|AlignBegin=94918|AlignEnd=95034
+36	tir	_	VERB	V1	Aspect=Perf|TokenType=Stem|VerbClass=1	39	conj:coord	_	GE=lean\[PFV]|Gloss=lean|RX=[V1]|AlignBegin=94918|AlignEnd=95034
 37	=t	_	CCONJ	CCONJ	TokenType=Clit	36	cc	_	GE==[COORD]|RX==[CONJ]|AlignBegin=95034|AlignEnd=95151
 38	a-	_	PRON	PNG	Number=Sing|Person=1|TokenType=InflAff	39	aff:subj	_	GE=[1SG]-|RX=[PNG]-|AlignBegin=95151|AlignEnd=95267
 39	ʃibib	_	VERB	V1	Aspect=Perf|TokenType=Stem|VerbClass=1	40	comp:obj	_	GE=look\[PFV]|Gloss=look|RX=[V1]|AlignBegin=95267|AlignEnd=95383
