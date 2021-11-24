@@ -29,7 +29,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.640696i8/5282f1130bbe116ec9d921c5b5560240029b474e
 1	ʔiːd	_	NOUN	N	Gender=Masc|TokenType=Stem	3	subj	_	GE=[Aid_feast]|ProperName=Aid_feast|RX=[SBJ].[N].[M]|AlignBegin=5895|AlignEnd=6131
 2	han	_	PART	PTCL	TokenType=Stem	1	mod	_	GE=also|Gloss=also|RX=[PTCL]|AlignBegin=6131|AlignEnd=6368
-3	jʔ	_	VERB	V2, IRG	TokenType=Stem|VerbClass=2	6	comp:aux	_	GE=come|Gloss=come|RX=[V2].[IRG]|AlignBegin=6368|AlignEnd=6415
+3	jʔ	_	VERB	V2, IRG	TokenType=Stem|VerbClass=2	6	comp:pred	_	GE=come|Gloss=come|RX=[V2].[IRG]|AlignBegin=6368|AlignEnd=6415
 4	-a	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=InflAff	3	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=6415|AlignEnd=6462
 5	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	3	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=6462|AlignEnd=6509
 6	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	11	conj:coord	_	GE==[COP].[3SG]|RX==[PRED].[N]|AlignBegin=6509|AlignEnd=6556
@@ -138,7 +138,7 @@
 19	/	_	PUNCT	PUNCT	TokenType=Break	18	punct	_	AlignBegin=23628|AlignEnd=24200
 20	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|TokenType=Clit	21	det	_	GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|AlignBegin=24200|AlignEnd=24358
 21	meːk	_	NOUN	N	TokenType=Stem	22	comp:obj	_	GE=donkey|Gloss=donkey|RX=[N]|AlignBegin=24358|AlignEnd=24517
-22	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	25	comp:aux	_	GE=ride\[MID]|Gloss=ride|RX=[V1].[DER]|AlignBegin=24517|AlignEnd=24596
+22	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	25	comp:pred	_	GE=ride\[MID]|Gloss=ride|RX=[V1].[DER]|AlignBegin=24517|AlignEnd=24596
 23	-a	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=DerAff	22	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=24596|AlignEnd=24675
 24	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	22	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=24675|AlignEnd=24754
 25	=wa	_	AUX	N, COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	27	parataxis:obj	_	GE==[COP].[2SG].[M]|RX==[PRED].[N]|AlignBegin=24754|AlignEnd=24834
@@ -178,7 +178,7 @@
 9	/	_	PUNCT	PUNCT	TokenType=Break	8	punct	_	AlignBegin=30267|AlignEnd=30553
 10	kaːm	_	NOUN	N	TokenType=Stem	12	comp:obj	_	GE=camel|Gloss=camel|RX=[N]|AlignBegin=30553|AlignEnd=30772
 11	han	_	PART	PTCL	TokenType=Stem	10	mod	_	GE=also|Gloss=also|RX=[PTCL].[FOC]|AlignBegin=30772|AlignEnd=30991
-12	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	15	comp:aux	_	GE=ride\[MID]|Gloss=ride|RX=[V1].[DER]|AlignBegin=30991|AlignEnd=31045
+12	ʔam	_	VERB	V1	Voice=Mid|TokenType=Stem|VerbClass=1	15	comp:pred	_	GE=ride\[MID]|Gloss=ride|RX=[V1].[DER]|AlignBegin=30991|AlignEnd=31045
 13	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=DerAff	12	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=31045|AlignEnd=31100
 14	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	12	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=31100|AlignEnd=31155
 15	=i	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	17	parataxis:obj	_	GE==[COP].[1SG]|RX==[PRED].[N]|AlignBegin=31155|AlignEnd=31210
@@ -260,7 +260,7 @@
 24	-i	_	PART	CASE	Case=Gen|TokenType=InflAff	23	aff:case	_	GE=-[GEN]|RX=-[CASE]|AlignBegin=49600|AlignEnd=49787
 25	ɖaːb	_	VERB	V2	TokenType=Stem|VerbClass=2	27	comp:obj	_	GE=run|Gloss=run|RX=[V2]|AlignBegin=49787|AlignEnd=49974
 26	-eː	_	SCONJ	CVB	VerbForm=Conv|TokenType=InflAff	25	aff:mark	_	GE=-[CVB].[SMLT]|AlignBegin=49974|AlignEnd=50162
-27	rh	_	VERB	V2	TokenType=Stem|VerbClass=2	30	comp:aux	_	GE=see|Gloss=see|RX=[V2]|AlignBegin=50162|AlignEnd=50255
+27	rh	_	VERB	V2	TokenType=Stem|VerbClass=2	30	comp:pred	_	GE=see|Gloss=see|RX=[V2]|AlignBegin=50162|AlignEnd=50255
 28	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=InflAff	27	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=50255|AlignEnd=50349
 29	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	27	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=50349|AlignEnd=50443
 30	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	13	parataxis:obj	_	GE==[COP].[1SG]|RX==[PRED].[N]|AlignBegin=50443|AlignEnd=50537
@@ -348,7 +348,7 @@
 2	-aːna	_	PRON	TAM, PNG	Mood=Imp|Number=Plur|TokenType=InflAff	1	aff:subj	_	GE=-[IMP].[PL]|RX=-[TAM].[PNG]|AlignBegin=63251|AlignEnd=63427
 3	di	_	VERB	V1, IRG	TokenType=Stem|VerbClass=1	8	mod	_	GE=say|Gloss=say|RX=[V1].[IRG]|AlignBegin=63427|AlignEnd=63602
 4	-ja	_	SCONJ	CVB	VerbForm=Conv|TokenType=InflAff	3	aff:mark	_	GE=-[CVB].[MNR]|AlignBegin=63602|AlignEnd=63778
-5	waliːk	_	VERB	V2	TokenType=Stem|VerbClass=2	8	comp:aux	_	GE=call|Gloss=call|RX=[V2]|AlignBegin=63778|AlignEnd=63848
+5	waliːk	_	VERB	V2	TokenType=Stem|VerbClass=2	8	comp:pred	_	GE=call|Gloss=call|RX=[V2]|AlignBegin=63778|AlignEnd=63848
 6	-a	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=InflAff	5	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=63848|AlignEnd=63918
 7	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	5	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=63918|AlignEnd=63988
 8	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	9	comp:obj	_	GE==[COP].[3SG]|RX==[PRED].[N]|AlignBegin=63988|AlignEnd=64058
@@ -427,7 +427,7 @@
 11	kaːm	_	NOUN	N	TokenType=Stem	14	comp:obj	_	GE=camel|Gloss=camel|RX=[N]|AlignBegin=78599|AlignEnd=78739
 12	=i	_	PRON	PRO	Case=Acc|Number=Sing|TokenType=Clit	11	mod:poss	_	GE==[POSS1].[SG].[ACC]|RX==[PRO]|AlignBegin=78739|AlignEnd=78880
 13	jam	_	NOUN	N	Gender=Masc|Number=Plur|TokenType=Stem	14	comp:obj	_	GE=water|Gloss=water|RX=[N].[PL].[M]|AlignBegin=78880|AlignEnd=79301
-14	gʷʔa	_	VERB	V2	TokenType=Stem|VerbClass=2	18	comp:aux	_	GE=drink|Gloss=drink|RX=[V2]|AlignBegin=79301|AlignEnd=79385
+14	gʷʔa	_	VERB	V2	TokenType=Stem|VerbClass=2	18	comp:pred	_	GE=drink|Gloss=drink|RX=[V2]|AlignBegin=79301|AlignEnd=79385
 15	-s	_	AUX	V2	Voice=Cau|TokenType=DerAff|VerbClass=2	14	aff:aux	_	GE=-[CAUS]|RX=-[V2].[DER]|AlignBegin=79385|AlignEnd=79469
 16	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=DerAff	14	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=79469|AlignEnd=79553
 17	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	14	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=79553|AlignEnd=79637
@@ -446,7 +446,7 @@
 5	ʔabaː	_	NOUN	N	Gender=Fem|TokenType=Stem	7	comp:obj	_	GE=river_branch|Gloss=river_branch|RX=[N].[F]|AlignBegin=81890|AlignEnd=81997
 6	=t	_	DET	DET	Definite=Ind|Gender=Fem|TokenType=Clit	5	det	_	GE==[INDF].[F]|RX==[DET]|AlignBegin=81997|AlignEnd=82104
 7	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing|TokenType=Clit	8	comp:obl	_	GE==[LOC].[SG]|RX==[POSTP]|AlignBegin=82104|AlignEnd=82211
-8	kirif	_	VERB	V1	TokenType=Stem|VerbClass=1	11	comp:aux	_	GE=cut_off|Gloss=cut_off|RX=[V1]|AlignBegin=82211|AlignEnd=82318
+8	kirif	_	VERB	V1	TokenType=Stem|VerbClass=1	11	comp:pred	_	GE=cut_off|Gloss=cut_off|RX=[V1]|AlignBegin=82211|AlignEnd=82318
 9	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=InflAff	8	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=82318|AlignEnd=82425
 10	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	8	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=82425|AlignEnd=82532
 11	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop|TokenType=Clit	0	root	_	GE==[COP].[1SG]|RX==[PRED].[N]|AlignBegin=82532|AlignEnd=82639
@@ -480,7 +480,7 @@
 10	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|TokenType=Stem	13	subj	_	GE=[1PL].[NOM]|RX=[SBJ].[PRO]|AlignBegin=86290|AlignEnd=86607
 11	/	_	PUNCT	PUNCT	TokenType=Break	10	punct	_	AlignBegin=86607|AlignEnd=86925
 12	barijoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes|TokenType=Stem	13	comp:obl	_	GE=[POSS].[2SG].[ACC]|RX=[PRO]|AlignBegin=86925|AlignEnd=87328
-13	ribi	_	VERB	V1	TokenType=Stem|VerbClass=1	16	comp:aux	_	GE=load|Gloss=load|RX=[V1]|AlignBegin=87328|AlignEnd=87428
+13	ribi	_	VERB	V1	TokenType=Stem|VerbClass=1	16	comp:pred	_	GE=load|Gloss=load|RX=[V1]|AlignBegin=87328|AlignEnd=87428
 14	-jaː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=InflAff	13	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=87428|AlignEnd=87529
 15	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	13	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=87529|AlignEnd=87630
 16	=a	_	AUX	N, COP	Number=Plur|Person=1|VerbType=Cop|ReportedSpeech=Yes|TokenType=Clit	28	parataxis:obj	_	GE==[COP].[1PL]|RX==[PRED].[N]|AlignBegin=87630|AlignEnd=87731
@@ -538,9 +538,8 @@
 11	haraw	_	VERB	V1	TokenType=Stem|VerbClass=1	14	comp:obj	_	GE=seek|Gloss=seek|RX=[V1]|AlignBegin=96295|AlignEnd=96441
 12	-aː	_	SCONJ	CVB	VerbForm=Conv|TokenType=InflAff	11	aff:mark	_	GE=-[CVB].[MNR]|AlignBegin=96441|AlignEnd=96587
 13	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	11	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=96587|AlignEnd=96733
-14	haraw	_	VERB	V1	TokenType=Stem|VerbClass=1	17	comp:aux	_	GE=seek|Gloss=seek|RX=[V1]|AlignBegin=96733|AlignEnd=96842
+14	haraw	_	VERB	V1	TokenType=Stem|VerbClass=1	17	comp:pred	_	GE=seek|Gloss=seek|RX=[V1]|AlignBegin=96733|AlignEnd=96842
 15	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv|TokenType=InflAff	14	aff:mark	_	GE=-[CVB].[MNR]|RX=-[PRF]|AlignBegin=96842|AlignEnd=96952
 16	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc|TokenType=Clit	14	det	_	GE==[INDF].[M].[ACC]|RX==[DET]|AlignBegin=96952|AlignEnd=97061
 17	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop|TokenType=Clit	0	root	_	GE==[COP].[3SG]|RX==[PRED].[N]|AlignBegin=97061|AlignEnd=97171
 18	//	_	PUNCT	PUNCT	TokenType=Break	17	punct	_	AlignBegin=97171|AlignEnd=97609
-
