@@ -1,0 +1,33 @@
+package p {
+  rule DerAff {
+    pattern {
+      N [];
+      AFF [TokenType=DerAff];
+      e: N -[1=aff]-> AFF
+    }
+    without { N -[aff:aux]-> X }
+    without { N -[1=aff]-> IA; IA[TokenType=InflAff] }
+    commands {
+      del_edge e;
+      shift N ==> AFF;
+      add_edge AFF -[comp:aff]-> N;
+      del_feat AFF.TokenType
+    }
+  }
+
+  rule InflAff {
+    pattern {
+      N [];
+      AFF [TokenType=InflAff, upos=AUX|SCONJ];
+      e: N -[1=aff]-> AFF
+    }
+    commands {  
+      del_edge e;
+      shift N ==> AFF;
+      add_edge AFF -[comp:aff]-> N;
+      del_feat AFF.TokenType
+    }
+  }
+}
+
+strat main { Iter (p) }
