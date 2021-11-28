@@ -2,7 +2,7 @@ package p {
   rule DerAff {
     pattern {
       N [];
-      AFF [TokenType=DerAff];
+      AFF [TokenType=DerAff, upos = lex.upos];
       e: N -[1=aff]-> AFF
     }
     without { N -[aff:aux]-> X }
@@ -11,23 +11,89 @@ package p {
       del_edge e;
       shift N ==> AFF;
       add_edge AFF -[comp:aff]-> N;
-      del_feat AFF.TokenType
+      AFF.DerPos = lex.DerPos
+      %del_feat AFF.TokenType
     }
   }
+#BEGIN lex
+upos	DerPos
+%=========
+AUX	VERB
+SCONJ	NOUN
+#END
 
-  rule InflAff {
+  rule InflAff_SCONJ {
     pattern {
       N [];
-      AFF [TokenType=InflAff, upos=AUX|SCONJ];
+      AFF [TokenType=InflAff, upos=SCONJ];
       e: N -[1=aff]-> AFF
     }
     commands {  
       del_edge e;
-      shift N ==> AFF;
+      shift N =[1<>mod|subj|comp]=> AFF;
       add_edge AFF -[comp:aff]-> N;
-      del_feat AFF.TokenType
+      %del_feat AFF.TokenType
     }
   }
+
+  rule InflAff_AUX {
+    pattern {
+      N [];
+      AFF [TokenType=InflAff, upos=AUX];
+      e: N -[1=aff]-> AFF
+    }
+    commands {  
+      del_edge e;
+      shift N =[1<>mod|comp]=> AFF;
+      add_edge AFF -[comp:aff]-> N;
+      %del_feat AFF.TokenType
+    }
+  }
+  
+  rule part_case {
+    pattern {
+      N [];
+      AFF [TokenType=InflAff, upos=PART, Case];
+      e: N -[1=aff]-> AFF
+    }
+    commands {  
+      del_edge e;
+      shift N =[1<>mod|subj|comp]=> AFF;
+      add_edge AFF -[comp:aff]-> N;
+      %del_feat AFF.TokenType;
+      AFF.upos = ADP;
+    }
+  }
+
+  rule part_not_case {
+    pattern {
+      N [];
+      AFF [TokenType=InflAff, upos=PART, !Case];
+      e: N -[1=aff]-> AFF
+    }
+    commands {  
+      del_edge e;
+      add_edge N -[comp:aff]-> AFF;
+      %del_feat AFF.TokenType;
+      AFF.upos = DET;
+    }
+  }
+
+  }
+
+
+rule x {
+  pattern {
+    N [];
+    AFF [TokenType=InflAff, upos=X];
+    e: N -[1=aff, 2=*]-> AFF
+  }
+  commands {  
+    AFF.upos = PART;
+    del_feat e.2;
+  }
+  
+  
 }
 
-strat main { Iter (p) }
+strat main { Seq(Iter (p), Iter (x)) }
