@@ -30,7 +30,8 @@ SCONJ	NOUN
     }
     commands {  
       del_edge e;
-      shift N =[1<>mod|subj|comp]=> AFF;
+      shift_in N ==> AFF;
+      shift_out N =[1<>mod|subj|comp]=> AFF;
       add_edge AFF -[comp:aff]-> N;
       %del_feat AFF.TokenType
     }
@@ -44,7 +45,8 @@ SCONJ	NOUN
     }
     commands {  
       del_edge e;
-      shift N =[1<>mod|comp]=> AFF;
+      shift_in N ==> AFF;
+      shift_out N =[1<>mod|comp]=> AFF;
       add_edge AFF -[comp:aff]-> N;
       %del_feat AFF.TokenType
     }
@@ -58,7 +60,8 @@ SCONJ	NOUN
     }
     commands {  
       del_edge e;
-      shift N =[1<>mod|subj|comp]=> AFF;
+      shift_in N ==> AFF;
+      shift_out N =[1<>mod|subj|comp]=> AFF;
       add_edge AFF -[comp:aff]-> N;
       %del_feat AFF.TokenType;
       AFF.upos = ADP;
