@@ -6,7 +6,7 @@ package p {
       e: N -[1=aff]-> AFF
     }
     without { N -[aff:aux]-> X }
-    without { N -[1=aff]-> IA; IA[TokenType=InflAff] }
+    without { N -[1=aff]-> IA; IA[TokenType=InflAff, upos=SCONJ|AUX] } % This InflAff should be returned before
     commands {
       del_edge e;
       shift N ==> AFF;
@@ -81,8 +81,7 @@ SCONJ	NOUN
       AFF.upos = DET;
     }
   }
-
-  }
+}
 
 
 rule x {
@@ -93,10 +92,15 @@ rule x {
   }
   commands {  
     AFF.upos = PART;
-    del_feat e.2;
+    del_edge e;
+    add_edge N -[unk:aff]-> AFF
   }
-  
-  
 }
 
-strat main { Seq(Iter (p), Iter (x)) }
+rule subj_aff {
+  pattern { e:N -[aff:subj]-> M; }
+  commands { del_edge e; add_edge N -[subj:aff]-> M; }
+}
+
+
+strat main { Seq(Iter (p), Iter (x), Onf (subj_aff)) }
