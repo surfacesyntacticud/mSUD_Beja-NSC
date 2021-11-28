@@ -472,13 +472,13 @@
 # text_en = I remained seated for a long time (against my will, leisurely), the rain was dripping, and  when I heard footsteps which were making noise in the rain water, when I leaned down and looked,  when I saw a girl who has a fringe in front of her and hair behind her walking towards me,  I waited for her", he said.
 # phonetic_text = ameːsasʔeː ameːsasʔeː ameːsasʔeː / uːbiri ʈaʈakʷi / ijameːb // jiʔoːbiri naːjiːb // kaɖawi mijʔat amaːsiwhoːb // anʔa atirt aʃibibhoːb // ʔoːt / suːrisi / suːfat hoːj theːjeːt harʔiːsi / hamoːt hoːj hiːneːt / baːjiheːb hiːreːreː rhanhoːb / ahagit ini //
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
-1	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	3	comp:aff	_	AlignBegin=85492|AlignEnd=85680|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
+1	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	2	comp:aff	_	AlignBegin=85492|AlignEnd=85680|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
 2	sa~sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	3	comp:aff	_	AlignBegin=85680|AlignEnd=85869|GE=[PLAC]~sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
 3	-eː	_	SCONJ	CVB	VerbForm=Conv	6	conj:redup	_	AlignBegin=85869|AlignEnd=86058|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
-4	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	6	comp:aff	_	AlignBegin=86058|AlignEnd=86247|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
+4	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	5	comp:aff	_	AlignBegin=86058|AlignEnd=86247|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
 5	sa~sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	6	comp:aff	_	AlignBegin=86247|AlignEnd=86436|GE=[PLAC]~sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
 6	-eː	_	SCONJ	CVB	VerbForm=Conv	9	conj:redup	_	AlignBegin=86436|AlignEnd=86625|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
-7	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	9	comp:aff	_	AlignBegin=86625|AlignEnd=86814|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
+7	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	8	comp:aff	_	AlignBegin=86625|AlignEnd=86814|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
 8	sa~sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	9	comp:aff	_	AlignBegin=86814|AlignEnd=87003|GE=[PLAC]~sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
 9	-eː	_	SCONJ	CVB	VerbForm=Conv	13	mod	_	AlignBegin=87003|AlignEnd=87192|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 10	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=87192|AlignEnd=88535|TokenType=Break
@@ -722,7 +722,7 @@
 4	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv	8	comp:pred	_	AlignBegin=133567|AlignEnd=133623|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=InflAff
 5	=t	_	DET	DET	Definite=Ind|Gender=Fem	4	det	_	AlignBegin=133623|AlignEnd=133679|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
 6	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	3	comp:obj	_	AlignBegin=133679|AlignEnd=133735|GE==[POSS].[2SG].[ACC]|RX==[PRO]|TokenType=Clit
-7	=t	_	DET	DET	Definite=Ind|Gender=Fem	4	subj:aff	_	AlignBegin=133735|AlignEnd=133791|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
+7	=t	_	DET	DET	Definite=Ind|Gender=Fem	4	det	_	AlignBegin=133735|AlignEnd=133791|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
 8	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=133791|AlignEnd=133848|GE==[COP].[3SG]|RX==[PRED].[N]|TokenType=Clit
 9	?	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=133848|AlignEnd=134339
 
@@ -841,7 +841,7 @@
 23	/	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=150690|AlignEnd=151006|TokenType=Break
 24	ti=	_	DET	DET	Definite=Def|Gender=Fem	26	det	_	AlignBegin=151006|AlignEnd=151181|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
 25	sitoːb	_	VERB	V1, IRG	VerbClass=1	26	comp:aff	_	AlignBegin=151181|AlignEnd=151357|GE=convey|Gloss=convey|RX=[V1].[IRG]|TokenType=Stem
-26	-oːj	_	SCONJ	N	_	29	comp:obj	_	AlignBegin=151357|AlignEnd=151533|DerPOS=NOUN|GE=-[N].[AC]|RX=-[N].[V]|TokenType=DerAff
+26	-oːj	_	SCONJ	N	_	29	comp:obj	_	AlignBegin=151357|AlignEnd=151533|DerPos=NOUN|GE=-[N].[AC]|RX=-[N].[V]|TokenType=DerAff
 27	ti=	_	SCONJ	REL	Definite=Def|Gender=Fem	30	comp:obj	_	AlignBegin=151533|AlignEnd=151664|GE=[DEF].[F]=|RX=[REL]=|TokenType=Clit
 28	a-	_	PRON	PNG	Number=Sing|Person=1	29	subj:aff	_	AlignBegin=151664|AlignEnd=151796|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
 29	stoːbi	_	VERB	V1, IRG	Aspect=Imp|VerbClass=1	27	comp:obj	_	AlignBegin=151796|AlignEnd=151928|GE=convey\[IPFV]|Gloss=convey|RX=[V1].[IRG]|TokenType=Stem
@@ -877,7 +877,7 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
 1	bak	_	ADV	DEICT	_	5	mod	_	AlignBegin=156541|AlignEnd=156863|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Stem
 2	tʔi	_	VERB	V1, IRG	VerbClass=1	3	comp:aff	_	AlignBegin=156863|AlignEnd=156970|GE=resemble|Gloss=resemble|RX=[V1].[IRG]|TokenType=Stem
-3	-it	_	SCONJ	N	_	4	comp:obj	_	AlignBegin=156970|AlignEnd=157078|DerPOS=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
+3	-it	_	SCONJ	N	_	4	comp:obj	_	AlignBegin=156970|AlignEnd=157078|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 4	=eːt	_	SCONJ	CONJ	Gender=Fem	5	mod@relcl	_	AlignBegin=157078|AlignEnd=157186|GE==[REL].[F]|RX==[CONJ]|TokenType=Clit
 5	ʔiːbaːb	_	NOUN	N	Gender=Fem	10	subj	_	AlignBegin=157186|AlignEnd=157509|GE=travel\[N].[AC]|Gloss=travel|RX=[N].[V].[F]|TokenType=Stem
 6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=157509|AlignEnd=158686|TokenType=Break
