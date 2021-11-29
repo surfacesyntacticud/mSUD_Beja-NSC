@@ -125,11 +125,11 @@
 # phonetic_text =moːkeː moːkeː moːkeː uːn uːbiri / diːseːt ʔitjanhoːb // tak eːjaheːb ini //
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
 1	moːk	_	VERB	V1	VerbClass=1	2	comp:aff	_	AlignBegin=23859|AlignEnd=24018|GE=take_shelter\[INT]|Gloss=take_shelter|RX=[V1].[DER]|TokenType=Stem
-2	-eː	_	SCONJ	CVB	VerbForm=Conv	4	conj:redup	_	AlignBegin=24018|AlignEnd=24177|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+2	-eː	_	AUX	CVB	VerbForm=Conv	4	conj:redup	_	AlignBegin=24018|AlignEnd=24177|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 3	moːk	_	VERB	V1	VerbClass=1	4	comp:aff	_	AlignBegin=24177|AlignEnd=24336|GE=take_shelter\[INT]|Gloss=take_shelter|RX=[V1].[DER]|TokenType=Stem
-4	-eː	_	SCONJ	CVB	VerbForm=Conv	6	conj:redup	_	AlignBegin=24336|AlignEnd=24495|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+4	-eː	_	AUX	CVB	VerbForm=Conv	6	conj:redup	_	AlignBegin=24336|AlignEnd=24495|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 5	moːk	_	VERB	V1	VerbClass=1	6	comp:aff	_	AlignBegin=24495|AlignEnd=24654|GE=take_shelter\[INT]|Gloss=take_shelter|RX=[V1].[DER]|TokenType=Stem
-6	-eː	_	SCONJ	CVB	VerbForm=Conv	12	mod	_	AlignBegin=24654|AlignEnd=24813|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+6	-eː	_	AUX	CVB	VerbForm=Conv	12	mod	_	AlignBegin=24654|AlignEnd=24813|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 7	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	AlignBegin=24813|AlignEnd=25131|GE=[PROX].[SG].[M].[NOM]|RX=[DEM]|TokenType=Stem
 8	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	det	_	AlignBegin=25131|AlignEnd=25290|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 9	biri	_	NOUN	N	Gender=Masc	12	subj	_	AlignBegin=25290|AlignEnd=25449|GE=rain|Gloss=rain|RX=[SBJ].[N].[M]|TokenType=Stem
@@ -351,7 +351,7 @@
 5	doːr	_	NOUN	N	Gender=Masc	8	mod	_	AlignBegin=66284|AlignEnd=66611|ExtPos=ADV|GE=time|Gloss=time|Idiom=Yes|RX=[N].[M]|TokenType=Stem
 6	han	_	PART	PTCL	_	5	mod	_	AlignBegin=66611|AlignEnd=66939|GE=also|Gloss=also|InIdiom=Yes|RX=[PTCL].[FOC]|TokenType=Stem
 7	kan	_	VERB	V1, IRG	VerbClass=1|Voice=Mid	8	comp:aff	_	AlignBegin=66939|AlignEnd=67048|GE=know\[MID]|Gloss=know|RX=[V1].[DER].[IRG]|TokenType=Stem
-8	-aː	_	SCONJ	CVB	Aspect=Perf|VerbForm=Conv	12	comp:aux	_	AlignBegin=67048|AlignEnd=67157|DerPos=NOUN|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=DerAff
+8	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	12	comp:aux	_	AlignBegin=67048|AlignEnd=67157|DerPos=NOUN|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=DerAff
 9	=ji	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	8	comp:obj	_	AlignBegin=67157|AlignEnd=67266|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
 10	ki=	_	PART	PTCL, NEG	Aspect=Imp|Polarity=Neg	12	mod	_	AlignBegin=67266|AlignEnd=67375|GE=[NEG].[IPFV]=|RX=[PTCL]=|TokenType=Clit
 11	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	12	subj:aff	_	AlignBegin=67375|AlignEnd=67484|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -474,13 +474,13 @@
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
 1	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	2	comp:aff	_	AlignBegin=85492|AlignEnd=85680|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
 2	sa~sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	3	comp:aff	_	AlignBegin=85680|AlignEnd=85869|GE=[PLAC]~sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
-3	-eː	_	SCONJ	CVB	VerbForm=Conv	6	conj:redup	_	AlignBegin=85869|AlignEnd=86058|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+3	-eː	_	AUX	CVB	VerbForm=Conv	6	conj:redup	_	AlignBegin=85869|AlignEnd=86058|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 4	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	5	comp:aff	_	AlignBegin=86058|AlignEnd=86247|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
 5	sa~sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	6	comp:aff	_	AlignBegin=86247|AlignEnd=86436|GE=[PLAC]~sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
-6	-eː	_	SCONJ	CVB	VerbForm=Conv	9	conj:redup	_	AlignBegin=86436|AlignEnd=86625|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+6	-eː	_	AUX	CVB	VerbForm=Conv	9	conj:redup	_	AlignBegin=86436|AlignEnd=86625|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 7	ameː-	_	AUX	V1	VerbClass=1|Voice=Pass	8	comp:aff	_	AlignBegin=86625|AlignEnd=86814|DerPos=VERB|GE=[PASS].[INT]-|RX=[V1].[DER]-|TokenType=DerAff
 8	sa~sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	9	comp:aff	_	AlignBegin=86814|AlignEnd=87003|GE=[PLAC]~sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
-9	-eː	_	SCONJ	CVB	VerbForm=Conv	13	mod	_	AlignBegin=87003|AlignEnd=87192|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+9	-eː	_	AUX	CVB	VerbForm=Conv	13	mod	_	AlignBegin=87003|AlignEnd=87192|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 10	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=87192|AlignEnd=88535|TokenType=Break
 11	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	det	_	AlignBegin=88535|AlignEnd=88719|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 12	biri	_	NOUN	N	Gender=Masc	13	subj	_	AlignBegin=88719|AlignEnd=88904|GE=rain|Gloss=rain|RX=[SBJ].[N].[M]|TokenType=Stem
@@ -557,7 +557,7 @@
 2	mhiːn	_	NOUN	N	Gender=Masc	5	comp:obj	_	AlignBegin=105605|AlignEnd=105698|GE=place|Gloss=place|RX=[N].[M]|TokenType=Stem
 3	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	2	mod:poss	_	AlignBegin=105698|AlignEnd=105791|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
 4	sʔ	_	VERB	V1	VerbClass=1|Voice=Mid	5	comp:aff	_	AlignBegin=105791|AlignEnd=105930|GE=sit\[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Stem
-5	-eː	_	SCONJ	CVB	VerbForm=Conv	20	mod	_	AlignBegin=105930|AlignEnd=106070|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
+5	-eː	_	AUX	CVB	VerbForm=Conv	20	mod	_	AlignBegin=105930|AlignEnd=106070|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 6	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=106070|AlignEnd=107185|TokenType=Break
 7	koːba	_	NOUN	N	Gender=Fem	9	comp:obj	_	AlignBegin=107185|AlignEnd=107330|GE=container|Gloss=container|RX=[N].[F]|TokenType=Stem
 8	=t	_	DET	DET	Definite=Ind|Gender=Fem	7	det	_	AlignBegin=107330|AlignEnd=107476|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
@@ -889,4 +889,3 @@
 12	di	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=159173|AlignEnd=159271|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Stem
 13	eːn	_	VERB	V1, IRG	Aspect=Pfv|Number=Plur|Person=3|VerbClass=1	12	discourse	_	AlignBegin=159271|AlignEnd=159466|GE=say\[PFV].[3PL]|Gloss=say|RX=[V1].[IRG]|TokenType=Stem
 14	//	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=159466|AlignEnd=160103|TokenType=Break
-
