@@ -9,7 +9,9 @@ package p {
     without { N -[1=aff]-> IA; IA[TokenType=InflAff, upos=SCONJ|AUX] } % This InflAff should be returned before
     commands {
       del_edge e;
-      shift N ==> AFF;
+      shift_in N ==> AFF;
+      shift_out N =[2<>aff]=> AFF;
+      shift_out N =[!2]=> AFF;
       add_edge AFF -[comp:aff]-> N;
       AFF.DerPos = lex.DerPos
       %del_feat AFF.TokenType
