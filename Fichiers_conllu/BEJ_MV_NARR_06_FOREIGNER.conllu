@@ -1,353 +1,399 @@
 
 # sent_id = BEJ_MV_NARR_06_foreigner_01-04
-# text = ʃaːk =iːb / ni- dif i- ni //
-# phonetic_text = ʃaːkiːb / 446 nidif ini // 256
-# text_en = 'We went hunting", he said. 
-1	ʃaːk	_	NOUN	N	Gender=Masc	_	_	_	Gloss= hunting|AlignBegin= 0|AlignEnd= 353|GE= hunting|RX= [N].[M]
-2	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	_	_	_	AlignBegin= 353|AlignEnd= 706|GE= =[LOC].[SG]|RX= =[POSTP]
-3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 706|AlignEnd= 1507|GE= [PUNCT]|RX= [PUNCT]
-4	ni-	_	PART	PNG	Person=1|Number=Plur	_	_	_	AlignBegin= 1507|AlignEnd= 1702|GE= [1PL]-|RX= [PNG]-
-5	dif	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= leave|AlignBegin= 1702|AlignEnd= 1897|GE= [PFV]|RX= [V1]
-6	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 1897|AlignEnd= 2092|GE= [3SG].[M]-|RX= [PNG]-
-7	ni	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 2092|AlignEnd= 2287|GE= [PFV]|RX= [V1].[IRG]
-8	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 2287|AlignEnd= 2738|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 0, 2738
+# phonetic_text = ʃaːk =iːb / ni- dif i- ni // 
+# text = ʃaːkiːb / 446 nidif ini // 256
+# text_en =  In hunting 'we went", he said.
+1	ʃaːk	ʃaːk	NOUN	N	Gender=Masc	_	_	_	AlignBegin=0|AlignEnd=265|nWord=1|GE=hunting|RX=[N].[M]
+2	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	_	_	_	AlignBegin=265|AlignEnd=530|nWord=1|GE=[LOC].[SG]|RX=[POSTP]
+3	/	_			_	_	_	_	AlignBegin=530|AlignEnd=1060|nWord=2|GE=[/]
+4	ni-	_	PART	PNG	Person=1|Number=Plur	_	_	_	AlignBegin=1507|AlignEnd=1669|nWord=4|GE=[1PL]|RX=[PNG]
+5	dif	dif	VERB	V1	VerbClass=1	_	_	_	AlignBegin=1669|AlignEnd=1832|nWord=4|GE=leave|TypeToken=stem|RX=[V1]
+6	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=1832|AlignEnd=1994|nWord=5|GE=[3SG].[M]|RX=[PNG]
+7	ni	ni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=1994|AlignEnd=2157|nWord=5|GE=say|TypeToken=stem|RX=[V1].[IRG]
+8	//	_			_	_	_	_	AlignBegin=2157|AlignEnd=2482|nWord=6|GE=[//]
 
-# sent_id = BEJ_MV_NARR_06_foreigner_05-08
-# text = xawaːʤa geːb =oːn iː- fi / tarʤimaːl iː- biri /
-# phonetic_text = xawaːʤa geːboːn iːfi / BI_434 tarʤimaːl iːbiri / 928
-# text_en =  "There was a foreigner with us. 
-1	xawaːʤa	_	NOUN	N	Gender=Masc	_	_	_	Gloss= foreigner|AlignBegin= 2738|AlignEnd= 3033|GE= foreigner|RX= [SBJ].[N].[M]
-2	geːb	_	ADP	POSTP	_	_	_	_	Gloss= beside|AlignBegin= 3033|AlignEnd= 3328|GE= beside|RX= [POSTP]
-3	=oːn	_	PRON	PRO	Poss=Yes|Case=Gen|Person=1|Number=Plur|Case=Acc	_	_	_	AlignBegin= 3328|AlignEnd= 3623|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]
-4	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 3623|AlignEnd= 3918|GE= [3SG].[M]-|RX= [PNG]-
-5	fi	_	VERB	V1	VerbClass=1|Aspect=Aor	_	_	_	Gloss= be_there|AlignBegin= 3918|AlignEnd= 4213|GE= [AOR]|RX= [V1].[IRG]
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 4213|AlignEnd= 4941|GE= [PUNCT]|RX= [PUNCT]
-7	tarʤimaːl	_	NOUN	N	Gender=Masc	_	_	_	Gloss= translator|AlignBegin= 4941|AlignEnd= 5227|GE= translator|RX= [N].[M]
-8	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 5227|AlignEnd= 5513|GE= [3SG].[M]-|RX= [PNG]-
-9	biri	_	VERB	V1	VerbClass=1|Aspect=Aor	_	_	_	Gloss= have|AlignBegin= 5513|AlignEnd= 5799|GE= [AOR]|RX= [V1].[IRG]
-10	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 5799|AlignEnd= 7011|GE= [PUNCT]|RX= [PUNCT]
+# sent_id = BEJ_MV_NARR_06_foreigner_05-06
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 2738, 4945
+# phonetic_text = xawaːʤa geːb =oːn iː- fi / 
+# text = xawaːʤa geːboːn iːfi / BI_434
+# text_en =  "There was a foreigner with us, and
+1	xawaːʤa	xawaːʤa	NOUN	N	Gender=Masc	_	_	_	AlignBegin=2738|AlignEnd=3180|nWord=1|GE=foreigner|RX=[SBJ].[N].[M]
+2	geːb	geːb	ADP	POSTP	_	_	_	_	AlignBegin=3180|AlignEnd=3401|nWord=2|GE=beside|RX=[POSTP]
+3	=oːn	_	PRON	PRO	Poss=Yes|Case=Gen|Person=1|Number=Plur|Case=Acc	_	_	_	AlignBegin=3401|AlignEnd=3622|nWord=2|GE=[POSS].[1PL].[ACC]|RX=[PRO]
+4	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=3622|AlignEnd=3843|nWord=3|GE=[3SG].[M]|RX=[PNG]
+5	fi	fi	VERB	V1	VerbClass=1	_	_	_	AlignBegin=3843|AlignEnd=4064|nWord=3|GE=be_there|TypeToken=stem|RX=[V1].[IRG]
+6	/	_			_	_	_	_	AlignBegin=4064|AlignEnd=4506|nWord=4|GE=[/]
 
-# sent_id = BEJ_MV_NARR_06_foreigner_09-17
-# text = jhaːm / handi -i khiː i- sni =hoːn =hoːb // oːn oː= jhaːm / dir -a a- ni =hoːb / i= xawaːʤa -i =da // oː= jhaːm ani ka= a- dir i- d =heːb i- ni //
-# phonetic_text = jhaːm / handiː khiː isnihoːnhoːb // BI_600 oːn oːjhaːm / dira anihoːb / ixawaːʤajda // BI_425 oːjhaːm ani kaːdir idheːb ini // BI_596
-# text_en = He had a translator. 
-1	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 7011|AlignEnd= 7279|GE= leopard|RX= [SBJ].[N].[M]
-2	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 7279|AlignEnd= 7547|GE= [PUNCT]|RX= [PUNCT]
-3	handi	_	NOUN	N	Gender=Masc	_	_	_	Gloss= tree|AlignBegin= 7547|AlignEnd= 7720|GE= tree|RX= [N].[M]
-4	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin= 7720|AlignEnd= 7893|GE= -[GEN]|RX= -[CASE]
-5	khiː	_	ADP	POSTP	_	_	_	_	Gloss= on|AlignBegin= 7893|AlignEnd= 8066|GE= on|RX= [POSTP]
-6	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 8066|AlignEnd= 8239|GE= [3SG].[M]-|RX= [PNG]-
-7	sni	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= wait|AlignBegin= 8239|AlignEnd= 8412|GE= [PFV]|RX= [V1]
-8	=hoːn	_	PRON	PRO	Case=Acc|Person=1|Number=Plur	_	_	_	AlignBegin= 8412|AlignEnd= 8585|GE= =[OBJ].[1PL]|RX= =[PRO]
-9	=hoːb	_	CCONJ	CONJ	_	_	_	_	Gloss= =when|AlignBegin= 8585|AlignEnd= 8758|GE= =when|RX= =[CONJ]
-10	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 8758|AlignEnd= 9529|GE= [PUNCT]|RX= [PUNCT]
-11	oːn	_	DET	DEM	PronType=Dem|Deixis=Prox|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 9529|AlignEnd= 9696|GE= [PROX].[SG].[M].[ACC]|RX= [DEM]
-12	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 9696|AlignEnd= 9863|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-13	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 9863|AlignEnd= 10030|GE= leopard|RX= [N].[M]
-14	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 10030|AlignEnd= 10197|GE= [PUNCT]|RX= [PUNCT]
-15	dir	_	VERB	V1	VerbClass=1	_	_	_	Gloss= kill|AlignBegin= 10197|AlignEnd= 10308|GE= kill|RX= [V1].[DER]
-16	-a	_	AUX	TAM.PNG	Mood=Imp|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 10308|AlignEnd= 10419|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]
-17	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 10419|AlignEnd= 10530|GE= [1SG]-|RX= [PNG]-
-18	ni	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 10530|AlignEnd= 10641|GE= [PFV]|RX= [V1].[IRG]
-19	=hoːb	_	CCONJ	CONJ	_	_	_	_	Gloss= =when|AlignBegin= 10641|AlignEnd= 10752|GE= =when|RX= =[CONJ]
-20	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 10752|AlignEnd= 10862|GE= [PUNCT]|RX= [PUNCT]
-21	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin= 10862|AlignEnd= 11039|GE= [DEF].[M]=|RX= [DET]=
-22	xawaːʤa	_	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	Gloss= foreigner|AlignBegin= 11039|AlignEnd= 11216|GE= foreigner|RX= [N].[M].[BORR].[ARA]
-23	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin= 11216|AlignEnd= 11393|GE= -[GEN]|RX= -[CASE]
-24	=da	_	ADP	POSTP	_	_	_	_	AlignBegin= 11393|AlignEnd= 11570|GE= =[DIR]|RX= =[POSTP]
-25	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 11570|AlignEnd= 12173|GE= [PUNCT]|RX= [PUNCT]
-26	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 12173|AlignEnd= 12332|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-27	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 12332|AlignEnd= 12491|GE= leopard|RX= [N].[M]
-28	ani	_	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin= 12491|AlignEnd= 12650|GE= [1SG].[NOM]|RX= [SBJ].[PRO]
-29	ka=	_	PART	PTCL	Aspect=Imp	_	_	_	AlignBegin= 12650|AlignEnd= 12809|GE= [NEG].[IPFV]=|RX= [PTCL]=
-30	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 12809|AlignEnd= 12968|GE= [1SG]-|RX= [PNG]-
-31	dir	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= kill|AlignBegin= 12968|AlignEnd= 13127|GE= [PFV]|RX= [V1]
-32	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 13127|AlignEnd= 13286|GE= [3SG].[M]-|RX= [PNG]-
-33	d	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 13286|AlignEnd= 13445|GE= [PFV]|RX= [V1].[IRG]
-34	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin= 13445|AlignEnd= 13604|GE= =[OBJ].[1SG]|RX= =[PRO]
-35	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 13604|AlignEnd= 13763|GE= [3SG].[M]-|RX= [PNG]-
-36	ni	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 13763|AlignEnd= 13922|GE= [PFV]|RX= [V1].[IRG]
-37	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 13922|AlignEnd= 14675|GE= [PUNCT]|RX= [PUNCT]
+# sent_id = BEJ_MV_NARR_06_foreigner_09-16
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 7011, 14674
+# phonetic_text = jhaːm / handi -i khiː i- sni =hoːn =hoːb // oːn oː= jhaːm / dir -a a- ni =hoːb / i= xawaːʤa -i =da // oː= jhaːm ani ka= a- dir i- d =heːb i- ni // 
+# text = jhaːm / handiː khiː isnihoːnhoːb // BI_600 oːn oːjhaːm / dira anihoːb / ixawaːʤajda // BI_425 oːjhaːm ani kaːdir idheːb ini //
+# text_en =  A leopard when we found it on a tree. "This leopard when I said: "Kill it!" to the foreigner he told me: "I won't kill the leopard!", he said.
+1	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=7011|AlignEnd=7279|nWord=1|GE=leopard|RX=[SBJ].[N].[M]
+2	/	_			_	_	_	_	AlignBegin=7279|AlignEnd=7547|nWord=2|GE=[/]
+3	handi	handi	NOUN	N	Gender=Masc	_	_	_	AlignBegin=7547|AlignEnd=7719|nWord=3|GE=tree|RX=[N].[M]
+4	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin=7719|AlignEnd=7892|nWord=3|GE=[GEN]|RX=[CASE]
+5	khiː	khiː	ADP	POSTP	_	_	_	_	AlignBegin=7892|AlignEnd=8237|nWord=4|GE=on|RX=[POSTP]
+6	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=8237|AlignEnd=8323|nWord=5|GE=[3SG].[M]|RX=[PNG]
+7	sni	sni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=8323|AlignEnd=8409|nWord=5|GE=wait|TypeToken=stem|RX=[V1]
+8	=hoːn	_	PRON	PRO	Case=Acc|Person=1|Number=Plur	_	_	_	AlignBegin=8409|AlignEnd=8495|nWord=5|GE=[OBJ].[1PL]|RX=[PRO]
+9	=hoːb	_	CCONJ	CONJ	_	_	_	_	AlignBegin=8495|AlignEnd=8582|nWord=5|GE=when|RX=[CONJ]
+10	//	_			_	_	_	_	AlignBegin=8582|AlignEnd=8928|nWord=6|GE=[//]
+11	oːn	oːn	DET	DEM	PronType=Dem|Deixis=Prox|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=9529|AlignEnd=9752|nWord=8|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]
+12	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=9752|AlignEnd=9864|nWord=9|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+13	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=9864|AlignEnd=9975|nWord=9|GE=leopard|RX=[N].[M]
+14	/	_			_	_	_	_	AlignBegin=9975|AlignEnd=10197|nWord=10|GE=[/]
+15	dir	dir	VERB	V1	VerbClass=1	_	_	_	AlignBegin=10197|AlignEnd=10308|nWord=11|GE=kill|RX=[V1].[DER]
+16	-a	_	AUX	TAM.PNG	Mood=Imp|Number=Sing|Gender=Masc	_	_	_	AlignBegin=10308|AlignEnd=10419|nWord=11|GE=[IMP].[SG].[M]|RX=[TAM].[PNG]
+17	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=10419|AlignEnd=10493|nWord=12|GE=[1SG]|RX=[PNG]
+18	ni	ni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=10493|AlignEnd=10567|nWord=12|GE=say|TypeToken=stem|RX=[V1].[IRG]
+19	=hoːb	_	CCONJ	CONJ	_	_	_	_	AlignBegin=10567|AlignEnd=10641|nWord=12|GE=when|RX=[CONJ]
+20	/	_			_	_	_	_	AlignBegin=10641|AlignEnd=10862|nWord=13|GE=[/]
+21	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin=10862|AlignEnd=10972|nWord=14|GE=[DEF].[M]|RX=[DET]
+22	xawaːʤa	xawaːʤa	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	AlignBegin=10972|AlignEnd=11082|nWord=14|GE=foreigner|RX=[N].[M].[BORR].[ARA]
+23	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin=11082|AlignEnd=11192|nWord=14|GE=[GEN]|RX=[CASE]
+24	=da	_	ADP	POSTP	_	_	_	_	AlignBegin=11192|AlignEnd=11304|nWord=14|GE=[DIR]|RX=[POSTP]
+25	//	_			_	_	_	_	AlignBegin=11304|AlignEnd=11747|nWord=15|GE=[//]
+26	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=12173|AlignEnd=12332|nWord=17|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+27	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=12332|AlignEnd=12491|nWord=17|GE=leopard|RX=[N].[M]
+28	ani	ani	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin=12491|AlignEnd=12809|nWord=18|GE=[1SG].[NOM]|RX=[SBJ].[PRO]
+29	ka=	_	PART	PTCL	Aspect=Imp	_	_	_	AlignBegin=12809|AlignEnd=12915|nWord=19|GE=[NEG].[IPFV]|RX=[PTCL]
+30	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=12915|AlignEnd=13021|nWord=19|GE=[1SG]|RX=[PNG]
+31	dir	dir	VERB	V1	VerbClass=1	_	_	_	AlignBegin=13021|AlignEnd=13127|nWord=19|GE=kill|TypeToken=stem|RX=[V1]
+32	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=13127|AlignEnd=13233|nWord=20|GE=[3SG].[M]|RX=[PNG]
+33	d	d	VERB	V1	VerbClass=1	_	_	_	AlignBegin=13233|AlignEnd=13339|nWord=20|GE=say|TypeToken=stem|RX=[V1].[IRG]
+34	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin=13339|AlignEnd=13445|nWord=20|GE=[OBJ].[1SG]|RX=[PRO]
+35	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=13445|AlignEnd=13604|nWord=21|GE=[3SG].[M]|RX=[PNG]
+36	ni	ni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=13604|AlignEnd=13763|nWord=21|GE=say|TypeToken=stem|RX=[V1].[IRG]
+37	//	_			_	_	_	_	AlignBegin=13763|AlignEnd=14079|nWord=22|GE=[//]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_18-21
-# text = umbaruːk danri =jeːk i- d =heːb i- ni // ət# ti= mindikʷijaːj a- niːw =hoːk umbaruːk danri =jeːk /
-# phonetic_text = umbaruːk darrijeːk idheːb ini // 1341 ət# timindikʷejaːj aniːwhoːk umbaruːk darrijeːk / BI_758
-# text_en =  When we found a leopard on a tree,  when I said to the foreigner: "Kill this leopard!"  he told me: "I won't kill the leopard!", he said. 
-1	umbaruːk	_	PRON	PRO	Person=2|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin= 14675|AlignEnd= 14885|GE= [2SG].[M].[NOM]|RX= [SBJ].[PRO]
-2	danri	_	VERB	V1	VerbClass=1|Aspect=Imp	_	_	_	Gloss= kill|AlignBegin= 14885|AlignEnd= 15095|GE= [IPFV].[[][2SG].[M][]]|RX= [V1]
-3	=jeːk	_	CCONJ	CONJ	_	_	_	_	Gloss= =if|AlignBegin= 15095|AlignEnd= 15305|GE= =if|RX= =[CONJ]
-4	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 15305|AlignEnd= 15515|GE= [3SG].[M]-|RX= [PNG]-
-5	d	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 15515|AlignEnd= 15725|GE= [PFV]|RX= [V1].[IRG]
-6	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin= 15725|AlignEnd= 15935|GE= =[OBJ].[1SG]|RX= =[PRO]
-7	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 15935|AlignEnd= 16145|GE= [3SG].[M]-|RX= [PNG]-
-8	ni	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 16145|AlignEnd= 16355|GE= [PFV]|RX= [V1].[IRG]
-9	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 16355|AlignEnd= 17906|GE= [PUNCT]|RX= [PUNCT]
-10	ət#	_	X	FS	_	_	_	_	AlignBegin= 17906|AlignEnd= 18193|GE= [FS]|RX= [FS]
-11	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 18193|AlignEnd= 18480|GE= [DEF].[F]=|RX= [DET]=
-12	mindikʷijaːj	_	NOUN	N	Gender=Fem	_	_	_	Gloss= rifle|AlignBegin= 18480|AlignEnd= 18767|GE= rifle|RX= [N].[F]
-13	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 18767|AlignEnd= 19054|GE= [1SG]-|RX= [PNG]-
-14	niːw	_	VERB	V1	VerbClass=1|Aspect=Imp	_	_	_	Gloss= give|AlignBegin= 19054|AlignEnd= 19341|GE= [IPFV]|RX= [V1].[IRG]
-15	=hoːk	_	PRON	PRO	Case=Acc|Person=2|Number=Sing	_	_	_	AlignBegin= 19341|AlignEnd= 19628|GE= =[OBJ].[2SG]|RX= =[PRO]
-16	umbaruːk	_	PRON	PRO	Person=2|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin= 19628|AlignEnd= 19915|GE= [2SG].[M].[NOM]|RX= [SBJ].[PRO]
-17	danri	_	VERB	V1	VerbClass=1|Aspect=Imp	_	_	_	Gloss= kill|AlignBegin= 19915|AlignEnd= 20202|GE= [IPFV].[[][2SG].[M][]]|RX= [V1]
-18	=jeːk	_	CCONJ	CONJ	_	_	_	_	Gloss= =if|AlignBegin= 20202|AlignEnd= 20489|GE= =if|RX= =[CONJ]
-19	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 20489|AlignEnd= 21532|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 14675, 21532
+# phonetic_text = umbaruːk danri =jeːk i- d =heːb i- ni // ət# ti= mindikʷijaːj a- niːw =hoːk umbaruːk danri =jeːk / 
+# text = umbaruːk darrijeːk idheːb ini // 1341 ət# timindikʷejaːj aniːwhoːk umbaruːk darrijeːk / BI_758
+# text_en =  "You, if you kill it", he told me, he said, I'll give you the gun if YOU kill it,
+1	umbaruːk	umbaruːk	PRON	PRO	Person=2|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin=14675|AlignEnd=15053|nWord=1|GE=[2SG].[M].[NOM]|RX=[SBJ].[PRO]
+2	danri	danri	VERB	V1	VerbClass=1	_	_	_	AlignBegin=15053|AlignEnd=15242|nWord=2|GE=kill|TypeToken=stem|RX=[V1]
+3	=jeːk	_	CCONJ	CONJ	_	_	_	_	AlignBegin=15242|AlignEnd=15431|nWord=2|GE=if|RX=[CONJ]
+4	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=15431|AlignEnd=15557|nWord=3|GE=[3SG].[M]|RX=[PNG]
+5	d	d	VERB	V1	VerbClass=1	_	_	_	AlignBegin=15557|AlignEnd=15683|nWord=3|GE=say|TypeToken=stem|RX=[V1].[IRG]
+6	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin=15683|AlignEnd=15809|nWord=3|GE=[OBJ].[1SG]|RX=[PRO]
+7	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=15809|AlignEnd=15998|nWord=4|GE=[3SG].[M]|RX=[PNG]
+8	ni	ni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=15998|AlignEnd=16187|nWord=4|GE=say|TypeToken=stem|RX=[V1].[IRG]
+9	//	_			_	_	_	_	AlignBegin=16187|AlignEnd=16565|nWord=5|GE=[//]
+10	ət#	ət#	X	FS	_	_	_	_	AlignBegin=17906|AlignEnd=18384|nWord=7|GE=[FS]|RX=[FS]
+11	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=18384|AlignEnd=18623|nWord=8|GE=[DEF].[F]|RX=[DET]
+12	mindikʷijaːj	mindikʷijaːj	NOUN	N	Gender=Fem	_	_	_	AlignBegin=18623|AlignEnd=18862|nWord=8|GE=rifle|RX=[N].[F]
+13	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=18862|AlignEnd=19021|nWord=9|GE=[1SG]|RX=[PNG]
+14	niːw	niːw	VERB	V1	VerbClass=1	_	_	_	AlignBegin=19021|AlignEnd=19180|nWord=9|GE=give|TypeToken=stem|RX=[V1].[IRG]
+15	=hoːk	_	PRON	PRO	Case=Acc|Person=2|Number=Sing	_	_	_	AlignBegin=19180|AlignEnd=19340|nWord=9|GE=[OBJ].[2SG]|RX=[PRO]
+16	umbaruːk	umbaruːk	PRON	PRO	Person=2|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin=19340|AlignEnd=19818|nWord=10|GE=[2SG].[M].[NOM]|RX=[SBJ].[PRO]
+17	danri	danri	VERB	V1	VerbClass=1	_	_	_	AlignBegin=19818|AlignEnd=20057|nWord=11|GE=kill|TypeToken=stem|RX=[V1]
+18	=jeːk	_	CCONJ	CONJ	_	_	_	_	AlignBegin=20057|AlignEnd=20296|nWord=11|GE=if|RX=[CONJ]
+19	/	_			_	_	_	_	AlignBegin=20296|AlignEnd=20774|nWord=12|GE=[/]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_22-26
-# text = uːn ani / t= ʔarabijaːj =wa / oː= maːl w= haːj jʔ -a =b a- kati jeːb =wa / kass =oː a- niːw =hoːk i- ndi //
-# phonetic_text = uːn ani / tʔarabijaːjwa / oːmaːl whaːj jʔaːb akatjeːwwa / kassoː aniːwhoːk indi // BI_749
-# text_en =  "You, if you kill it", he told me, he said,   I'll give you the gun if YOU kill it, 
-1	uːn	_	DET	DEM	PronType=Dem|Deixis=Prox|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin= 21532|AlignEnd= 21671|GE= [PROX].[SG].[M].[NOM]|RX= [DEM]
-2	ani	_	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin= 21671|AlignEnd= 21810|GE= [1SG].[NOM]|RX= [SBJ].[PRO]
-3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 21810|AlignEnd= 21948|GE= [PUNCT]|RX= [PUNCT]
-4	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 21948|AlignEnd= 22174|GE= [DEF].[F]=|RX= [DET]=
-5	ʔarabijaːj	_	NOUN	N	Gender=Fem|Foreign=Yes	_	_	_	Gloss= car|AlignBegin= 22174|AlignEnd= 22400|GE= car|RX= [N].[F].[BORR].[ARA]
-6	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin= 22400|AlignEnd= 22626|GE= =[COORD]|RX= =[CONJ]
-7	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 22626|AlignEnd= 22851|GE= [PUNCT]|RX= [PUNCT]
-8	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 22851|AlignEnd= 22991|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-9	maːl	_	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	Gloss= treasure|AlignBegin= 22991|AlignEnd= 23131|GE= treasure|RX= [N].[M].[BORR].[ARA]
-10	w=	_	PRON	REL	PronType=Rel|Definite=Def|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 23131|AlignEnd= 23271|GE= [DEF].[SG].[M]=|RX= [REL]=
-11	haːj	_	ADP	POSTP	Case=Com	_	_	_	AlignBegin= 23271|AlignEnd= 23411|GE= [COM]|RX= [POSTP]
-12	jʔ	_	VERB	V2	VerbClass=2	_	_	_	Gloss= come|AlignBegin= 23411|AlignEnd= 23551|GE= come|RX= [V2].[IRG]
-13	-a	_	VERB	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin= 23551|AlignEnd= 23691|GE= -[CVB].[MNR]|RX= -[PRF]
-14	=b	_	DET	DET	Gender=Masc|Case=Acc	_	_	_	AlignBegin= 23691|AlignEnd= 23831|GE= =[INDF].[M].[ACC]|RX= =[DET]
-15	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 23831|AlignEnd= 23971|GE= [1SG]-|RX= [PNG]-
-16	kati	_	AUX	AUX	Aspect=Perf|Aspect=Imp	_	_	_	Gloss= become|AlignBegin= 23971|AlignEnd= 24111|GE= [IPFV]|RX= [AUX].[PRF]
-17	jeːb	_	CCONJ	CONJ.REL	PronType=Rel|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 24111|AlignEnd= 24251|GE= =[REL].[SG].[M]|RX= =[CONJ]
-18	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin= 24251|AlignEnd= 24391|GE= =[COORD]|RX= =[CONJ]
-19	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 24391|AlignEnd= 24534|GE= [PUNCT]|RX= [PUNCT]
-20	kass	_	DET	DET	_	_	_	_	Gloss= all|AlignBegin= 24534|AlignEnd= 24699|GE= all|RX= [DET]
-21	=oː	_	PRON	PRO	Poss=Yes|Case=Gen|Person=3|Number=Sing|Case=Acc	_	_	_	AlignBegin= 24699|AlignEnd= 24864|GE= =[POSS].[3SG].[ACC]|RX= =[PRO]
-22	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 24864|AlignEnd= 25029|GE= [1SG]-|RX= [PNG]-
-23	niːw	_	VERB	V1	VerbClass=1|Aspect=Imp	_	_	_	Gloss= give|AlignBegin= 25029|AlignEnd= 25194|GE= [IPFV]|RX= [V1].[IRG]
-24	=hoːk	_	PRON	PRO	Case=Acc|Person=2|Number=Sing	_	_	_	AlignBegin= 25194|AlignEnd= 25359|GE= =[OBJ].[2SG]|RX= =[PRO]
-25	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 25359|AlignEnd= 25524|GE= [3SG].[M]-|RX= [PNG]-
-26	ndi	_	VERB	V1	VerbClass=1|Aspect=Imp	_	_	_	Gloss= say|AlignBegin= 25524|AlignEnd= 25689|GE= [IPFV]|RX= [V1].[IRG]
-27	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 25689|AlignEnd= 26604|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 21532, 26604
+# phonetic_text = uːn ani / t= ʔarabijaːj =wa / oː= maːl w= haːj jʔ -a =b a- kati jeːb =wa / kass =oː a- niːw =hoːk i- ndi // 
+# text = uːn ani / tʔarabijaːjwa / oːmaːl whaːj jʔaːb akatjeːwwa / kassoː aniːwhoːk indi // BI_749
+# text_en =  as for me, the car, and the fortune that I brought and I'll give you all", he said.
+1	uːn	uːn	DET	DEM	PronType=Dem|Deixis=Prox|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin=21532|AlignEnd=21671|nWord=1|GE=[PROX].[SG].[M].[NOM]|RX=[DEM]
+2	ani	ani	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin=21671|AlignEnd=21810|nWord=2|GE=[1SG].[NOM]|RX=[SBJ].[PRO]
+3	/	_			_	_	_	_	AlignBegin=21810|AlignEnd=21948|nWord=3|GE=[/]
+4	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=21948|AlignEnd=22099|nWord=4|GE=[DEF].[F]|RX=[DET]
+5	ʔarabijaːj	ʔarabijaːj	NOUN	N	Gender=Fem|Foreign=Yes	_	_	_	AlignBegin=22099|AlignEnd=22250|nWord=4|GE=car|RX=[N].[F].[BORR].[ARA]
+6	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin=22250|AlignEnd=22400|nWord=4|GE=[COORD]|RX=[CONJ]
+7	/	_			_	_	_	_	AlignBegin=22400|AlignEnd=22851|nWord=5|GE=[/]
+8	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=22851|AlignEnd=23019|nWord=6|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+9	maːl	maːl	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	AlignBegin=23019|AlignEnd=23188|nWord=6|GE=treasure|RX=[N].[M].[BORR].[ARA]
+10	w=	_	PRON	REL	PronType=Rel|Definite=Def|Number=Sing|Gender=Masc	_	_	_	AlignBegin=23188|AlignEnd=23356|nWord=7|GE=[DEF].[SG].[M]|RX=[REL]
+11	haːj	haːj	ADP	POSTP	Case=Com	_	_	_	AlignBegin=23356|AlignEnd=23525|nWord=7|GE=[COM]|RX=[POSTP]
+12	jʔ	jʔ	VERB	V2	VerbClass=2	_	_	_	AlignBegin=23525|AlignEnd=23637|nWord=8|GE=come|RX=[V2].[IRG]
+13	-a	_	VERB	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin=23637|AlignEnd=23749|nWord=8|GE=[CVB].[MNR]|RX=[PRF]
+14	=b	_	DET	DET	Gender=Masc|Case=Acc	_	_	_	AlignBegin=23749|AlignEnd=23862|nWord=8|GE=[INDF].[M].[ACC]|RX=[DET]
+15	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=23862|AlignEnd=23946|nWord=9|GE=[1SG]|RX=[PNG]
+16	kati	kati	AUX	AUX	Aspect=Perf	_	_	_	AlignBegin=23946|AlignEnd=24030|nWord=9|GE=become|TypeToken=stem|RX=[AUX].[PRF]
+17	jeːb	jeːb	CCONJ	CONJ.REL	PronType=Rel|Number=Sing|Gender=Masc	_	_	_	AlignBegin=24030|AlignEnd=24114|nWord=9|GE=[REL].[SG].[M]|RX=[CONJ]
+18	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin=24114|AlignEnd=24199|nWord=9|GE=[COORD]|RX=[CONJ]
+19	/	_			_	_	_	_	AlignBegin=24199|AlignEnd=24534|nWord=10|GE=[/]
+20	kass	kass	DET	DET	_	_	_	_	AlignBegin=24534|AlignEnd=24699|nWord=11|GE=all|RX=[DET]
+21	=oː	_	PRON	PRO	Poss=Yes|Case=Gen|Person=3|Number=Sing|Case=Acc	_	_	_	AlignBegin=24699|AlignEnd=24864|nWord=11|GE=[POSS].[3SG].[ACC]|RX=[PRO]
+22	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=24864|AlignEnd=24974|nWord=12|GE=[1SG]|RX=[PNG]
+23	niːw	niːw	VERB	V1	VerbClass=1	_	_	_	AlignBegin=24974|AlignEnd=25084|nWord=12|GE=give|TypeToken=stem|RX=[V1].[IRG]
+24	=hoːk	_	PRON	PRO	Case=Acc|Person=2|Number=Sing	_	_	_	AlignBegin=25084|AlignEnd=25194|nWord=12|GE=[OBJ].[2SG]|RX=[PRO]
+25	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=25194|AlignEnd=25359|nWord=13|GE=[3SG].[M]|RX=[PNG]
+26	ndi	ndi	VERB	V1	VerbClass=1	_	_	_	AlignBegin=25359|AlignEnd=25524|nWord=13|GE=say|TypeToken=stem|RX=[V1].[IRG]
+27	//	_			_	_	_	_	AlignBegin=25524|AlignEnd=25854|nWord=14|GE=[//]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_27-29
-# text = laːkin / mhaj =t ʃarti -jaː dʔi -ti a- niːw =hoːk /
-# phonetic_text = laːkin / 135 mhajt ʃartija dʔiːti aniːwhoːk /
-# text_en =  As for me, I'll give you the car and all the fortune I brought", he said. 
-1	laːkin	_	PART	PTCL	Foreign=Yes	_	_	_	Gloss= but|AlignBegin= 26604|AlignEnd= 27006|GE= but|RX= [PTCL].[BORR].[ARA]
-2	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 27006|AlignEnd= 27544|GE= [PUNCT]|RX= [PUNCT]
-3	mhaj	_	NUM	NUM	_	_	_	_	Gloss= three|AlignBegin= 27544|AlignEnd= 27725|GE= three|RX= [NUM]
-4	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 27725|AlignEnd= 27906|GE= =[INDF].[F]|RX= =[DET]
-5	ʃarti	_	NOUN	N	Gender=Fem	_	_	_	Gloss= line|AlignBegin= 27906|AlignEnd= 28087|GE= line|RX= [N].[F]
-6	-jaː	_			Number=Plur	_	_	_	AlignBegin= 28087|AlignEnd= 28268|GE= -[PL]|RX= -.
-7	dʔi	_	VERB	V1	VerbClass=1	_	_	_	Gloss= do|AlignBegin= 28268|AlignEnd= 28449|GE= do|RX= [V1].[IRG]
-8	-ti	_	VERB	CVB	VerbForm=Conv	_	_	_	AlignBegin= 28449|AlignEnd= 28630|GE= -[CVB].[GNRL]|RX= -.
-9	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 28630|AlignEnd= 28811|GE= [1SG]-|RX= [PNG]-
-10	niːw	_	AUX	AUX.BENF	Aspect=Imp	_	_	_	Gloss= give|AlignBegin= 28811|AlignEnd= 28992|GE= [IPFV]|RX= [AUX].[BENF]
-11	=hoːk	_	PRON	PRO	Case=Acc|Person=2|Number=Sing	_	_	_	AlignBegin= 28992|AlignEnd= 29173|GE= =[OBJ].[2SG]|RX= =[PRO]
-12	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 29173|AlignEnd= 29358|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 26604, 29358
+# phonetic_text = laːkin / mhaj =t ʃarti -jaː dʔi -ti a- niːw =hoːk / 
+# text = laːkin / 135 mhajt ʃartija dʔiːti aniːwhoːk /
+# text_en =  "But I'll draw three lines for you,
+1	laːkin	laːkin	PART	PTCL	Foreign=Yes	_	_	_	AlignBegin=26604|AlignEnd=27006|nWord=1|GE=but|RX=[PTCL].[BORR].[ARA]
+2	/	_			_	_	_	_	AlignBegin=27006|AlignEnd=27408|nWord=2|GE=[/]
+3	mhaj	mhaj	NUM	NUM	_	_	_	_	AlignBegin=27544|AlignEnd=27726|nWord=4|GE=three|RX=[NUM]
+4	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=27726|AlignEnd=27907|nWord=4|GE=[INDF].[F]|RX=[DET]
+5	ʃarti	ʃarti	NOUN	N	Gender=Fem	_	_	_	AlignBegin=27907|AlignEnd=28089|nWord=5|GE=line|RX=[N].[F]
+6	-jaː	_			_	_	_	_	AlignBegin=28089|AlignEnd=28270|nWord=5|GE=[PL]
+7	dʔi	dʔi	VERB	V1	VerbClass=1	_	_	_	AlignBegin=28270|AlignEnd=28452|nWord=6|GE=do|RX=[V1].[IRG]
+8	-ti	_			_	_	_	_	AlignBegin=28452|AlignEnd=28633|nWord=6|GE=[CVB].[GNRL]
+9	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=28633|AlignEnd=28754|nWord=7|GE=[1SG]|RX=[PNG]
+10	niːw	niːw	AUX	AUX.BENF	_	_	_	_	AlignBegin=28754|AlignEnd=28875|nWord=7|GE=give|TypeToken=stem|RX=[AUX].[BENF]
+11	=hoːk	_	PRON	PRO	Case=Acc|Person=2|Number=Sing	_	_	_	AlignBegin=28875|AlignEnd=28996|nWord=7|GE=[OBJ].[2SG]|RX=[PRO]
+12	/	_			_	_	_	_	AlignBegin=28996|AlignEnd=29358|nWord=8|GE=[/]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_30-34
-# text = eːt ti= ʃarti -jaː / mhaj =t koː =t =eː / ka= hasam -ta i- d =heːb i- ni //
-# phonetic_text = eːt tiʃartija / mhajt koːteː / 100 kahasamta idheːb ini // BI_782
-# text_en = "But  I'll draw three lines for you, 
-1	eːt	_	DET	DEM	PronType=Dem|Deixis=Prox|Number=Plur|Gender=Fem|Case=Acc	_	_	_	AlignBegin= 29358|AlignEnd= 29568|GE= [PROX].[PL].[F].[ACC]|RX= [DEM]
-2	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 29568|AlignEnd= 29778|GE= [DEF].[F]=|RX= [DET]=
-3	ʃarti	_	NOUN	N	Gender=Fem	_	_	_	Gloss= line|AlignBegin= 29778|AlignEnd= 29988|GE= line|RX= [N].[F]
-4	-jaː	_			Number=Plur	_	_	_	AlignBegin= 29988|AlignEnd= 30198|GE= -[PL]|RX= -.
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 30198|AlignEnd= 30408|GE= [PUNCT]|RX= [PUNCT]
-6	mhaj	_	NUM	NUM	_	_	_	_	Gloss= three|AlignBegin= 30408|AlignEnd= 30593|GE= three|RX= [NUM]
-7	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 30593|AlignEnd= 30778|GE= =[INDF].[F]|RX= =[DET]
-8	koː	_	ADJ	ADJ	_	_	_	_	Gloss= all|AlignBegin= 30778|AlignEnd= 30963|GE= all|RX= [ADJ]
-9	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 30963|AlignEnd= 31148|GE= =[INDF].[F]|RX= =[DET]
-10	=eː	_	PRON	PRO	Poss=Yes|Case=Gen|Person=3|Number=Plur|Case=Acc	_	_	_	AlignBegin= 31148|AlignEnd= 31333|GE= =[POSS].[3PL].[ACC]|RX= =[PRO]
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 31333|AlignEnd= 31620|GE= [PUNCT]|RX= [PUNCT]
-12	ka=	_	PART	PTCL	Aspect=Imp	_	_	_	AlignBegin= 31620|AlignEnd= 31758|GE= [NEG].[IPFV]=|RX= [PTCL]=
-13	hasam	_	VERB	V2	VerbClass=2	_	_	_	Gloss= go_past|AlignBegin= 31758|AlignEnd= 31896|GE= go_past|RX= [V2]
-14	-ta	_	AUX	TAM.PNG	Aspect=Pfv|Person=2|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 31896|AlignEnd= 32034|GE= -[PFV].[2SG].[M]|RX= -[TAM].[PNG]
-15	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 32034|AlignEnd= 32172|GE= [3SG].[M]-|RX= [PNG]-
-16	d	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 32172|AlignEnd= 32310|GE= [PFV]|RX= [V1].[IRG]
-17	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin= 32310|AlignEnd= 32448|GE= =[OBJ].[1SG]|RX= =[PRO]
-18	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 32448|AlignEnd= 32586|GE= [3SG].[M]-|RX= [PNG]-
-19	ni	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 32586|AlignEnd= 32724|GE= [PFV]|RX= [V1].[IRG]
-20	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 32724|AlignEnd= 33647|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 29358, 33647
+# phonetic_text = eːt ti= ʃarti -jaː / mhaj =t koː =t =eː / ka= hasam -ta i- d =heːb i- ni // 
+# text = eːt tiʃartija / mhajt koːteː / 100 kahasamta idheːb ini // BI_782
+# text_en =  these lines all three don't go past!", he told me, he said.
+1	eːt	eːt	DET	DEM	PronType=Dem|Deixis=Prox|Number=Plur|Gender=Fem|Case=Acc	_	_	_	AlignBegin=29358|AlignEnd=29708|nWord=1|GE=[PROX].[PL].[F].[ACC]|RX=[DEM]
+2	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=29708|AlignEnd=29825|nWord=2|GE=[DEF].[F]|RX=[DET]
+3	ʃarti	ʃarti	NOUN	N	Gender=Fem	_	_	_	AlignBegin=29825|AlignEnd=29942|nWord=2|GE=line|RX=[N].[F]
+4	-jaː	_			_	_	_	_	AlignBegin=29942|AlignEnd=30058|nWord=2|GE=[PL]
+5	/	_			_	_	_	_	AlignBegin=30058|AlignEnd=30408|nWord=3|GE=[/]
+6	mhaj	mhaj	NUM	NUM	_	_	_	_	AlignBegin=30408|AlignEnd=30594|nWord=4|GE=three|RX=[NUM]
+7	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=30594|AlignEnd=30779|nWord=4|GE=[INDF].[F]|RX=[DET]
+8	koː	koː	ADJ	ADJ	_	_	_	_	AlignBegin=30779|AlignEnd=30903|nWord=5|GE=all|RX=[ADJ]
+9	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=30903|AlignEnd=31027|nWord=5|GE=[INDF].[F]|RX=[DET]
+10	=eː	_	PRON	PRO	Poss=Yes|Case=Gen|Person=3|Number=Plur|Case=Acc	_	_	_	AlignBegin=31027|AlignEnd=31150|nWord=5|GE=[POSS].[3PL].[ACC]|RX=[PRO]
+11	/	_			_	_	_	_	AlignBegin=31150|AlignEnd=31520|nWord=6|GE=[/]
+12	ka=	_	PART	PTCL	Aspect=Imp	_	_	_	AlignBegin=31620|AlignEnd=31724|nWord=8|GE=[NEG].[IPFV]|RX=[PTCL]
+13	hasam	hasam	VERB	V2	VerbClass=2	_	_	_	AlignBegin=31724|AlignEnd=31828|nWord=8|GE=go_past|RX=[V2]
+14	-ta	_	AUX	TAM.PNG	Aspect=Pfv|Person=2|Number=Sing|Gender=Masc	_	_	_	AlignBegin=31828|AlignEnd=31931|nWord=8|GE=[PFV].[2SG].[M]|RX=[TAM].[PNG]
+15	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=31931|AlignEnd=32035|nWord=9|GE=[3SG].[M]|RX=[PNG]
+16	d	d	VERB	V1	VerbClass=1	_	_	_	AlignBegin=32035|AlignEnd=32139|nWord=9|GE=say|TypeToken=stem|RX=[V1].[IRG]
+17	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin=32139|AlignEnd=32242|nWord=9|GE=[OBJ].[1SG]|RX=[PRO]
+18	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=32242|AlignEnd=32398|nWord=10|GE=[3SG].[M]|RX=[PNG]
+19	ni	ni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=32398|AlignEnd=32553|nWord=10|GE=say|TypeToken=stem|RX=[V1].[IRG]
+20	//	_			_	_	_	_	AlignBegin=32553|AlignEnd=32864|nWord=11|GE=[//]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_35-36
-# text = daːji =t =u a- danri a- di =t //
-# phonetic_text = daːjitu adarri adiːt // 470
-# text_en =  don't go past any of these three lines!", he told me, he said. 
-1	daːji	_	ADJ	ADJ	_	_	_	_	Gloss= good|AlignBegin= 33647|AlignEnd= 33804|GE= good|RX= [ADJ]
-2	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 33804|AlignEnd= 33961|GE= =[INDF].[F]|RX= =[DET]
-3	=u	_	NOUN	N.COP	VerbType=Cop|Person=3|Number=Sing	_	_	_	AlignBegin= 33961|AlignEnd= 34118|GE= =[COP].[3SG]|RX= =[PRED].[N]
-4	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 34118|AlignEnd= 34275|GE= [1SG]-|RX= [PNG]-
-5	danri	_	VERB	V1	VerbClass=1|Aspect=Imp	_	_	_	Gloss= kill|AlignBegin= 34275|AlignEnd= 34432|GE= [IPFV]|RX= [V1]
-6	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 34432|AlignEnd= 34589|GE= [1SG]-|RX= [PNG]-
-7	di	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= say|AlignBegin= 34589|AlignEnd= 34746|GE= [PFV]|RX= [V1].[IRG]
-8	=t	_	CCONJ	CONJ	_	_	_	_	AlignBegin= 34746|AlignEnd= 34903|GE= =[COORD]|RX= =[CONJ]
-9	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 34903|AlignEnd= 35532|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 33647, 35532
+# phonetic_text = daːji =t =u a- danri a- di =t // 
+# text = daːjitu adarri adiːt // 470
+# text_en =  I said: "It's OK, I'll kill it."
+1	daːji	daːji	ADJ	ADJ	_	_	_	_	AlignBegin=33647|AlignEnd=33765|nWord=1|GE=good|RX=[ADJ]
+2	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=33765|AlignEnd=33883|nWord=1|GE=[INDF].[F]|RX=[DET]
+3	=u	_	NOUN	N.COP	VerbType=Cop|Person=3|Number=Sing	_	_	_	AlignBegin=33883|AlignEnd=34001|nWord=1|GE=[COP].[3SG]|RX=[PRED].[N]
+4	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=34001|AlignEnd=34178|nWord=2|GE=[1SG]|RX=[PNG]
+5	danri	danri	VERB	V1	VerbClass=1	_	_	_	AlignBegin=34178|AlignEnd=34355|nWord=2|GE=kill|TypeToken=stem|RX=[V1]
+6	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=34355|AlignEnd=34473|nWord=3|GE=[1SG]|RX=[PNG]
+7	di	di	VERB	V1	VerbClass=1	_	_	_	AlignBegin=34473|AlignEnd=34591|nWord=3|GE=say|TypeToken=stem|RX=[V1].[IRG]
+8	=t	_	CCONJ	CONJ	_	_	_	_	AlignBegin=34591|AlignEnd=34709|nWord=3|GE=[COORD]|RX=[CONJ]
+9	//	_			_	_	_	_	AlignBegin=34709|AlignEnd=35061|nWord=4|GE=[//]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_37-37
-# text = sagi mhiːn hoːj a- ngaːd //
-# phonetic_text = sagi mhiːn hoːj angaːd //
-# text_en =  I said: "It's OK, I'll kill it." 
-1	sagi	_	ADJ	ADJ	_	_	_	_	Gloss= far|AlignBegin= 35532|AlignEnd= 35728|GE= far|RX= [ADJ]
-2	mhiːn	_	NOUN	N	Gender=Masc	_	_	_	Gloss= place|AlignBegin= 35728|AlignEnd= 35924|GE= place|RX= [N].[M]
-3	hoːj	_	PRON	PRO	_	_	_	_	AlignBegin= 35924|AlignEnd= 36120|GE= [3DAT][/][ABL]|RX= [PRO]
-4	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 36120|AlignEnd= 36316|GE= [1SG]-|RX= [PNG]-
-5	ngaːd	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= stop|AlignBegin= 36316|AlignEnd= 36512|GE= [PFV]|RX= [V1].[IRG]
-6	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 36512|AlignEnd= 36708|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 35532, 36708
+# phonetic_text = sagi mhiːn hoːj a- ngaːd // 
+# text = sagi mhiːn hoːj angaːd //
+# text_en =  I stopped in a remote place.
+1	sagi	sagi	ADJ	ADJ	_	_	_	_	AlignBegin=35532|AlignEnd=35767|nWord=1|GE=far|RX=[ADJ]
+2	mhiːn	mhiːn	NOUN	N	Gender=Masc	_	_	_	AlignBegin=35767|AlignEnd=36002|nWord=2|GE=place|RX=[N].[M]
+3	hoːj	hoːj	PRON	PRO	_	_	_	_	AlignBegin=36002|AlignEnd=36237|nWord=3|GE=[3DAT/ABL]|RX=[PRO]
+4	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=36237|AlignEnd=36355|nWord=4|GE=[1SG]|RX=[PNG]
+5	ngaːd	ngaːd	VERB	V1	VerbClass=1	_	_	_	AlignBegin=36355|AlignEnd=36472|nWord=4|GE=stop|TypeToken=stem|RX=[V1].[IRG]
+6	//	_			_	_	_	_	AlignBegin=36472|AlignEnd=36708|nWord=5|GE=[//]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_38-41
-# text = sagi mhiːn / ti= ʃarti -jaː mhaj =t koː =t =eː / i- dʔi i- hi =heːb /
-# phonetic_text = sagi mhiːn / tiʃartija mhajt koːteː / idʔi jhiheːb / BI_589
-# text_en = I stopped in a remote place. 
-1	sagi	_	ADJ	ADJ	_	_	_	_	Gloss= far|AlignBegin= 36708|AlignEnd= 36929|GE= far|RX= [ADJ]
-2	mhiːn	_	NOUN	N	Gender=Masc	_	_	_	Gloss= place|AlignBegin= 36929|AlignEnd= 37150|GE= place|RX= [N].[M]
-3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 37150|AlignEnd= 37372|GE= [PUNCT]|RX= [PUNCT]
-4	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 37372|AlignEnd= 37530|GE= [DEF].[F]=|RX= [DET]=
-5	ʃarti	_	NOUN	N	Gender=Fem	_	_	_	Gloss= line|AlignBegin= 37530|AlignEnd= 37688|GE= line|RX= [N].[F]
-6	-jaː	_			Number=Plur	_	_	_	AlignBegin= 37688|AlignEnd= 37846|GE= -[PL]|RX= -.
-7	mhaj	_	NUM	NUM	_	_	_	_	Gloss= three|AlignBegin= 37846|AlignEnd= 38004|GE= three|RX= [NUM]
-8	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 38004|AlignEnd= 38162|GE= =[INDF].[F]|RX= =[DET]
-9	koː	_	ADJ	ADJ	_	_	_	_	Gloss= all|AlignBegin= 38162|AlignEnd= 38320|GE= all|RX= [ADJ]
-10	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 38320|AlignEnd= 38478|GE= =[INDF].[F]|RX= =[DET]
-11	=eː	_	PRON	PRO	Poss=Yes|Case=Gen|Person=3|Number=Plur|Case=Acc	_	_	_	AlignBegin= 38478|AlignEnd= 38636|GE= =[POSS].[3PL].[ACC]|RX= =[PRO]
-12	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 38636|AlignEnd= 38795|GE= [PUNCT]|RX= [PUNCT]
-13	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 38795|AlignEnd= 38938|GE= [3SG].[M]-|RX= [PNG]-
-14	dʔi	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= do|AlignBegin= 38938|AlignEnd= 39081|GE= [PFV]|RX= [V1].[IRG]
-15	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 39081|AlignEnd= 39224|GE= [3SG].[M]-|RX= [PNG]-
-16	hi	_	AUX	AUX.BENF	Aspect=Pfv	_	_	_	Gloss= give|AlignBegin= 39224|AlignEnd= 39367|GE= [PFV]|RX= [AUX].[BENF]
-17	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin= 39367|AlignEnd= 39510|GE= =[OBJ].[1SG]|RX= =[PRO]
-18	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 39510|AlignEnd= 40245|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 36708, 40245
+# phonetic_text = sagi mhiːn / ti= ʃarti -jaː mhaj =t koː =t =eː / i- dʔi i- hi =heːb / 
+# text = sagi mhiːn / tiʃartija mhajt koːteː / idʔi jhiheːb / BI_589
+# text_en =  In a remote place all three lines he drew for me
+1	sagi	sagi	ADJ	ADJ	_	_	_	_	AlignBegin=36708|AlignEnd=36929|nWord=1|GE=far|RX=[ADJ]
+2	mhiːn	mhiːn	NOUN	N	Gender=Masc	_	_	_	AlignBegin=36929|AlignEnd=37150|nWord=2|GE=place|RX=[N].[M]
+3	/	_			_	_	_	_	AlignBegin=37150|AlignEnd=37372|nWord=3|GE=[/]
+4	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=37372|AlignEnd=37491|nWord=4|GE=[DEF].[F]|RX=[DET]
+5	ʃarti	ʃarti	NOUN	N	Gender=Fem	_	_	_	AlignBegin=37491|AlignEnd=37610|nWord=4|GE=line|RX=[N].[F]
+6	-jaː	_			_	_	_	_	AlignBegin=37610|AlignEnd=37728|nWord=4|GE=[PL]
+7	mhaj	mhaj	NUM	NUM	_	_	_	_	AlignBegin=37728|AlignEnd=37906|nWord=5|GE=three|RX=[NUM]
+8	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=37906|AlignEnd=38084|nWord=5|GE=[INDF].[F]|RX=[DET]
+9	koː	koː	ADJ	ADJ	_	_	_	_	AlignBegin=38084|AlignEnd=38203|nWord=6|GE=all|RX=[ADJ]
+10	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=38203|AlignEnd=38322|nWord=6|GE=[INDF].[F]|RX=[DET]
+11	=eː	_	PRON	PRO	Poss=Yes|Case=Gen|Person=3|Number=Plur|Case=Acc	_	_	_	AlignBegin=38322|AlignEnd=38440|nWord=6|GE=[POSS].[3PL].[ACC]|RX=[PRO]
+12	/	_			_	_	_	_	AlignBegin=38440|AlignEnd=38795|nWord=7|GE=[/]
+13	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=38795|AlignEnd=38939|nWord=8|GE=[3SG].[M]|RX=[PNG]
+14	dʔi	dʔi	VERB	V1	VerbClass=1	_	_	_	AlignBegin=38939|AlignEnd=39082|nWord=8|GE=do|TypeToken=stem|RX=[V1].[IRG]
+15	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=39082|AlignEnd=39178|nWord=9|GE=[3SG].[M]|RX=[PNG]
+16	hi	hi	AUX	AUX.BENF	_	_	_	_	AlignBegin=39178|AlignEnd=39274|nWord=9|GE=give|TypeToken=stem|RX=[AUX].[BENF]
+17	=heːb	_	PRON	PRO	Case=Acc|Person=1|Number=Sing	_	_	_	AlignBegin=39274|AlignEnd=39369|nWord=9|GE=[OBJ].[1SG]|RX=[PRO]
+18	/	_			_	_	_	_	AlignBegin=39369|AlignEnd=39655|nWord=10|GE=[/]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_42-49
-# text = ontʔa / uː= jhaːm / ʔawwal kʷinhi -jaː -n =eːt ti= kʷinha =t =iːb / ani baː= sʔajiːn // hasara t= ʔalaːma hasam -an /
-# phonetic_text = ontʔa / 1069 uːjhaːm / 370 ʔawwal kʷinhijaneːt tikʷinhatiːb / ani baːsʔajiːn // hasara tʔalaːma hasaman / BI_336
-# text_en = He drew for me all  three lines in a remote place. 
-1	ontʔa	_	PART	PTCL	_	_	_	_	Gloss= now|AlignBegin= 40245|AlignEnd= 40456|GE= now|RX= [PTCL]
-2	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 40456|AlignEnd= 41736|GE= [PUNCT]|RX= [PUNCT]
-3	uː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin= 41736|AlignEnd= 41905|GE= [DEF].[SG].[M].[NOM]=|RX= [DET]=
-4	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 41905|AlignEnd= 42074|GE= leopard|RX= [SBJ].[N].[M]
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 42074|AlignEnd= 42614|GE= [PUNCT]|RX= [PUNCT]
-6	ʔawwal	_	NUM	NUM	_	_	_	_	Gloss= first|AlignBegin= 42614|AlignEnd= 42800|GE= first|RX= [NUM]
-7	kʷinhi	_	VERB	V2	VerbClass=2	_	_	_	Gloss= shout|AlignBegin= 42800|AlignEnd= 42986|GE= shout|RX= [V2]
-8	-jaː	_	AUX	TAM.PNG	Aspect=Pfv|Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 42986|AlignEnd= 43172|GE= -[PFV].[3SG].[M]|RX= -[TAM].[PNG]
-9	-n	_			_	_	_	_	AlignBegin= 43172|AlignEnd= 43358|GE= -[L]|RX= -.
-10	=eːt	_	CCONJ	CONJ.REL	PronType=Rel|Gender=Fem	_	_	_	AlignBegin= 43358|AlignEnd= 43544|GE= =[REL].[F]|RX= =[CONJ]
-11	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 43544|AlignEnd= 43730|GE= [DEF].[F]=|RX= [DET]=
-12	kʷinha	_	NOUN	N.V	_	_	_	_	Gloss= shout|AlignBegin= 43730|AlignEnd= 43916|GE= [N].[AC]|RX= [N].[V]
-13	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 43916|AlignEnd= 44102|GE= =[INDF].[F]|RX= =[DET]
-14	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	_	_	_	AlignBegin= 44102|AlignEnd= 44288|GE= =[LOC].[SG]|RX= =[POSTP]
-15	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 44288|AlignEnd= 44476|GE= [PUNCT]|RX= [PUNCT]
-16	ani	_	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin= 44476|AlignEnd= 44709|GE= [1SG].[NOM]|RX= [SBJ].[PRO]
-17	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	_	_	_	AlignBegin= 44709|AlignEnd= 44942|GE= [NEG].[PROH]=|RX= [PTCL]=
-18	sʔajiːn	_	VERB	V1.CVB	VerbClass=1|VerbForm=Conv	_	_	_	Gloss= notice|AlignBegin= 44942|AlignEnd= 45175|GE= [CVB].[SMLT]|RX= [V1]
-19	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 45175|AlignEnd= 45409|GE= [PUNCT]|RX= [PUNCT]
-20	hasara	_	PART	PTCL	_	_	_	_	AlignBegin= 45409|AlignEnd= 45669|GE= [ADVS]|RX= [PTCL]
-21	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 45669|AlignEnd= 45929|GE= [DEF].[F]=|RX= [DET]=
-22	ʔalaːma	_	NOUN	N	Gender=Fem	_	_	_	Gloss= mark|AlignBegin= 45929|AlignEnd= 46189|GE= mark|RX= [N].[F]
-23	hasam	_	VERB	V2	VerbClass=2	_	_	_	Gloss= go_past|AlignBegin= 46189|AlignEnd= 46449|GE= go_past|RX= [V2]
-24	-an	_	AUX	TAM.PNG	Aspect=Pfv|Person=1|Number=Sing	_	_	_	AlignBegin= 46449|AlignEnd= 46709|GE= -[PFV].[1SG]|RX= -[TAM].[PNG]
-25	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 46709|AlignEnd= 47303|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 40245, 47303
+# phonetic_text = ontʔa / uː= jhaːm / ʔawwal kʷinhi -jaː -n =eːt ti= kʷinha =t =iːb / ani baː= sʔajiːn // hasara t= ʔalaːma hasam -an / 
+# text = ontʔa / 1069 uːjhaːm / 370 ʔawwal kʷinhijaneːt tikʷinhatiːb / ani baːsʔajiːn // hasara tʔalaːma hasaman / BI_336
+# text_en =  so, the leopard when it first roared a big roar, I, without noticing but I went past the marks.
+1	ontʔa	ontʔa	PART	PTCL	_	_	_	_	AlignBegin=40245|AlignEnd=40456|nWord=1|GE=now|RX=[PTCL]
+2	/	_			_	_	_	_	AlignBegin=40456|AlignEnd=40667|nWord=2|GE=[/]
+3	uː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin=41736|AlignEnd=41863|nWord=4|GE=[DEF].[SG].[M].[NOM]|RX=[DET]
+4	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=41863|AlignEnd=41990|nWord=4|GE=leopard|RX=[SBJ].[N].[M]
+5	/	_			_	_	_	_	AlignBegin=41990|AlignEnd=42243|nWord=5|GE=[/]
+6	ʔawwal	ʔawwal	NUM	NUM	_	_	_	_	AlignBegin=42614|AlignEnd=43080|nWord=7|GE=first|RX=[NUM]
+7	kʷinhi	kʷinhi	VERB	V2	VerbClass=2	_	_	_	AlignBegin=43080|AlignEnd=43196|nWord=8|GE=shout|RX=[V2]
+8	-jaː	_	AUX	TAM.PNG	Aspect=Pfv|Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=43196|AlignEnd=43312|nWord=8|GE=[PFV].[3SG].[M]|RX=[TAM].[PNG]
+9	-n	_			_	_	_	_	AlignBegin=43312|AlignEnd=43428|nWord=8|GE=[L]
+10	=eːt	_	CCONJ	CONJ.REL	PronType=Rel|Gender=Fem	_	_	_	AlignBegin=43428|AlignEnd=43546|nWord=8|GE=[REL].[F]|RX=[CONJ]
+11	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=43546|AlignEnd=43662|nWord=9|GE=[DEF].[F]|RX=[DET]
+12	kʷinha	kʷinha	NOUN	N.V	_	_	_	_	AlignBegin=43662|AlignEnd=43778|nWord=9|GE=shout|TypeToken=stem|RX=[N].[V]
+13	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=43778|AlignEnd=43894|nWord=9|GE=[INDF].[F]|RX=[DET]
+14	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	_	_	_	AlignBegin=43894|AlignEnd=44012|nWord=9|GE=[LOC].[SG]|RX=[POSTP]
+15	/	_			_	_	_	_	AlignBegin=44012|AlignEnd=44476|nWord=10|GE=[/]
+16	ani	ani	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin=44476|AlignEnd=44787|nWord=11|GE=[1SG].[NOM]|RX=[SBJ].[PRO]
+17	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	_	_	_	AlignBegin=44787|AlignEnd=44943|nWord=12|GE=[NEG].[PROH]|RX=[PTCL]
+18	sʔajiːn	sʔajiːn	VERB	V1	VerbClass=1	_	_	_	AlignBegin=44943|AlignEnd=45098|nWord=12|GE=notice|TypeToken=stem|RX=[V1]
+19	//	_			_	_	_	_	AlignBegin=45098|AlignEnd=45409|nWord=13|GE=[//]
+20	hasara	hasara	PART	PTCL	_	_	_	_	AlignBegin=45409|AlignEnd=45799|nWord=14|GE=[ADVS]|RX=[PTCL]
+21	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=45799|AlignEnd=45994|nWord=15|GE=[DEF].[F]|RX=[DET]
+22	ʔalaːma	ʔalaːma	NOUN	N	Gender=Fem	_	_	_	AlignBegin=45994|AlignEnd=46189|nWord=15|GE=mark|RX=[N].[F]
+23	hasam	hasam	VERB	V2	VerbClass=2	_	_	_	AlignBegin=46189|AlignEnd=46384|nWord=16|GE=go_past|RX=[V2]
+24	-an	_	AUX	TAM.PNG	Aspect=Pfv|Person=1|Number=Sing	_	_	_	AlignBegin=46384|AlignEnd=46579|nWord=16|GE=[PFV].[1SG]|RX=[TAM].[PNG]
+25	/	_			_	_	_	_	AlignBegin=46579|AlignEnd=46967|nWord=17|GE=[/]
 
-# sent_id = BEJ_MV_NARR_06_foreigner_50-59
-# text = oːn oː= jhaːm / naːkat / mmm naːkat / talga / i= girma -i a- dʔi /
-# phonetic_text = oːn oːjhaːm / 185 naːkaːt / 694 mmm naːkaːt / 145 talga / igirmaːj adʔi / BI_900
-# text_en =  So, when the leopard roared its first roar, (lit. in the first roar that he roared) without noticing, I went past the marks. 
-1	oːn	_	DET	DEM	PronType=Dem|Deixis=Prox|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 47303|AlignEnd= 47479|GE= [PROX].[SG].[M].[ACC]|RX= [DEM]
-2	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 47479|AlignEnd= 47655|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-3	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 47655|AlignEnd= 47831|GE= leopard|RX= [N].[M]
-4	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 47831|AlignEnd= 48195|GE= [PUNCT]|RX= [PUNCT]
-5	naːkat	_	PART	PTCL	_	_	_	_	Gloss= how_much|AlignBegin= 48195|AlignEnd= 48449|GE= how_much|RX= [PTCL]
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 48449|AlignEnd= 49397|GE= [PUNCT]|RX= [PUNCT]
-7	mmm	_	INTJ	HESIT	_	_	_	_	Gloss= mmm|AlignBegin= 49397|AlignEnd= 50138|GE= mmm|RX= [HESIT]
-8	naːkat	_	PART	PTCL	_	_	_	_	Gloss= how_much|AlignBegin= 50138|AlignEnd= 50383|GE= how_much|RX= [PTCL]
-9	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 50383|AlignEnd= 50773|GE= [PUNCT]|RX= [PUNCT]
-10	talga	_	NOUN	N	_	_	_	_	Gloss= bullet|AlignBegin= 50773|AlignEnd= 51014|GE= bullet|RX= [N]
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 51014|AlignEnd= 51255|GE= [PUNCT]|RX= [PUNCT]
-12	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin= 51255|AlignEnd= 51422|GE= [DEF].[M]=|RX= [DET]=
-13	girma	_	NOUN	N	Gender=Masc	_	_	_	Gloss= head|AlignBegin= 51422|AlignEnd= 51589|GE= head|RX= [N].[M]
-14	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin= 51589|AlignEnd= 51756|GE= -[GEN]|RX= -[CASE]
-15	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 51756|AlignEnd= 51923|GE= [1SG]-|RX= [PNG]-
-16	dʔi	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= do|AlignBegin= 51923|AlignEnd= 52090|GE= [PFV]|RX= [V1].[IRG]
-17	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 52090|AlignEnd= 53157|GE= [PUNCT]|RX= [PUNCT]
+# sent_id = BEJ_MV_NARR_06_foreigner_50-58
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 47303, 53156
+# phonetic_text = oːn oː= jhaːm / naːkat / mmm naːkat / talga / i= girma -i a- dʔi / 
+# text = oːn oːjhaːm / 185 naːkaːt / 694 mmm naːkaːt / 145 talga / igirmaːj adʔi /
+# text_en =  this leopard how many how many bullets I shot in its head!
+1	oːn	oːn	DET	DEM	PronType=Dem|Deixis=Prox|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=47303|AlignEnd=47538|nWord=1|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]
+2	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=47538|AlignEnd=47656|nWord=2|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+3	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=47656|AlignEnd=47773|nWord=2|GE=leopard|RX=[N].[M]
+4	/	_			_	_	_	_	AlignBegin=47773|AlignEnd=48009|nWord=3|GE=[/]
+5	naːkat	naːkat	PART	PTCL	_	_	_	_	AlignBegin=48195|AlignEnd=48449|nWord=5|GE=how_much|RX=[PTCL]
+6	/	_			_	_	_	_	AlignBegin=48449|AlignEnd=48703|nWord=6|GE=[/]
+7	mmm	mmm	INTJ	HESIT	_	_	_	_	AlignBegin=49397|AlignEnd=50138|nWord=8|GE=mmm|RX=[HESIT]
+8	naːkat	naːkat	PART	PTCL	_	_	_	_	AlignBegin=50138|AlignEnd=50383|nWord=9|GE=how_much|RX=[PTCL]
+9	/	_			_	_	_	_	AlignBegin=50383|AlignEnd=50628|nWord=10|GE=[/]
+10	talga	talga	NOUN	N	_	_	_	_	AlignBegin=50773|AlignEnd=51014|nWord=12|GE=bullet|RX=[N]
+11	/	_			_	_	_	_	AlignBegin=51014|AlignEnd=51255|nWord=13|GE=[/]
+12	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin=51255|AlignEnd=51366|nWord=14|GE=[DEF].[M]|RX=[DET]
+13	girma	girma	NOUN	N	Gender=Masc	_	_	_	AlignBegin=51366|AlignEnd=51477|nWord=14|GE=head|RX=[N].[M]
+14	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin=51477|AlignEnd=51589|nWord=14|GE=[GEN]|RX=[CASE]
+15	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=51589|AlignEnd=51756|nWord=15|GE=[1SG]|RX=[PNG]
+16	dʔi	dʔi	VERB	V1	VerbClass=1	_	_	_	AlignBegin=51756|AlignEnd=51923|nWord=15|GE=do|TypeToken=stem|RX=[V1].[IRG]
+17	/	_			_	_	_	_	AlignBegin=51923|AlignEnd=52256|nWord=16|GE=[/]
 
-# sent_id = BEJ_MV_NARR_06_foreigner_60-64
-# text = ti= ʃarti -jaː / kaːm -i meːs -i =t / i= nafs =i hasam -a =b aka -jeː a- mri /
-# phonetic_text = tiʃartija / 188 kaːmi meːsiːt / inafsi hasamaːb akajeː amri / BI_355
-# text_en =  I don't know how many bullets I shot in the leopard's head! 
-1	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 53157|AlignEnd= 53345|GE= [DEF].[F]=|RX= [DET]=
-2	ʃarti	_	NOUN	N	Gender=Fem	_	_	_	Gloss= line|AlignBegin= 53345|AlignEnd= 53533|GE= line|RX= [N].[F]
-3	-jaː	_			Number=Plur	_	_	_	AlignBegin= 53533|AlignEnd= 53721|GE= -[PL]|RX= -.
-4	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 53721|AlignEnd= 54098|GE= [PUNCT]|RX= [PUNCT]
-5	kaːm	_	NOUN	N	_	_	_	_	Gloss= camel|AlignBegin= 54098|AlignEnd= 54257|GE= camel|RX= [N]
-6	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin= 54257|AlignEnd= 54416|GE= -[GEN]|RX= -[CASE]
-7	meːs	_	NOUN	N	Gender=Masc	_	_	_	Gloss= race_distance|AlignBegin= 54416|AlignEnd= 54575|GE= race_distance|RX= [N].[M]
-8	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin= 54575|AlignEnd= 54734|GE= -[GEN]|RX= -[CASE]
-9	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin= 54734|AlignEnd= 54893|GE= =[INDF].[F]|RX= =[DET]
-10	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 54893|AlignEnd= 55050|GE= [PUNCT]|RX= [PUNCT]
-11	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin= 55050|AlignEnd= 55214|GE= [DEF].[M]=|RX= [DET]=
-12	nafs	_	PRON	PRO	Reflex=Yes	_	_	_	Gloss= self|AlignBegin= 55214|AlignEnd= 55378|GE= self|RX= [SBJ].[PRO].[REFL]
-13	=i	_	PRON	PRO	Poss=Yes|Case=Gen|Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin= 55378|AlignEnd= 55542|GE= =[POSS].[1SG].[NOM]|RX= =[PRO]
-14	hasam	_	VERB	V2	VerbClass=2	_	_	_	Gloss= go_past|AlignBegin= 55542|AlignEnd= 55706|GE= go_past|RX= [V2]
-15	-a	_	VERB	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin= 55706|AlignEnd= 55870|GE= -[CVB].[MNR]|RX= -[PRF]
-16	=b	_	DET	DET	Gender=Masc|Case=Acc	_	_	_	AlignBegin= 55870|AlignEnd= 56034|GE= =[INDF].[M].[ACC]|RX= =[DET]
-17	aka	_	AUX	AUX	Aspect=Perf	_	_	_	Gloss= become|AlignBegin= 56034|AlignEnd= 56198|GE= become|RX= [AUX].[PRF]
-18	-jeː	_	VERB	CVB	VerbForm=Conv	_	_	_	AlignBegin= 56198|AlignEnd= 56362|GE= -[CVB].[SMLT]|RX= -.
-19	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 56362|AlignEnd= 56526|GE= [1SG]-|RX= [PNG]-
-20	mri	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= find|AlignBegin= 56526|AlignEnd= 56690|GE= [PFV]|RX= [V1]
-21	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 56690|AlignEnd= 57207|GE= [PUNCT]|RX= [PUNCT]
+# sent_id = BEJ_MV_NARR_06_foreigner_60-63
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 53157, 57206
+# phonetic_text = ti= ʃarti -jaː / kaːm -i meːs -i =t / i= nafs =i hasam -a =b aka -jeː a- mri / 
+# text = tiʃartija / 188 kaːmi meːsiːt / inafsi hasamaːb akajeː amri /
+# text_en =  The lines a camel's race distance I found myself having gone past them!
+1	ti=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=53157|AlignEnd=53282|nWord=1|GE=[DEF].[F]|RX=[DET]
+2	ʃarti	ʃarti	NOUN	N	Gender=Fem	_	_	_	AlignBegin=53282|AlignEnd=53407|nWord=1|GE=line|RX=[N].[F]
+3	-jaː	_			_	_	_	_	AlignBegin=53407|AlignEnd=53533|nWord=1|GE=[PL]
+4	/	_			_	_	_	_	AlignBegin=53533|AlignEnd=53910|nWord=2|GE=[/]
+5	kaːm	kaːm	NOUN	N	_	_	_	_	AlignBegin=54098|AlignEnd=54256|nWord=4|GE=camel|RX=[N]
+6	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin=54256|AlignEnd=54415|nWord=4|GE=[GEN]|RX=[CASE]
+7	meːs	meːs	NOUN	N	Gender=Masc	_	_	_	AlignBegin=54415|AlignEnd=54521|nWord=5|GE=race_distance|RX=[N].[M]
+8	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin=54521|AlignEnd=54627|nWord=5|GE=[GEN]|RX=[CASE]
+9	=t	_	DET	DET	Gender=Fem	_	_	_	AlignBegin=54627|AlignEnd=54732|nWord=5|GE=[INDF].[F]|RX=[DET]
+10	/	_			_	_	_	_	AlignBegin=54732|AlignEnd=55050|nWord=6|GE=[/]
+11	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin=55050|AlignEnd=55170|nWord=7|GE=[DEF].[M]|RX=[DET]
+12	nafs	nafs	PRON	PRO	Reflex=Yes	_	_	_	AlignBegin=55170|AlignEnd=55290|nWord=7|GE=self|RX=[SBJ].[PRO].[REFL]
+13	=i	_	PRON	PRO	Poss=Yes|Case=Gen|Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin=55290|AlignEnd=55410|nWord=7|GE=[POSS].[1SG].[NOM]|RX=[PRO]
+14	hasam	hasam	VERB	V2	VerbClass=2	_	_	_	AlignBegin=55410|AlignEnd=55530|nWord=8|GE=go_past|RX=[V2]
+15	-a	_	VERB	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin=55530|AlignEnd=55650|nWord=8|GE=[CVB].[MNR]|RX=[PRF]
+16	=b	_	DET	DET	Gender=Masc|Case=Acc	_	_	_	AlignBegin=55650|AlignEnd=55770|nWord=8|GE=[INDF].[M].[ACC]|RX=[DET]
+17	aka	aka	AUX	AUX	Aspect=Perf	_	_	_	AlignBegin=55770|AlignEnd=55950|nWord=9|GE=become|RX=[AUX].[PRF]
+18	-jeː	_			_	_	_	_	AlignBegin=55950|AlignEnd=56130|nWord=9|GE=[CVB].[SMLT]
+19	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=56130|AlignEnd=56310|nWord=10|GE=[1SG]|RX=[PNG]
+20	mri	mri	VERB	V1	VerbClass=1	_	_	_	AlignBegin=56310|AlignEnd=56490|nWord=10|GE=find|TypeToken=stem|RX=[V1]
+21	/	_			_	_	_	_	AlignBegin=56490|AlignEnd=56852|nWord=11|GE=[/]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_65-74
-# text = uː= jhaːm oː= mhiːn w= ʔani a- ngaːd iː- kti =jeːb / t= ʔalaːma / uː= na / əgəg# / i= xawaːʤa dhaj hi -jaː iː- kti =jeːb / hasam -jaː =ajt / ɖib -jaː /
-# phonetic_text = uːjhaːm oːmhiːn wʔani angaːd iːktijeːb / 125 tʔalaːma / uːna / əgəg# / ixawaːʤa dhaj hija iːktijeːb / hasamjaːjt / BI_304 ɖibja / 771
-# text_en = I found myself having gone past the lines of a camel race distance. 
-1	uː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin= 57207|AlignEnd= 57378|GE= [DEF].[SG].[M].[NOM]=|RX= [DET]=
-2	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 57378|AlignEnd= 57549|GE= leopard|RX= [SBJ].[N].[M]
-3	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 57549|AlignEnd= 57720|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-4	mhiːn	_	NOUN	N	Gender=Masc	_	_	_	Gloss= place|AlignBegin= 57720|AlignEnd= 57891|GE= place|RX= [N].[M]
-5	w=	_	PRON	REL	PronType=Rel|Definite=Def|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 57891|AlignEnd= 58062|GE= [DEF].[SG].[M]=|RX= [REL]=
-6	ʔani	_	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin= 58062|AlignEnd= 58233|GE= [1SG].[NOM]|RX= [SBJ].[PRO]
-7	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin= 58233|AlignEnd= 58404|GE= [1SG]-|RX= [PNG]-
-8	ngaːd	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= stop|AlignBegin= 58404|AlignEnd= 58575|GE= [PFV]|RX= [V1].[IRG]
-9	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 58575|AlignEnd= 58746|GE= [3SG].[M]-|RX= [PNG]-
-10	kti	_	VERB	V1	VerbClass=1|Aspect=Aor	_	_	_	Gloss= become|AlignBegin= 58746|AlignEnd= 58917|GE= [AOR]|RX= [V1].[IRG]
-11	=jeːb	_	CCONJ	CONJ.REL	PronType=Rel|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 58917|AlignEnd= 59088|GE= =[REL].[SG].[M]|RX= =[CONJ]
-12	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 59088|AlignEnd= 59384|GE= [PUNCT]|RX= [PUNCT]
-13	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 59384|AlignEnd= 59585|GE= [DEF].[F]=|RX= [DET]=
-14	ʔalaːma	_	NOUN	N	Gender=Fem	_	_	_	Gloss= mark|AlignBegin= 59585|AlignEnd= 59786|GE= mark|RX= [N].[F]
-15	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 59786|AlignEnd= 59988|GE= [PUNCT]|RX= [PUNCT]
-16	uː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin= 59988|AlignEnd= 60129|GE= [DEF].[SG].[M].[NOM]=|RX= [DET]=
-17	na	_	NOUN	N	Gender=Fem	_	_	_	Gloss= thing|AlignBegin= 60129|AlignEnd= 60270|GE= thing|RX= [N].[F]
-18	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 60270|AlignEnd= 60410|GE= [PUNCT]|RX= [PUNCT]
-19	əgəg#	_	X	FS	_	_	_	_	AlignBegin= 60410|AlignEnd= 60764|GE= [FS]|RX= [FS]
-20	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 60764|AlignEnd= 61117|GE= [PUNCT]|RX= [PUNCT]
-21	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin= 61117|AlignEnd= 61296|GE= [DEF].[M]=|RX= [DET]=
-22	xawaːʤa	_	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	Gloss= foreigner|AlignBegin= 61296|AlignEnd= 61475|GE= foreigner|RX= [SBJ].[N].[M].[BORR].[ARA]
-23	dhaj	_	ADP	POSTP	_	_	_	_	AlignBegin= 61475|AlignEnd= 61654|GE= [DIR]|RX= [POSTP]
-24	hi	_	VERB	V1	VerbClass=1	_	_	_	Gloss= give|AlignBegin= 61654|AlignEnd= 61833|GE= give|RX= [V1].[IRG]
-25	-jaː	_	VERB	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin= 61833|AlignEnd= 62012|GE= -[CVB].[MNR]|RX= -[PRF]
-26	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 62012|AlignEnd= 62191|GE= [3SG].[M]-|RX= [PNG]-
-27	kti	_	AUX	AUX	Aspect=Perf|Aspect=Aor	_	_	_	Gloss= become|AlignBegin= 62191|AlignEnd= 62370|GE= [AOR]|RX= [AUX].[PRF]
-28	=jeːb	_	CCONJ	CONJ.REL	PronType=Rel|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 62370|AlignEnd= 62549|GE= =[REL].[SG].[M]|RX= =[CONJ]
-29	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 62549|AlignEnd= 62731|GE= [PUNCT]|RX= [PUNCT]
-30	hasam	_	VERB	V2	VerbClass=2	_	_	_	Gloss= go_past|AlignBegin= 62731|AlignEnd= 62969|GE= go_past|RX= [V2]
-31	-jaː	_	AUX	TAM.PNG	Aspect=Pfv|Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 62969|AlignEnd= 63207|GE= -[PFV].[3SG].[M]|RX= -[TAM].[PNG]
-32	=ajt	_	CCONJ	CONJ	_	_	_	_	AlignBegin= 63207|AlignEnd= 63445|GE= =[COORD]|RX= =[CONJ]
-33	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 63445|AlignEnd= 63990|GE= [PUNCT]|RX= [PUNCT]
-34	ɖib	_	VERB	V2	VerbClass=2	_	_	_	Gloss= fall|AlignBegin= 63990|AlignEnd= 64209|GE= fall|RX= [V2]
-35	-jaː	_	AUX	TAM.PNG	Aspect=Pfv|Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin= 64209|AlignEnd= 64428|GE= -[PFV].[3SG].[M]|RX= -[TAM].[PNG]
-36	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 64428|AlignEnd= 65417|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 57207, 65417
+# phonetic_text = uː= jhaːm oː= mhiːn w= ʔani a- ngaːd iː- kti =jeːb / t= ʔalaːma / uː= na / əgəg# / i= xawaːʤa dhaj hi -jaː iː- kti =jeːb / hasam -jaː =ajt / ɖib -jaː / 
+# text = uːjhaːm oːmhiːn wʔani angaːd iːktijeːb / 125 tʔalaːma / uːna / əgəg# / ixawaːʤa dhaj hija iːktijeːb / hasamjaːjt / BI_304 ɖibja / 771
+# text_en =  The leopard, the place where I had stopped, the marks the thing er, that the foreigner had given it had gone past.. It fell down,
+1	uː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin=57207|AlignEnd=57378|nWord=1|GE=[DEF].[SG].[M].[NOM]|RX=[DET]
+2	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=57378|AlignEnd=57549|nWord=1|GE=leopard|RX=[SBJ].[N].[M]
+3	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=57549|AlignEnd=57720|nWord=2|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+4	mhiːn	mhiːn	NOUN	N	Gender=Masc	_	_	_	AlignBegin=57720|AlignEnd=57891|nWord=2|GE=place|RX=[N].[M]
+5	w=	_	PRON	REL	PronType=Rel|Definite=Def|Number=Sing|Gender=Masc	_	_	_	AlignBegin=57891|AlignEnd=58062|nWord=3|GE=[DEF].[SG].[M]|RX=[REL]
+6	ʔani	ʔani	PRON	PRO	Person=1|Number=Sing|Case=Nom	_	_	_	AlignBegin=58062|AlignEnd=58233|nWord=3|GE=[1SG].[NOM]|RX=[SBJ].[PRO]
+7	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=58233|AlignEnd=58404|nWord=4|GE=[1SG]|RX=[PNG]
+8	ngaːd	ngaːd	VERB	V1	VerbClass=1	_	_	_	AlignBegin=58404|AlignEnd=58575|nWord=4|GE=stop|TypeToken=stem|RX=[V1].[IRG]
+9	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=58575|AlignEnd=58689|nWord=5|GE=[3SG].[M]|RX=[PNG]
+10	kti	kti	VERB	V1	VerbClass=1	_	_	_	AlignBegin=58689|AlignEnd=58803|nWord=5|GE=become|TypeToken=stem|RX=[V1].[IRG]
+11	=jeːb	_	CCONJ	CONJ.REL	PronType=Rel|Number=Sing|Gender=Masc	_	_	_	AlignBegin=58803|AlignEnd=58917|nWord=5|GE=[REL].[SG].[M]|RX=[CONJ]
+12	/	_			_	_	_	_	AlignBegin=58917|AlignEnd=59258|nWord=6|GE=[/]
+13	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=59384|AlignEnd=59535|nWord=8|GE=[DEF].[F]|RX=[DET]
+14	ʔalaːma	ʔalaːma	NOUN	N	Gender=Fem	_	_	_	AlignBegin=59535|AlignEnd=59686|nWord=8|GE=mark|RX=[N].[F]
+15	/	_			_	_	_	_	AlignBegin=59686|AlignEnd=59988|nWord=9|GE=[/]
+16	uː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Nom	_	_	_	AlignBegin=59988|AlignEnd=60094|nWord=10|GE=[DEF].[SG].[M].[NOM]|RX=[DET]
+17	na	na	NOUN	N	Gender=Fem	_	_	_	AlignBegin=60094|AlignEnd=60199|nWord=10|GE=thing|RX=[N].[F]
+18	/	_			_	_	_	_	AlignBegin=60199|AlignEnd=60410|nWord=11|GE=[/]
+19	əgəg#	əgəg#	X	FS	_	_	_	_	AlignBegin=60410|AlignEnd=60764|nWord=12|GE=[FS]|RX=[FS]
+20	/	_			_	_	_	_	AlignBegin=60764|AlignEnd=61117|nWord=13|GE=[/]
+21	i=	_	DET	DET	Definite=Def|Gender=Masc	_	_	_	AlignBegin=61117|AlignEnd=61279|nWord=14|GE=[DEF].[M]|RX=[DET]
+22	xawaːʤa	xawaːʤa	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	AlignBegin=61279|AlignEnd=61440|nWord=14|GE=foreigner|RX=[SBJ].[N].[M].[BORR].[ARA]
+23	dhaj	dhaj	ADP	POSTP	_	_	_	_	AlignBegin=61440|AlignEnd=61763|nWord=15|GE=[DIR]|RX=[POSTP]
+24	hi	hi	VERB	V1	VerbClass=1	_	_	_	AlignBegin=61763|AlignEnd=61925|nWord=16|GE=give|RX=[V1].[IRG]
+25	-jaː	_	VERB	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin=61925|AlignEnd=62086|nWord=16|GE=[CVB].[MNR]|RX=[PRF]
+26	iː-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=62086|AlignEnd=62194|nWord=17|GE=[3SG].[M]|RX=[PNG]
+27	kti	kti	AUX	AUX	Aspect=Perf	_	_	_	AlignBegin=62194|AlignEnd=62302|nWord=17|GE=become|TypeToken=stem|RX=[AUX].[PRF]
+28	=jeːb	_	CCONJ	CONJ.REL	PronType=Rel|Number=Sing|Gender=Masc	_	_	_	AlignBegin=62302|AlignEnd=62409|nWord=17|GE=[REL].[SG].[M]|RX=[CONJ]
+29	/	_			_	_	_	_	AlignBegin=62409|AlignEnd=62731|nWord=18|GE=[/]
+30	hasam	hasam	VERB	V2	VerbClass=2	_	_	_	AlignBegin=62731|AlignEnd=62890|nWord=19|GE=go_past|RX=[V2]
+31	-jaː	_	AUX	TAM.PNG	Aspect=Pfv|Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=62890|AlignEnd=63049|nWord=19|GE=[PFV].[3SG].[M]|RX=[TAM].[PNG]
+32	=ajt	_	CCONJ	CONJ	_	_	_	_	AlignBegin=63049|AlignEnd=63208|nWord=19|GE=[COORD]|RX=[CONJ]
+33	/	_			_	_	_	_	AlignBegin=63208|AlignEnd=63685|nWord=20|GE=[/]
+34	ɖib	ɖib	VERB	V2	VerbClass=2	_	_	_	AlignBegin=63990|AlignEnd=64154|nWord=22|GE=fall|RX=[V2]
+35	-jaː	_	AUX	TAM.PNG	Aspect=Pfv|Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=64154|AlignEnd=64318|nWord=22|GE=[PFV].[3SG].[M]|RX=[TAM].[PNG]
+36	/	_			_	_	_	_	AlignBegin=64318|AlignEnd=64646|nWord=23|GE=[/]
 
 # sent_id = BEJ_MV_NARR_06_foreigner_75-81
-# text = oː= maːl =wa t= ʔarabijaːj =wa hagil / laːkin / oː= jhaːm /
-# phonetic_text = oːmaːlwa tʔaribijaːjwa hagil / 186 laːkin / 178 oːjhaːm / 125
-# text_en = The leopard, (compared with) the place where I had stopped,  had gone past the marks the foreigner had drawn for it, and  It fell down, 
-1	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 65417|AlignEnd= 65652|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-2	maːl	_	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	Gloss= treasure|AlignBegin= 65652|AlignEnd= 65887|GE= treasure|RX= [N].[M].[BORR].[ARA]
-3	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin= 65887|AlignEnd= 66122|GE= =[COORD]|RX= =[CONJ]
-4	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin= 66122|AlignEnd= 66357|GE= [DEF].[F]=|RX= [DET]=
-5	ʔarabijaːj	_	NOUN	N	Gender=Fem|Foreign=Yes	_	_	_	Gloss= car|AlignBegin= 66357|AlignEnd= 66592|GE= car|RX= [N].[F].[BORR].[ARA]
-6	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin= 66592|AlignEnd= 66827|GE= =[COORD]|RX= =[CONJ]
-7	hagil	_	VERB	V1	VerbClass=1|Aspect=Pfv	_	_	_	Gloss= miss|AlignBegin= 66827|AlignEnd= 67062|GE= [PFV].[[][1SG][]]|RX= [V1]
-8	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 67062|AlignEnd= 67482|GE= [PUNCT]|RX= [PUNCT]
-9	laːkin	_	PART	PTCL	Foreign=Yes	_	_	_	Gloss= but|AlignBegin= 67482|AlignEnd= 67787|GE= but|RX= [PTCL].[BORR].[ARA]
-10	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 67787|AlignEnd= 68270|GE= [PUNCT]|RX= [PUNCT]
-11	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin= 68270|AlignEnd= 68456|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=
-12	jhaːm	_	NOUN	N	Gender=Masc	_	_	_	Gloss= leopard|AlignBegin= 68456|AlignEnd= 68642|GE= leopard|RX= [N].[M]
-13	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin= 68642|AlignEnd= 68829|GE= [PUNCT]|RX= [PUNCT]
+# speaker_id = SP
+# sound_url = https://corporan.huma-num.fr/Archives/media//home/mathilde/Documents/Master/WAV//home/mathilde/Documents/Master_NLP/COURS/STAGE_kahane/stage_nlp_autogram/Bedja_Martine/fichiers_ELAN_modif/BEJ_MV_NARR_06_FOREIGNER.WAV
+# sent_timecode = 65417, 69815
+# phonetic_text = oː= maːl =wa t= ʔarabijaːj =wa hagil / laːkin / oː= jhaːm / a- dir i- ni // 
+# text = oːmaːlwa tʔaribijaːjwa hagil / 186 laːkin / 178 oːjhaːm / 125 adir ini //
+# text_en =  I failed with the fortune and the car but the leopard I killed', he said.
+1	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=65417|AlignEnd=65574|nWord=1|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+2	maːl	maːl	NOUN	N	Gender=Masc|Foreign=Yes	_	_	_	AlignBegin=65574|AlignEnd=65731|nWord=1|GE=treasure|RX=[N].[M].[BORR].[ARA]
+3	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin=65731|AlignEnd=65887|nWord=1|GE=[COORD]|RX=[CONJ]
+4	t=	_	DET	DET	Definite=Def|Gender=Fem	_	_	_	AlignBegin=65887|AlignEnd=66044|nWord=2|GE=[DEF].[F]|RX=[DET]
+5	ʔarabijaːj	ʔarabijaːj	NOUN	N	Gender=Fem|Foreign=Yes	_	_	_	AlignBegin=66044|AlignEnd=66201|nWord=2|GE=car|RX=[N].[F].[BORR].[ARA]
+6	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin=66201|AlignEnd=66357|nWord=2|GE=[COORD]|RX=[CONJ]
+7	hagil	hagil	VERB	V1	VerbClass=1	_	_	_	AlignBegin=66357|AlignEnd=66827|nWord=3|GE=miss|TypeToken=stem|RX=[V1]
+8	/	_			_	_	_	_	AlignBegin=66827|AlignEnd=67296|nWord=4|GE=[/]
+9	laːkin	laːkin	PART	PTCL	Foreign=Yes	_	_	_	AlignBegin=67482|AlignEnd=67787|nWord=6|GE=but|RX=[PTCL].[BORR].[ARA]
+10	/	_			_	_	_	_	AlignBegin=67787|AlignEnd=68092|nWord=7|GE=[/]
+11	oː=	_	DET	DET	Definite=Def|Number=Sing|Gender=Masc|Case=Acc	_	_	_	AlignBegin=68270|AlignEnd=68410|nWord=9|GE=[DEF].[SG].[M].[ACC]|RX=[DET]
+12	jhaːm	jhaːm	NOUN	N	Gender=Masc	_	_	_	AlignBegin=68410|AlignEnd=68550|nWord=9|GE=leopard|RX=[N].[M]
+13	/	_			_	_	_	_	AlignBegin=68550|AlignEnd=68829|nWord=10|GE=[/]
+14	a-	_	PART	PNG	Person=1|Number=Sing	_	_	_	AlignBegin=68955|AlignEnd=69099|nWord=12|GE=[1SG]|RX=[PNG]
+15	dir	dir	VERB	V1	VerbClass=1	_	_	_	AlignBegin=69099|AlignEnd=69242|nWord=12|GE=kill|TypeToken=stem|RX=[V1]
+16	i-	_	PART	PNG	Person=3|Number=Sing|Gender=Masc	_	_	_	AlignBegin=69242|AlignEnd=69386|nWord=13|GE=[3SG].[M]|RX=[PNG]
+17	ni	ni	VERB	V1	VerbClass=1	_	_	_	AlignBegin=69386|AlignEnd=69529|nWord=13|GE=say|TypeToken=stem|RX=[V1].[IRG]
+18	//	_			_	_	_	_	AlignBegin=69529|AlignEnd=69815|nWord=14|GE=[//]
