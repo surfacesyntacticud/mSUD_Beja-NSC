@@ -93,7 +93,7 @@
 8	=jeːt	_	SCONJ	CONJ	Gender=Fem	11	mod@relcl	_	AlignBegin=20261|AlignEnd=20387|GE==[REL].[F]|InIdiom=Yes|RX==[CONJ]|TokenType=Clit
 9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=20387|AlignEnd=20764|InIdiom=Yes|TokenType=Break
 10	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	11	det	_	AlignBegin=20764|AlignEnd=20867|GE=[DEF].[SG].[F].[ACC]=|InIdiom=Yes|RX=[DET]=|TokenType=Clit
-11	na	_	NOUN	CONJ	_	13	comp:obj	_	AlignBegin=20867|AlignEnd=20970|ExtPos=SCONJ|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
+11	na	_	NOUN	CONJ	ExtPos=SCONJ	13	comp:obj	_	AlignBegin=20867|AlignEnd=20970|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
 12	/	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=20970|AlignEnd=21408|TokenType=Break
 13	akan	_	VERB	V1, IRG	Aspect=Perf|Number=Sing|VerbClass=1|Voice=Mid	16	parataxis:mod	_	AlignBegin=21408|AlignEnd=21657|GE=[1SG]-know\[MID].[PFV]|Gloss=know|MGloss=1SG-know\MID.PFV|MSeg=a-kan|RX=[PNG]-[V1].[DER].[IRG]|TokenType=Stem
 14	/	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=21657|AlignEnd=22569|TokenType=Break
@@ -298,7 +298,7 @@
 2	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	det	_	AlignBegin=65579|AlignEnd=65676|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 3	tak	_	NOUN	N	Gender=Masc	7	subj	_	AlignBegin=65676|AlignEnd=65774|GE=man|Gloss=man|RX=[SBJ].[N].[M]|TokenType=Stem
 4	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=65774|AlignEnd=66284|TokenType=Break
-5	doːr	_	NOUN	N	Gender=Masc	7	mod	_	AlignBegin=66284|AlignEnd=66611|ExtPos=ADV|GE=time|Gloss=time|Idiom=Yes|RX=[N].[M]|TokenType=Stem
+5	doːr	_	NOUN	N	ExtPos=ADV|Gender=Masc	7	mod	_	AlignBegin=66284|AlignEnd=66611|GE=time|Gloss=time|Idiom=Yes|RX=[N].[M]|TokenType=Stem
 6	han	_	PART	PTCL	_	5	mod	_	AlignBegin=66611|AlignEnd=66939|GE=also|Gloss=also|InIdiom=Yes|RX=[PTCL].[FOC]|TokenType=Stem
 7	kanaː	_	NOUN	V1, IRG	VerbClass=1|Voice=Mid	10	comp:aux	_	AlignBegin=66939|AlignEnd=67157|GE=know\[MID]-[CVB].[MNR]|Gloss=know|MGloss=know\MID-CVB.MNR|MSeg=kan-aː|RX=[V1].[DER].[IRG]-[PRF]|TokenType=Stem
 8	=ji	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	7	comp:obj	_	AlignBegin=67157|AlignEnd=67266|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
@@ -333,7 +333,7 @@
 13	iːkti	_	VERB	V1, IRG	Aspect=Aor|Number=Sing|VerbClass=1	14	comp:obj	_	AlignBegin=75704|AlignEnd=75951|GE=[1SG]-become\[AOR]|Gloss=become|MGloss=1SG-become\AOR|MSeg=iː-kti|RX=[PNG]-[V1].[IRG]|TokenType=Stem
 14	=jeːt	_	SCONJ	CONJ	Gender=Fem	16	mod@relcl	_	AlignBegin=75951|AlignEnd=76075|GE==[REL].[F]|InIdiom=Yes|RX==[CONJ]|TokenType=Clit
 15	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	det	_	AlignBegin=76075|AlignEnd=76260|GE=[DEF].[SG].[F].[ACC]=|InIdiom=Yes|RX=[DET]=|TokenType=Clit
-16	na	_	NOUN	CONJ	_	17	comp:obj	_	AlignBegin=76260|AlignEnd=76446|ExtPos=SCONJ|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
+16	na	_	NOUN	CONJ	ExtPos=SCONJ	17	comp:obj	_	AlignBegin=76260|AlignEnd=76446|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
 17	ikan	_	VERB	V1, IRG	Aspect=Perf|Gender=Masc|Number=Sing|VerbClass=1|Voice=Mid	0	root	_	AlignBegin=76446|AlignEnd=76693|GE=[3SG].[M]-know\[MID].[PFV]|Gloss=know|MGloss=3SG.M-know\MID.PFV|MSeg=i-kan|RX=[PNG]-[V1].[DER].[IRG]|TokenType=Stem
 18	=heːb	_	PRON	PRO	Number=Sing|Person=1	17	comp:obj	_	AlignBegin=76693|AlignEnd=76817|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 19	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=76817|AlignEnd=77958|TokenType=Break
@@ -540,7 +540,7 @@
 2	sallamaman	_	VERB	V2	Number=Sing|VerbClass=2	3	comp:obj	_	AlignBegin=119193|AlignEnd=119435|GE=give-[MID]-[PFV].[1SG]|Gloss=give|MGloss=give-MID-PFV.1SG|MSeg=sallam-am-an|RX=[V2]-[V2].[DER]-[TAM].[PNG]|TokenType=Stem
 3	=eːt	_	SCONJ	CONJ	Gender=Fem	5	mod@relcl	_	AlignBegin=119435|AlignEnd=119516|GE==[REL].[F]|InIdiom=Yes|RX==[CONJ]|TokenType=Clit
 4	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	det	_	AlignBegin=119516|AlignEnd=119677|GE=[DEF].[SG].[F].[ACC]=|InIdiom=Yes|RX=[DET]=|TokenType=Clit
-5	na	_	NOUN	CONJ	_	12	mod	_	AlignBegin=119677|AlignEnd=119839|ExtPos=SCONJ|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
+5	na	_	NOUN	CONJ	ExtPos=SCONJ	12	mod	_	AlignBegin=119677|AlignEnd=119839|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
 6	nuːn	_	PART	PTCL	Foreign=Yes	5	mod	_	AlignBegin=119839|AlignEnd=120162|GE=only|Gloss=only|RX=[PTCL].[BORR].[ARA]|TokenType=Stem
 7	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=120162|AlignEnd=120485|TokenType=Break
 8	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	9	det	_	AlignBegin=120485|AlignEnd=120614|GE=[DEF].[SG].[M]=|RX=[DET]=|TokenType=Clit
@@ -551,7 +551,7 @@
 13	=eːt	_	SCONJ	CONJ	Gender=Fem	16	mod@relcl	_	AlignBegin=121162|AlignEnd=121259|GE==[REL].[F]|InIdiom=Yes|RX==[CONJ]|TokenType=Clit
 14	/	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=121259|AlignEnd=121801|InIdiom=Yes|TokenType=Break
 15	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	16	det	_	AlignBegin=121801|AlignEnd=121904|GE=[DEF].[SG].[F].[ACC]=|InIdiom=Yes|RX=[DET]=|TokenType=Clit
-16	na	_	NOUN	CONJ	_	18	comp:obj	_	AlignBegin=121904|AlignEnd=122008|ExtPos=SCONJ|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
+16	na	_	NOUN	CONJ	ExtPos=SCONJ	18	comp:obj	_	AlignBegin=121904|AlignEnd=122008|GE=thing|Gloss=thing|Idiom=Yes|RX=[CONJ]|TokenType=Stem
 17	/	_	PUNCT	PUNCT	_	16	punct	_	AlignBegin=122008|AlignEnd=122894|TokenType=Break
 18	tikan	_	VERB	V1, IRG	Aspect=Perf|Gender=Fem|Number=Sing|VerbClass=1|Voice=Mid	0	root	_	AlignBegin=122894|AlignEnd=123132|GE=[3SG].[F]-know\[MID].[PFV]|Gloss=know|MGloss=3SG.F-know\MID.PFV|MSeg=ti-kan|RX=[PNG]-[V1].[DER].[IRG]|TokenType=Stem
 19	=heːb	_	PRON	PRO	Number=Sing|Person=1	18	comp:obj	_	AlignBegin=123132|AlignEnd=123251|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
