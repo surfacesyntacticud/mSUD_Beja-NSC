@@ -41,13 +41,13 @@
 3	biri	biri	VERB	V1	VerbClass=1	0	root	_	AlignBegin=5514|AlignEnd=5703|GE=have|nWord=2|RX=[V1].[IRG]|TypeToken=stem
 4	/	_	PUNCT	_	_	3	punct	_	AlignBegin=5703|AlignEnd=6083|GE=[/]|nWord=3|TokenType=Break
 
-# sent_id = BEJ_MV_NARR_06_foreigner_09-14
+# sent_id = BEJ_MV_NARR_06_foreigner_09-16
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_06_FOREIGNER.WAV
-# sent_timecode = 7011, 12172
-# phonetic_text = jhaːm / handi -i khiː i- sni =hoːn =hoːb // oːn oː= jhaːm / dir -a a- ni =hoːb / i= xawaːʤa -i =da //
-# text = jhaːm / handiː khiː isnihoːnhoːb //  oːn oːjhaːm / dira anihoːb / ixawaːʤajda //
-# text_en =  When we found a leopard on a tree, I said to the foreigner: "Kill this leopard!"
+# sent_timecode = 7011, 14674
+# phonetic_text = jhaːm / handi -i khiː i- sni =hoːn =hoːb // oːn oː= jhaːm / dir -a a- ni =hoːb / i= xawaːʤa -i =da // oː= jhaːm ani ka= a- dir i- d =heːb i- ni //
+# text = jhaːm / handiː khiː isnihoːnhoːb //  oːn oːjhaːm / dira anihoːb / ixawaːʤajda // oːjhaːm ani kaːdir idheːb ini //
+# text_en =  When we found a leopard on a tree, I said to the foreigner: "Kill this leopard!" he told me: "I won't kill the leopard!", he said.
 1	jhaːm	jhaːm	NOUN	N	Gender=Masc	7	subj	_	AlignBegin=7011|AlignEnd=7279|GE=leopard|nWord=1|RX=[SBJ].[N].[M]
 2	/	_	PUNCT	_	_	1	punct	_	AlignBegin=7279|AlignEnd=7547|GE=[/]|nWord=2|TokenType=Break
 3	handi	handi	NOUN	N	Gender=Masc	4	comp:aff	_	AlignBegin=7547|AlignEnd=7719|GE=tree|nWord=3|RX=[N].[M]
@@ -66,33 +66,25 @@
 16	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	15	subj:aff	_	AlignBegin=10308|AlignEnd=10419|GE=[IMP].[SG].[M]|nWord=11|RX=[TAM].[PNG]
 17	a-	_	PRON	PNG	Number=Sing|Person=1	18	subj:aff	_	AlignBegin=10419|AlignEnd=10493|GE=[1SG]|nWord=12|RX=[PNG]
 18	ni	ni	VERB	V1	VerbClass=1	19	comp	_	AlignBegin=10493|AlignEnd=10567|GE=say|nWord=12|RX=[V1].[IRG]|TypeToken=stem
-19	=hoːb	_	SCONJ	CONJ	_	0	mod	_	AlignBegin=10567|AlignEnd=10641|GE=when|nWord=12|RX=[CONJ]|TokenType=Clit
+19	=hoːb	_	SCONJ	CONJ	_	111	mod	_	AlignBegin=10567|AlignEnd=10641|GE=when|nWord=12|RX=[CONJ]|TokenType=Clit
 20	/	_	PUNCT	_	_	24	punct	_	AlignBegin=10641|AlignEnd=10862|GE=[/]|nWord=13|TokenType=Break
 21	i=	_	DET	DET	Definite=Def|Gender=Masc	22	det	_	AlignBegin=10862|AlignEnd=10972|GE=[DEF].[M]|nWord=14|RX=[DET]|TokenType=Clit
 22	xawaːʤa	xawaːʤa	NOUN	N	Foreign=Yes|Gender=Masc	23	comp:aff	_	AlignBegin=10972|AlignEnd=11082|GE=foreigner|nWord=14|RX=[N].[M].[BORR].[ARA]
 23	-i	_	ADP	CASE	Case=Gen	24	comp	_	AlignBegin=11082|AlignEnd=11192|GE=[GEN]|nWord=14|RX=[CASE]
 24	=da	_	ADP	POSTP	_	18	dislocated:obl	_	AlignBegin=11192|AlignEnd=11304|GE=[DIR]|nWord=14|RX=[POSTP]|TokenType=Clit
 25	//	_	PUNCT	_	_	19	punct	_	AlignBegin=11304|AlignEnd=11747|GE=[//]|nWord=15|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_06_foreigner_16-16
-# speaker_id = SP
-# sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_06_FOREIGNER.WAV
-# sent_timecode = 12173, 14674
-# phonetic_text = oː= jhaːm ani ka= a- dir i- d =heːb i- ni //
-# text = oːjhaːm ani kaːdir idheːb ini //
-# text_en =  he told me: "I won't kill the leopard!", he said.
-1	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=12173|AlignEnd=12332|GE=[DEF].[SG].[M].[ACC]|nWord=1|RX=[DET]|TokenType=Clit
-2	jhaːm	jhaːm	NOUN	N	Gender=Masc	6	comp:obj	_	AlignBegin=12332|AlignEnd=12491|GE=leopard|nWord=1|RX=[N].[M]
-3	ani	ani	PRON	PRO	Case=Nom|Number=Sing|Person=1	6	subj	_	AlignBegin=12491|AlignEnd=12809|GE=[1SG].[NOM]|nWord=2|RX=[SBJ].[PRO]
-4	ka=	_	PART	PTCL	Aspect=Imp	6	mod	_	AlignBegin=12809|AlignEnd=12915|GE=[NEG].[IPFV]|nWord=3|RX=[PTCL]|TokenType=Clit
-5	a-	_	PRON	PNG	Number=Sing|Person=1	6	subj:aff	_	AlignBegin=12915|AlignEnd=13021|GE=[1SG]|nWord=3|RX=[PNG]
-6	dir	dir	VERB	V1	VerbClass=1	8	parataxis:obj	_	AlignBegin=13021|AlignEnd=13127|GE=kill|nWord=3|RX=[V1]|TypeToken=stem
-7	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	8	subj:aff	_	AlignBegin=13127|AlignEnd=13233|GE=[3SG].[M]|nWord=4|RX=[PNG]
-8	d	d	VERB	V1	VerbClass=1	11	parataxis:obj	_	AlignBegin=13233|AlignEnd=13339|GE=say|nWord=4|RX=[V1].[IRG]|TypeToken=stem
-9	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	8	comp:obj	_	AlignBegin=13339|AlignEnd=13445|GE=[OBJ].[1SG]|nWord=4|RX=[PRO]|TokenType=Clit
-10	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	11	subj:aff	_	AlignBegin=13445|AlignEnd=13604|GE=[3SG].[M]|nWord=5|RX=[PNG]
-11	ni	ni	VERB	V1	VerbClass=1	0	root	_	AlignBegin=13604|AlignEnd=13763|GE=say|nWord=5|RX=[V1].[IRG]|TypeToken=stem
-12	//	_	PUNCT	_	_	11	punct	_	AlignBegin=13763|AlignEnd=14079|GE=[//]|nWord=6|TokenType=Break
+101	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	102	det	_	AlignBegin=12173|AlignEnd=12332|GE=[DEF].[SG].[M].[ACC]|nWord=1|RX=[DET]|TokenType=Clit
+102	jhaːm	jhaːm	NOUN	N	Gender=Masc	106	comp:obj	_	AlignBegin=12332|AlignEnd=12491|GE=leopard|nWord=1|RX=[N].[M]
+103	ani	ani	PRON	PRO	Case=Nom|Number=Sing|Person=1	106	subj	_	AlignBegin=12491|AlignEnd=12809|GE=[1SG].[NOM]|nWord=2|RX=[SBJ].[PRO]
+104	ka=	_	PART	PTCL	Aspect=Imp	106	mod	_	AlignBegin=12809|AlignEnd=12915|GE=[NEG].[IPFV]|nWord=3|RX=[PTCL]|TokenType=Clit
+105	a-	_	PRON	PNG	Number=Sing|Person=1	106	subj:aff	_	AlignBegin=12915|AlignEnd=13021|GE=[1SG]|nWord=3|RX=[PNG]
+106	dir	dir	VERB	V1	VerbClass=1	108	parataxis:obj	_	AlignBegin=13021|AlignEnd=13127|GE=kill|nWord=3|RX=[V1]|TypeToken=stem
+107	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	108	subj:aff	_	AlignBegin=13127|AlignEnd=13233|GE=[3SG].[M]|nWord=4|RX=[PNG]
+108	d	d	VERB	V1	VerbClass=1	111	parataxis:obj	_	AlignBegin=13233|AlignEnd=13339|GE=say|nWord=4|RX=[V1].[IRG]|TypeToken=stem
+109	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	108	comp:obj	_	AlignBegin=13339|AlignEnd=13445|GE=[OBJ].[1SG]|nWord=4|RX=[PRO]|TokenType=Clit
+110	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	111	subj:aff	_	AlignBegin=13445|AlignEnd=13604|GE=[3SG].[M]|nWord=5|RX=[PNG]
+111	ni	ni	VERB	V1	VerbClass=1	0	root	_	AlignBegin=13604|AlignEnd=13763|GE=say|nWord=5|RX=[V1].[IRG]|TypeToken=stem
+112	//	_	PUNCT	_	_	111	punct	_	AlignBegin=13763|AlignEnd=14079|GE=[//]|nWord=6|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_06_foreigner_18-26
 # speaker_id = SP
