@@ -166,7 +166,7 @@
 14	ini	_	VERB	V1, IRG	Aspect=Pfv|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=31210|AlignEnd=31429|GE=[3SG].[M]-say\[PFV]|Gloss=say|MGloss=3SG.M-say\PFV|MSeg=i-ni|RX=[PNG]-[V1].[IRG]|TokenType=Root
 15	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=31429|AlignEnd=31649|TokenType=Break
 16	mhaj	_	NUM	NUM	_	17	det:num	_	AlignBegin=31649|AlignEnd=31929|GE=three|Gloss=three|RX=[NUM]|TokenType=Root
-17	nafara	_	NOUN	N	Foreign=Yes|Gender=Masc|Number=Plur	22	dislocated	_	AlignBegin=31929|AlignEnd=32209|GE=person-[PL]|Gloss=person|MGloss=person-PL|MSeg=nafar-a|RX=[N].[M].[BORR].[ARA]|TokenType=Root
+17	nafara	_	NOUN	N	Gender=Masc|Number=Plur	22	dislocated	_	AlignBegin=31929|AlignEnd=32209|GE=person-[PL]|Gloss=person|MGloss=person-PL|MSeg=nafar-a|RX=[N].[M].[BORR].[ARA]|TokenType=Root
 18	nuːn	_	PART	PTCL	_	17	mod	_	AlignBegin=32209|AlignEnd=32489|GE=only|Gloss=only|RX=[PTCL]|TokenType=Root
 19	/	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=32489|AlignEnd=33247|TokenType=Break
 20	naː	_	NOUN	N	Gender=Fem	23	subj	_	AlignBegin=33247|AlignEnd=33441|GE=thing|Gloss=thing|RX=[SBJ].[N].[F]|TokenType=Root
@@ -460,7 +460,7 @@
 4	iraːnaj	_	INTJ	_	_	6	discourse	_	AlignBegin=92946|AlignEnd=93207|GE=gosh|Gloss=gosh|RX=[EXCL]|TokenType=Root
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=93207|AlignEnd=93619|TokenType=Break
 6	fidiga	_	VERB	V1	VerbClass=1	7	comp:aux	_	AlignBegin=93619|AlignEnd=94003|GE=untie-[CVB].[MNR]|Gloss=untie|MGloss=untie-CVB.MNR|MSeg=fidig-a|RX=[V1]|TokenType=Root
-7	dʔijaː	_	VERB	AUX, EMPH	_	9	comp:pred	_	AlignBegin=94003|AlignEnd=94195|GE=do-[CVB].[MNR]|Gloss=do|MGloss=do-CVB.MNR|MSeg=dʔi-jaː|RX=[AUX].[EMPH]-[PRF]|TokenType=Root
+7	dʔijaː	_	AUX	AUX, EMPH	_	9	comp:pred	_	AlignBegin=94003|AlignEnd=94195|GE=do-[CVB].[MNR]|Gloss=do|MGloss=do-CVB.MNR|MSeg=dʔi-jaː|RX=[AUX].[EMPH]-[PRF]|TokenType=Root
 8	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	7	det	_	AlignBegin=94195|AlignEnd=94291|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
 9	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop	0	root	_	AlignBegin=94291|AlignEnd=94387|GE==[COP].[1SG]|RX==[PRED].[N]|TokenType=Clit
 10	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=94387|AlignEnd=94772|TokenType=Break
