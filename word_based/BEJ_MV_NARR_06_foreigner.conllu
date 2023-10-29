@@ -187,24 +187,23 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_06_FOREIGNER.WAV
 # sent_timecode = 36708, 40245
 # phonetic_text = sagi mhiːn / ti= ʃarti -jaː mhaj =t koː =t =eː / i- dʔi i- hi =heːb /
-# text = sagi mhiːn / ti= ʃarti -jaː mhaj =t koː =t =eː / idʔi ihi =heːb /
+# text = sagi mhiːn / ti= ʃartijaː mhaj =t koː =t =eː / idʔi ihi =heːb /
 # text_en =  He drew for me all three lines in a remote place,
 1	sagi	sagi	ADJ	ADJ	_	2	mod	_	AlignBegin=36708|AlignEnd=36929|GE=far|nWord=1|RX=[ADJ]|TokenType=Root
-2	mhiːn	mhiːn	NOUN	N	Gender=Masc	13	comp:obl	_	AlignBegin=36929|AlignEnd=37150|GE=place|nWord=2|RX=[N].[M]|TokenType=Root
+2	mhiːn	mhiːn	NOUN	N	Gender=Masc	12	comp:obl	_	AlignBegin=36929|AlignEnd=37150|GE=place|nWord=2|RX=[N].[M]|TokenType=Root
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=37150|AlignEnd=37372|GE=[/]|nWord=3|TokenType=Break
 4	ti=	_	DET	DET	Definite=Def|Gender=Fem	5	det	_	AlignBegin=37372|AlignEnd=37491|GE=[DEF].[F]|nWord=4|RX=[DET]|TokenType=Clit
-5	ʃarti	ʃarti	NOUN	N	Gender=Fem	13	comp:obj	_	AlignBegin=37491|AlignEnd=37610|GE=line|nWord=4|RX=[N].[F]|TokenType=Root
-6	-jaː	_	PART	_	_	5	aff	_	AlignBegin=37610|AlignEnd=37728|GE=[PL]|nWord=4|TokenType=InflAff
-7	mhaj	mhaj	NUM	NUM	_	5	mod	_	AlignBegin=37728|AlignEnd=37906|GE=three|nWord=5|RX=[NUM]|TokenType=Root
-8	=t	_	DET	DET	Gender=Fem	7	det	_	AlignBegin=37906|AlignEnd=38084|GE=[INDF].[F]|nWord=5|RX=[DET]|TokenType=Clit
-9	koː	koː	ADJ	ADJ	_	7	mod	_	AlignBegin=38084|AlignEnd=38203|GE=all|nWord=6|RX=[ADJ]|TokenType=Root
-10	=t	_	DET	DET	Gender=Fem	9	det	_	AlignBegin=38203|AlignEnd=38322|GE=[INDF].[F]|nWord=6|RX=[DET]|TokenType=Clit
-11	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	9	comp:poss	_	AlignBegin=38322|AlignEnd=38440|GE=[POSS].[3PL].[ACC]|nWord=6|RX=[PRO]|TokenType=Clit
-12	/	_	PUNCT	_	_	5	punct	_	AlignBegin=38440|AlignEnd=38795|GE=[/]|nWord=7|TokenType=Break
-13	idʔi	dʔi	VERB	V1	Gender=Masc|Number=Sing|VerbClass=1	14	comp:aux	_	AlignBegin=38795|AlignEnd=39082|GE=[3SG].[M]do|MGloss=[3SG].[M]do|MSeg=i-dʔi|nWord=8|RX=[PNG][V1].[IRG]|TokenType=Root|TypeToken=stem
-14	ihi	hi	AUX	AUX.BENF	Gender=Masc|Number=Sing	0	root	_	AlignBegin=39082|AlignEnd=39274|GE=[3SG].[M]give|MGloss=[3SG].[M]give|MSeg=i-hi|nWord=9|RX=[PNG][AUX].[BENF]|TokenType=Root|TypeToken=stem
-15	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	14	comp:obj	_	AlignBegin=39274|AlignEnd=39369|GE=[OBJ].[1SG]|nWord=9|RX=[PRO]|TokenType=Clit
-16	/	_	PUNCT	_	_	15	punct	_	AlignBegin=39369|AlignEnd=39655|GE=[/]|nWord=10|TokenType=Break
+5	ʃartijaː	ʃarti	NOUN	N	Gender=Fem	12	comp:obj	_	AlignBegin=37491|AlignEnd=37728|GE=line[PL]|MGloss=line[PL]|MSeg=ʃarti-jaː|nWord=4|RX=[N].[F]|TokenType=Root
+6	mhaj	mhaj	NUM	NUM	_	5	mod	_	AlignBegin=37728|AlignEnd=37906|GE=three|nWord=5|RX=[NUM]|TokenType=Root
+7	=t	_	DET	DET	Gender=Fem	6	det	_	AlignBegin=37906|AlignEnd=38084|GE=[INDF].[F]|nWord=5|RX=[DET]|TokenType=Clit
+8	koː	koː	ADJ	ADJ	_	6	mod	_	AlignBegin=38084|AlignEnd=38203|GE=all|nWord=6|RX=[ADJ]|TokenType=Root
+9	=t	_	DET	DET	Gender=Fem	8	det	_	AlignBegin=38203|AlignEnd=38322|GE=[INDF].[F]|nWord=6|RX=[DET]|TokenType=Clit
+10	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	8	comp:poss	_	AlignBegin=38322|AlignEnd=38440|GE=[POSS].[3PL].[ACC]|nWord=6|RX=[PRO]|TokenType=Clit
+11	/	_	PUNCT	_	_	5	punct	_	AlignBegin=38440|AlignEnd=38795|GE=[/]|nWord=7|TokenType=Break
+12	idʔi	dʔi	VERB	V1	Gender=Masc|Number=Sing|VerbClass=1	13	comp:aux	_	AlignBegin=38795|AlignEnd=39082|GE=[3SG].[M]do|MGloss=[3SG].[M]do|MSeg=i-dʔi|nWord=8|RX=[PNG][V1].[IRG]|TokenType=Root|TypeToken=stem
+13	ihi	hi	AUX	AUX.BENF	Gender=Masc|Number=Sing	0	root	_	AlignBegin=39082|AlignEnd=39274|GE=[3SG].[M]give|MGloss=[3SG].[M]give|MSeg=i-hi|nWord=9|RX=[PNG][AUX].[BENF]|TokenType=Root|TypeToken=stem
+14	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	13	comp:obj	_	AlignBegin=39274|AlignEnd=39369|GE=[OBJ].[1SG]|nWord=9|RX=[PRO]|TokenType=Clit
+15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=39369|AlignEnd=39655|GE=[/]|nWord=10|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_06_foreigner_42-49
 # speaker_id = SP
@@ -275,7 +274,7 @@
 7	/	_	PUNCT	_	_	6	punct	_	AlignBegin=54732|AlignEnd=55050|GE=[/]|nWord=6|TokenType=Break
 8	i=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=55050|AlignEnd=55170|GE=[DEF].[M]|nWord=7|RX=[DET]|TokenType=Clit
 9	nafs	nafs	PRON	PRO	Reflex=Yes	11	subj	_	AlignBegin=55170|AlignEnd=55290|GE=self|nWord=7|RX=[SBJ].[PRO].[REFL]|TokenType=Root
-10	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	9	aff:poss	_	AlignBegin=55290|AlignEnd=55410|GE=[POSS].[1SG].[NOM]|nWord=7|RX=[PRO]|TokenType=Clit
+10	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	9	mod:poss	_	AlignBegin=55290|AlignEnd=55410|GE=[POSS].[1SG].[NOM]|nWord=7|RX=[PRO]|TokenType=Clit
 11	hasama	hasam	NOUN	V2	VerbClass=2	13	conj:aux	_	AlignBegin=55410|AlignEnd=55650|GE=go_past[CVB].[MNR]|MGloss=go_past[CVB].[MNR]|MSeg=hasam-a|nWord=8|RX=[V2][PRF]|TokenType=Root
 12	=b	_	DET	DET	Case=Acc|Gender=Masc	11	det	_	AlignBegin=55650|AlignEnd=55770|GE=[INDF].[M].[ACC]|nWord=8|RX=[DET]|TokenType=Clit
 13	akajeː	aka	NOUN	AUX	Aspect=Perf	14	comp:aux	_	AlignBegin=55770|AlignEnd=56130|GE=become[CVB].[SMLT]|MGloss=become[CVB].[SMLT]|MSeg=aka-jeː|nWord=9|RX=[AUX].[PRF]|TokenType=Root

@@ -222,7 +222,7 @@
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=37150|AlignEnd=37372|GE=[/]|nWord=3|TokenType=Break
 4	ti=	_	DET	DET	Definite=Def|Gender=Fem	5	det	_	AlignBegin=37372|AlignEnd=37491|GE=[DEF].[F]|nWord=4|RX=[DET]|TokenType=Clit
 5	ʃarti	ʃarti	NOUN	N	Gender=Fem	14	comp:obj	_	AlignBegin=37491|AlignEnd=37610|GE=line|nWord=4|RX=[N].[F]|TokenType=Root
-6	-jaː	_	PART	_	_	5	aff	_	AlignBegin=37610|AlignEnd=37728|GE=[PL]|nWord=4|TokenType=InflAff
+6	-jaː	_	PART	_	_	5	det/m	_	AlignBegin=37610|AlignEnd=37728|GE=[PL]|nWord=4|TokenType=InflAff
 7	mhaj	mhaj	NUM	NUM	_	5	mod	_	AlignBegin=37728|AlignEnd=37906|GE=three|nWord=5|RX=[NUM]|TokenType=Root
 8	=t	_	DET	DET	Gender=Fem	7	det	_	AlignBegin=37906|AlignEnd=38084|GE=[INDF].[F]|nWord=5|RX=[DET]|TokenType=Clit
 9	koː	koː	ADJ	ADJ	_	7	mod	_	AlignBegin=38084|AlignEnd=38203|GE=all|nWord=6|RX=[ADJ]|TokenType=Root
@@ -312,7 +312,7 @@
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=54732|AlignEnd=55050|GE=[/]|nWord=6|TokenType=Break
 10	i=	_	DET	DET	Definite=Def|Gender=Masc	11	det	_	AlignBegin=55050|AlignEnd=55170|GE=[DEF].[M]|nWord=7|RX=[DET]|TokenType=Clit
 11	nafs	nafs	PRON	PRO	Reflex=Yes	13	subj	_	AlignBegin=55170|AlignEnd=55290|GE=self|nWord=7|RX=[SBJ].[PRO].[REFL]|TokenType=Root
-12	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	11	aff:poss	_	AlignBegin=55290|AlignEnd=55410|GE=[POSS].[1SG].[NOM]|nWord=7|RX=[PRO]|TokenType=Clit
+12	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	11	mod:poss	_	AlignBegin=55290|AlignEnd=55410|GE=[POSS].[1SG].[NOM]|nWord=7|RX=[PRO]|TokenType=Clit
 13	hasam	hasam	VERB	V2	VerbClass=2	14	comp/m	_	AlignBegin=55410|AlignEnd=55530|GE=go_past|nWord=8|RX=[V2]|TokenType=Root
 14	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	16	conj:aux	_	AlignBegin=55530|AlignEnd=55650|DerPos=NOUN|GE=[CVB].[MNR]|nWord=8|RX=[PRF]|TokenType=DerAff
 15	=b	_	DET	DET	Case=Acc|Gender=Masc	14	det	_	AlignBegin=55650|AlignEnd=55770|GE=[INDF].[M].[ACC]|nWord=8|RX=[DET]|TokenType=Clit
