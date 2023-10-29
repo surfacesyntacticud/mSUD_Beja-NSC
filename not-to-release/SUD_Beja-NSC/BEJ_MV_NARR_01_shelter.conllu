@@ -108,9 +108,9 @@
 # text_en = "I sheltered for a long time and  when thist rain decreased slowly, a man came towards me", he said.
 # phonetic_text = moːkeː moːkeː moːkeː uːn uːbiri / diːseːt ʔitjanhoːb // tak eːjaheːb ini //
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
-1	moːkeː	_	NOUN	V1	VerbClass=1	2	conj:redup	_	AlignBegin=23859|AlignEnd=24177|GE=take_shelter\[INT]-[CVB].[SMLT]|Gloss=take_shelter|MGloss=take_shelter\INT-CVB.SMLT|MSeg=moːk-eː|RX=[V1].[DER]|TokenType=Root
-2	moːkeː	_	NOUN	V1	VerbClass=1	3	conj:redup	_	AlignBegin=24177|AlignEnd=24495|GE=take_shelter\[INT]-[CVB].[SMLT]|Gloss=take_shelter|MGloss=take_shelter\INT-CVB.SMLT|MSeg=moːk-eː|RX=[V1].[DER]|TokenType=Root
-3	moːkeː	_	NOUN	V1	VerbClass=1	9	mod	_	AlignBegin=24495|AlignEnd=24813|GE=take_shelter\[INT]-[CVB].[SMLT]|Gloss=take_shelter|MGloss=take_shelter\INT-CVB.SMLT|MSeg=moːk-eː|RX=[V1].[DER]|TokenType=Root
+1	moːkeː	_	VERB	V1	VerbClass=1	2	conj:redup	_	AlignBegin=23859|AlignEnd=24177|GE=take_shelter\[INT]-[CVB].[SMLT]|Gloss=take_shelter|MGloss=take_shelter\INT-CVB.SMLT|MSeg=moːk-eː|RX=[V1].[DER]|TokenType=Root
+2	moːkeː	_	VERB	V1	VerbClass=1	3	conj:redup	_	AlignBegin=24177|AlignEnd=24495|GE=take_shelter\[INT]-[CVB].[SMLT]|Gloss=take_shelter|MGloss=take_shelter\INT-CVB.SMLT|MSeg=moːk-eː|RX=[V1].[DER]|TokenType=Root
+3	moːkeː	_	VERB	V1	VerbClass=1	9	mod	_	AlignBegin=24495|AlignEnd=24813|GE=take_shelter\[INT]-[CVB].[SMLT]|Gloss=take_shelter|MGloss=take_shelter\INT-CVB.SMLT|MSeg=moːk-eː|RX=[V1].[DER]|TokenType=Root
 4	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	AlignBegin=24813|AlignEnd=25131|GE=[PROX].[SG].[M].[NOM]|RX=[DEM]|TokenType=Root
 5	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	det	_	AlignBegin=25131|AlignEnd=25290|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 6	biri	_	NOUN	N	Gender=Masc	9	subj	_	AlignBegin=25290|AlignEnd=25449|GE=rain|Gloss=rain|RX=[SBJ].[N].[M]|TokenType=Root
@@ -300,7 +300,7 @@
 4	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=65774|AlignEnd=66284|TokenType=Break
 5	doːr	_	NOUN	N	ExtPos=ADV|Gender=Masc	7	mod	_	AlignBegin=66284|AlignEnd=66611|GE=time|Gloss=time|Idiom=Yes|RX=[N].[M]|TokenType=Root
 6	han	_	PART	PTCL	_	5	mod	_	AlignBegin=66611|AlignEnd=66939|GE=also|Gloss=also|InIdiom=Yes|RX=[PTCL].[FOC]|TokenType=Root
-7	kanaː	_	NOUN	V1, IRG	VerbClass=1|Voice=Mid	10	comp:aux	_	AlignBegin=66939|AlignEnd=67157|GE=know\[MID]-[CVB].[MNR]|Gloss=know|MGloss=know\MID-CVB.MNR|MSeg=kan-aː|RX=[V1].[DER].[IRG]-[PRF]|TokenType=Root
+7	kanaː	_	VERB	V1, IRG	VerbClass=1|Voice=Mid	10	comp:aux	_	AlignBegin=66939|AlignEnd=67157|GE=know\[MID]-[CVB].[MNR]|Gloss=know|MGloss=know\MID-CVB.MNR|MSeg=kan-aː|RX=[V1].[DER].[IRG]-[PRF]|TokenType=Root
 8	=ji	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	7	comp:obj	_	AlignBegin=67157|AlignEnd=67266|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
 9	ki=	_	PART	PTCL, NEG	Aspect=Imp|Polarity=Neg	10	mod	_	AlignBegin=67266|AlignEnd=67375|GE=[NEG].[IPFV]=|RX=[PTCL]=|TokenType=Clit
 10	iki	_	AUX	AUX	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	AlignBegin=67375|AlignEnd=67594|GE=[3SG].[M]-become\[PFV]|Gloss=become|MGloss=3SG.M-become\PFV|MSeg=i-ki|RX=[PNG]-[AUX].[PRF]|TokenType=Root
@@ -404,9 +404,9 @@
 # text_en = I remained seated for a long time (against my will, leisurely), the rain was dripping, and  when I heard footsteps which were making noise in the rain water, when I leaned down and looked,  when I saw a girl who has a fringe in front of her and hair behind her walking towards me,  I waited for her", he said.
 # phonetic_text = ameːsasʔeː ameːsasʔeː ameːsasʔeː / uːbiri ʈaʈakʷi / ijameːb // jiʔoːbiri naːjiːb // kaɖawi mijʔat amaːsiwhoːb // anʔa atirt aʃibibhoːb // ʔoːt / suːrisi / suːfat hoːj theːjeːt harʔiːsi / hamoːt hoːj hiːneːt / baːjiheːb hiːreːreː rhanhoːb / ahagit ini //
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
-1	ameːsa~sʔeː	_	NOUN	V1	VerbClass=1|Voice=Mid	2	conj:redup	_	AlignBegin=85492|AlignEnd=86058|GE=[PASS].[INT]-[PLAC]~sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=PASS.INT-PLAC~sit\MID-CVB.SMLT|MSeg=ameː-sa~sʔ-eː|RX=[V1].[DER]-[V1].[DER]|TokenType=Root
-2	ameːsa~sʔeː	_	NOUN	V1	VerbClass=1|Voice=Mid	3	conj:redup	_	AlignBegin=86058|AlignEnd=86625|GE=[PASS].[INT]-[PLAC]~sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=PASS.INT-PLAC~sit\MID-CVB.SMLT|MSeg=ameː-sa~sʔ-eː|RX=[V1].[DER]-[V1].[DER]|TokenType=Root
-3	ameːsa~sʔeː	_	NOUN	V1	VerbClass=1|Voice=Mid	7	mod	_	AlignBegin=86625|AlignEnd=87192|GE=[PASS].[INT]-[PLAC]~sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=PASS.INT-PLAC~sit\MID-CVB.SMLT|MSeg=ameː-sa~sʔ-eː|RX=[V1].[DER]-[V1].[DER]|TokenType=Root
+1	ameːsa~sʔeː	_	VERB	V1	VerbClass=1|Voice=Mid	2	conj:redup	_	AlignBegin=85492|AlignEnd=86058|GE=[PASS].[INT]-[PLAC]~sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=PASS.INT-PLAC~sit\MID-CVB.SMLT|MSeg=ameː-sa~sʔ-eː|RX=[V1].[DER]-[V1].[DER]|TokenType=Root
+2	ameːsa~sʔeː	_	VERB	V1	VerbClass=1|Voice=Mid	3	conj:redup	_	AlignBegin=86058|AlignEnd=86625|GE=[PASS].[INT]-[PLAC]~sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=PASS.INT-PLAC~sit\MID-CVB.SMLT|MSeg=ameː-sa~sʔ-eː|RX=[V1].[DER]-[V1].[DER]|TokenType=Root
+3	ameːsa~sʔeː	_	VERB	V1	VerbClass=1|Voice=Mid	7	mod	_	AlignBegin=86625|AlignEnd=87192|GE=[PASS].[INT]-[PLAC]~sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=PASS.INT-PLAC~sit\MID-CVB.SMLT|MSeg=ameː-sa~sʔ-eː|RX=[V1].[DER]-[V1].[DER]|TokenType=Root
 4	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=87192|AlignEnd=88535|TokenType=Break
 5	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	det	_	AlignBegin=88535|AlignEnd=88719|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 6	biri	_	NOUN	N	Gender=Masc	7	subj	_	AlignBegin=88719|AlignEnd=88904|GE=rain|Gloss=rain|RX=[SBJ].[N].[M]|TokenType=Root
@@ -471,7 +471,7 @@
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=105512|AlignEnd=105605|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
 2	mhiːn	_	NOUN	N	Gender=Masc	4	comp:obj	_	AlignBegin=105605|AlignEnd=105698|GE=place|Gloss=place|RX=[N].[M]|TokenType=Root
 3	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	2	mod:poss	_	AlignBegin=105698|AlignEnd=105791|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
-4	sʔeː	_	NOUN	V1	VerbClass=1|Voice=Mid	17	mod	_	AlignBegin=105791|AlignEnd=106070|GE=sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=sit\MID-CVB.SMLT|MSeg=sʔ-eː|RX=[V1].[DER]|TokenType=Root
+4	sʔeː	_	VERB	V1	VerbClass=1|Voice=Mid	17	mod	_	AlignBegin=105791|AlignEnd=106070|GE=sit\[MID]-[CVB].[SMLT]|Gloss=sit|MGloss=sit\MID-CVB.SMLT|MSeg=sʔ-eː|RX=[V1].[DER]|TokenType=Root
 5	//	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=106070|AlignEnd=107185|TokenType=Break
 6	koːba	_	NOUN	N	Gender=Fem	8	comp:obj	_	AlignBegin=107185|AlignEnd=107330|GE=container|Gloss=container|RX=[N].[F]|TokenType=Root
 7	=t	_	DET	DET	Definite=Ind|Gender=Fem	6	det	_	AlignBegin=107330|AlignEnd=107476|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
