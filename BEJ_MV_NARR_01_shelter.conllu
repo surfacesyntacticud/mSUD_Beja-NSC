@@ -454,7 +454,7 @@
 # phonetic_text = askʷiː agʷoːjt // hoːj ɖaːbjaj iːha //
 # sound_url = https://api.nakala.fr/data/10.34847/nkl.d67a57yq/883c5f613e52b14063d6c2a5541417cab054595c
 1	a-	_	PRON	PNG	Number=Sing|Person=1	2	subj/m	_	AlignBegin=81414|AlignEnd=81535|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
-2	skʷi	_	VERB	V1	Aspect=Perf|VerbClass=1	5	parataxis:coord	_	AlignBegin=81535|AlignEnd=81656|GE=pursue\[PFV]|Gloss=pursue|RX=[V1]|TokenType=Root
+2	skʷi	_	VERB	V1	Aspect=Perf|VerbClass=1	5	parataxis:conj	_	AlignBegin=81535|AlignEnd=81656|GE=pursue\[PFV]|Gloss=pursue|RX=[V1]|TokenType=Root
 3	-i	_	PART	NP	_	2	unk/m	_	AlignBegin=81656|AlignEnd=81778|GE=-[L]|ProperName=-L|TokenType=InflAff
 4	a-	_	PRON	PNG	Number=Sing|Person=1	5	subj/m	_	AlignBegin=81778|AlignEnd=81899|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
 5	gʷoːj	_	VERB	V1	Aspect=Perf|VerbClass=1	9	conj:coord	_	AlignBegin=81899|AlignEnd=82021|GE=be_unable\[INT].[PFV]|Gloss=be_unable|RX=[V1].[DER]|TokenType=Root
@@ -713,7 +713,7 @@
 3	ʃaː	_	NOUN	N	Gender=Fem	6	comp:obj	_	AlignBegin=128566|AlignEnd=128667|GE=meat|Gloss=meat|RX=[N].[F]|TokenType=Root
 4	=t	_	DET	DET	Definite=Ind|Gender=Fem	3	det	_	AlignBegin=128667|AlignEnd=128768|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
 5	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	3	mod:poss	_	AlignBegin=128768|AlignEnd=128869|GE==[POSS].[1PL].[ACC]|RX==[PRO]|TokenType=Clit
-6	tam	_	VERB	V2	VerbClass=2	10	parataxis:coord	_	AlignBegin=128869|AlignEnd=129071|GE=eat|Gloss=eat|RX=[V2]|TokenType=Root
+6	tam	_	VERB	V2	VerbClass=2	10	parataxis:conj	_	AlignBegin=128869|AlignEnd=129071|GE=eat|Gloss=eat|RX=[V2]|TokenType=Root
 7	-na	_	PRON	TAM, PNG	Aspect=Pfv|Number=Plur|Person=1	6	subj/m	_	AlignBegin=129071|AlignEnd=129273|GE=-[PFV].[1PL]|RX=-[TAM].[PNG]|TokenType=InflAff
 8	ti=	_	DET	DET	Definite=Def|Gender=Fem	9	det	_	AlignBegin=129273|AlignEnd=129475|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
 9	i̠ːjʔaː	_	NOUN	N	Gender=Fem|Number=Plur	10	comp:obj	_	AlignBegin=129475|AlignEnd=129677|GE=milk|Gloss=milk|RX=[N].[PL].[F]|TokenType=Root
@@ -788,7 +788,7 @@
 6	iraːnaj	_	INTJ	_	_	4	discourse	_	AlignBegin=137706|AlignEnd=138137|GE=gosh|Gloss=gosh|RX=[EXCL]|TokenType=Root
 7	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	det	_	AlignBegin=138137|AlignEnd=138352|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 8	tak	_	NOUN	N	Gender=Masc	11	subj	_	AlignBegin=138352|AlignEnd=138568|GE=man|Gloss=man|RX=[SBJ].[N].[M]|TokenType=Root
-9	ʔaraːw	_	NOUN	N	_	11	comp:obj	_	AlignBegin=138568|AlignEnd=138784|GE=friend|Gloss=friend|RX=[SBJ].[N]|TokenType=Root
+9	ʔaraːw	_	NOUN	N	_	11	comp:pred	_	AlignBegin=138568|AlignEnd=138784|GE=friend|Gloss=friend|RX=[SBJ].[N]|TokenType=Root
 10	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	9	mod:poss	_	AlignBegin=138784|AlignEnd=139000|GE==[POSS].[1SG].[NOM]|RX==[PRO]|TokenType=Clit
 11	aka	_	VERB	V1, IRG	VerbClass=1	12	comp/m	_	AlignBegin=139000|AlignEnd=139215|GE=become|Gloss=become|RX=[V1].[IRG]|TokenType=Root
 12	-jeː	_	AUX	CVB	VerbForm=Conv	15	comp:obj	_	AlignBegin=139215|AlignEnd=139431|DerPos=VERB|GE=-[CVB].[SMLT]|TokenType=DerAff
