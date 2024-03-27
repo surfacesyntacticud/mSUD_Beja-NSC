@@ -44,7 +44,7 @@
 21	//	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=7970|AlignEnd=9063|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_01_shelter_015-024
-# text = mhiːn / imuːki =eːb oː= bri hariweː / liːlaːwi geːb // kirrajaː =b iːktiːna i= bʔaɖ isni =joː =hoːb / i= mbʔaɖi whiː / asʔa ini //
+# text = mhiːn / imuːki =eːb oː= bri hariweː / liːlaːwi geːb // kirrajaː =b iːktiːn =i bʔaɖ isni =joː =hoːb / i= mbʔaɖi whiː / asʔa ini //
 # text_wb = mhiːn / imuːki =eːb oː= biri hariweː / liːlaːwi geːb // kirrajaː =b iːktiːna i= bʔaɖ isini =joː =hoːb / i= mbʔaɖi whiː / asʔa ini //
 # text_en = Looking for a place where to take refuge from the rain,  when I found the wrapped straw mats (a straw tent) next to a rock, I sat down under the tent", he said.
 # phonetic_text = mhiːn / imuːkjeːb oːbiri harweː / liːlaːwi geːb // kirrajaːb iːktiːna ibʔaɖ isinijoːhoːb / imbʔaɖi whiː / asʔa ini //
@@ -62,8 +62,8 @@
 11	//	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=12836|AlignEnd=13350|TokenType=Break
 12	kirrajaː	_	VERB	V1	VerbClass=1	14	comp:aux	_	AlignBegin=13350|AlignEnd=13604|GE=cover-[CVB].[MNR]|Gloss=cover|MGloss=cover-CVB.MNR|MSeg=kirra-jaː|RX=[V1]-[PRF]|TokenType=Root
 13	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	12	det	_	AlignBegin=13604|AlignEnd=13732|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
-14	iːktiːna	_	AUX	AUX	Aspect=Perf|Number=Plur	16	mod@relcl	_	AlignBegin=13732|AlignEnd=14115|GE=[3]-become\[AOR]-[PL]|Gloss=become|MGloss=3-become\AOR-PL|MSeg=iː-ktiː-na|RX=[PNG]-[AUX].[PRF]-[PNG]|TokenType=Root
-15	i=	_	DET	DET	Definite=Def|Gender=Masc	16	det	_	AlignBegin=14115|AlignEnd=14306|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
+14	iːktiːn	_	AUX	AUX	Aspect=Perf|Number=Plur	15	comp:obj	_	AlignBegin=13732|AlignEnd=14115|GE=[3]-become\[AOR]-[PL]|Gloss=become|MGloss=3-become\AOR-PL|MSeg=iː-ktiː-n|RX=[PNG]-[AUX].[PRF]-[PNG]|TokenType=Root
+15	=i	_	SCONJ	PNG	_	16	mod@relcl	_	AlignBegin=13987|AlignEnd=14115|GE==[REL]|RX==[CONJ]|TokenType=Clit
 16	bʔaɖ	_	NOUN	N	Gender=Masc	17	subj	_	AlignBegin=14306|AlignEnd=14497|GE=mat|Gloss=mat|RX=[N].[M]|TokenType=Root
 17	isni	_	VERB	V1	Aspect=Pfv|Gender=Masc|Number=Sing|VerbClass=1	19	comp	_	AlignBegin=14497|AlignEnd=14688|GE=[3SG].[M]-wait\[PFV]|Gloss=wait|MGloss=3SG.M-wait\PFV|MSeg=i-sni|RX=[PNG]-[V1]|TokenType=Root
 18	=joː	_	PRON	PRO	Number=Sing|Person=1	17	comp:obj	_	AlignBegin=14688|AlignEnd=14784|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
@@ -435,8 +435,8 @@
 13	amaːsiw	_	VERB	V1	Aspect=Pfv|Number=Sing|VerbClass=1	14	comp	_	AlignBegin=92925|AlignEnd=93219|GE=[1SG]-hear\[INT].[PFV]|Gloss=hear|MGloss=1SG-hear\INT.PFV|MSeg=a-maːsiw|RX=[PNG]-[V1].[DER]|TokenType=Root
 14	=hoːb	_	SCONJ	CONJ	_	20	mod	_	AlignBegin=93219|AlignEnd=93367|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 15	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=93367|AlignEnd=94454|TokenType=Break
-16	anʔa	_	VERB	V1, IRG	Aspect=Pfv|Number=Sing|VerbClass=1	17	comp:aux	_	AlignBegin=94454|AlignEnd=94802|GE=[1SG]-be_down\[PFV]|Gloss=be_down|MGloss=1SG-be_down\PFV|MSeg=a-nʔa|RX=[PNG]-[V1].[IRG]|TokenType=Root
-17	atir	_	VERB	V1	Aspect=Perf|Number=Sing|VerbClass=1	20	conj:coord	_	AlignBegin=94802|AlignEnd=95034|GE=[1SG]-lean\[PFV]|Gloss=lean|MGloss=1SG-lean\PFV|MSeg=a-tir|RX=[PNG]-[V1]|TokenType=Root
+16	anʔa	_	AUX	V1, IRG	Aspect=Pfv|Number=Sing|VerbClass=1	19	conj:coord	_	AlignBegin=94454|AlignEnd=94802|GE=[1SG]-be_down\[PFV]|Gloss=be_down|MGloss=1SG-be_down\PFV|MSeg=a-nʔa|RX=[PNG]-[AUX].[DIR]|TokenType=Root
+17	atir	_	VERB	V1	Aspect=Perf|Number=Sing|VerbClass=1	16	comp:aux	_	AlignBegin=94802|AlignEnd=95034|GE=[1SG]-lean\[PFV]|Gloss=lean|MGloss=1SG-lean\PFV|MSeg=a-tir|RX=[PNG]-[V1]|TokenType=Root
 18	=t	_	CCONJ	CCONJ	_	17	cc	_	AlignBegin=95034|AlignEnd=95151|GE==[COORD]|RX==[CONJ]|TokenType=Clit
 19	aʃibib	_	VERB	V1	Aspect=Pfv|Number=Sing|VerbClass=1	20	comp:obj	_	AlignBegin=95151|AlignEnd=95383|GE=[1SG]-look\[PFV]|Gloss=look|MGloss=1SG-look\PFV|MSeg=a-ʃibib|RX=[PNG]-[V1]|TokenType=Root
 20	=hoːb	_	SCONJ	CONJ	_	45	conj:coord	_	AlignBegin=95383|AlignEnd=95500|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit

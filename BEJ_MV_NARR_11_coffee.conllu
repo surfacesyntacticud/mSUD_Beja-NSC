@@ -117,8 +117,8 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_11_COFFEE.WAV
 # sent_timecode = 16991, 24022
 # phonetic_text = i= finʤan mhaj / koː =jeː ʃaw~waw -iːtiːt i= findikʷ =iːb gid -tiːt /  i- nʈhiːm eːn ifi# i= finʤan =eː ʤuwwaː =b //
-# text = ifinʤan mhaj / koːjeː ʃawwawiːtiːt ifindikʷiːb gidtiːt / inʈhiːm eːn ifi# ifinʤaneː ʤuwwaːb //
-# text_en =  He gathers all three cups and throws them into the mortar, and and he grinds his cups inside the mortar, they said.
+# text = i= finʤan mhaj / koː =jeː ʃaw~waw -iːtiːt i= findikʷ =iːb gid -tiːt / i- nʈhiːm eːn ifi# i= finʤan =eː ʤuwwaːb //
+# text_en =  He gathers all three cups and throws them into the mortar, and and he grinds, they said, er, his cups inside.
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=16991|AlignEnd=17113|GE=[DEF].[M]|nWord=1|RX=[DET]|TokenType=Clit
 2	finʤan	finʤan	NOUN	N	Gender=Masc	7	comp:obj	_	AlignBegin=17113|AlignEnd=17234|GE=cup|nWord=1|RX=[N].[M]|TokenType=Root
 3	mhaj	mhaj	NUM	NUM	_	2	mod	_	AlignBegin=17234|AlignEnd=17477|GE=three|nWord=2|RX=[NUM]|TokenType=Root
@@ -140,16 +140,15 @@
 19	i=	_	DET	DET	Definite=Def|Gender=Masc	20	det	_	AlignBegin=21931|AlignEnd=22058|GE=[DEF].[M]|nWord=13|RX=[DET]|TokenType=Clit
 20	finʤan	finʤan	NOUN	N	Gender=Masc	16	comp:obj	_	AlignBegin=22058|AlignEnd=22185|GE=cup|nWord=13|RX=[N].[M]|TokenType=Root
 21	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	20	mod:poss	_	AlignBegin=22185|AlignEnd=22313|GE=[POSS].[3PL].[ACC]|nWord=13|RX=[PRO]|TokenType=Clit
-22	ʤuwwaː	ʤuwwaː	ADP	POSTP	_	16	comp:obl	_	AlignBegin=22313|AlignEnd=22504|GE=inside|nWord=14|RX=[POSTP].[BORR].[ARA]|TokenType=Root
-23	=b	_	DET	DET	Case=Acc|Gender=Masc	22	det	_	AlignBegin=22504|AlignEnd=22695|GE=[INDF].[M].[ACC]|nWord=14|RX=[DET]|TokenType=Clit
-24	//	_	PUNCT	_	_	16	punct	_	AlignBegin=22695|AlignEnd=23078|GE=[//]|nWord=15|TokenType=Break
+22	ʤuwwaːb	ʤuwwaːb	ADV	POSTP	_	16	mod	_	AlignBegin=22313|AlignEnd=22504|GE=inside|nWord=14|RX=[ADV].[BORR].[ARA]|TokenType=Root
+23	//	_	PUNCT	_	_	16	punct	_	AlignBegin=22695|AlignEnd=23078|GE=[//]|nWord=15|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_11_coffee_25-31
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_11_COFFEE.WAV
 # sent_timecode = 24022, 31461
 # phonetic_text = mali -a muːna -i geːb gʷʔa -a i- ndi eːn / oː= buːn oːn /  tʔa /  i= tʔa gʷʔa -taːn =eːb i- kati =jeːk //
-# text = malja muːnaj geːb gʷʔaː indi eːn / oːbuːn oːn / tʔa / itʔa gʷʔataːneːb ikatjeːk //
+# text = mali -a muːna -i geːb gʷʔa -a i- ndi eːn / oː= buːn oːn / tʔa / tʔa gʷʔa -taːn =eːb i- kati =jeːk //
 # text_en =  "Next time, drink with Mouna!" he says, they said, if it is this coffee that you would drink!"
 1	mali	mali	PART	PTCL	_	6	comp:obl	_	AlignBegin=24022|AlignEnd=24178|GE=two|nWord=1|RX=[PTCL]|TokenType=Root
 2	-a	_	NUM	NUM	_	1	mod	_	AlignBegin=24178|AlignEnd=24335|GE=[ORD]|NumType=Ord|nWord=1|RX=[NUM]|TokenType=InflAff
@@ -161,22 +160,21 @@
 8	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	9	subj/m	_	AlignBegin=25274|AlignEnd=25430|GE=[3SG].[M]|nWord=5|RX=[PNG]|TokenType=InflAff
 9	ndi	ndi	VERB	V1	Aspect=Ipfv|VerbClass=1	0	root	_	AlignBegin=25430|AlignEnd=25587|GE=say\IPFV|nWord=5|RX=[V1].[IRG]|TokenType=Root
 10	eːn	eːn	VERB	V1	Aspect=Pfv|Number=Plur|Person=3|VerbClass=1	9	discourse	_	AlignBegin=25587|AlignEnd=25900|GE=say\PFV.3PL|nWord=6|RX=[V1].[IRG]|TokenType=Root
-11	/	_	PUNCT	_	_	25	punct	_	AlignBegin=25900|AlignEnd=26214|GE=[/]|nWord=7|TokenType=Break
+11	/	_	PUNCT	_	_	24	punct	_	AlignBegin=25900|AlignEnd=26214|GE=[/]|nWord=7|TokenType=Break
 12	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	det	_	AlignBegin=26214|AlignEnd=26330|GE=[DEF].[SG].[M].[ACC]|nWord=8|RX=[DET]|TokenType=Clit
-13	buːn	buːn	NOUN	N	Gender=Masc	24	comp:pred	_	AlignBegin=26330|AlignEnd=26445|GE=coffee|nWord=8|RX=[N].[M]|TokenType=Root
+13	buːn	buːn	NOUN	N	Gender=Masc	23	comp:pred	_	AlignBegin=26330|AlignEnd=26445|GE=coffee|nWord=8|RX=[N].[M]|TokenType=Root
 14	oːn	oːn	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	AlignBegin=26445|AlignEnd=26676|Deixis=Prox|GE=[PROX].[SG].[M].[ACC]|nWord=9|RX=[DEM]|TokenType=Root
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=26676|AlignEnd=26908|GE=[/]|nWord=10|TokenType=Break
-16	tʔa	tʔa	PART	PTCL	_	20	mod	_	AlignBegin=27430|AlignEnd=27596|GE=now|nWord=12|RX=[PTCL]|TokenType=Root
+16	tʔa	tʔa	PART	PTCL	_	19	mod	_	AlignBegin=27430|AlignEnd=27596|GE=now|nWord=12|RX=[PTCL]|TokenType=Root
 17	/	_	PUNCT	_	_	16	punct	_	AlignBegin=27596|AlignEnd=27763|GE=[/]|nWord=13|TokenType=Break
-18	i=	_	DET	DET	Definite=Def|Gender=Masc	19	det	_	AlignBegin=29504|AlignEnd=29688|GE=[DEF].[M]|nWord=15|RX=[DET]|TokenType=Clit
-19	tʔa	tʔa	PART	PTCL	_	16	conj:dicto	_	AlignBegin=29688|AlignEnd=29872|GE=now|nWord=15|RX=[PTCL]|TokenType=Root
-20	gʷʔa	gʷʔa	VERB	V2	VerbClass=2	22	comp	_	AlignBegin=29872|AlignEnd=29995|GE=drink|nWord=16|RX=[V2]|TokenType=Root
-21	-taːn	_	PRON	TAM.PNG	Aspect=Pfv|Number=Plur|Person=2	20	subj/m	_	AlignBegin=29995|AlignEnd=30118|GE=[PFV].[2PL]|nWord=16|RX=[TAM].[PNG]|TokenType=InflAff
-22	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|Number=Sing|PronType=Rel	13	mod@relcl	_	AlignBegin=30118|AlignEnd=30240|GE=[REL].[SG].[M]|nWord=16|RX=[CONJ]|TokenType=Clit
-23	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	24	subj/m	_	AlignBegin=30240|AlignEnd=30363|GE=[3SG].[M]|nWord=17|RX=[PNG]|TokenType=InflAff
-24	kati	kati	VERB	V1	Aspect=Ipfv|VerbClass=1	25	comp	_	AlignBegin=30363|AlignEnd=30486|GE=become\IPFV|nWord=17|RX=[V1].[IRG]|TokenType=Root
-25	=jeːk	_	SCONJ	CONJ	_	9	dislocated:mod	_	AlignBegin=30486|AlignEnd=30608|GE=if|nWord=17|RX=[CONJ]|TokenType=Clit
-26	//	_	PUNCT	_	_	9	punct	_	AlignBegin=30608|AlignEnd=30978|GE=[//]|nWord=18|TokenType=Break
+18	tʔa	tʔa	PART	PTCL	_	16	conj:dicto	_	AlignBegin=29688|AlignEnd=29872|GE=now|nWord=15|RX=[PTCL]|TokenType=Root
+19	gʷʔa	gʷʔa	VERB	V2	VerbClass=2	21	comp	_	AlignBegin=29872|AlignEnd=29995|GE=drink|nWord=16|RX=[V2]|TokenType=Root
+20	-taːn	_	PRON	TAM.PNG	Aspect=Pfv|Number=Plur|Person=2	19	subj/m	_	AlignBegin=29995|AlignEnd=30118|GE=[PFV].[2PL]|nWord=16|RX=[TAM].[PNG]|TokenType=InflAff
+21	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|Number=Sing|PronType=Rel	13	mod@relcl	_	AlignBegin=30118|AlignEnd=30240|GE=[REL].[SG].[M]|nWord=16|RX=[CONJ]|TokenType=Clit
+22	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	23	subj/m	_	AlignBegin=30240|AlignEnd=30363|GE=[3SG].[M]|nWord=17|RX=[PNG]|TokenType=InflAff
+23	kati	kati	VERB	V1	Aspect=Ipfv|VerbClass=1	24	comp	_	AlignBegin=30363|AlignEnd=30486|GE=become\IPFV|nWord=17|RX=[V1].[IRG]|TokenType=Root
+24	=jeːk	_	SCONJ	CONJ	_	9	dislocated:mod	_	AlignBegin=30486|AlignEnd=30608|GE=if|nWord=17|RX=[CONJ]|TokenType=Clit
+25	//	_	PUNCT	_	_	9	punct	_	AlignBegin=30608|AlignEnd=30978|GE=[//]|nWord=18|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_11_coffee_32-32
 # speaker_id = SP

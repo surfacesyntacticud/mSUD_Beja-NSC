@@ -141,7 +141,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_10_RABBIT.WAV
 # sent_timecode = 25358, 34694
 # phonetic_text = oː= tak ʃoːb -an =eːb oː= doːr / uːn uː= tak i- hikil =eːb / w= handi -i whiː / i= baji tam -i heːlaj / dh =eː law -jaː i- ni oː= tak / ani ʃoːb -eː //
-# text = oː= tak ʃoːban =eːb oː= doːr / uːn uː= tak ihikil =eːb / w= handii whiː / i= baji tami heːlaj / dh =eː lawja ini oː= tak / ani ʃoːbeː //
+# text = oː= tak ʃoːban =eːb oː= doːr / uːn uː= tak ihikil =eːb / w= handii whiː / i= baji tami heːlaj / dh =i lawja ini oː= tak / ani ʃoːbeː //
 # text_en = when I shook hands with the man, he said: "Under the tree which the man was sawing, a hare which was eating small branches appeared to me". While I was shaking hand with the man.
 1	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	det/m	_	AlignBegin=25358|AlignEnd=25535|GE=[DEF].[SG].[M].[ACC]|nWord=1|RX=[DET]|TokenType=Clit
 2	tak	tak	NOUN	N	Gender=Masc	3	comp:obj	_	AlignBegin=25535|AlignEnd=25712|GE=man|nWord=1|RX=[N].[M]|TokenType=Root
@@ -166,7 +166,7 @@
 21	heːlaj	heːlaj	NOUN	N	Gender=Masc	25	subj	_	AlignBegin=30459|AlignEnd=30803|GE=hare|nWord=16|RX=[SBJ].[N].[M]|TokenType=Root
 22	/	_	PUNCT	_	_	21	punct	_	AlignBegin=30803|AlignEnd=31149|GE=[/]|nWord=17|TokenType=Break
 23	dh	dh	ADP	POSTP	_	25	comp:obl	_	AlignBegin=31149|AlignEnd=31294|GE=[DIR]|nWord=18|RX=[POSTP]|TokenType=Root
-24	=eː	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	23	mod:poss	_	AlignBegin=31294|AlignEnd=31439|GE=[POSS].[1SG].[ACC]|nWord=18|RX=[PRO]|TokenType=Clit
+24	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	23	mod:poss	_	AlignBegin=31294|AlignEnd=31439|GE=[POSS].[1SG].[ACC]|nWord=18|RX=[PRO]|TokenType=Clit
 25	lawja	law	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	26	parataxis:obj	_	AlignBegin=31439|AlignEnd=31729|GE=appear[PFV].[3SG].[M]|MGloss=appear[PFV].[3SG].[M]|MSeg=law-ja|nWord=19|RX=[V2][TAM].[PNG]|TokenType=Root
 26	ini	ni	VERB	V1	Aspect=Pfv|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=31729|AlignEnd=32019|GE=[3SG].[M]say\PFV|MGloss=[3SG].[M]say\PFV|MSeg=i-ni|nWord=20|RX=[PNG][V1].[IRG]|TokenType=Root
 27	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	det	_	AlignBegin=32019|AlignEnd=32164|GE=[DEF].[SG].[M].[ACC]|nWord=21|RX=[DET]|TokenType=Clit
@@ -395,44 +395,4 @@
 11	iːd	d	VERB	V1	Aspect=Aor|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=64435|AlignEnd=64744|GE=[3SG].[M]say|MGloss=[3SG].[M]say|MSeg=iː-d|nWord=10|RX=[PNG][V1].[IRG]|TokenType=Root
 12	eːn	eːn	VERB	V1	Number=Plur|Person=3|VerbClass=1	11	discourse	_	AlignBegin=64744|AlignEnd=65053|GE=say\PFV.3PL|nWord=11|RX=[V1].[IRG]|TokenType=Root
 13	//	_	PUNCT	_	_	11	punct	_	AlignBegin=65053|AlignEnd=65363|GE=[//]|nWord=12|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_10_rabbit_29-37
-# speaker_id = SP
-# sound_url = https://corporan.huma-num.fr/Archives/media/BEJ_MV_NARR_10_RABBIT.WAV
-# sent_timecode = 25358, 34694
-# phonetic_text = oː= tak ʃoːb -an =eːb oː= doːr / uːn uː= tak i- hikil =eːb / w= handi -i whiː / i= baji tam -i heːlaj / dh =eː law -jaː i- ni oː= tak / ani ʃoːb -eː //
-# text = oː= tak ʃoːban =eːb oː= doːr / uːn uː= tak ihikil =eːb / w= handii whiː / i= baji tami heːlaj / dh =i lawja ini oː= tak / ani ʃoːbeː //
-# text_en = when I shook hands with the man, he said: "Under the tree which the man was sawing, a hare which was eating small branches appeared to me". While I was shaking hand with the man.
-1	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	det/m	_	AlignBegin=25358|AlignEnd=25535|GE=[DEF].[SG].[M].[ACC]|nWord=1|RX=[DET]|TokenType=Clit
-2	tak	tak	NOUN	N	Gender=Masc	3	comp:obj	_	AlignBegin=25535|AlignEnd=25712|GE=man|nWord=1|RX=[N].[M]|TokenType=Root
-3	ʃoːban	ʃoːb	VERB	V2	Number=Sing|VerbClass=2	4	comp/m	_	AlignBegin=25712|AlignEnd=25948|GE=greet[PFV].[1SG]|MGloss=greet[PFV].[1SG]|MSeg=ʃoːb-an|nWord=2|RX=[V2][TAM].[PNG]|TokenType=Root
-4	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	6	mod@relcl	_	AlignBegin=25948|AlignEnd=26066|GE=[REL].[M]|nWord=2|RX=[CONJ]|TokenType=Clit
-5	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	6	det	_	AlignBegin=26066|AlignEnd=26243|GE=[DEF].[SG].[M].[ACC]|nWord=3|RX=[DET]|TokenType=Clit
-6	doːr	doːr	NOUN	N	Gender=Masc	26	mod	_	AlignBegin=26243|AlignEnd=26420|GE=time|nWord=3|RX=[N].[M]|TokenType=Root
-7	/	_	PUNCT	_	_	6	punct	_	AlignBegin=26420|AlignEnd=26774|GE=[/]|nWord=4|TokenType=Break
-8	uːn	uːn	DET	DEM	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	AlignBegin=26876|AlignEnd=27171|Deixis=Prox|GE=[PROX].[SG].[M].[NOM]|nWord=6|RX=[DEM]|TokenType=Root
-9	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	10	det	_	AlignBegin=27171|AlignEnd=27319|GE=[DEF].[SG].[M].[NOM]|nWord=7|RX=[DET]|TokenType=Clit
-10	tak	tak	NOUN	N	Gender=Masc	11	subj	_	AlignBegin=27319|AlignEnd=27466|GE=man|nWord=7|RX=[SBJ].[N].[M]|TokenType=Root
-11	ihikil	hikil	VERB	V1	Aspect=Aor|Gender=Masc|Number=Sing|VerbClass=1	12	comp	_	AlignBegin=27466|AlignEnd=27662|GE=[3SG].[M]saw\AOR|MGloss=[3SG].[M]saw\AOR|MSeg=i-hikil|nWord=8|RX=[PNG][V1]|TokenType=Root
-12	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	15	mod@relcl	_	AlignBegin=27662|AlignEnd=27761|GE=[REL].[M]|nWord=8|RX=[CONJ]|TokenType=Clit
-13	/	_	PUNCT	_	_	12	punct	_	AlignBegin=27761|AlignEnd=28057|GE=[/]|nWord=9|TokenType=Break
-14	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	15	det	_	AlignBegin=28057|AlignEnd=28181|GE=[DEF].[SG].[M]|nWord=10|RX=[DET]|TokenType=Clit
-15	handii	handi	NOUN	N	Gender=Masc	16	comp	_	AlignBegin=28181|AlignEnd=28430|GE=tree[GEN]|MGloss=tree[GEN]|MSeg=handi-i|nWord=10|RX=[N].[M][CASE]|TokenType=Root
-16	whiː	whiː	ADP	POSTP	_	20	comp:obl	_	AlignBegin=28430|AlignEnd=28803|GE=under|nWord=11|RX=[POSTP]|TokenType=Root
-17	/	_	PUNCT	_	_	16	punct	_	AlignBegin=28803|AlignEnd=29176|GE=[/]|nWord=12|TokenType=Break
-18	i=	_	DET	DET	Definite=Def|Gender=Masc	19	det	_	AlignBegin=29771|AlignEnd=29943|GE=[DEF].[M]|nWord=14|RX=[DET]|TokenType=Clit
-19	baji	baji	NOUN	N	Gender=Masc	20	comp:obj	_	AlignBegin=29943|AlignEnd=30115|GE=rib|nWord=14|RX=[N].[M]|TokenType=Root
-20	tami	tam	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	21	mod@relcl	_	AlignBegin=30115|AlignEnd=30459|GE=eat[AOR].[3SG].[M]|MGloss=eat[AOR].[3SG].[M]|MSeg=tam-i|nWord=15|RX=[V2][TAM].[PNG]|TokenType=Root
-21	heːlaj	heːlaj	NOUN	N	Gender=Masc	25	subj	_	AlignBegin=30459|AlignEnd=30803|GE=hare|nWord=16|RX=[SBJ].[N].[M]|TokenType=Root
-22	/	_	PUNCT	_	_	21	punct	_	AlignBegin=30803|AlignEnd=31149|GE=[/]|nWord=17|TokenType=Break
-23	dh	dh	ADP	POSTP	_	25	comp:obl	_	AlignBegin=31149|AlignEnd=31294|GE=[DIR]|nWord=18|RX=[POSTP]|TokenType=Root
-24	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	23	mod:poss	_	AlignBegin=31294|AlignEnd=31439|GE=[POSS].[1SG].[ACC]|nWord=18|RX=[PRO]|TokenType=Clit
-25	lawja	law	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	26	parataxis:obj	_	AlignBegin=31439|AlignEnd=31729|GE=appear[PFV].[3SG].[M]|MGloss=appear[PFV].[3SG].[M]|MSeg=law-ja|nWord=19|RX=[V2][TAM].[PNG]|TokenType=Root
-26	ini	ni	VERB	V1	Aspect=Pfv|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=31729|AlignEnd=32019|GE=[3SG].[M]say\PFV|MGloss=[3SG].[M]say\PFV|MSeg=i-ni|nWord=20|RX=[PNG][V1].[IRG]|TokenType=Root
-27	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	28	det	_	AlignBegin=32019|AlignEnd=32164|GE=[DEF].[SG].[M].[ACC]|nWord=21|RX=[DET]|TokenType=Clit
-28	tak	tak	NOUN	N	Gender=Masc	31	comp:obj	_	AlignBegin=32164|AlignEnd=32309|GE=man|nWord=21|RX=[N].[M]|TokenType=Root
-29	/	_	PUNCT	_	_	28	punct	_	AlignBegin=32309|AlignEnd=32598|GE=[/]|nWord=22|TokenType=Break
-30	ani	ani	PRON	PRO	Case=Nom|Number=Sing|Person=1	31	subj	_	AlignBegin=32598|AlignEnd=32854|GE=[1SG].[NOM]|nWord=23|RX=[SBJ].[PRO]|TokenType=Root
-31	ʃoːbeː	ʃoːb	VERB	V2	VerbClass=2	26	dislocated:mod	_	AlignBegin=32854|AlignEnd=33110|GE=greet[CVB].[SMLT]|MGloss=greet[CVB].[SMLT]|MSeg=ʃoːb-eː|nWord=24|RX=[V2]|TokenType=Root
-32	//	_	PUNCT	_	_	31	punct	_	AlignBegin=33110|AlignEnd=33365|GE=[//]|nWord=25|TokenType=Break
 
