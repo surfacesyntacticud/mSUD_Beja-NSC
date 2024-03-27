@@ -1073,7 +1073,7 @@
 1	<	_	PUNCT	_	_	2	punct	_	AlignBegin=169676|AlignEnd=169895|GE=[<]|nWord=1|TokenType=Root
 2	bani	bani	NOUN	_	Foreign=Yes	3	udep	_	AlignBegin=169895|AlignEnd=170114|GE=son_of|Lang=ar|nWord=2|RX=[CSW].[ARA]|TokenType=Root
 3	ʔaːdam	ʔaːdam	PROPN	_	Foreign=Yes	8	subj	_	AlignBegin=170114|AlignEnd=170333|GE=[Adam]|Lang=ar|nWord=3|RX=[CSW].[ARA]|TokenType=Root
-4	>	_	PUNCT	_	_	3	punct	_	AlignBegin=170333|AlignEnd=170552|GE=[>]|nWord=4
+4	>	_	PUNCT	_	_	3	punct	_	AlignBegin=170333|AlignEnd=170552|GE=[>]|nWord=4|TokenType=Break
 5	han	han	PART	PTCL	_	8	mod	_	AlignBegin=170552|AlignEnd=170771|GE=also|nWord=5|RX=[PTCL].[FOC]|TokenType=Root
 6	bi=	_	PART	PTCL	Mood=Opt	8	mod	_	AlignBegin=170771|AlignEnd=170815|GE=[OPT]|nWord=6|RX=[PTCL]|TokenType=Clit
 7	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	8	subj/m	_	AlignBegin=170815|AlignEnd=170859|GE=[3SG].[M]|nWord=6|RX=[PNG]|TokenType=InflAff
@@ -1276,7 +1276,7 @@
 # phonetic_text = iraːnaj miːmaʃ -a -ji dar =iː hasam -ani =t ti= naː =t =iːb // t= ʔadi saffi -im -tini =heːb han a- ndi /
 # text = iraːnaj miːmaʃaːji dariː hasamanit tinaːtiːb // tʔadi saffiːmtiniheːb han andi /
 # text_en =  "Gosh! Is it because I am passing near a graveyard, that I get the creeps?' I ask myself.
-1	iraːnaj	iraːnaj	INTJ	_	_	2	discourse	_	AlignBegin=206560|AlignEnd=206986|GE=gosh|nWord=1|RX=[EXCL]
+1	iraːnaj	iraːnaj	INTJ	_	_	2	discourse	_	AlignBegin=206560|AlignEnd=206986|GE=gosh|nWord=1|RX=[EXCL]|TokenType=Root
 2	miːmaʃ	miːmaʃ	NOUN	N	Gender=Masc	4	comp/m	_	AlignBegin=206986|AlignEnd=207128|GE=tomb|nWord=2|RX=[N].[M]|TokenType=Root
 3	-a	_	DET	_	Number=Plur	2	det/m	_	AlignBegin=207128|AlignEnd=207270|GE=[PL]|nWord=2|TokenType=InflAff
 4	-ji	_	ADP	CASE	Case=Gen	5	udep	_	AlignBegin=207270|AlignEnd=207412|GE=[GEN]|nWord=2|RX=[CASE]|TokenType=InflAff
@@ -1614,7 +1614,7 @@
 20	=t	_	DET	DET	Gender=Fem	18	det	_	AlignBegin=254705|AlignEnd=254781|GE=[INDF].[F]|nWord=10|RX=[DET]|TokenType=Clit
 21	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	22	subj/m	_	AlignBegin=254781|AlignEnd=254933|GE=[3SG].[F]|nWord=11|RX=[PNG]|TokenType=InflAff
 22	ki	ki	VERB	V1	Aspect=Pfv|VerbClass=1	0	root	_	AlignBegin=254933|AlignEnd=255085|GE=be\PFV|nWord=11|RX=[V1].[IRG]|TokenType=Root
-23	{noise}	{noise}	PUNCT	_	_	22	punct	_	AlignBegin=255085|AlignEnd=255389|GE={noise}|nWord=12
+23	{noise}	{noise}	PUNCT	_	_	22	punct	_	AlignBegin=255085|AlignEnd=255389|GE={noise}|nWord=12|TokenType=Break
 24	//	_	PUNCT	_	_	22	punct	_	AlignBegin=255389|AlignEnd=255691|GE=[//]|nWord=13|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_05_eritrea_271-274

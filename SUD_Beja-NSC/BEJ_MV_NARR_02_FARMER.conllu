@@ -161,7 +161,7 @@
 5	dhaːj	dhaːj	ADP	POSTP	_	7	comp:obl	_	AlignBegin=34814|AlignEnd=35060|GE=[DIR]|nWord=5|RX=[POSTP]|TokenType=Root
 6	haːj	haːj	ADP	POSTP	Case=Com	7	comp:obl	_	AlignBegin=35060|AlignEnd=35306|GE=[COM]|nWord=6|RX=[POSTP]|TokenType=Root
 7	ɖaːbiːni	ɖaːb	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	0	root	_	AlignBegin=35306|AlignEnd=35552|GE=run[IPFV].[3SG].[M]|MGloss=run[IPFV].[3SG].[M]|MSeg=ɖaːb-iːni|nWord=7|RX=[V2][TAM].[PNG]|TokenType=Root
-8	eːn	eːn	VERB	V1	Aspect=Pfv|Number=Plur|Person=3|VerbClass=1	_	_	_	AlignBegin=35552|AlignEnd=35798|GE=say\PFV.3PL|nWord=8|RX=[V1].[IRG]|TokenType=Root
+8	eːn	eːn	VERB	V1	Aspect=Pfv|Number=Plur|Person=3|VerbClass=1	7	discourse	_	AlignBegin=35552|AlignEnd=35798|GE=say\PFV.3PL|nWord=8|RX=[V1].[IRG]|TokenType=Root
 9	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=35798|AlignEnd=36046|GE=[//]|nWord=9|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_02_farmer_040-049
@@ -465,7 +465,7 @@
 10	=ajt	_	SCONJ	CONJ	_	14	mod	_	AlignBegin=100061|AlignEnd=100157|GE=[CSL]|nWord=6|RX=[CONJ]|TokenType=Clit
 11	/	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=100157|AlignEnd=100447|GE=[/]|nWord=7|TokenType=Break
 12	hoːj	hoːj	ADP	PRO	_	14	mod	_	AlignBegin=100447|AlignEnd=100696|GE=[3DAT/ABL]|nWord=8|RX=[PRO]|TokenType=Root
-13	ki=	_	PART	PTCL	Aspect=Ipfv|Polarity=Neg	_	_	_	AlignBegin=100696|AlignEnd=100758|GE=[NEG].[IPFV]|nWord=9|RX=[PTCL]|TokenType=Clit
+13	ki=	_	PART	PTCL	Aspect=Ipfv|Polarity=Neg	14	mod	_	AlignBegin=100696|AlignEnd=100758|GE=[NEG].[IPFV]|nWord=9|RX=[PTCL]|TokenType=Clit
 14	iʃinhana	ʃinha	VERB	V1	Aspect=Pfv|Number=Plur|VerbClass=1	0	root	_	AlignBegin=100758|AlignEnd=100945|GE=[3]take_care\PFV[PL]|MGloss=[3]take_care\PFV[PL]|MSeg=i-ʃinha-na|nWord=9|RX=[PNG][V1][PNG]|TokenType=Root
 15	eːn	eːn	VERB	V1	Aspect=Pfv|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=100945|AlignEnd=101194|GE=say\PFV.3PL|nWord=10|RX=[V1].[IRG]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=101194|AlignEnd=101442|GE=[//]|nWord=11|TokenType=Break
@@ -555,9 +555,9 @@
 # text = oːn i= dammʔara =joː bass hisik akeːtiːt / bʔeːtiːt / oːn i= dammʔara =iːsoː tamiːni gʷʔiːni eːn //
 # text_en = Doing nothing else, he eats and drinks only out of his gold, they said.
 1	oːn	oːn	DET	V2	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem|VerbClass=2	3	det	_	AlignBegin=119212|AlignEnd=119364|GE=lie_down|nWord=1|RX=[V2]|TokenType=Root
-2	i=	_	DET	V2	Definite=Def|Gender=Masc	3	det	_	AlignBegin=119212|AlignEnd=119364|GE=[DEF].[M]|nWord=1|RX=[DET]
+2	i=	_	DET	V2	Definite=Def|Gender=Masc	3	det	_	AlignBegin=119212|AlignEnd=119364|GE=[DEF].[M]|nWord=1|RX=[DET]|TokenType=Clit
 3	dammʔara	dammʔara	NOUN	V2	Gender=Masc	7	comp:obj	_	AlignBegin=119212|AlignEnd=119364|GE=gold|nWord=1|RX=[N].[M]|TokenType=Root
-4	=joː	=joː	PRON	V2	Case=Acc|ExtPos=PRON|Number=Sing|Person=3|Poss=Yes	3	comp:poss	_	AlignBegin=119212|AlignEnd=119364|GE=[POSS].[3SG].[ACC]|nWord=1|RX=[PRO]
+4	=joː	=joː	PRON	V2	Case=Acc|ExtPos=PRON|Number=Sing|Person=3|Poss=Yes	3	comp:poss	_	AlignBegin=119212|AlignEnd=119364|GE=[POSS].[3SG].[ACC]|nWord=1|RX=[PRO]|TokenType=Clit
 5	bass	bass	ADV	V2	_	6	mod	_	AlignBegin=119212|AlignEnd=119364|GE=only|nWord=1|RX=[PTCL.BORR.ARA]|TokenType=Root
 6	hisik	hisik	INTJ	V2	_	7	comp:aux	_	AlignBegin=119212|AlignEnd=119364|GE=shh|nWord=1|RX=[INTJ]|TokenType=Root
 7	akeːtiːt	ak	VERB	V2	_	9	mod	_	AlignBegin=119212|AlignEnd=119364|GE=become[CVB].[SEQ]|MGloss=become[CVB].[SEQ]|MSeg=ak-eːtiːt|nWord=1|RX=[LV]|TokenType=Root
@@ -1329,7 +1329,7 @@
 5	barjoː	barjoː	PRON	PRO	Case=Acc|Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	comp	_	AlignBegin=297078|AlignEnd=297433|GE=[POSS].[3SG].[M].[ACC]|nWord=2|RX=[PRO]|TokenType=Root
 6	geːb	geːb	ADP	POSTP	_	7	comp:obl	_	AlignBegin=297433|AlignEnd=297788|GE=beside|nWord=3|RX=[POSTP]|TokenType=Root
 7	askineːna	askin	VERB	V2	Number=Plur|VerbClass=2	0	root	_	AlignBegin=297788|AlignEnd=298143|GE=inhabit[IPFV].[3PL]|MGloss=inhabit[IPFV].[3PL]|MSeg=askin-eːna|nWord=4|RX=[V2][TAM].[PNG]|TokenType=Root
-8	eːn	eːn	VERB	DEM	Number=Plur|Person=3	_	_	_	AlignBegin=298143|AlignEnd=298498|GE=say\PFV.3PL|nWord=5|RX=[V1.IRG]|TokenType=Root
+8	eːn	eːn	VERB	DEM	Number=Plur|Person=3	7	discourse	_	AlignBegin=298143|AlignEnd=298498|GE=say\PFV.3PL|nWord=5|RX=[V1.IRG]|TokenType=Root
 9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=298498|AlignEnd=298852|GE=[/]|nWord=6|TokenType=Break
 10	i=	_	DET	DET	Definite=Def|Gender=Masc	11	det	_	AlignBegin=299145|AlignEnd=299261|GE=[DEF].[M]|nWord=8|RX=[DET]|TokenType=Clit
 11	dawaːhi	dawaːhi	NOUN	N	Foreign=Yes|Gender=Masc	12	comp	_	AlignBegin=299261|AlignEnd=299377|GE=suburb|nWord=8|RX=[N].[M].[BORR].[ARA]|TokenType=Root
@@ -1437,11 +1437,11 @@
 1	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=317626|AlignEnd=317810|GE=[DEF].[SG].[M].[ACC]|nWord=1|RX=[DET]|TokenType=Clit
 2	kna	kna	PRON	PRO	Reflex=Yes	5	discourse	_	AlignBegin=317810|AlignEnd=317994|GE=owner|nWord=1|RX=[PRO].[REFL]|TokenType=Root
 3	hoːj	hoːj	ADP	PRO	_	5	comp:obl	_	AlignBegin=317994|AlignEnd=318362|GE=[LOC]|nWord=2|RX=[POSTP]|TokenType=Root
-4	bi=	_	PART	PTCL	Mood=Opt	_	_	_	AlignBegin=318362|AlignEnd=318423|GE=[OPT]|nWord=3|RX=[PTCL]|TokenType=Clit
+4	bi=	_	PART	PTCL	Mood=Opt	5	mod	_	AlignBegin=318362|AlignEnd=318423|GE=[OPT]|nWord=3|RX=[PTCL]|TokenType=Clit
 5	ibarin	bari	VERB	V1	Mood=Opt|Number=Plur|Polarity=Neg|VerbClass=1	6	comp/m	_	AlignBegin=318423|AlignEnd=318606|GE=[3]have\NEG.OPT[PL]|MGloss=[3]have\NEG.OPT[PL]|MSeg=i-bari-n|nWord=3|RX=[PNG][V1].[IRG][PNG]|TokenType=Root
 6	=eː	_	SCONJ	CONJ.REL	PronType=Rel	7	mod@relcl	_	AlignBegin=318606|AlignEnd=318667|GE=[REL]|nWord=3|RX=[CONJ]|TokenType=Clit
 7	=na	_	NOUN	CONJ	_	9	subj	_	AlignBegin=318667|AlignEnd=318730|GE=thing|nWord=3|RX=[REL]|TokenType=Clit
-8	ki=	_	PART	PTCL	Aspect=Ipfv	_	_	_	AlignBegin=318730|AlignEnd=318853|GE=[NEG].[IPFV]|nWord=4|RX=[PTCL]|TokenType=Clit
+8	ki=	_	PART	PTCL	Aspect=Ipfv	9	mod	_	AlignBegin=318730|AlignEnd=318853|GE=[NEG].[IPFV]|nWord=4|RX=[PTCL]|TokenType=Clit
 9	thaːj	haːj	VERB	V1	Aspect=Pfv|Gender=Fem|Number=Sing|VerbClass=1	0	root	_	AlignBegin=318853|AlignEnd=319098|GE=[3SG].[F]be_there\PFV|MGloss=[3SG].[F]be_there\PFV|MSeg=t-haːj|nWord=4|RX=[PNG][V1].[IRG]|TokenType=Root
 10	eːn	eːn	VERB	V1	Aspect=Pfv|Number=Plur|Person=3|VerbClass=1	9	discourse	_	AlignBegin=319098|AlignEnd=319466|GE=say\PFV[.3PL]|nWord=5|RX=[V1].[IRG]|TokenType=Root
 11	/	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=319466|AlignEnd=319836|GE=[/]|nWord=6|TokenType=Break
