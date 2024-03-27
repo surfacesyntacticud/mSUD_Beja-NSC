@@ -10,7 +10,7 @@
 3	ʤabanaː	ʤabanaː	NOUN	N	Gender=Fem	10	comp:obj	_	AlignBegin=472|AlignEnd=593|GE=coffee|nWord=3|RX=[N].[F]|TokenType=Root
 4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=593|AlignEnd=714|GE=[INDF].[F]|nWord=3|RX=[DET]|TokenType=Clit
 5	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	3	mod:poss	_	AlignBegin=714|AlignEnd=834|GE=[POSS].[3SG].[ACC]|nWord=3|RX=[PRO]|TokenType=Clit
-6	oːn	oːn	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	AlignBegin=834|AlignEnd=1196|Deixis=Prox|GE=[PROX].[SG].[M].[ACC]|nWord=4|RX=[DEM]|TokenType=Root
+6	oːn	oːn	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	AlignBegin=834|AlignEnd=1196|GE=[PROX].[SG].[M].[ACC]|nWord=4|RX=[DEM]|TokenType=Root
 7	i=	_	DET	DET	Definite=Def|Gender=Masc	8	det	_	AlignBegin=1196|AlignEnd=1317|GE=[DEF].[M]|nWord=5|RX=[DET]|TokenType=Clit
 8	suːg	suːg	NOUN	N	Gender=Masc	9	comp	_	AlignBegin=1317|AlignEnd=1438|GE=market|nWord=5|RX=[N].[M]|TokenType=Root
 9	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	10	comp:obl	_	AlignBegin=1438|AlignEnd=1558|GE=[LOC].[SG]|nWord=5|RX=[POSTP]|TokenType=Clit
@@ -20,7 +20,7 @@
 13	rabameːk	rabameːk	NOUN	N	_	16	comp:pred	_	AlignBegin=2281|AlignEnd=2353|GE=Rabamek|Gloss=Rabamek|nWord=8|RX=[N].[PROP]|TokenType=Root
 14	-aːji	_	X	_	_	13	mod	_	AlignBegin=2353|AlignEnd=2425|GE=[SING]|nWord=8|TokenType=InflAff
 15	=b	_	DET	DET	Case=Acc|Gender=Masc	13	det	_	AlignBegin=2425|AlignEnd=2497|GE=[INDF].[M].[ACC]|nWord=8|RX=[DET]|TokenType=Clit
-16	=u	_	AUX	N.COP	Number=Sing|Person=3	17	comp	_	AlignBegin=2497|AlignEnd=2569|GE=[COP].[3SG]|nWord=8|RX=[PRED].[N]|TokenType=Clit|VerbType=Cop
+16	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	17	comp	_	AlignBegin=2497|AlignEnd=2569|GE=[COP].[3SG]|nWord=8|RX=[PRED].[N]|TokenType=Clit
 17	=it	_	SCONJ	CONJ	_	20	mod	_	AlignBegin=2569|AlignEnd=2641|GE=[CSL]|nWord=8|RX=[CONJ]|TokenType=Clit
 18	gaːl	gaːl	NUM	NUM	_	20	subj	_	AlignBegin=2641|AlignEnd=3001|GE=one|nWord=9|RX=[SBJ].[NUM]|TokenType=Root
 19	dhaːj	dhaːj	ADP	POSTP	_	20	comp	_	AlignBegin=3001|AlignEnd=3361|GE=[DIR]|nWord=10|RX=[POSTP]|TokenType=Root
@@ -61,7 +61,7 @@
 # text_en =  he gives him the second one.
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=6929|AlignEnd=7024|GE=[DEF].[M]|nWord=1|RX=[DET]|TokenType=Clit
 2	mali	mali	NUM	NUM	_	5	comp:obj	_	AlignBegin=7024|AlignEnd=7119|GE=two|nWord=1|RX=[NUM]|TokenType=Root
-3	-a	_	NUM	NUM	_	2	mod/m	_	AlignBegin=7119|AlignEnd=7213|GE=[ORD]|NumType=Ord|nWord=1|RX=[NUM]|TokenType=InflAff
+3	-a	_	NUM	NUM	NumType=Ord	2	mod/m	_	AlignBegin=7119|AlignEnd=7213|GE=[ORD]|nWord=1|RX=[NUM]|TokenType=InflAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=7213|AlignEnd=7355|GE=[3SG].[M]|nWord=2|RX=[PNG]|TokenType=InflAff
 5	niːw	niːw	VERB	V1	Aspect=Ipfv|VerbClass=1	0	root	_	AlignBegin=7355|AlignEnd=7497|GE=give\IPFV|nWord=2|RX=[V1].[IRG]|TokenType=Root
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=7497|AlignEnd=7781|GE=[/]|nWord=3|TokenType=Break
@@ -75,7 +75,7 @@
 # text_en =  When he gives him the third one, then, because he has had enough coffee, this one wants to leave and when he gives him the third cup, he says: "Sip!, this is Mouna's coffee!"
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=7984|AlignEnd=8102|GE=[DEF].[M]|nWord=1|RX=[DET]|TokenType=Clit
 2	mhaj	mhaj	NUM	NUM	_	5	comp:obj	_	AlignBegin=8102|AlignEnd=8220|GE=three|nWord=1|RX=[NUM]|TokenType=Root
-3	-a	_	NUM	NUM	_	2	mod/m	_	AlignBegin=8220|AlignEnd=8337|GE=[ORD]|NumType=Ord|nWord=1|RX=[NUM]|TokenType=InflAff
+3	-a	_	NUM	NUM	NumType=Ord	2	mod/m	_	AlignBegin=8220|AlignEnd=8337|GE=[ORD]|nWord=1|RX=[NUM]|TokenType=InflAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=8337|AlignEnd=8455|GE=[3SG].[M]|nWord=2|RX=[PNG]|TokenType=InflAff
 5	niːw	niːw	VERB	V1	Aspect=Ipfv|VerbClass=1	6	comp	_	AlignBegin=8455|AlignEnd=8573|GE=give\IPFV|nWord=2|RX=[V1].[IRG]|TokenType=Root
 6	=hoːb	_	SCONJ	CONJ	_	13	mod	_	AlignBegin=8573|AlignEnd=8690|GE=when|nWord=2|RX=[CONJ]|TokenType=Clit
@@ -85,18 +85,18 @@
 10	buːn	buːn	NOUN	N	Gender=Masc	11	comp	_	AlignBegin=9544|AlignEnd=9692|GE=coffee|nWord=5|RX=[N].[M]|TokenType=Root
 11	lʔoː	lʔoː	ADJ	ADJ	_	13	comp:pred	_	AlignBegin=9692|AlignEnd=9766|GE=satiated|nWord=6|RX=[ADJ]|TokenType=Root
 12	=b	_	DET	DET	Case=Acc|Gender=Masc	11	det	_	AlignBegin=9766|AlignEnd=9840|GE=[INDF].[M].[ACC]|nWord=6|RX=[DET]|TokenType=Clit
-13	=u	_	AUX	N.COP	Number=Sing|Person=3	14	comp:obj	_	AlignBegin=9840|AlignEnd=9914|GE=[COP].[3SG]|nWord=6|RX=[PRED].[N]|TokenType=Clit|VerbType=Cop
+13	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	14	comp:obj	_	AlignBegin=9840|AlignEnd=9914|GE=[COP].[3SG]|nWord=6|RX=[PRED].[N]|TokenType=Clit
 14	=it	_	SCONJ	CONJ	_	17	mod	_	AlignBegin=9914|AlignEnd=9988|GE=[CSL]|nWord=6|RX=[CONJ]|TokenType=Clit
-15	uːn	uːn	DET	DEM	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	17	subj	_	AlignBegin=9988|AlignEnd=10284|Deixis=Prox|GE=[PROX].[SG].[M].[NOM]|nWord=7|RX=[SBJ].[DEM]|TokenType=Root
+15	uːn	uːn	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	17	subj	_	AlignBegin=9988|AlignEnd=10284|GE=[PROX].[SG].[M].[NOM]|nWord=7|RX=[SBJ].[DEM]|TokenType=Root
 16	/	_	PUNCT	_	_	15	punct	_	AlignBegin=10284|AlignEnd=10578|GE=[/]|nWord=8|TokenType=Break
 17	giːg	giːg	VERB	V2	VerbClass=2	19	comp:aux	_	AlignBegin=11315|AlignEnd=11469|GE=leave|nWord=10|RX=[V2]|TokenType=Root
 18	-i	_	PRON	TAM.PNG	Number=Sing	17	subj/m	_	AlignBegin=11469|AlignEnd=11622|GE=[FUT].[SG]|nWord=10|RX=[TAM].[PNG]|TokenType=InflAff
 19	diːt	diːt	AUX	AUX.FUT	_	37	conj:coord	_	AlignBegin=11622|AlignEnd=11929|GE=say\CVB.SEQ|nWord=11|RX=[AUX].[FUT]|TokenType=Root
 20	/	_	PUNCT	_	_	19	punct	_	AlignBegin=11929|AlignEnd=12236|GE=[/]|nWord=12|TokenType=Break
-21	oːn	oːn	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	AlignBegin=12419|AlignEnd=12709|Deixis=Prox|GE=[PROX].[SG].[M].[ACC]|nWord=14|RX=[DEM]|TokenType=Root
+21	oːn	oːn	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	AlignBegin=12419|AlignEnd=12709|GE=[PROX].[SG].[M].[ACC]|nWord=14|RX=[DEM]|TokenType=Root
 22	i=	_	DET	DET	Definite=Def|Gender=Masc	23	det	_	AlignBegin=12709|AlignEnd=12806|GE=[DEF].[M]|nWord=15|RX=[DET]|TokenType=Clit
 23	mhaj	mhaj	NUM	NUM	_	25	mod	_	AlignBegin=12806|AlignEnd=12903|GE=three|nWord=15|RX=[NUM]|TokenType=Root
-24	-a	_	NUM	NUM	_	23	mod/m	_	AlignBegin=12903|AlignEnd=12999|GE=[ORD]|NumType=Ord|nWord=15|RX=[NUM]|TokenType=InflAff
+24	-a	_	NUM	NUM	NumType=Ord	23	mod/m	_	AlignBegin=12903|AlignEnd=12999|GE=[ORD]|nWord=15|RX=[NUM]|TokenType=InflAff
 25	finʤaːn	finʤaːn	NOUN	N	Gender=Masc	27	comp:obj	_	AlignBegin=12999|AlignEnd=13289|GE=cup|nWord=16|RX=[N].[M]|TokenType=Root
 26	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	27	subj/m	_	AlignBegin=13289|AlignEnd=13386|GE=[3SG].[M]|nWord=17|RX=[PNG]|TokenType=InflAff
 27	niːw	niːw	VERB	V1	Aspect=Ipfv|VerbClass=1	28	comp	_	AlignBegin=13386|AlignEnd=13483|GE=give\IPFV|nWord=17|RX=[V1].[IRG]|TokenType=Root
@@ -151,7 +151,7 @@
 # text = mali -a muːna -i geːb gʷʔa -a i- ndi eːn / oː= buːn oːn / tʔa / tʔa gʷʔa -taːn =eːb i- kati =jeːk //
 # text_en =  "Next time, drink with Mouna!" he says, they said, if it is this coffee that you would drink!"
 1	mali	mali	PART	PTCL	_	6	comp:obl	_	AlignBegin=24022|AlignEnd=24178|GE=two|nWord=1|RX=[PTCL]|TokenType=Root
-2	-a	_	NUM	NUM	_	1	mod	_	AlignBegin=24178|AlignEnd=24335|GE=[ORD]|NumType=Ord|nWord=1|RX=[NUM]|TokenType=InflAff
+2	-a	_	NUM	NUM	NumType=Ord	1	mod	_	AlignBegin=24178|AlignEnd=24335|GE=[ORD]|nWord=1|RX=[NUM]|TokenType=InflAff
 3	muːna	muːna	PROPN	N	_	4	comp/m	_	AlignBegin=24335|AlignEnd=24491|GE=[Mouna]|nWord=2|RX=[N].[PROP]|TokenType=Root
 4	-i	_	ADP	CASE	Case=Gen	5	comp	_	AlignBegin=24491|AlignEnd=24648|GE=[GEN]|nWord=2|RX=[CASE]|TokenType=InflAff
 5	geːb	geːb	ADP	POSTP	_	6	comp:obl	_	AlignBegin=24648|AlignEnd=24961|GE=beside|nWord=3|RX=[POSTP]|TokenType=Root
@@ -163,7 +163,7 @@
 11	/	_	PUNCT	_	_	24	punct	_	AlignBegin=25900|AlignEnd=26214|GE=[/]|nWord=7|TokenType=Break
 12	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	13	det	_	AlignBegin=26214|AlignEnd=26330|GE=[DEF].[SG].[M].[ACC]|nWord=8|RX=[DET]|TokenType=Clit
 13	buːn	buːn	NOUN	N	Gender=Masc	23	comp:pred	_	AlignBegin=26330|AlignEnd=26445|GE=coffee|nWord=8|RX=[N].[M]|TokenType=Root
-14	oːn	oːn	DET	DEM	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	AlignBegin=26445|AlignEnd=26676|Deixis=Prox|GE=[PROX].[SG].[M].[ACC]|nWord=9|RX=[DEM]|TokenType=Root
+14	oːn	oːn	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	AlignBegin=26445|AlignEnd=26676|GE=[PROX].[SG].[M].[ACC]|nWord=9|RX=[DEM]|TokenType=Root
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=26676|AlignEnd=26908|GE=[/]|nWord=10|TokenType=Break
 16	tʔa	tʔa	PART	PTCL	_	19	mod	_	AlignBegin=27430|AlignEnd=27596|GE=now|nWord=12|RX=[PTCL]|TokenType=Root
 17	/	_	PUNCT	_	_	16	punct	_	AlignBegin=27596|AlignEnd=27763|GE=[/]|nWord=13|TokenType=Break
