@@ -37,7 +37,7 @@
 3	/	_	PUNCT	_	_	1	punct	_	AlignBegin=7360|AlignEnd=7605|GE=[/]|TokenType=Break
 4	tak	_	NOUN	N	Gender=Masc	6	subj	_	AlignBegin=7893|AlignEnd=8053|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
 5	=wa	_	CCONJ	CONJ	_	4	cc	_	AlignBegin=8053|AlignEnd=8213|GE=[COORD]|RX=[CONJ]|TokenType=Clit
-6	imoːra~rimna	_	VERB	V1	Aspect=Imp|Number=Plur|VerbClass=1	0	root/m	_	AlignBegin=8213|AlignEnd=8533|GE=[3][RECP][PLAC~accompany\IPFV][PL]|MGloss=[3][RECP][PLAC~accompany\IPFV][PL]|MSeg=i-moː-ra~rim-na|RX=[PNG][V1].[DER][V1].[DER][PNG]|TokenType=Root
+6	imoːra~rimna	_	VERB	V1	Aspect=Imp|Number=Plur|VerbClass=1	0	root	_	AlignBegin=8213|AlignEnd=8533|GE=[3][RECP][PLAC~accompany\IPFV][PL]|MGloss=[3][RECP][PLAC~accompany\IPFV][PL]|MSeg=i-moː-ra~rim-na|RX=[PNG][V1].[DER][V1].[DER][PNG]|TokenType=Root
 7	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	6	discourse	_	AlignBegin=8533|AlignEnd=8853|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
 8	//	_	PUNCT	_	_	6	punct	_	AlignBegin=8533|AlignEnd=8853|GE=[//]|TokenType=Break
 
@@ -50,7 +50,7 @@
 # text_en =  It was very cold.
 1	mʔakʷara	_	NOUN	N	Gender=Masc	5	subj	_	AlignBegin=9858|AlignEnd=10296|GE=cold|RX=[SBJ].[N].[M]|TokenType=Root
 2	winneːt	_	ADV	ADV	_	5	mod	_	AlignBegin=10296|AlignEnd=10734|GE=plenty|RX=[ADV]|TokenType=Root
-3	ʔakraː	_	VERB	V1	VerbClass=1	5	comp:pred/m	_	AlignBegin=10734|AlignEnd=10954|GE=be_strong[CVB].[MNR]|MGloss=be_strong[CVB].[MNR]|MSeg=ʔakr-aː|RX=[V1][PRF]|TokenType=Root
+3	ʔakraː	_	VERB	V1	VerbClass=1	5	comp:pred	_	AlignBegin=10734|AlignEnd=10954|GE=be_strong[CVB].[MNR]|MGloss=be_strong[CVB].[MNR]|MSeg=ʔakr-aː|RX=[V1][PRF]|TokenType=Root
 4	=b	_	DET	DET	Case=Acc|Gender=Masc	3	det	_	AlignBegin=10954|AlignEnd=11064|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
 5	=u	_	AUX	N	Number=Sing|Person=3	0	root	_	AlignBegin=11064|AlignEnd=11172|GE=[_COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=11172|AlignEnd=11611|GE=[/]|TokenType=Break
@@ -87,7 +87,7 @@
 23	hasara	_	PART	PTCL	_	22	discourse	_	AlignBegin=19629|AlignEnd=19953|GE=[ADVS]|RX=[PTCL]|TokenType=Root
 24	jhaks	_	VERB	V2	VerbClass=2	25	comp	_	AlignBegin=19953|AlignEnd=20115|GE=get_up[CAUS]|MGloss=get_up[CAUS]|MSeg=jhak-s|RX=[V2][V2].[DER]|TokenType=Root
 25	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	28	comp:aux	_	AlignBegin=20115|AlignEnd=20196|GE=[CVB].[MNR]|RX=[PRF]|TokenType=InflAff
-26	=b	_	DET	DET	Case=Acc|Gender=Masc	25	det/m	_	AlignBegin=20196|AlignEnd=20277|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
+26	=b	_	DET	DET	Case=Acc|Gender=Masc	25	det	_	AlignBegin=20196|AlignEnd=20277|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
 27	ki=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	28	mod	_	AlignBegin=20277|AlignEnd=20385|GE=[NEG].[IPFV]|RX=[PTCL]|TokenType=Clit
 28	iki	_	AUX	AUX	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	AlignBegin=20385|AlignEnd=20601|GE=[3SG].[M]become\PFV|MGloss=[3SG].[M]become\PFV|MSeg=i-ki|RX=[PNG][AUX].[PRF]|TokenType=Root
 29	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	28	discourse	_	AlignBegin=20601|AlignEnd=20925|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
@@ -106,7 +106,7 @@
 4	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	3	mod:poss	_	AlignBegin=22584|AlignEnd=22782|GE=[POSS].[3SG].[ACC]|RX=[PRO]|TokenType=Clit
 5	jhaks	_	VERB	V2	VerbClass=2	6	comp	_	AlignBegin=22782|AlignEnd=22940|GE=get_up[CAUS]|MGloss=get_up[CAUS]|MSeg=jhak-s|RX=[V2][V2].[DER]|TokenType=Root
 6	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	8	comp:pred	_	AlignBegin=22940|AlignEnd=23019|GE=[CVB].[MNR]|RX=[PRF]|TokenType=InflAff
-7	=b	_	DET	DET	Case=Acc|Gender=Masc	6	det/m	_	AlignBegin=23019|AlignEnd=23098|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
+7	=b	_	DET	DET	Case=Acc|Gender=Masc	6	det	_	AlignBegin=23019|AlignEnd=23098|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
 8	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=23098|AlignEnd=23178|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
 9	//	_	PUNCT	_	_	8	punct	_	AlignBegin=23178|AlignEnd=23573|GE=[//]|TokenType=Break
 
