@@ -508,24 +508,24 @@
 15	/	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=89273|AlignEnd=89838|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_01_shelter_099-118
-# text = i= jam =eːb // ji= oː= bri naː =iːb // kaɖaw -i mijʔat a- maːsiw =hoːb // a- nʔa a- tir =t a- ʃibib =hoːb // ʔoːt / suːr =iːsiː / suːfa =t hoːj t- hi =jeːt harʔiː =iːsiː / hamoː =t hoːj hiː -n =eːt / abaːj =heːb hiːreːr -eː rh -an =hoːb / a- hagit i- ni //
+# text = i= jam =eːb // ji= oː= bri =naː =iːb // kaɖaw -i mijʔat a- maːsiw =hoːb // a- nʔa a- tir =t a- ʃibib =hoːb // ʔoːt / suːr =iːsiː / suːfa =t hoːj t- hi =jeːt harʔiː =iːsiː / hamoː =t hoːj hiː -n =eːt / abaːj =heːb hiːreːr -eː rh -an =hoːb / a- hagit i- ni //
 # text_wb = ameːsa~sʔeː ameːsa~sʔeː ameːsa~sʔeː / uː= biri ʈa~ʈakʷi / i= jam =eːb // ji= oː= biri naː =iːb // kaɖawi mijʔat amaːsiw =hoːb // anʔa atir =t aʃibib =hoːb // ʔoːt / suːr =isi / suːfa =t hoːj theː =jeːt harʔiː =isi / hamoː =t hoːj hiːn =eːt / baːji =heːb hiːreːreː rhan =hoːb / ahagit ini //
 # text_en = when I heard footsteps which were making noise in the rain water, when I leaned down and looked,  when I saw a girl who has a fringe in front of her and hair behind her walking towards me,  I waited for her", he said.
 # phonetic_text = ameːsasʔeː ameːsasʔeː ameːsasʔeː / uːbiri ʈaʈakʷi / ijameːb // jiʔoːbiri naːjiːb // kaɖawi mijʔat amaːsiwhoːb // anʔa atirt aʃibibhoːb // ʔoːt / suːrisi / suːfat hoːj theːjeːt harʔiːsi / hamoːt hoːj hiːneːt / baːjiheːb hiːreːreː rhanhoːb / ahagit ini //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=89838|AlignEnd=89922|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
 2	jam	_	NOUN	N	Gender=Masc|Number=Plur	3	comp:obj	_	AlignBegin=89922|AlignEnd=90007|GE=water|Gloss=water|RX=[N].[PL].[M]|TokenType=Root
-3	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	11	comp:obl	_	AlignBegin=90007|AlignEnd=90092|GE==[LOC].[PL]|RX==[POSTP]|TokenType=Clit
+3	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	9	conj:dicto	_	AlignBegin=90007|AlignEnd=90092|GE==[LOC].[PL]|RX==[POSTP]|TokenType=Clit
 4	//	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=90092|AlignEnd=90694|TokenType=Break
 5	ji=	_	SCONJ	CONJ	Gender=Masc|Number=Plur	13	mod@relcl	_	AlignBegin=90694|AlignEnd=90816|GE=[REL].[PL].[M]=|RX=[CONJ]=|TokenType=Clit
 6	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	det	_	AlignBegin=90816|AlignEnd=90938|GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|TokenType=Clit
 7	bri	_	NOUN	N	Gender=Masc	8	comp	_	AlignBegin=90938|AlignEnd=91060|GE=rain|Gloss=rain|RX=[N].[M]|TokenType=Root
-8	naː	_	SCONJ	CONJ	_	9	comp	_	AlignBegin=91060|AlignEnd=91243|GE=thing|Gloss=thing|RX==[CONJ]|TokenType=Root
+8	=naː	_	NOUN	CONJ	_	9	comp	_	AlignBegin=91060|AlignEnd=91243|GE=thing|Gloss=thing|RX==[N.F]|TokenType=Root
 9	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	11	comp:obl	_	AlignBegin=91243|AlignEnd=91426|GE==[LOC].[SG]|RX==[POSTP]|TokenType=Clit
 10	//	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=91426|AlignEnd=92040|TokenType=Break
-11	kaɖaw	_	VERB	V2	VerbClass=2	15	comp:obj	_	AlignBegin=92040|AlignEnd=92261|GE=make_noise|Gloss=make_noise|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+11	kaɖaw	_	VERB	V2	VerbClass=2	5	comp	_	AlignBegin=92040|AlignEnd=92261|GE=make_noise|Gloss=make_noise|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 12	-i	_	PRON	TAM, PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	11	subj/m	_	AlignBegin=92261|AlignEnd=92482|GE=-[AOR].[3SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
-13	mijʔat	_	NOUN	N	Gender=Masc	11	subj	_	AlignBegin=92482|AlignEnd=92925|GE=footprint|Gloss=footprint|RX=[N].[M]|TokenType=Root
+13	mijʔat	_	NOUN	N	Gender=Masc	15	comp:obj	_	AlignBegin=92482|AlignEnd=92925|GE=footprint|Gloss=footprint|RX=[N].[M]|TokenType=Root
 14	a-	_	PRON	PNG	Number=Sing|Person=1	15	subj/m	_	AlignBegin=92925|AlignEnd=93072|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
 15	maːsiw	_	VERB	V1	Aspect=Perf|VerbClass=1	16	comp	_	AlignBegin=93072|AlignEnd=93219|GE=hear\[INT].[PFV]|Gloss=hear|RX=[V1].[DER]|TokenType=Root
 16	=hoːb	_	SCONJ	CONJ	_	25	mod	_	AlignBegin=93219|AlignEnd=93367|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit

@@ -415,23 +415,23 @@
 8	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=89273|AlignEnd=89838|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_01_shelter_099-118
-# text = i= jam =eːb // ji= oː= bri naː =iːb // kaɖawi mijʔat amaːsiw =hoːb // anʔa atir =t aʃibib =hoːb // ʔoːt / suːr =iːsiː / suːfa =t hoːj thi =jeːt harʔiː =iːsiː / hamoː =t hoːj hiːn =eːt / abaːj =heːb hiːreːreː rhan =hoːb / ahagit ini //
+# text = i= jam =eːb // ji= oː= bri =naː =iːb // kaɖawi mijʔat amaːsiw =hoːb // anʔa atir =t aʃibib =hoːb // ʔoːt / suːr =iːsiː / suːfa =t hoːj thi =jeːt harʔiː =iːsiː / hamoː =t hoːj hiːn =eːt / abaːj =heːb hiːreːreː rhan =hoːb / ahagit ini //
 # text_wb = ameːsa~sʔeː ameːsa~sʔeː ameːsa~sʔeː / uː= biri ʈa~ʈakʷi / i= jam =eːb // ji= oː= biri naː =iːb // kaɖawi mijʔat amaːsiw =hoːb // anʔa atir =t aʃibib =hoːb // ʔoːt / suːr =isi / suːfa =t hoːj theː =jeːt harʔiː =isi / hamoː =t hoːj hiːn =eːt / baːji =heːb hiːreːreː rhan =hoːb / ahagit ini //
 # text_en = when I heard footsteps which were making noise in the rain water, when I leaned down and looked,  when I saw a girl who has a fringe in front of her and hair behind her walking towards me,  I waited for her", he said.
 # phonetic_text = ameːsasʔeː ameːsasʔeː ameːsasʔeː / uːbiri ʈaʈakʷi / ijameːb // jiʔoːbiri naːjiːb // kaɖawi mijʔat amaːsiwhoːb // anʔa atirt aʃibibhoːb // ʔoːt / suːrisi / suːfat hoːj theːjeːt harʔiːsi / hamoːt hoːj hiːneːt / baːjiheːb hiːreːreː rhanhoːb / ahagit ini //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=89838|AlignEnd=89922|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
 2	jam	_	NOUN	N	Gender=Masc|Number=Plur	3	comp:obj	_	AlignBegin=89922|AlignEnd=90007|GE=water|Gloss=water|RX=[N].[PL].[M]|TokenType=Root
-3	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	11	comp:obl	_	AlignBegin=90007|AlignEnd=90092|GE==[LOC].[PL]|RX==[POSTP]|TokenType=Clit
+3	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	9	conj:dicto	_	AlignBegin=90007|AlignEnd=90092|GE==[LOC].[PL]|RX==[POSTP]|TokenType=Clit
 4	//	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=90092|AlignEnd=90694|TokenType=Break
 5	ji=	_	SCONJ	CONJ	Gender=Masc|Number=Plur	12	mod@relcl	_	AlignBegin=90694|AlignEnd=90816|GE=[REL].[PL].[M]=|RX=[CONJ]=|TokenType=Clit
 6	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	det	_	AlignBegin=90816|AlignEnd=90938|GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|TokenType=Clit
 7	bri	_	NOUN	N	Gender=Masc	8	comp	_	AlignBegin=90938|AlignEnd=91060|GE=rain|Gloss=rain|RX=[N].[M]|TokenType=Root
-8	naː	_	SCONJ	CONJ	_	9	comp	_	AlignBegin=91060|AlignEnd=91243|GE=thing|Gloss=thing|RX==[CONJ]|TokenType=Root
+8	=naː	_	NOUN	CONJ	_	9	comp	_	AlignBegin=91060|AlignEnd=91243|GE=thing|Gloss=thing|RX==[N.F]|TokenType=Root
 9	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	11	comp:obl	_	AlignBegin=91243|AlignEnd=91426|GE==[LOC].[SG]|RX==[POSTP]|TokenType=Clit
 10	//	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=91426|AlignEnd=92040|TokenType=Break
-11	kaɖawi	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	13	comp:obj	_	AlignBegin=92040|AlignEnd=92482|GE=make_noise-[AOR].[3SG].[M]|Gloss=make_noise|MGloss=make_noise-AOR.3SG.M|MSeg=kaɖaw-i|ReportedSpeech=Yes|RX=[V2]-[TAM].[PNG]|TokenType=Root
-12	mijʔat	_	NOUN	N	Gender=Masc	11	subj	_	AlignBegin=92482|AlignEnd=92925|GE=footprint|Gloss=footprint|RX=[N].[M]|TokenType=Root
+11	kaɖawi	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	5	comp	_	AlignBegin=92040|AlignEnd=92482|GE=make_noise-[AOR].[3SG].[M]|Gloss=make_noise|MGloss=make_noise-AOR.3SG.M|MSeg=kaɖaw-i|ReportedSpeech=Yes|RX=[V2]-[TAM].[PNG]|TokenType=Root
+12	mijʔat	_	NOUN	N	Gender=Masc	13	comp:obj	_	AlignBegin=92482|AlignEnd=92925|GE=footprint|Gloss=footprint|RX=[N].[M]|TokenType=Root
 13	amaːsiw	_	VERB	V1	Aspect=Perf|Number=Sing|VerbClass=1	14	comp	_	AlignBegin=92925|AlignEnd=93219|GE=[1SG]-hear\[INT].[PFV]|Gloss=hear|MGloss=1SG-hear\INT.PFV|MSeg=a-maːsiw|RX=[PNG]-[V1].[DER]|TokenType=Root
 14	=hoːb	_	SCONJ	CONJ	_	20	mod	_	AlignBegin=93219|AlignEnd=93367|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 15	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=93367|AlignEnd=94454|TokenType=Break
