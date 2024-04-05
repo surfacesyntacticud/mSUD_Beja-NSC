@@ -1133,7 +1133,7 @@
 9	i=	_	DET	DET	Definite=Def|Gender=Masc	10	det	_	AlignBegin=179473|AlignEnd=179633|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 10	jam	_	NOUN	N	Gender=Masc|Number=Plur	11	comp/m	_	AlignBegin=179633|AlignEnd=179793|GE=water|RX=[N].[PL].[M]|TokenType=Root
 11	-eː	_	ADP	CASE	Case=Gen|Number=Plur	12	comp:obl	_	AlignBegin=179793|AlignEnd=179952|GE=[GEN].[PL]|RX=[CASE]|TokenType=InflAff
-12	gʷada	_	VERB	V2	Foreign=Yes|VerbClass=2	13	comp/m	_	AlignBegin=179952|AlignEnd=180112|GE=splash|Lang=ar|RX=[V2].[BORR].[ARA]|TokenType=Root
+12	gʷada	_	VERB	V2	VerbClass=2	13	comp/m	_	AlignBegin=179952|AlignEnd=180112|GE=splash|RX=[V2].[BORR].[ARA]|TokenType=Root
 13	-am	_	AUX	V2	VerbClass=2	19	conj:coord	_	AlignBegin=180112|AlignEnd=180272|DerPos=VERB|GE=[MID]|RX=[V2].[DER]|TokenType=DerAff
 14	-ani	_	PRON	TAM.PNG	Aspect=Imp|Number=Sing|Person=1	13	subj/m	_	AlignBegin=180272|AlignEnd=180431|GE=[IPFV].[1SG]|RX=[TAM].[PNG]|TokenType=InflAff
 15	/	_	PUNCT	_	_	13	punct	_	AlignBegin=180431|AlignEnd=180909|GE=[/]|TokenType=Break
@@ -1491,7 +1491,7 @@
 5	=t	_	DET	DET	Gender=Fem	4	det	_	AlignBegin=237241|AlignEnd=237410|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
 6	tiː-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	7	subj/m	_	AlignBegin=237410|AlignEnd=237580|GE=[3SG].[F]|RX=[PNG]|TokenType=InflAff
 7	fi	_	VERB	V1	Aspect=Aor|VerbClass=1	13	conj:coord	_	AlignBegin=237580|AlignEnd=237749|GE=be_there\AOR|RX=[V1].[IRG]|TokenType=Root
-8	laːkin	_	CCONJ	PTCL	Foreign=Yes	7	cc	_	AlignBegin=237749|AlignEnd=238088|GE=but|Lang=ar|RX=[PTCL].[BORR].[ARA]|TokenType=Root
+8	laːkin	_	CCONJ	PTCL	_	7	cc	_	AlignBegin=237749|AlignEnd=238088|GE=but|RX=[PTCL].[BORR].[ARA]|TokenType=Root
 9	/	_	PUNCT	_	_	7	punct	_	AlignBegin=238088|AlignEnd=238427|GE=[/]|TokenType=Break
 10	hawid	_	VERB	V1	VerbClass=1	11	comp/m	_	AlignBegin=238427|AlignEnd=238626|GE=spend_the_night|RX=[V1]|TokenType=Root
 11	-ti	_	AUX	_	_	13	mod	_	AlignBegin=238626|AlignEnd=238825|GE=[CVB].[GNRL]|TokenType=InflAff
@@ -2270,7 +2270,7 @@
 2	diw	_	VERB	V2	VerbClass=2	4	mod@relcl	_	AlignBegin=359066|AlignEnd=359282|GE=sleep|RX=[V2]|TokenType=Root
 3	-i	_	PRON	TAM.PNG	Aspect=Aor|Number=Sing|Person=1	2	subj/m	_	AlignBegin=359282|AlignEnd=359498|GE=[AOR].[1SG]|RX=[TAM].[PNG]|TokenType=InflAff
 4	mʔaːdami	_	NOUN	N	Gender=Masc	5	comp:obj	_	AlignBegin=359498|AlignEnd=359930|GE=person|RX=[N].[M]|TokenType=Root
-5	massal	_	VERB	V2	Foreign=Yes|VerbClass=2	8	conj:coord	_	AlignBegin=359930|AlignEnd=360074|GE=represent|Lang=ar|RX=[V2].[BORR].[ARA]|TokenType=Root
+5	massal	_	VERB	V2	VerbClass=2	8	conj:coord	_	AlignBegin=359930|AlignEnd=360074|GE=represent|RX=[V2].[BORR].[ARA]|TokenType=Root
 6	-an	_	PRON	TAM.PNG	Aspect=Perf|Number=Sing|Person=1	5	subj/m	_	AlignBegin=360074|AlignEnd=360218|GE=[PFV].[1SG]|RX=[TAM].[PNG]|TokenType=InflAff
 7	=t	_	CCONJ	CONJ	_	5	cc	_	AlignBegin=360218|AlignEnd=360362|GE=[COORD]|RX=[CONJ]|TokenType=Clit
 8	kantuːr	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=360362|AlignEnd=360578|GE=snore|RX=[V2]|TokenType=Root
@@ -2508,7 +2508,7 @@
 # phonetic_text = xatar -ta eːn =heːb /
 # text = xatarta eːnheːb /
 # text_en =  You were in danger", they told me.
-1	xatar	_	VERB	V2	Foreign=Yes|VerbClass=2	3	parataxis:obj	_	AlignBegin=389871|AlignEnd=390053|GE=be_in_danger|Lang=ar|RX=[V2].[BORR].[ARA]|TokenType=Root
+1	xatar	_	VERB	V2	VerbClass=2	3	parataxis:obj	_	AlignBegin=389871|AlignEnd=390053|GE=be_in_danger|RX=[V2].[BORR].[ARA]|TokenType=Root
 2	-ta	_	PRON	TAM.PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=2	1	subj/m	_	AlignBegin=390053|AlignEnd=390234|GE=[PFV].[2SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff
 3	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	0	root	_	AlignBegin=390234|AlignEnd=390416|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
 4	=heːb	_	PRON	PRO	Number=Sing|Person=1	3	comp:obj	_	AlignBegin=390416|AlignEnd=390597|GE=[OBJ].[1SG]|RX=[PRO]|TokenType=Clit

@@ -111,7 +111,7 @@
 7	buːni	_	NOUN	N	Gender=Masc	8	comp	_	AlignBegin=19341|AlignEnd=19529|GE=coffee[GEN]|MGloss=coffee[GEN]|MSeg=buːn-i|RX=[N].[M][CASE]|TokenType=Root
 8	=t	_	PRON	REL	Gender=Fem|PronType=Rel	2	mod@relcl	_	AlignBegin=19529|AlignEnd=19621|GE=[INDF].[F]|RX=[REL]|TokenType=Clit
 9	jhaksi	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	12	conj:coord	_	AlignBegin=19621|AlignEnd=19972|GE=get_up[CAUS][AOR].[3SG].[M]|MGloss=get_up[CAUS][AOR].[3SG].[M]|MSeg=jhak-s-i|RX=[V2][V2].[DER][TAM].[PNG]|TokenType=Root
-10	=t	_	CCONJ	CONJ	_	_	_	_	AlignBegin=19972|AlignEnd=20089|GE=[COORD]|RX=[CONJ]|TokenType=Clit
+10	=t	_	CCONJ	CONJ	_	9	cc	_	AlignBegin=19972|AlignEnd=20089|GE=[COORD]|RX=[CONJ]|TokenType=Clit
 11	/	_	PUNCT	_	_	9	punct	_	AlignBegin=20089|AlignEnd=20559|GE=[/]|TokenType=Break
 12	hiːreːreː	_	VERB	V2	VerbClass=2	13	mod	_	AlignBegin=20737|AlignEnd=21119|GE=walk[CVB].[SMLT]|MGloss=walk[CVB].[SMLT]|MSeg=hiːreːr-eː|RX=[V2]|TokenType=Root
 13	jʔeːn	_	VERB	V2	Number=Plur|VerbClass=2	14	comp	_	AlignBegin=21119|AlignEnd=21373|GE=come[IPFV].[3PL]|MGloss=come[IPFV].[3PL]|MSeg=jʔ-eːn|RX=[V2].[IRG][TAM].[PNG]|TokenType=Root
@@ -537,7 +537,7 @@
 2	gajiː	_	ADV	ADV	_	3	mod	_	AlignBegin=97821|AlignEnd=98197|GE=anew|RX=[ADV]|TokenType=Root
 3	da~duːfaː	_	VERB	V2	VerbClass=2	5	comp:aux	_	AlignBegin=98197|AlignEnd=98447|GE=[PLAC~sweat][CVB].[MNR]|MGloss=[PLAC~sweat][CVB].[MNR]|MSeg=da~duːf-aː|RX=[V2].[DER][PRF]|TokenType=Root
 4	=b	_	DET	DET	Case=Acc|Gender=Masc	3	det	_	AlignBegin=98447|AlignEnd=98573|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
-5	akajeː	_	VERB	AUX	Aspect=Perf	12	conj:coord	_	AlignBegin=98573|AlignEnd=98823|GE=become[CVB].[SMLT]|MGloss=become[CVB].[SMLT]|MSeg=aka-jeː|RX=[AUX].[PRF]|TokenType=Root
+5	akajeː	_	AUX	AUX	Aspect=Perf	12	conj:coord	_	AlignBegin=98573|AlignEnd=98823|GE=become[CVB].[SMLT]|MGloss=become[CVB].[SMLT]|MSeg=aka-jeː|RX=[AUX].[PRF]|TokenType=Root
 6	=wa	_	CCONJ	CONJ	_	5	cc	_	AlignBegin=98823|AlignEnd=98949|GE=[COORD]|RX=[CONJ]|TokenType=Clit
 7	/	_	PUNCT	_	_	5	punct	_	AlignBegin=98949|AlignEnd=99327|GE=[/]|TokenType=Break
 8	i=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=99327|AlignEnd=99463|GE=[DEF].[M]|RX=[DET]|TokenType=Clit

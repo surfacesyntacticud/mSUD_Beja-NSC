@@ -439,13 +439,13 @@
 5	tikʷ	_	VERB	V2	VerbClass=2	11	comp:aux	_	AlignBegin=80402|AlignEnd=80465|GE=go_down|RX=[V2]|TokenType=Root
 6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=80465|AlignEnd=80528|GE=[/]|TokenType=Break
 7	t=	_	DET	DET	Definite=Def|Gender=Fem	8	det	_	AlignBegin=80798|AlignEnd=80872|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-8	ʔarabijaːj	_	NOUN	N	Foreign=Yes|Gender=Fem	10	comp:obj	_	AlignBegin=80872|AlignEnd=80946|GE=car|Lang=ar|RX=[N].[F].[BORR].[ARA]|TokenType=Root
+8	ʔarabijaːj	_	NOUN	N	Gender=Fem	10	comp:obj	_	AlignBegin=80872|AlignEnd=80946|GE=car|RX=[N].[F].[BORR].[ARA]|TokenType=Root
 9	=t	_	DET	DET	Gender=Fem	8	det	_	AlignBegin=80946|AlignEnd=81020|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
 10	=iː	_	ADP	POSTP	Case=Abl|Number=Sing	11	comp:obl	_	AlignBegin=81020|AlignEnd=81094|GE=[ABL].[SG]|RX=[POSTP]|TokenType=Clit
 11	ani	_	AUX	LV	Number=Sing|VerbType=Light	12	comp:obj	_	AlignBegin=81094|AlignEnd=81292|GE=[1SG]say|MGloss=[1SG]say|MSeg=a-ni|RX=[PNG][LV]|TokenType=Root
 12	=hoːb	_	SCONJ	CONJ	_	16	mod	_	AlignBegin=81292|AlignEnd=81390|GE=when|RX=[CONJ]|TokenType=Clit
 13	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=81390|AlignEnd=81687|GE=[/]|TokenType=Break
-14	bass	_	PART	PTCL	Foreign=Yes	16	discourse	_	AlignBegin=81687|AlignEnd=81949|GE=only|Lang=ar|RX=[PTCL].[BORR].[ARA]|TokenType=Root
+14	bass	_	PART	PTCL	_	16	discourse	_	AlignBegin=81687|AlignEnd=81949|GE=only|RX=[PTCL].[BORR].[ARA]|TokenType=Root
 15	whiː	_	ADP	POSTP	_	16	comp:obl	_	AlignBegin=81949|AlignEnd=82080|GE=under|RX=[POSTP]|TokenType=Root
 16	ingad	_	VERB	V1	Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=82211|AlignEnd=82473|GE=[3SG].[M]stop|MGloss=[3SG].[M]stop|MSeg=i-ngad|RX=[PNG][V1].[IRG]|TokenType=Root
 17	/	_	PUNCT	PUNCT	_	16	punct	_	AlignBegin=82473|AlignEnd=82737|GE=[/]|TokenType=Break
@@ -569,7 +569,7 @@
 8	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	16	comp:obl	_	AlignBegin=101446|AlignEnd=101610|GE=[LOC].[PL]|RX=[POSTP]|TokenType=Clit
 9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=101610|AlignEnd=101940|GE=[/]|TokenType=Break
 10	i=	_	DET	DET	Definite=Def|Gender=Masc	11	det	_	AlignBegin=101940|AlignEnd=102084|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-11	maːl	_	NOUN	N	Foreign=Yes|Gender=Masc	16	subj	_	AlignBegin=102084|AlignEnd=102228|GE=treasure|Lang=ar|RX=[N].[M].[BORR].[ARA]|TokenType=Root
+11	maːl	_	NOUN	N	Gender=Masc	16	subj	_	AlignBegin=102084|AlignEnd=102228|GE=treasure|RX=[N].[M].[BORR].[ARA]|TokenType=Root
 12	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	11	mod:poss	_	AlignBegin=102228|AlignEnd=102373|GE=[POSS].[1SG].[ACC]|RX=[PRO]|TokenType=Clit
 13	wi=	_	SCONJ	CONJ.REL	Gender=Masc|Number=Sing|PronType=Rel	11	mod@relcl	_	AlignBegin=102373|AlignEnd=102481|GE=[REL].[SG].[M]|RX=[CONJ]|TokenType=Clit
 14	iːbri	_	VERB	V1	Aspect=Aor|Number=Sing|VerbClass=1	13	comp:obj	_	AlignBegin=102481|AlignEnd=102697|GE=[1SG]have\AOR|MGloss=[1SG]have\AOR|MSeg=iː-bri|RX=[PNG][V1].[IRG]|TokenType=Root
