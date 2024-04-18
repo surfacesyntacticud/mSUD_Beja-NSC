@@ -543,7 +543,7 @@
 5	t=	_	DET	DET	Definite=Def|Gender=Fem	6	det	_	AlignBegin=113433|AlignEnd=113529|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
 6	ʔanoː	_	NOUN	N	_	8	comp:pred	_	AlignBegin=113529|AlignEnd=113625|GE=sheep|RX=[N]|TokenType=Root
 7	=t	_	DET	DET	Gender=Fem	6	det	_	AlignBegin=113625|AlignEnd=113721|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-8	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	3	parataxis:parenth	_	AlignBegin=113721|AlignEnd=113817|GE=[COP].[3PL]|RX=[PRED].[N]|TokenType=Clit
+8	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	3	conj:parenth	_	AlignBegin=113721|AlignEnd=113817|GE=[COP].[3PL]|RX=[PRED].[N]|TokenType=Clit
 9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=113817|AlignEnd=114201|GE=[/]|TokenType=Break
 10	kass	_	ADJ	DET	_	3	mod	_	AlignBegin=114201|AlignEnd=114348|GE=all|RX=[ADJ]|TokenType=Root
 11	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	10	mod@poss	_	AlignBegin=114348|AlignEnd=114495|GE=[POSS].[3SG].[ACC]|RX=[PRO]|TokenType=Clit
@@ -560,7 +560,7 @@
 # text_en = Doing nothing else, he eats and drinks only out of his gold, they said.
 1	oːn	_	DET	V2	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	AlignBegin=119212|AlignEnd=119364|GE=[PROX].[SG].[M].[ACC]|RX=[DET]|TokenType=Root
 2	i=	_	DET	V2	Definite=Def|Gender=Masc	3	det	_	AlignBegin=119212|AlignEnd=119364|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-3	dammʔara	_	NOUN	V2	Gender=Masc	7	comp:obj	_	AlignBegin=119212|AlignEnd=119364|GE=gold|RX=[N].[M]|TokenType=Root
+3	dammʔara	_	NOUN	V2	Gender=Masc	6	comp:obj	_	AlignBegin=119212|AlignEnd=119364|GE=gold|RX=[N].[M]|TokenType=Root
 4	=joː	_	PRON	V2	Case=Acc|Number=Sing|Person=3|Poss=Yes	3	comp:poss	_	AlignBegin=119212|AlignEnd=119364|GE=[POSS].[3SG].[ACC]|RX=[PRO]|TokenType=Clit
 5	bass	_	ADV	V2	_	6	mod	_	AlignBegin=119212|AlignEnd=119364|GE=only|RX=[PTCL.BORR.ARA]|TokenType=Root
 6	hisik	_	INTJ	V2	_	7	comp:pred	_	AlignBegin=119212|AlignEnd=119364|GE=shh|RX=[INTJ]|TokenType=Root
@@ -1201,7 +1201,7 @@
 51	=hoːb	_	SCONJ	CONJ	_	56	mod	_	AlignBegin=271639|AlignEnd=271753|GE=when|RX=[CONJ]|TokenType=Clit
 52	/	_	PUNCT	PUNCT	_	51	punct	_	AlignBegin=271753|AlignEnd=272095|GE=[/]|TokenType=Break
 53	i=	_	DET	DET	Definite=Def|Gender=Masc	54	det	_	AlignBegin=272095|AlignEnd=272184|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-54	doːr	_	NOUN	N	Gender=Masc	56	comp:obj	_	AlignBegin=272184|AlignEnd=272273|GE=time|RX=[N].[M]|TokenType=Root
+54	doːr	_	NOUN	N	Gender=Masc	56	comp:pred	_	AlignBegin=272184|AlignEnd=272273|GE=time|RX=[N].[M]|TokenType=Root
 55	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	54	mod@poss	_	AlignBegin=272273|AlignEnd=272363|GE=[POSS].[3SG].[ACC]|RX=[PRO]|TokenType=Clit
 56	akajeː	_	VERB	V1	VerbClass=1	63	mod	_	AlignBegin=272363|AlignEnd=272631|GE=become[CVB].[SMLT]|MGloss=become[CVB].[SMLT]|MSeg=aka-jeː|RX=[V1].[IRG]|TokenType=Root
 57	bass	_	PART	PTCL	_	56	discourse	_	AlignBegin=272631|AlignEnd=272899|GE=only|RX=[PTCL].[BORR].[ARA]|TokenType=Root
