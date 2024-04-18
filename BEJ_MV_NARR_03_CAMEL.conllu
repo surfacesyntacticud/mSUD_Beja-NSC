@@ -547,8 +547,8 @@
 # text = ki= haːj =wa //
 # phonetic_text = kihaːjwa //
 # text_en = since it is a camel that I had let loose,  it needed to be looked for.  Because he is not there. [associative coordination with what precedes]
-1	ki=	_	PART	PTCL	Aspect=Imp	_	_	_	AlignBegin=97609|AlignEnd=97703|GE=[NEG].[IPFV]=|RX=[PTCL]=
-2	haːj	_	VERB	V1	Aspect=Imp|VerbClass=1	_	_	_	AlignBegin=97703|AlignEnd=97798|GE=[IPFV].[[3SG].[M]]|Gloss=be_there|RX=[V1].[IRG]
-3	=wa	_	CCONJ	CONJ	_	_	_	_	AlignBegin=97798|AlignEnd=97893|GE==[COORD]|RX==[CONJ]
-4	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=97893|AlignEnd=98178|GE=[PUNCT]|RX=[PUNCT]
+1	ki=	_	PART	PTCL	Aspect=Imp	2	mod	_	AlignBegin=97609|AlignEnd=97703|GE=[NEG].[IPFV]=|RX=[PTCL]=
+2	haːj	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=97703|AlignEnd=97798|GE=[IPFV].[[3SG].[M]]|Gloss=be_there|RX=[V1].[IRG]
+3	=wa	_	CCONJ	CONJ	_	2	cc	_	AlignBegin=97798|AlignEnd=97893|GE==[COORD]|RX==[CONJ]
+4	//	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=97893|AlignEnd=98178|GE=[PUNCT]|RX=[PUNCT]
 
