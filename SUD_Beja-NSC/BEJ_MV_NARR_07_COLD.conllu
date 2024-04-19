@@ -384,7 +384,7 @@
 21	iːd	_	VERB	V1	Aspect=Aor|Number=Sing|VerbClass=1	22	comp	_	AlignBegin=70405|AlignEnd=70605|GE=[1SG]say\AOR|MGloss=[1SG]say\AOR|MSeg=iː-d|RX=[PNG][V1].[IRG]|TokenType=Root
 22	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	24	mod@relcl	_	AlignBegin=70605|AlignEnd=70705|GE=[REL].[F]|RX=[CONJ]|TokenType=Clit
 23	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	24	det	_	AlignBegin=70705|AlignEnd=70855|GE=[DEF].[SG].[F].[ACC]|RX=[DET]|TokenType=Clit
-24	na	_	SCONJ	CONJ	_	0	root	_	AlignBegin=70855|AlignEnd=71005|GE=thing|RX=[CONJ]|TokenType=Root
+24	na	_	NOUN	CONJ	_	0	root	_	AlignBegin=70855|AlignEnd=71005|GE=thing|RX=[CONJ]|TokenType=Root
 25	nuːn	_	PART	PTCL	_	24	mod	_	AlignBegin=71005|AlignEnd=71305|GE=only|RX=[PTCL]|TokenType=Root
 26	/	_	PUNCT	_	_	25	punct	_	AlignBegin=71305|AlignEnd=71601|GE=[/]|TokenType=Break
 
@@ -411,8 +411,8 @@
 # text_en =  Something like that he assisted to, they said. That man.
 1	bak	_	PART	DEICT	_	2	mod	_	AlignBegin=73090|AlignEnd=73416|GE=thus|RX=[DEICT].[MNR]|TokenType=Root
 2	tʔiit	_	NOUN	V1	VerbClass=1	3	comp	_	AlignBegin=73416|AlignEnd=73580|GE=resemble[VN]|MGloss=resemble[VN]|MSeg=tʔi-it|RX=[V1].[IRG][N].[V]|TokenType=Root
-3	=eː	_	SCONJ	CONJ.REL	PronType=Rel	4	comp	_	AlignBegin=73580|AlignEnd=73662|GE=[REL]|RX=[CONJ]|TokenType=Clit
-4	=na	_	SCONJ	CONJ	_	6	comp:obj	_	AlignBegin=73662|AlignEnd=73742|GE=thing|RX=[CONJ]|TokenType=Clit
+3	=eː	_	SCONJ	CONJ.REL	PronType=Rel	4	mod@relcl	_	AlignBegin=73580|AlignEnd=73662|GE=[REL]|RX=[CONJ]|TokenType=Clit
+4	=na	_	NOUN	CONJ	_	6	comp:obj	_	AlignBegin=73662|AlignEnd=73742|GE=thing|RX=[N.F]|TokenType=Clit
 5	/	_	PUNCT	_	_	4	punct	_	AlignBegin=73742|AlignEnd=74069|GE=[/]|TokenType=Break
 6	hadrja	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	0	root	_	AlignBegin=74257|AlignEnd=74491|GE=attend[PFV].[3SG].[M]|MGloss=attend[PFV].[3SG].[M]|MSeg=hadr-ja|RX=[V2][TAM].[PNG]|TokenType=Root
 7	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	6	discourse	_	AlignBegin=74491|AlignEnd=74725|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root

@@ -445,7 +445,7 @@
 27	d	_	VERB	V1	Aspect=Aor|VerbClass=1	28	comp	_	AlignBegin=70505|AlignEnd=70605|GE=say\AOR|RX=[V1].[IRG]|TokenType=Root
 28	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	30	mod@relcl	_	AlignBegin=70605|AlignEnd=70705|GE=[REL].[F]|RX=[CONJ]|TokenType=Clit
 29	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	30	det	_	AlignBegin=70705|AlignEnd=70855|GE=[DEF].[SG].[F].[ACC]|RX=[DET]|TokenType=Clit
-30	na	_	SCONJ	CONJ	_	0	root	_	AlignBegin=70855|AlignEnd=71005|GE=thing|RX=[CONJ]|TokenType=Root
+30	na	_	NOUN	CONJ	_	0	root	_	AlignBegin=70855|AlignEnd=71005|GE=thing|RX=[CONJ]|TokenType=Root
 31	nuːn	_	PART	PTCL	_	30	mod	_	AlignBegin=71005|AlignEnd=71305|GE=only|RX=[PTCL]|TokenType=Root
 32	/	_	PUNCT	_	_	31	punct	_	AlignBegin=71305|AlignEnd=71601|GE=[/]|TokenType=Break
 
@@ -474,8 +474,8 @@
 1	bak	_	PART	DEICT	_	2	mod	_	AlignBegin=73090|AlignEnd=73416|GE=thus|RX=[DEICT].[MNR]|TokenType=Root
 2	tʔi	_	VERB	V1	VerbClass=1	3	comp/m	_	AlignBegin=73416|AlignEnd=73498|GE=resemble|RX=[V1].[IRG]|TokenType=Root
 3	-it	_	SCONJ	N.V	_	4	comp	_	AlignBegin=73498|AlignEnd=73580|DerPos=NOUN|GE=[VN]|RX=[N].[V]|TokenType=DerAff
-4	=eː	_	SCONJ	CONJ.REL	PronType=Rel	5	comp	_	AlignBegin=73580|AlignEnd=73662|GE=[REL]|RX=[CONJ]|TokenType=Clit
-5	=na	_	SCONJ	CONJ	_	7	comp:obj	_	AlignBegin=73662|AlignEnd=73742|GE=thing|RX=[CONJ]|TokenType=Clit
+4	=eː	_	SCONJ	CONJ.REL	PronType=Rel	5	mod@relcl	_	AlignBegin=73580|AlignEnd=73662|GE=[REL]|RX=[CONJ]|TokenType=Clit
+5	=na	_	NOUN	CONJ	_	7	comp:obj	_	AlignBegin=73662|AlignEnd=73742|GE=thing|RX=[N.F]|TokenType=Clit
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=73742|AlignEnd=74069|GE=[/]|TokenType=Break
 7	hadr	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=74257|AlignEnd=74374|GE=attend|RX=[V2]|TokenType=Root
 8	-ja	_	PRON	TAM.PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	subj/m	_	AlignBegin=74374|AlignEnd=74491|GE=[PFV].[3SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff

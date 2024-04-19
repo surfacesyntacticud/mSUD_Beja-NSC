@@ -76,14 +76,14 @@
 # text = eː= kam ji= iː- bri -n =eː =naː =iːb kaːm hoːj danri eːn //
 # text_en = he killed them one of the camels they had, they said.
 1	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	det	_	AlignBegin=13641|AlignEnd=13811|GE=[DEF].[PL].[M].[ACC]|RX=[DET]|TokenType=Clit
-2	kam	_	NOUN	N	_	8	comp	_	AlignBegin=13811|AlignEnd=13981|GE=camel|RX=[N]|TokenType=Root
+2	kam	_	NOUN	N	_	9	comp:obj	_	AlignBegin=13811|AlignEnd=13981|GE=camel|RX=[N]|TokenType=Root
 3	ji=	_	PRON	CONJ.REL	Gender=Masc|Number=Plur|PronType=Rel	5	comp:obj	_	AlignBegin=13981|AlignEnd=14030|GE=[REL].[PL].[M]|RX=[CONJ]|TokenType=Clit
 4	iː-	_	PRON	PNG	Person=3	5	subj/m	_	AlignBegin=14030|AlignEnd=14079|GE=[3]|RX=[PNG]|TokenType=InflAff
 5	bri	_	VERB	V1	Aspect=Aor|VerbClass=1	7	comp	_	AlignBegin=14079|AlignEnd=14128|GE=have\AOR|RX=[V1].[IRG]|TokenType=Root
 6	-n	_	PRON	PNG	Number=Plur	5	subj/m	_	AlignBegin=14128|AlignEnd=14177|GE=[PL]|RX=[PNG]|TokenType=InflAff
-7	=eː	_	SCONJ	CONJ.REL	PronType=Rel	2	mod@relcl	_	AlignBegin=14177|AlignEnd=14226|GE=[REL]|RX=[CONJ]|TokenType=Clit
-8	=naː	_	SCONJ	CONJ	_	9	comp	_	AlignBegin=14226|AlignEnd=14275|GE=thing|RX=[CONJ]|TokenType=Clit
-9	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	10	mod	_	AlignBegin=14275|AlignEnd=14321|GE=[LOC].[SG]|RX=[POSTP]|TokenType=Clit
+7	=eː	_	SCONJ	CONJ.REL	PronType=Rel	8	mod@relcl	_	AlignBegin=14177|AlignEnd=14226|GE=[REL]|RX=[CONJ]|TokenType=Clit
+8	=naː	_	NOUN	CONJ	_	9	comp	_	AlignBegin=14226|AlignEnd=14275|GE=thing|RX=[CONJ]|TokenType=Clit
+9	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	10	comp:obl	_	AlignBegin=14275|AlignEnd=14321|GE=[LOC].[SG]|RX=[POSTP]|TokenType=Clit
 10	kaːm	_	NOUN	N	_	12	comp:obj	_	AlignBegin=14321|AlignEnd=14661|GE=camel|RX=[N]|TokenType=Root
 11	hoːj	_	ADP	PRO	_	12	comp:obl	_	AlignBegin=14661|AlignEnd=15001|GE=[LOC]|RX=[POSTP]|TokenType=Root
 12	danri	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	0	root	_	AlignBegin=15001|AlignEnd=15341|GE=kill\IPFV.3SG|RX=[V1]|TokenType=Root
