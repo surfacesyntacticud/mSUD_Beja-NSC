@@ -60,7 +60,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_07_COLD.WAV
 # sent_timecode = 12611, 21990
 # phonetic_text = gaːl -i =ka i= tarab -eː ti= balami =t =eː firʔa -tiːt / ʔiːbaːb -eː / jʔ -eːn =hoːb oː= mhiːn / ontʔa // uː= tak halak hasara jhak -s -aː =b ki= i- ki eːn //
-# text = gaːli =ka i= tarabeː ti= balami =t =eː firʔatiːt / ʔiːbaːbeː / jʔeːn =hoːb oː= mhiːn / ontʔa // uː= tak halak hasara jhaks -aː =b ki= iki eːn //
+# text = gaːli =ka i= tarabeː ti= balami =t =eː firʔatiːt / ʔiːbaːbeː / jʔeːn =hoːb oː= mhiːn / ontʔa // uː= tak halak hasara jhaksaː =b ki= iki eːn //
 # text_en =  After each of them had taken out his supplies from his share, while travelling when they arrive at a place, now the man (thinks): "But he has not taken any (warm) cloth!", they said.
 1	gaːli	_	NUM	NUM	_	2	comp	_	AlignBegin=12611|AlignEnd=12959|GE=one[GEN]|MGloss=one[GEN]|MSeg=gaːl-i|RX=[NUM][CASE]|TokenType=Root
 2	=ka	_	ADP	POSTP	_	9	subj	_	AlignBegin=12959|AlignEnd=13134|GE=[DISTR]|RX=[POSTP]|TokenType=Clit
@@ -75,40 +75,38 @@
 11	ʔiːbaːbeː	_	VERB	V2	VerbClass=2	13	mod	_	AlignBegin=15406|AlignEnd=15730|GE=travel[CVB].[SMLT]|MGloss=travel[CVB].[SMLT]|MSeg=ʔiːbaːb-eː|RX=[V2]|TokenType=Root
 12	/	_	PUNCT	_	_	11	punct	_	AlignBegin=15730|AlignEnd=16055|GE=[/]|TokenType=Break
 13	jʔeːn	_	VERB	V2	Number=Plur|VerbClass=2	14	comp	_	AlignBegin=16429|AlignEnd=16677|GE=come[IPFV].[3PL]|MGloss=come[IPFV].[3PL]|MSeg=jʔ-eːn|RX=[V2].[IRG][TAM].[PNG]|TokenType=Root
-14	=hoːb	_	SCONJ	CONJ	_	28	mod	_	AlignBegin=16677|AlignEnd=16800|GE=when|RX=[CONJ]|TokenType=Clit
+14	=hoːb	_	SCONJ	CONJ	_	27	mod	_	AlignBegin=16677|AlignEnd=16800|GE=when|RX=[CONJ]|TokenType=Clit
 15	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	16	det	_	AlignBegin=16800|AlignEnd=16986|GE=[DEF].[SG].[M].[ACC]|RX=[DET]|TokenType=Clit
 16	mhiːn	_	NOUN	N	Gender=Masc	13	dislocated:obj	_	AlignBegin=16986|AlignEnd=17171|GE=place|RX=[N].[M]|TokenType=Root
 17	/	_	PUNCT	_	_	16	punct	_	AlignBegin=17171|AlignEnd=17542|GE=[/]|TokenType=Break
 18	ontʔa	_	ADV	PTCL	_	16	discourse	_	AlignBegin=18342|AlignEnd=18555|GE=now|RX=[PTCL]|TokenType=Root
 19	//	_	PUNCT	_	_	18	punct	_	AlignBegin=18555|AlignEnd=18768|GE=[//]|TokenType=Break
 20	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	21	det	_	AlignBegin=18981|AlignEnd=19143|GE=[DEF].[SG].[M].[NOM]|RX=[DET]|TokenType=Clit
-21	tak	_	NOUN	N	Gender=Masc	28	parataxis:obj	_	AlignBegin=19143|AlignEnd=19305|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
+21	tak	_	NOUN	N	Gender=Masc	27	parataxis:obj	_	AlignBegin=19143|AlignEnd=19305|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
 22	halak	_	NOUN	N	Gender=Masc	24	comp:obj	_	AlignBegin=19305|AlignEnd=19629|GE=cloth|RX=[N].[M]|TokenType=Root
 23	hasara	_	PART	PTCL	_	22	discourse	_	AlignBegin=19629|AlignEnd=19953|GE=[ADVS]|RX=[PTCL]|TokenType=Root
-24	jhaks	_	VERB	V2	VerbClass=2	25	comp	_	AlignBegin=19953|AlignEnd=20115|GE=get_up[CAUS]|MGloss=get_up[CAUS]|MSeg=jhak-s|RX=[V2][V2].[DER]|TokenType=Root
-25	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	28	comp:aux	_	AlignBegin=20115|AlignEnd=20196|GE=[CVB].[MNR]|RX=[PRF]|TokenType=InflAff
-26	=b	_	DET	DET	Case=Acc|Gender=Masc	25	det	_	AlignBegin=20196|AlignEnd=20277|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
-27	ki=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	28	mod	_	AlignBegin=20277|AlignEnd=20385|GE=[NEG].[IPFV]|RX=[PTCL]|TokenType=Clit
-28	iki	_	AUX	AUX	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	AlignBegin=20385|AlignEnd=20601|GE=[3SG].[M]become\PFV|MGloss=[3SG].[M]become\PFV|MSeg=i-ki|RX=[PNG][AUX].[PRF]|TokenType=Root
-29	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	28	discourse	_	AlignBegin=20601|AlignEnd=20925|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
-30	//	_	PUNCT	_	_	28	punct	_	AlignBegin=20925|AlignEnd=21251|GE=[//]|TokenType=Break
+24	jhaksaː	_	VERB	V2	VerbClass=2	27	comp:aux	_	AlignBegin=19953|AlignEnd=20196|GE=get_up[CAUS][CVB].[MNR]|MGloss=get_up[CAUS][CVB].[MNR]|MSeg=jhak-s-aː|RX=[V2][V2].[DER][PRF]|TokenType=Root
+25	=b	_	DET	DET	Case=Acc|Gender=Masc	24	det	_	AlignBegin=20196|AlignEnd=20277|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
+26	ki=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	27	mod	_	AlignBegin=20277|AlignEnd=20385|GE=[NEG].[IPFV]|RX=[PTCL]|TokenType=Clit
+27	iki	_	AUX	AUX	Aspect=Perf|Gender=Masc|Number=Sing	0	root	_	AlignBegin=20385|AlignEnd=20601|GE=[3SG].[M]become\PFV|MGloss=[3SG].[M]become\PFV|MSeg=i-ki|RX=[PNG][AUX].[PRF]|TokenType=Root
+28	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	27	discourse	_	AlignBegin=20601|AlignEnd=20925|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
+29	//	_	PUNCT	_	_	27	punct	_	AlignBegin=20925|AlignEnd=21251|GE=[//]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_07_cold_24-25
 # speaker_id = SP
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_07_COLD.WAV
 # sent_timecode = 21990, 24040
 # phonetic_text = w= ʔoːr halak =oː jhak -s -aː =b =u //
-# text = w= ʔoːr halak =oː jhaks -aː =b =u //
+# text = w= ʔoːr halak =oː jhaksaː =b =u //
 # text_en =  The boy had taken his clothes.
 1	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=21990|AlignEnd=22188|GE=[DEF].[SG].[M]|RX=[DET]|TokenType=Clit
-2	ʔoːr	_	NOUN	N	_	8	subj	_	AlignBegin=22188|AlignEnd=22386|GE=child|RX=[SBJ].[N]|TokenType=Root
-3	halak	_	NOUN	N	Gender=Masc	8	comp:obj	_	AlignBegin=22386|AlignEnd=22584|GE=cloth|RX=[N].[M]|TokenType=Root
+2	ʔoːr	_	NOUN	N	_	7	subj	_	AlignBegin=22188|AlignEnd=22386|GE=child|RX=[SBJ].[N]|TokenType=Root
+3	halak	_	NOUN	N	Gender=Masc	7	comp:obj	_	AlignBegin=22386|AlignEnd=22584|GE=cloth|RX=[N].[M]|TokenType=Root
 4	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	3	mod@poss	_	AlignBegin=22584|AlignEnd=22782|GE=[POSS].[3SG].[ACC]|RX=[PRO]|TokenType=Clit
-5	jhaks	_	VERB	V2	VerbClass=2	6	comp	_	AlignBegin=22782|AlignEnd=22940|GE=get_up[CAUS]|MGloss=get_up[CAUS]|MSeg=jhak-s|RX=[V2][V2].[DER]|TokenType=Root
-6	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	8	comp:pred	_	AlignBegin=22940|AlignEnd=23019|GE=[CVB].[MNR]|RX=[PRF]|TokenType=InflAff
-7	=b	_	DET	DET	Case=Acc|Gender=Masc	6	det	_	AlignBegin=23019|AlignEnd=23098|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
-8	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=23098|AlignEnd=23178|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
-9	//	_	PUNCT	_	_	8	punct	_	AlignBegin=23178|AlignEnd=23573|GE=[//]|TokenType=Break
+5	jhaksaː	_	VERB	V2	VerbClass=2	7	comp:pred	_	AlignBegin=22782|AlignEnd=23019|GE=get_up[CAUS][CVB].[MNR]|MGloss=get_up[CAUS][CVB].[MNR]|MSeg=jhak-s-aː|RX=[V2][V2].[DER][PRF]|TokenType=Root
+6	=b	_	DET	DET	Case=Acc|Gender=Masc	5	det	_	AlignBegin=23019|AlignEnd=23098|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
+7	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=23098|AlignEnd=23178|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
+8	//	_	PUNCT	_	_	7	punct	_	AlignBegin=23178|AlignEnd=23573|GE=[//]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_07_cold_26-37
 # speaker_id = SP

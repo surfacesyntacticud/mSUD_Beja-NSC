@@ -519,13 +519,13 @@
 11	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop	0	root	_	AlignBegin=94291|AlignEnd=94387|GE==[COP].[1SG]|RX==[PRED].[N]|TokenType=Clit
 12	/	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=94387|AlignEnd=94772|TokenType=Break
 
-# sent_id = BEJ_MV_NARR_03_camel_107-108
-# text = hamil -aː =b a- kati =jeː kaːm =u =it // haraw -aː =b haraw -aː =b =u //
-# text_en = since it is a camel that I had let loose, it needed to be looked for.
-# phonetic_text = hamlaːb akatijeːk kaːmu // harawaːb harwaːbu //
+# sent_id = BEJ_MV_NARR_03_camel_107-109
+# text = hamil -aː =b a- kati =jeː kaːm =u =it // haraw -aː =b haraw -aː =b =u // ki= haːj =wa //
+# text_en = since it is a camel that I had let loose, it needed to be looked for. Because it is not there.
+# phonetic_text = kihaːjwa //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_03_CAMEL.WAV
 1	hamil	_	VERB	V2	VerbClass=2	2	comp/m	_	AlignBegin=94772|AlignEnd=94898|GE=let|Gloss=let|RX=[V2]|TokenType=Root
-2	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	5	comp:obj	_	AlignBegin=94898|AlignEnd=95025|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=InflAff
+2	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	5	comp:obj	_	AlignBegin=94898|AlignEnd=95025|DerPos=VERB|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=DerAff
 3	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	2	det	_	AlignBegin=95025|AlignEnd=95152|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
 4	a-	_	PRON	PNG	Number=Sing|Person=1	5	subj/m	_	AlignBegin=95152|AlignEnd=95279|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
 5	kati	_	VERB	AUX	Aspect=Imp	6	comp:obj	_	AlignBegin=95279|AlignEnd=95406|GE=become\[IPFV]|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
@@ -535,20 +535,15 @@
 9	=it	_	SCONJ	PRO	_	17	mod	_	AlignBegin=95723|AlignEnd=95914|GE==[POSS].[1SG].[NOM]|RX==[PRO]|TokenType=Clit
 10	//	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=95914|AlignEnd=96295|TokenType=Break
 11	haraw	_	VERB	V1	VerbClass=1	12	comp/m	_	AlignBegin=96295|AlignEnd=96441|GE=seek|Gloss=seek|RX=[V1]|TokenType=Root
-12	-aː	_	AUX	CVB	VerbForm=Conv	14	comp:obj	_	AlignBegin=96441|AlignEnd=96587|GE=-[CVB].[MNR]|TokenType=InflAff
+12	-aː	_	AUX	CVB	VerbForm=Conv	14	comp:obj	_	AlignBegin=96441|AlignEnd=96587|DerPos=VERB|GE=-[CVB].[MNR]|TokenType=DerAff
 13	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	12	det	_	AlignBegin=96587|AlignEnd=96733|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
 14	haraw	_	VERB	V1	VerbClass=1	15	comp/m	_	AlignBegin=96733|AlignEnd=96842|GE=seek|Gloss=seek|RX=[V1]|TokenType=Root
-15	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	17	comp:pred	_	AlignBegin=96842|AlignEnd=96952|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=InflAff
+15	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	17	comp:pred	_	AlignBegin=96842|AlignEnd=96952|DerPos=VERB|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=DerAff
 16	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	15	det	_	AlignBegin=96952|AlignEnd=97061|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
 17	=u	_	AUX	N, COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=97061|AlignEnd=97171|GE==[COP].[3SG]|RX==[PRED].[N]|TokenType=Clit
 18	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=97171|AlignEnd=97609|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_03_camel_109-109
-# text = ki= haːj =wa //
-# phonetic_text = kihaːjwa //
-# text_en = since it is a camel that I had let loose,  it needed to be looked for.  Because he is not there. [associative coordination with what precedes]
-1	ki=	_	PART	PTCL	Aspect=Imp	2	mod	_	AlignBegin=97609|AlignEnd=97703|GE=[NEG].[IPFV]=|RX=[PTCL]=
-2	haːj	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=97703|AlignEnd=97798|GE=[IPFV].[[3SG].[M]]|Gloss=be_there|RX=[V1].[IRG]
-3	=wa	_	CCONJ	CONJ	_	2	cc	_	AlignBegin=97798|AlignEnd=97893|GE==[COORD]|RX==[CONJ]
-4	//	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=97893|AlignEnd=98178|GE=[PUNCT]|RX=[PUNCT]
+19	ki=	_	PART	PTCL	Aspect=Imp	20	mod	_	AlignBegin=97609|AlignEnd=97703|GE=[NEG].[IPFV]=|RX=[PTCL]=|TokenType=Clit
+20	haːj	_	VERB	V1	Aspect=Imp|VerbClass=1	17	dislocated:mod	_	AlignBegin=97703|AlignEnd=97798|GE=[IPFV].[[3SG].[M]]|Gloss=be_there|RX=[V1].[IRG]|TokenType=Root
+21	=wa	_	CCONJ	CONJ	_	20	cc	_	AlignBegin=97798|AlignEnd=97893|GE==[COORD]|RX==[CONJ]|TokenType=Clit
+22	//	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=97893|AlignEnd=98178|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 
