@@ -69,8 +69,8 @@
 6	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=12643|AlignEnd=12793|GE=come|RX=[V2].[IRG]|TokenType=Root
 7	-an	_	PRON	TAM.PNG	Aspect=Perf|Number=Sing|Person=1	6	subj/m	_	AlignBegin=12793|AlignEnd=12943|GE=[PFV].[1SG]|RX=[TAM].[PNG]|TokenType=InflAff
 8	i=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=12943|AlignEnd=13043|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-9	kaːm	_	NOUN	N	_	10	comp/m	_	AlignBegin=13043|AlignEnd=13143|GE=camel|RX=[N]|TokenType=Root
-10	-i	_	ADP	CASE	Case=Gen	11	udep	_	AlignBegin=13143|AlignEnd=13243|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+9	kaːm	_	NOUN	N	_	10	comp	_	AlignBegin=13043|AlignEnd=13143|GE=camel|RX=[N]|TokenType=Root
+10	=i	_	ADP	CASE	Case=Gen	11	udep	_	AlignBegin=13143|AlignEnd=13243|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 11	mijʔat	_	NOUN	N	Gender=Masc	12	comp	_	AlignBegin=13243|AlignEnd=13393|GE=footprint|RX=[N].[M]|TokenType=Root
 12	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	6	dislocated:obl	_	AlignBegin=13393|AlignEnd=13543|GE=[LOC].[SG]|RX=[POSTP]|TokenType=Clit
 13	//	_	PUNCT	_	_	6	punct	_	AlignBegin=13543|AlignEnd=13844|GE=[//]|TokenType=Break
@@ -83,8 +83,8 @@
 # text = isikkaːj // tak / isnheːb //
 # text_en =  On the road, I found a man", he said.
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=14574|AlignEnd=14675|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-2	sikka	_	NOUN	N	Gender=Masc	3	comp/m	_	AlignBegin=14675|AlignEnd=14776|GE=road|RX=[N].[M]|TokenType=Root
-3	-i	_	ADP	CASE	Case=Gen	8	comp:obl	_	AlignBegin=14776|AlignEnd=14878|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+2	sikka	_	NOUN	N	Gender=Masc	3	comp	_	AlignBegin=14675|AlignEnd=14776|GE=road|RX=[N].[M]|TokenType=Root
+3	=i	_	ADP	CASE	Case=Gen	8	comp:obl	_	AlignBegin=14776|AlignEnd=14878|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 4	//	_	PUNCT	_	_	3	punct	_	AlignBegin=14878|AlignEnd=15183|GE=[//]|TokenType=Break
 5	tak	_	NOUN	N	Gender=Masc	8	subj	_	AlignBegin=15539|AlignEnd=15617|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=15617|AlignEnd=15695|GE=[/]|TokenType=Break
@@ -177,8 +177,8 @@
 14	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	17	mod@relcl	_	AlignBegin=27662|AlignEnd=27761|GE=[REL].[M]|RX=[CONJ]|TokenType=Clit
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=27761|AlignEnd=28057|GE=[/]|TokenType=Break
 16	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	17	det	_	AlignBegin=28057|AlignEnd=28181|GE=[DEF].[SG].[M]|RX=[DET]|TokenType=Clit
-17	handi	_	NOUN	N	Gender=Masc	18	comp/m	_	AlignBegin=28181|AlignEnd=28305|GE=tree|RX=[N].[M]|TokenType=Root
-18	-i	_	ADP	CASE	Case=Gen	19	comp	_	AlignBegin=28305|AlignEnd=28430|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+17	handi	_	NOUN	N	Gender=Masc	18	comp	_	AlignBegin=28181|AlignEnd=28305|GE=tree|RX=[N].[M]|TokenType=Root
+18	=i	_	ADP	CASE	Case=Gen	19	comp	_	AlignBegin=28305|AlignEnd=28430|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 19	whiː	_	ADP	POSTP	_	23	comp:obl	_	AlignBegin=28430|AlignEnd=28803|GE=under|RX=[POSTP]|TokenType=Root
 20	/	_	PUNCT	_	_	19	punct	_	AlignBegin=28803|AlignEnd=29176|GE=[/]|TokenType=Break
 21	i=	_	DET	DET	Definite=Def|Gender=Masc	22	det	_	AlignBegin=29771|AlignEnd=29943|GE=[DEF].[M]|RX=[DET]|TokenType=Clit

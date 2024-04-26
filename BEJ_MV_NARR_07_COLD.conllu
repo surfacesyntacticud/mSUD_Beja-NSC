@@ -73,8 +73,8 @@
 # phonetic_text = gaːl -i =ka i= tarab -eː ti= balami =t =eː firʔa -tiːt / ʔiːbaːb -eː / jʔ -eːn =hoːb oː= mhiːn / ontʔa // uː= tak halak hasara jhak -s -aː =b ki= i- ki eːn //
 # text = gaːlika itarabeː tibalamiːteː firʔatiːt /ʔiːbaːbeː /jʔeːnhoːb oːmhiːn / ontʔa // uːtak halak hasara jhaksaːb kiːki eːn //
 # text_en =  After each of them had taken out his supplies from his share, while travelling when they arrive at a place, now the man (thinks): "But he has not taken any (warm) cloth!", they said.
-1	gaːl	_	NUM	NUM	_	2	comp/m	_	AlignBegin=12611|AlignEnd=12785|GE=one|RX=[NUM]|TokenType=Root
-2	-i	_	ADP	CASE	Case=Gen	3	comp	_	AlignBegin=12785|AlignEnd=12959|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+1	gaːl	_	NUM	NUM	_	2	comp	_	AlignBegin=12611|AlignEnd=12785|GE=one|RX=[NUM]|TokenType=Root
+2	=i	_	ADP	CASE	Case=Gen	3	comp	_	AlignBegin=12785|AlignEnd=12959|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 3	=ka	_	ADP	POSTP	_	11	subj	_	AlignBegin=12959|AlignEnd=13134|GE=[DISTR]|RX=[POSTP]|TokenType=Clit
 4	i=	_	DET	DET	Definite=Def|Gender=Masc	5	det	_	AlignBegin=13134|AlignEnd=13308|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 5	tarab	_	NOUN	N	Gender=Masc	6	comp/m	_	AlignBegin=13308|AlignEnd=13482|GE=half|RX=[N].[M]|TokenType=Root
@@ -178,8 +178,8 @@
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=33787|AlignEnd=34046|GE=[/]|TokenType=Break
 4	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	AlignBegin=34056|AlignEnd=34337|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|TokenType=Root
 5	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	6	det	_	AlignBegin=34337|AlignEnd=34431|GE=[DEF].[SG].[M]|RX=[DET]|TokenType=Clit
-6	ʔoːr	_	NOUN	N	_	7	comp/m	_	AlignBegin=34431|AlignEnd=34525|GE=child|RX=[N]|TokenType=Root
-7	-i	_	ADP	CASE	Case=Gen	8	udep	_	AlignBegin=34525|AlignEnd=34618|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+6	ʔoːr	_	NOUN	N	_	7	comp	_	AlignBegin=34431|AlignEnd=34525|GE=child|RX=[N]|TokenType=Root
+7	=i	_	ADP	CASE	Case=Gen	8	udep	_	AlignBegin=34525|AlignEnd=34618|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 8	mhiːn	_	NOUN	N	Gender=Masc	9	comp:obj	_	AlignBegin=34618|AlignEnd=34899|GE=place|RX=[N].[M]|TokenType=Root
 9	jʔ	_	VERB	V2	VerbClass=2	10	comp/m	_	AlignBegin=34899|AlignEnd=35039|GE=come|RX=[V2].[IRG]|TokenType=Root
 10	-eːtiːt	_	AUX	_	_	11	mod	_	AlignBegin=35039|AlignEnd=35180|GE=[CVB].[SEQ]|TokenType=InflAff
@@ -398,8 +398,8 @@
 4	bʔar	_	VERB	V1	VerbClass=1	5	comp/m	_	AlignBegin=63644|AlignEnd=63758|GE=wake_up|RX=[V1].[DER]|TokenType=Root
 5	-tiːt	_	AUX	_	_	13	mod	_	AlignBegin=63758|AlignEnd=63873|GE=[CVB].[SEQ]|TokenType=InflAff
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=63873|AlignEnd=64101|GE=[/]|TokenType=Break
-7	gaːl	_	NUM	NUM	_	8	comp/m	_	AlignBegin=64101|AlignEnd=64189|GE=one|RX=[SBJ].[NUM]|TokenType=Root
-8	-eː	_	ADP	CASE	Case=Gen|Number=Plur	9	comp	_	AlignBegin=64189|AlignEnd=64277|GE=[GEN].[PL]|RX=[CASE]|TokenType=InflAff
+7	gaːl	_	NUM	NUM	_	8	comp	_	AlignBegin=64101|AlignEnd=64189|GE=one|RX=[SBJ].[NUM]|TokenType=Root
+8	=eː	_	ADP	CASE	Case=Gen|Number=Plur	9	comp	_	AlignBegin=64189|AlignEnd=64277|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
 9	=ka	_	ADP	POSTP	_	10	comp	_	AlignBegin=64277|AlignEnd=64365|GE=[DISTR]|RX=[POSTP]|TokenType=Clit
 10	=ka	_	ADP	POSTP	_	13	subj	_	AlignBegin=64365|AlignEnd=64453|GE=[DISTR]|RX=[POSTP]|TokenType=Clit
 11	mhiːn	_	NOUN	N	Gender=Masc	13	comp:obj	_	AlignBegin=64453|AlignEnd=64805|GE=place|RX=[N].[M]|TokenType=Root

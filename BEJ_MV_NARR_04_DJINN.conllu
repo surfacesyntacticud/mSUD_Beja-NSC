@@ -230,8 +230,8 @@
 # phonetic_text = barʔuːt -eː =d ʔiːbaːb -an //
 # text = baʔruːteːd ʔiːbaːban //
 # text_en =  I travelled to Port-Soudan.
-1	barʔuːt	_	PROPN	N	_	2	comp/m	_	AlignBegin=42214|AlignEnd=42353|GE=[Port-Soudan]|RX=[N].[PROP]|TokenType=Root
-2	-eː	_	ADP	CASE	Case=Gen|Number=Plur	3	comp	_	AlignBegin=42353|AlignEnd=42492|GE=[GEN].[PL]|RX=[CASE]|TokenType=InflAff
+1	barʔuːt	_	PROPN	N	_	2	comp	_	AlignBegin=42214|AlignEnd=42353|GE=[Port-Soudan]|RX=[N].[PROP]|TokenType=Root
+2	=eː	_	ADP	CASE	Case=Gen|Number=Plur	3	comp	_	AlignBegin=42353|AlignEnd=42492|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
 3	=d	_	ADP	POSTP	_	4	comp:obl	_	AlignBegin=42492|AlignEnd=42632|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 4	ʔiːbaːb	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=42632|AlignEnd=42841|GE=travel|RX=[V2]|TokenType=Root
 5	-an	_	PRON	TAM.PNG	Aspect=Perf|Number=Sing|Person=1	4	subj/m	_	AlignBegin=42841|AlignEnd=43050|GE=[PFV].[1SG]|RX=[TAM].[PNG]|TokenType=InflAff
@@ -278,8 +278,8 @@
 3	jha	_	VERB	V1	Aspect=Perf|VerbClass=1	5	comp:obj	_	AlignBegin=51419|AlignEnd=51501|GE=take\PFV|RX=[V1].[IRG]|TokenType=Root
 4	-n	_	PART	_	_	3	unk/m	_	AlignBegin=51501|AlignEnd=51583|GE=[L]|TokenType=InflAff
 5	=i	_	SCONJ	CONJ.REL	PronType=Rel	6	mod@relcl	_	AlignBegin=51583|AlignEnd=51663|GE=[REL]|RX=[CONJ]|TokenType=Clit
-6	gabal	_	NOUN	N	Gender=Masc	7	comp/m	_	AlignBegin=51663|AlignEnd=51772|GE=direction|RX=[N].[M]|TokenType=Root
-7	-eː	_	ADP	CASE	Case=Gen|Number=Plur	8	comp	_	AlignBegin=51772|AlignEnd=51881|GE=[GEN].[PL]|RX=[CASE]|TokenType=InflAff
+6	gabal	_	NOUN	N	Gender=Masc	7	comp	_	AlignBegin=51663|AlignEnd=51772|GE=direction|RX=[N].[M]|TokenType=Root
+7	=eː	_	ADP	CASE	Case=Gen|Number=Plur	8	comp	_	AlignBegin=51772|AlignEnd=51881|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
 8	=ka	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=51881|AlignEnd=51989|GE=[DISTR]|RX=[POSTP]|TokenType=Clit
 9	harʔiː	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=51989|AlignEnd=52152|GE=after|RX=[POSTP]|TokenType=Root
 10	sa~sak	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=52315|AlignEnd=52478|GE=[PLAC~go]|RX=[V2].[DER]|TokenType=Root
@@ -636,8 +636,8 @@
 3	=ji	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	2	mod@poss	_	AlignBegin=100516|AlignEnd=100626|GE=[POSS].[1SG].[NOM]|RX=[PRO]|TokenType=Clit
 4	han	_	PART	PTCL	_	6	discourse	_	AlignBegin=100626|AlignEnd=100954|GE=also|RX=[PTCL].[FOC]|TokenType=Root
 5	i=	_	DET	DET	Definite=Def|Gender=Masc	6	det	_	AlignBegin=100954|AlignEnd=101063|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-6	tak	_	NOUN	N	Gender=Masc	7	comp/m	_	AlignBegin=101063|AlignEnd=101172|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
-7	-i	_	ADP	CASE	Case=Gen	8	udep	_	AlignBegin=101172|AlignEnd=101282|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+6	tak	_	NOUN	N	Gender=Masc	7	comp	_	AlignBegin=101063|AlignEnd=101172|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
+7	=i	_	ADP	CASE	Case=Gen	8	udep	_	AlignBegin=101172|AlignEnd=101282|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 8	ginh	_	NOUN	N	Gender=Masc|Number=Plur	9	comp	_	AlignBegin=101282|AlignEnd=101446|GE=chest|RX=[N].[PL].[M]|TokenType=Root
 9	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	18	comp:obl	_	AlignBegin=101446|AlignEnd=101610|GE=[LOC].[PL]|RX=[POSTP]|TokenType=Clit
 10	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=101610|AlignEnd=101940|GE=[/]|TokenType=Break
@@ -747,8 +747,8 @@
 6	=iː	_	ADP	POSTP	Case=Abl|Number=Sing	9	discourse	_	AlignBegin=120412|AlignEnd=120536|GE=[ABL].[SG]|RX=[POSTP]|TokenType=Clit
 7	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=120536|AlignEnd=120785|GE=[/]|TokenType=Break
 8	i=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=120988|AlignEnd=121071|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-9	tak	_	NOUN	N	Gender=Masc	10	comp/m	_	AlignBegin=121071|AlignEnd=121154|GE=man|RX=[N].[M]|TokenType=Root
-10	-i	_	ADP	CASE	Case=Gen	11	udep	_	AlignBegin=121154|AlignEnd=121238|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+9	tak	_	NOUN	N	Gender=Masc	10	comp	_	AlignBegin=121071|AlignEnd=121154|GE=man|RX=[N].[M]|TokenType=Root
+10	=i	_	ADP	CASE	Case=Gen	11	udep	_	AlignBegin=121154|AlignEnd=121238|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 11	ginha	_	NOUN	N	Gender=Masc|Number=Plur	12	comp	_	AlignBegin=121238|AlignEnd=121363|GE=chest|RX=[N].[PL].[M]|TokenType=Root
 12	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	19	comp:obl	_	AlignBegin=121363|AlignEnd=121488|GE=[LOC].[PL]|RX=[POSTP]|TokenType=Clit
 13	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=121488|AlignEnd=121737|GE=[/]|TokenType=Break
@@ -829,8 +829,8 @@
 # text = itaki ginheːb / tibarijeːna baːhariwa /
 # text_en =  don't try to get your debts paid! (lit. don't look for what you have in the man's chest!)
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=131123|AlignEnd=131196|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-2	tak	_	NOUN	N	Gender=Masc	3	comp/m	_	AlignBegin=131196|AlignEnd=131269|GE=man|RX=[N].[M]|TokenType=Root
-3	-i	_	ADP	CASE	Case=Gen	4	udep	_	AlignBegin=131269|AlignEnd=131341|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+2	tak	_	NOUN	N	Gender=Masc	3	comp	_	AlignBegin=131196|AlignEnd=131269|GE=man|RX=[N].[M]|TokenType=Root
+3	=i	_	ADP	CASE	Case=Gen	4	udep	_	AlignBegin=131269|AlignEnd=131341|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 4	ginha	_	NOUN	N	Gender=Masc|Number=Plur	5	comp:obj	_	AlignBegin=131341|AlignEnd=131450|GE=chest|RX=[N].[PL].[M]|TokenType=Root
 5	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	12	comp:obl	_	AlignBegin=131450|AlignEnd=131559|GE=[LOC].[PL]|RX=[POSTP]|TokenType=Clit
 6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=131559|AlignEnd=131777|GE=[/]|TokenType=Break

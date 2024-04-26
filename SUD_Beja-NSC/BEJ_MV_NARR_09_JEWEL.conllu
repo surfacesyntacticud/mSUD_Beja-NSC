@@ -50,7 +50,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_09_JEWEL.WAV
 # sent_timecode = 14139, 16375
 # phonetic_text = eːn i= taktʔi -jeː =da //
-# text = ʃakʷiːn =t dhaːj dannʔi eːn // eːn i= taktʔijeː =da //
+# text = ʃakʷiːn =t dhaːj dannʔi eːn // eːn i= taktʔi =jeː =da //
 # text_en =  he puts perfume on them, they said. On these scarecrows.
 1	ʃakʷiːn	_	NOUN	N	Gender=Fem	4	comp:obj	_	AlignBegin=12751|AlignEnd=12889|GE=perfume|RX=[N].[F]|TokenType=Root
 2	=t	_	DET	DET	Gender=Fem	1	det	_	AlignBegin=12889|AlignEnd=13027|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
@@ -60,9 +60,10 @@
 6	//	_	PUNCT	_	_	4	punct	_	AlignBegin=13855|AlignEnd=14129|GE=[//]|TokenType=Break
 7	eːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	AlignBegin=14139|AlignEnd=14460|GE=[PROX].[PL].[M].[ACC]|RX=[DEM]|TokenType=Root
 8	i=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=14460|AlignEnd=14540|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-9	taktʔijeː	_	NOUN	CN	Gender=Masc|Number=Plur	10	comp	_	AlignBegin=14540|AlignEnd=14700|GE=scarecrow[GEN].[PL]|MGloss=scarecrow[GEN].[PL]|MSeg=taktʔi-jeː|RX=[CN].[M][CASE]|TokenType=Root
-10	=da	_	ADP	POSTP	_	4	dislocated:obl	_	AlignBegin=14700|AlignEnd=14781|GE=[DIR]|RX=[POSTP]|TokenType=Clit
-11	//	_	PUNCT	_	_	4	punct	_	AlignBegin=14781|AlignEnd=15103|GE=[//]|TokenType=Break
+9	taktʔi	_	NOUN	CN	Gender=Masc	10	comp	_	AlignBegin=14540|AlignEnd=14620|GE=scarecrow|RX=[CN].[M]|TokenType=Root
+10	=jeː	_	ADP	CASE	Case=Gen|Number=Plur	11	comp	_	AlignBegin=14620|AlignEnd=14700|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
+11	=da	_	ADP	POSTP	_	4	dislocated:obl	_	AlignBegin=14700|AlignEnd=14781|GE=[DIR]|RX=[POSTP]|TokenType=Clit
+12	//	_	PUNCT	_	_	4	punct	_	AlignBegin=14781|AlignEnd=15103|GE=[//]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_09_jewel_18-20
 # speaker_id = SP
@@ -86,7 +87,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_09_JEWEL.WAV
 # sent_timecode = 18484, 27810
 # phonetic_text = ani hoːj a- niːn diː -tiːt / toːt toː= na / toː= tiji / ti= ʤoːhara -aːji =t -i =da kʷanri =t // ontʔa / jʔi -jaː =t /
-# text = ani hoːj aniːn diːtiːt / toːt toː= na / toː= tji / ti= ʤoːharaaːji =t -i =da kʷanri =t // ontʔa / jʔija =t /
+# text = ani hoːj aniːn diːtiːt / toːt toː= na / toː= tji / ti= ʤoːharaaːji =t =i =da kʷanri =t // ontʔa / jʔija =t /
 # text_en = After he had said: 'I'll take it, this thing, the jewel from which the monster grazes', and so, he came and
 1	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	3	subj	_	AlignBegin=18484|AlignEnd=18791|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 2	hoːj	_	ADP	PRO	_	3	comp:obl	_	AlignBegin=18791|AlignEnd=19098|GE=[LOC]|RX=[POSTP]|TokenType=Root
@@ -101,9 +102,9 @@
 11	tji	_	NOUN	N	Gender=Fem	18	dislocated:subj	_	AlignBegin=21557|AlignEnd=21681|GE=snake|RX=[N].[F]|TokenType=Root
 12	/	_	PUNCT	_	_	11	punct	_	AlignBegin=21681|AlignEnd=21929|GE=[/]|TokenType=Break
 13	ti=	_	DET	DET	Definite=Def|Gender=Fem	14	det	_	AlignBegin=22466|AlignEnd=22560|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-14	ʤoːharaaːji	_	NOUN	N	Gender=Fem	16	comp/m	_	AlignBegin=22560|AlignEnd=22748|GE=jewel[SING]|MGloss=jewel[SING]|MSeg=ʤoːhara-aːji|RX=[N].[F]|TokenType=Root
+14	ʤoːharaaːji	_	NOUN	N	Gender=Fem	16	comp	_	AlignBegin=22560|AlignEnd=22748|GE=jewel[SING]|MGloss=jewel[SING]|MSeg=ʤoːhara-aːji|RX=[N].[F]|TokenType=Root
 15	=t	_	DET	DET	Gender=Fem	14	det	_	AlignBegin=22748|AlignEnd=22842|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-16	-i	_	ADP	CASE	Case=Gen	17	comp	_	AlignBegin=22842|AlignEnd=22936|GE=[GEN]|MGloss=[GEN]|MSeg=-i|RX=[CASE]|TokenType=InflAff
+16	=i	_	ADP	CASE	Case=Gen	17	comp	_	AlignBegin=22842|AlignEnd=22936|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 17	=da	_	ADP	POSTP	_	18	comp:obl	_	AlignBegin=22936|AlignEnd=23028|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 18	kʷanri	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	23	conj:coord	_	AlignBegin=23028|AlignEnd=23309|GE=graze\IPFV.[3SG]|RX=[V1]|TokenType=Root
 19	=t	_	CCONJ	CONJ	_	18	cc	_	AlignBegin=23309|AlignEnd=23590|GE=[COORD]|RX=[CONJ]|TokenType=Clit

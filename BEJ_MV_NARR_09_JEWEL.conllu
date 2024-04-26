@@ -69,8 +69,8 @@
 6	//	_	PUNCT	_	_	4	punct	_	AlignBegin=13855|AlignEnd=14129|GE=[//]|TokenType=Break
 7	eːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	9	det	_	AlignBegin=14139|AlignEnd=14460|GE=[PROX].[PL].[M].[ACC]|RX=[DEM]|TokenType=Root
 8	i=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=14460|AlignEnd=14540|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-9	taktʔi	_	NOUN	CN	Gender=Masc	10	comp/m	_	AlignBegin=14540|AlignEnd=14620|GE=scarecrow|RX=[CN].[M]|TokenType=Root
-10	-jeː	_	ADP	CASE	Case=Gen|Number=Plur	11	comp	_	AlignBegin=14620|AlignEnd=14700|GE=[GEN].[PL]|RX=[CASE]|TokenType=InflAff
+9	taktʔi	_	NOUN	CN	Gender=Masc	10	comp	_	AlignBegin=14540|AlignEnd=14620|GE=scarecrow|RX=[CN].[M]|TokenType=Root
+10	=jeː	_	ADP	CASE	Case=Gen|Number=Plur	11	comp	_	AlignBegin=14620|AlignEnd=14700|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
 11	=da	_	ADP	POSTP	_	4	dislocated:obl	_	AlignBegin=14700|AlignEnd=14781|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 12	//	_	PUNCT	_	_	4	punct	_	AlignBegin=14781|AlignEnd=15103|GE=[//]|TokenType=Break
 
@@ -113,10 +113,10 @@
 13	tji	_	NOUN	N	Gender=Fem	21	dislocated:subj	_	AlignBegin=21557|AlignEnd=21681|GE=snake|RX=[N].[F]|TokenType=Root
 14	/	_	PUNCT	_	_	13	punct	_	AlignBegin=21681|AlignEnd=21929|GE=[/]|TokenType=Break
 15	ti=	_	DET	DET	Definite=Def|Gender=Fem	16	det	_	AlignBegin=22466|AlignEnd=22560|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-16	ʤoːhara	_	NOUN	N	Gender=Fem	19	comp/m	_	AlignBegin=22560|AlignEnd=22654|GE=jewel|RX=[N].[F]|TokenType=Root
+16	ʤoːhara	_	NOUN	N	Gender=Fem	19	comp	_	AlignBegin=22560|AlignEnd=22654|GE=jewel|RX=[N].[F]|TokenType=Root
 17	-aːji	_	DET	_	_	16	det/m	_	AlignBegin=22654|AlignEnd=22748|GE=[SING]|TokenType=InflAff
 18	=t	_	DET	DET	Gender=Fem	16	det	_	AlignBegin=22748|AlignEnd=22842|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-19	-i	_	ADP	CASE	Case=Gen	20	comp	_	AlignBegin=22842|AlignEnd=22936|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+19	=i	_	ADP	CASE	Case=Gen	20	comp	_	AlignBegin=22842|AlignEnd=22936|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 20	=da	_	ADP	POSTP	_	21	comp:obl	_	AlignBegin=22936|AlignEnd=23028|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 21	kʷanri	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	26	conj:coord	_	AlignBegin=23028|AlignEnd=23309|GE=graze\IPFV.[3SG]|RX=[V1]|TokenType=Root
 22	=t	_	CCONJ	CONJ	_	21	cc	_	AlignBegin=23309|AlignEnd=23590|GE=[COORD]|RX=[CONJ]|TokenType=Clit

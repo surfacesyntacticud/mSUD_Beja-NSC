@@ -49,8 +49,8 @@
 # text_en =  When we found a leopard on a tree, I said to the foreigner: "Kill this leopard!" he told me: "I won't kill the leopard!", he said.
 1	jhaːm	_	NOUN	N	Gender=Masc	7	subj	_	AlignBegin=7011|AlignEnd=7279|GE=leopard|RX=[SBJ].[N].[M]|TokenType=Root
 2	/	_	PUNCT	_	_	1	punct	_	AlignBegin=7279|AlignEnd=7547|GE=[/]|TokenType=Break
-3	handi	_	NOUN	N	Gender=Masc	4	comp/m	_	AlignBegin=7547|AlignEnd=7719|GE=tree|RX=[N].[M]|TokenType=Root
-4	-i	_	ADP	CASE	Case=Gen	5	comp:obl	_	AlignBegin=7719|AlignEnd=7892|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+3	handi	_	NOUN	N	Gender=Masc	4	comp	_	AlignBegin=7547|AlignEnd=7719|GE=tree|RX=[N].[M]|TokenType=Root
+4	=i	_	ADP	CASE	Case=Gen	5	comp:obl	_	AlignBegin=7719|AlignEnd=7892|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 5	khiː	_	ADP	POSTP	_	7	comp:obl	_	AlignBegin=7892|AlignEnd=8237|GE=on|RX=[POSTP]|TokenType=Root
 6	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	7	subj/m	_	AlignBegin=8237|AlignEnd=8323|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 7	sni	_	VERB	V1	Aspect=Perf|VerbClass=1	9	comp	_	AlignBegin=8323|AlignEnd=8409|GE=wait\PFV|RX=[V1]|TokenType=Root
@@ -68,8 +68,8 @@
 19	=hoːb	_	SCONJ	CONJ	_	36	mod	_	AlignBegin=10567|AlignEnd=10641|GE=when|RX=[CONJ]|TokenType=Clit
 20	/	_	PUNCT	_	_	24	punct	_	AlignBegin=10641|AlignEnd=10862|GE=[/]|TokenType=Break
 21	i=	_	DET	DET	Definite=Def|Gender=Masc	22	det	_	AlignBegin=10862|AlignEnd=10972|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-22	xawaːʤa	_	NOUN	N	Gender=Masc	23	comp/m	_	AlignBegin=10972|AlignEnd=11082|GE=foreigner|RX=[N].[M].[BORR].[ARA]|TokenType=Root
-23	-i	_	ADP	CASE	Case=Gen	24	comp	_	AlignBegin=11082|AlignEnd=11192|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+22	xawaːʤa	_	NOUN	N	Gender=Masc	23	comp	_	AlignBegin=10972|AlignEnd=11082|GE=foreigner|RX=[N].[M].[BORR].[ARA]|TokenType=Root
+23	=i	_	ADP	CASE	Case=Gen	24	comp	_	AlignBegin=11082|AlignEnd=11192|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 24	=da	_	ADP	POSTP	_	18	dislocated:obl	_	AlignBegin=11192|AlignEnd=11304|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 25	//	_	PUNCT	_	_	24	punct	_	AlignBegin=11304|AlignEnd=11747|GE=[//]|TokenType=Break
 26	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	27	det	_	AlignBegin=12173|AlignEnd=12332|GE=[DEF].[SG].[M].[ACC]|RX=[DET]|TokenType=Clit
@@ -288,8 +288,8 @@
 10	talga	_	NOUN	N	_	16	dislocated:obj	_	AlignBegin=50773|AlignEnd=51014|GE=bullet|RX=[N]|TokenType=Root
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=51014|AlignEnd=51255|GE=[/]|TokenType=Break
 12	i=	_	DET	DET	Definite=Def|Gender=Masc	13	det	_	AlignBegin=51255|AlignEnd=51366|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-13	girma	_	NOUN	N	Gender=Masc	14	comp/m	_	AlignBegin=51366|AlignEnd=51477|GE=head|RX=[N].[M]|TokenType=Root
-14	-i	_	ADP	CASE	Case=Gen	16	comp:obl	_	AlignBegin=51477|AlignEnd=51589|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+13	girma	_	NOUN	N	Gender=Masc	14	comp	_	AlignBegin=51366|AlignEnd=51477|GE=head|RX=[N].[M]|TokenType=Root
+14	=i	_	ADP	CASE	Case=Gen	16	comp:obl	_	AlignBegin=51477|AlignEnd=51589|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 15	a-	_	PRON	PNG	Number=Sing|Person=1	16	subj/m	_	AlignBegin=51589|AlignEnd=51756|GE=[1SG]|RX=[PNG]|TokenType=InflAff
 16	dʔi	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=51756|AlignEnd=51923|GE=do\PFV|RX=[V1].[IRG]|TokenType=Root
 17	/	_	PUNCT	_	_	16	punct	_	AlignBegin=51923|AlignEnd=52256|GE=[/]|TokenType=Break
@@ -305,8 +305,8 @@
 2	ʃarti	_	NOUN	N	Gender=Fem	13	dislocated:obj	_	AlignBegin=53282|AlignEnd=53407|GE=line|RX=[N].[F]|TokenType=Root
 3	-ja	_	DET	_	Number=Plur	2	det/m	_	AlignBegin=53407|AlignEnd=53533|GE=[PL]|TokenType=InflAff
 4	/	_	PUNCT	_	_	2	punct	_	AlignBegin=53533|AlignEnd=53910|GE=[/]|TokenType=Break
-5	kaːm	_	NOUN	N	_	6	comp/m	_	AlignBegin=54098|AlignEnd=54256|GE=camel|RX=[N]|TokenType=Root
-6	-i	_	ADP	CASE	Case=Gen	7	mod	_	AlignBegin=54256|AlignEnd=54415|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+5	kaːm	_	NOUN	N	_	6	comp	_	AlignBegin=54098|AlignEnd=54256|GE=camel|RX=[N]|TokenType=Root
+6	=i	_	ADP	CASE	Case=Gen	7	mod	_	AlignBegin=54256|AlignEnd=54415|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 7	meːs	_	NOUN	_	_	8	comp	_	GE=race_distance|RX=[N].[M]|TokenType=Root
 8	=iːt	_	ADP	DET	Number=Sing	13	mod	_	AlignBegin=54627|AlignEnd=54732|GE=[SIMIL.SG]|RX=[POSTP]|TokenType=Clit
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=54732|AlignEnd=55050|GE=[/]|TokenType=Break

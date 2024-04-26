@@ -10,9 +10,9 @@
 3	ʔiːbaːb	_	VERB	V2	VerbClass=2	4	comp/m	_	AlignBegin=508|AlignEnd=689|GE=travel|RX=[V2]|TokenType=Root
 4	-eː	_	AUX	_	_	12	mod	_	AlignBegin=689|AlignEnd=870|GE=[CVB].[SMLT]|TokenType=InflAff
 5	/	_	PUNCT	_	_	4	punct	_	AlignBegin=870|AlignEnd=1232|GE=[/]|TokenType=Root
-6	miːmaʃ	_	NOUN	N	Gender=Masc	8	comp/m	_	AlignBegin=1526|AlignEnd=1652|GE=tomb|RX=[N].[M]|TokenType=Root
+6	miːmaʃ	_	NOUN	N	Gender=Masc	8	comp	_	AlignBegin=1526|AlignEnd=1652|GE=tomb|RX=[N].[M]|TokenType=Root
 7	-a	_	DET	_	_	6	det/m	_	AlignBegin=1652|AlignEnd=1778|GE=[PL]|TokenType=InflAff
-8	-ji	_	ADP	CASE	Case=Gen	9	udep	_	AlignBegin=1778|AlignEnd=1905|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+8	=ji	_	ADP	CASE	Case=Gen	9	udep	_	AlignBegin=1778|AlignEnd=1905|GE=[GEN]|RX=[CASE]|TokenType=Clit
 9	dar	_	NOUN	N	Gender=Masc	10	comp	_	AlignBegin=1905|AlignEnd=2095|GE=side|RX=[N].[M]|TokenType=Root
 10	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	12	comp:obl	_	AlignBegin=2095|AlignEnd=2284|GE=[LOC].[SG]|RX=[POSTP]|TokenType=Clit
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=2284|AlignEnd=2664|GE=[/]|TokenType=Root
@@ -41,9 +41,9 @@
 # text_en = It is on a Friday.
 1	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=7764|AlignEnd=7965|GE=[DEF].[SG].[M].[NOM]|RX=[DET]|TokenType=Clit
 2	mbʔi	_	NOUN	N	Gender=Masc	7	subj	_	AlignBegin=7965|AlignEnd=8166|GE=day|RX=[SBJ].[N].[M]|TokenType=Root
-3	ʤimʔa	_	NOUN	N	Gender=Fem	5	comp/m	_	AlignBegin=8166|AlignEnd=8300|GE=[Friday]|RX=[N].[F]|TokenType=Root
+3	ʤimʔa	_	NOUN	N	Gender=Fem	5	comp	_	AlignBegin=8166|AlignEnd=8300|GE=[Friday]|RX=[N].[F]|TokenType=Root
 4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=8300|AlignEnd=8434|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-5	-i	_	ADP	CASE	Case=Gen	6	udep	_	AlignBegin=8434|AlignEnd=8568|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+5	=i	_	ADP	CASE	Case=Gen	6	udep	_	AlignBegin=8434|AlignEnd=8568|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 6	bʔeː	_	NOUN	N	Gender=Masc	7	comp:pred	_	AlignBegin=8568|AlignEnd=8769|GE=day|RX=[N].[M]|TokenType=Root
 7	=ju	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=8769|AlignEnd=8970|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
 8	/	_	PUNCT	_	_	7	punct	_	AlignBegin=8970|AlignEnd=9372|GE=[/]|TokenType=Root
@@ -60,9 +60,9 @@
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=10543|AlignEnd=10802|GE=[/]|TokenType=Break
 4	eːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	AlignBegin=11584|AlignEnd=11904|GE=[PROX].[PL].[M].[ACC]|RX=[DEM]|TokenType=Root
 5	i=	_	DET	DET	Definite=Def|Gender=Masc	6	det	_	AlignBegin=11904|AlignEnd=11984|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-6	miːmaʃ	_	NOUN	N	Gender=Masc	8	comp/m	_	AlignBegin=11984|AlignEnd=12064|GE=tomb|RX=[N].[M]|TokenType=Root
+6	miːmaʃ	_	NOUN	N	Gender=Masc	8	comp	_	AlignBegin=11984|AlignEnd=12064|GE=tomb|RX=[N].[M]|TokenType=Root
 7	-a	_	DET	_	_	6	det/m	_	AlignBegin=12064|AlignEnd=12144|GE=[PL]|TokenType=InflAff
-8	-ji	_	ADP	CASE	Case=Gen	10	comp	_	AlignBegin=12144|AlignEnd=12224|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+8	=ji	_	ADP	CASE	Case=Gen	10	comp	_	AlignBegin=12144|AlignEnd=12224|GE=[GEN]|RX=[CASE]|TokenType=Clit
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=12224|AlignEnd=12543|GE=[/]|TokenType=Break
 10	dhaj	_	NOUN	N	Gender=Masc|Number=Coll	12	subj	_	AlignBegin=12543|AlignEnd=12888|GE=people|RX=[SBJ].[N].[COL].[M]|TokenType=Root
 11	i-	_	PRON	PNG	Person=3	12	subj/m	_	AlignBegin=12888|AlignEnd=12957|GE=[3]|RX=[PNG]|TokenType=InflAff
@@ -305,9 +305,9 @@
 # text_en = They are happy because of these alms they gave, because their divine reward has arrived",  he says, they said.
 1	beːt	_	DET	DEM	Case=Acc|Deixis=Remt|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	AlignBegin=50724|AlignEnd=51200|GE=[DIST].[SG].[F].[ACC]|RX=[DEM]|TokenType=Root
 2	ti=	_	DET	DET	Definite=Def|Gender=Fem	3	det	_	AlignBegin=51200|AlignEnd=51319|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-3	karaːma	_	NOUN	N	Gender=Fem	5	comp/m	_	AlignBegin=51319|AlignEnd=51438|GE=alms|RX=[N].[F]|TokenType=Root
+3	karaːma	_	NOUN	N	Gender=Fem	5	comp	_	AlignBegin=51319|AlignEnd=51438|GE=alms|RX=[N].[F]|TokenType=Root
 4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=51438|AlignEnd=51557|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-5	-i	_	ADP	CASE	Case=Gen	6	comp	_	AlignBegin=51557|AlignEnd=51676|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+5	=i	_	ADP	CASE	Case=Gen	6	comp	_	AlignBegin=51557|AlignEnd=51676|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 6	dhaːj	_	ADP	POSTP	_	8	mod	_	AlignBegin=51676|AlignEnd=52152|GE=[DIR]|RX=[POSTP]|TokenType=Root
 7	i-	_	PRON	PNG	Person=3	8	subj/m	_	AlignBegin=52152|AlignEnd=52271|GE=[3]|RX=[PNG]|TokenType=InflAff
 8	farʔa	_	VERB	V1	Aspect=Perf|VerbClass=1	19	conj:coord	_	AlignBegin=52271|AlignEnd=52390|GE=take_out\PFV|RX=[V1]|TokenType=Root
@@ -392,9 +392,9 @@
 # text = ti= ndeː =t -i mhiːn mitja -jiːni  /
 # text_en =  He explains him where his mother lives, and
 1	ti=	_	DET	DET	Definite=Def|Gender=Fem	2	det	_	AlignBegin=66078|AlignEnd=66179|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-2	ndeː	_	NOUN	N	Gender=Fem	4	comp/m	_	AlignBegin=66179|AlignEnd=66280|GE=mother|RX=[N].[F]|TokenType=Root
+2	ndeː	_	NOUN	N	Gender=Fem	4	comp	_	AlignBegin=66179|AlignEnd=66280|GE=mother|RX=[N].[F]|TokenType=Root
 3	=t	_	DET	CONJ.REL	Definite=Ind|Gender=Fem	2	det	_	AlignBegin=66280|AlignEnd=66381|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-4	-i	_	ADP	CASE	Case=Gen	5	udep	_	AlignBegin=66381|AlignEnd=66483|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+4	=i	_	ADP	CASE	Case=Gen	5	udep	_	AlignBegin=66381|AlignEnd=66483|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 5	mhiːn	_	NOUN	N	Gender=Masc	6	comp:obj	_	AlignBegin=66483|AlignEnd=66888|GE=place|RX=[N].[M]|TokenType=Root
 6	mitja	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=66888|AlignEnd=67090|GE=explain|RX=[V2]|TokenType=Root
 7	-jiːni	_	PRON	TAM.PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=3	6	subj/m	_	AlignBegin=67090|AlignEnd=67293|GE=[IPFV].[3SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff
@@ -420,9 +420,9 @@
 # text = ti= ndeː =t -i =da jaː iraːni w= ʔoːr =oːk  / bak tʔi -it =eːt hajʔa =t =iːb rh -an i- ndi =hoːb  / tuː= ndi ʔakr -aː =t waːw waːw -eːtiːt  /
 # text_en = when he tells the mother: "Gosh I saw these things that happened to your son," the mother wept a lot and
 1	ti=	_	DET	DET	Definite=Def|Gender=Fem	2	det	_	AlignBegin=68918|AlignEnd=68984|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-2	ndeː	_	NOUN	N	Gender=Fem	4	comp/m	_	AlignBegin=68984|AlignEnd=69050|GE=mother|RX=[N].[F]|TokenType=Root
+2	ndeː	_	NOUN	N	Gender=Fem	4	comp	_	AlignBegin=68984|AlignEnd=69050|GE=mother|RX=[N].[F]|TokenType=Root
 3	=t	_	DET	DET	Gender=Fem	2	det	_	AlignBegin=69050|AlignEnd=69116|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-4	-i	_	ADP	CASE	Case=Gen	5	comp	_	AlignBegin=69116|AlignEnd=69182|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+4	=i	_	ADP	CASE	Case=Gen	5	comp	_	AlignBegin=69116|AlignEnd=69182|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 5	=da	_	ADP	POSTP	_	22	comp:obl	_	AlignBegin=69182|AlignEnd=69250|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 6	jaː	_	PART	PTCL	_	7	comp	_	AlignBegin=69250|AlignEnd=69582|GE=[ADRF]|RX=[PTCL]|TokenType=Root
 7	iraːni	_	INTJ	_	_	9	vocative	_	AlignBegin=69582|AlignEnd=69914|GE=gosh|RX=[EXCL]|TokenType=Root
@@ -644,9 +644,9 @@
 3	areː	_	PART	PTCL	_	2	discourse	_	AlignBegin=111089|AlignEnd=111321|GE=then|RX=[PTCL]|TokenType=Root
 4	/	_	PUNCT	_	_	2	punct	_	AlignBegin=111321|AlignEnd=111552|GE=[/]|TokenType=Break
 5	ti=	_	DET	DET	Definite=Def|Gender=Fem	6	det	_	AlignBegin=111552|AlignEnd=111648|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-6	ndeː	_	NOUN	N	Gender=Fem	8	comp/m	_	AlignBegin=111648|AlignEnd=111744|GE=mother|RX=[N].[F]|TokenType=Root
+6	ndeː	_	NOUN	N	Gender=Fem	8	comp	_	AlignBegin=111648|AlignEnd=111744|GE=mother|RX=[N].[F]|TokenType=Root
 7	=t	_	DET	DET	Gender=Fem	6	det	_	AlignBegin=111744|AlignEnd=111840|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-8	-i	_	ADP	CASE	Case=Gen	9	comp	_	AlignBegin=111840|AlignEnd=111936|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+8	=i	_	ADP	CASE	Case=Gen	9	comp	_	AlignBegin=111840|AlignEnd=111936|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 9	=da	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=111936|AlignEnd=112033|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 10	jʔ	_	VERB	V2	VerbClass=2	11	comp/m	_	AlignBegin=112033|AlignEnd=112273|GE=come|RX=[V2].[IRG]|TokenType=Root
 11	-eːtiːt	_	AUX	_	_	50	mod	_	AlignBegin=112273|AlignEnd=112514|GE=[CVB].[SEQ]|TokenType=InflAff

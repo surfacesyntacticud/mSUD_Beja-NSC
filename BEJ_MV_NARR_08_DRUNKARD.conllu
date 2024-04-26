@@ -297,9 +297,9 @@
 1	aflaːn	_	PART	PTCL	_	4	discourse	_	AlignBegin=53696|AlignEnd=53980|GE=so|RX=[PTCL]|TokenType=Root
 2	/	_	PUNCT	_	_	1	punct	_	AlignBegin=53980|AlignEnd=54264|GE=[/]|TokenType=Break
 3	t=	_	DET	DET	Definite=Def|Gender=Fem	4	det	_	AlignBegin=55342|AlignEnd=55444|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-4	hikuːmaː	_	NOUN	N	Gender=Fem	6	comp/m	_	AlignBegin=55444|AlignEnd=55546|GE=power|RX=[N].[F]|TokenType=Root
+4	hikuːmaː	_	NOUN	N	Gender=Fem	6	comp	_	AlignBegin=55444|AlignEnd=55546|GE=power|RX=[N].[F]|TokenType=Root
 5	=t	_	DET	DET	Gender=Fem	4	det	_	AlignBegin=55546|AlignEnd=55648|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-6	-i	_	ADP	CASE	Case=Gen	7	comp	_	AlignBegin=55648|AlignEnd=55750|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+6	=i	_	ADP	CASE	Case=Gen	7	comp	_	AlignBegin=55648|AlignEnd=55750|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 7	=da	_	ADP	POSTP	_	12	comp:obl	_	AlignBegin=55750|AlignEnd=55851|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 8	/	_	PUNCT	_	_	7	punct	_	AlignBegin=55851|AlignEnd=56360|GE=[/]|TokenType=Break
 9	t=	_	DET	DET	Definite=Def|Gender=Fem	10	det	_	AlignBegin=57319|AlignEnd=57489|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
@@ -346,8 +346,8 @@
 7	-n	_	PRON	PNG	Number=Plur	6	subj/m	_	AlignBegin=64260|AlignEnd=64310|GE=[PL]|RX=[PNG]|TokenType=InflAff
 8	=eːk	_	SCONJ	CONJ	_	14	mod	_	AlignBegin=64310|AlignEnd=64361|GE=if|RX=[CONJ]|TokenType=Clit
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=64361|AlignEnd=64613|GE=[/]|TokenType=Break
-10	allaːj	_	NOUN	N	Gender=Masc	11	comp/m	_	AlignBegin=65053|AlignEnd=65181|GE=[God]|RX=[N].[M]|TokenType=Root
-11	-i	_	ADP	CASE	Case=Gen	12	comp	_	AlignBegin=65181|AlignEnd=65309|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+10	allaːj	_	NOUN	N	Gender=Masc	11	comp	_	AlignBegin=65053|AlignEnd=65181|GE=[God]|RX=[N].[M]|TokenType=Root
+11	=i	_	ADP	CASE	Case=Gen	12	comp	_	AlignBegin=65181|AlignEnd=65309|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 12	=da	_	ADP	POSTP	_	14	comp:obl	_	AlignBegin=65309|AlignEnd=65436|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 13	gʷirja	_	VERB	V2	VerbClass=2	14	comp/m	_	AlignBegin=65436|AlignEnd=65564|GE=complain|RX=[V2]|TokenType=Root
 14	-am	_	AUX	V2	VerbClass=2	17	comp:aux	_	AlignBegin=65564|AlignEnd=65692|DerPos=VERB|GE=[MID]|RX=[V2].[DER]|TokenType=DerAff
@@ -533,8 +533,8 @@
 1	ɖaːb	_	VERB	V2	VerbClass=2	2	comp/m	_	AlignBegin=99718|AlignEnd=99832|GE=run|RX=[V2]|TokenType=Root
 2	-eː	_	AUX	_	_	7	mod	_	AlignBegin=99832|AlignEnd=99945|GE=[CVB].[SMLT]|TokenType=InflAff
 3	i=	_	DET	DET	Definite=Def|Gender=Masc	4	det	_	AlignBegin=99945|AlignEnd=100021|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-4	tak	_	NOUN	N	Gender=Masc	5	comp/m	_	AlignBegin=100021|AlignEnd=100097|GE=man|RX=[N].[M]|TokenType=Root
-5	-i	_	ADP	CASE	Case=Gen	6	comp	_	AlignBegin=100097|AlignEnd=100172|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+4	tak	_	NOUN	N	Gender=Masc	5	comp	_	AlignBegin=100021|AlignEnd=100097|GE=man|RX=[N].[M]|TokenType=Root
+5	=i	_	ADP	CASE	Case=Gen	6	comp	_	AlignBegin=100097|AlignEnd=100172|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 6	dhaːj	_	ADP	POSTP	_	7	comp:obl	_	AlignBegin=100172|AlignEnd=100399|GE=[DIR]|RX=[POSTP]|TokenType=Root
 7	jʔ	_	VERB	V2	VerbClass=2	15	conj:coord	_	AlignBegin=100399|AlignEnd=100475|GE=come|RX=[V2].[IRG]|TokenType=Root
 8	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	7	subj/m	_	AlignBegin=100475|AlignEnd=100551|GE=[AOR].[3SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff
@@ -614,9 +614,9 @@
 2	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	3	det	_	AlignBegin=110664|AlignEnd=110822|GE=[DEF].[SG].[F].[ACC]|RX=[DET]|TokenType=Clit
 3	na	_	NOUN	N	Gender=Fem	5	conj:dicto	_	AlignBegin=110822|AlignEnd=110981|GE=thing|RX=[N].[F]|TokenType=Root
 4	toː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	5	det	_	AlignBegin=110981|AlignEnd=111044|GE=[DEF].[SG].[F].[ACC]|RX=[DET]|TokenType=Clit
-5	naː	_	NOUN	N	Gender=Fem	7	comp/m	_	AlignBegin=111044|AlignEnd=111107|GE=thing|RX=[N].[F]|TokenType=Root
+5	naː	_	NOUN	N	Gender=Fem	7	comp	_	AlignBegin=111044|AlignEnd=111107|GE=thing|RX=[N].[F]|TokenType=Root
 6	=t	_	DET	DET	Gender=Fem	5	det	_	AlignBegin=111107|AlignEnd=111170|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-7	-i	_	ADP	CASE	Case=Gen	8	comp	_	AlignBegin=111170|AlignEnd=111233|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+7	=i	_	ADP	CASE	Case=Gen	8	comp	_	AlignBegin=111170|AlignEnd=111233|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 8	=da	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=111233|AlignEnd=111298|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=111298|AlignEnd=111615|GE=[/]|TokenType=Break
 10	jʔ	_	VERB	V2	VerbClass=2	11	comp/m	_	AlignBegin=111615|AlignEnd=111735|GE=come|RX=[V2].[IRG]|TokenType=Root
@@ -656,8 +656,8 @@
 # phonetic_text = naːnaːt -i =da jʔ -aː =b =wa aflaːn i- ndi =hoːb / uːn ani / gʷada -am -an =t / siːleːl -an =t / barijoːk =da adʔiːm -i a- ni =hoːb / ti= biri =t =iː hoː waliːk -ti na / a- maːsiw i- ndi eːn //
 # text = naːnaːt -i =da jʔ -aː =b =wa aflaːn i- ndi =hoːb / uːn ani / gʷada -am -an =t / siːleːl -an =t / barjoːk =da adʔi -im -i a- ni =hoːb / ti= bri =t =iː hoː waliːk -ti na / a- maːsiw i- ndi eːn //
 # text_en =  When he says: "So, why have you come?" "I washed myself and I prayed and when I was going to implore Him about you I heard something from the sky calling me", he says, they said.
-1	naːnaːt	_	ADV	ADV	PartType=Int	2	comp/m	_	AlignBegin=114832|AlignEnd=114952|GE=what|RX=[ADV].[Q]|TokenType=Root
-2	-i	_	ADP	CASE	Case=Gen	3	comp	_	AlignBegin=114952|AlignEnd=115072|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+1	naːnaːt	_	ADV	ADV	PartType=Int	2	comp	_	AlignBegin=114832|AlignEnd=114952|GE=what|RX=[ADV].[Q]|TokenType=Root
+2	=i	_	ADP	CASE	Case=Gen	3	comp	_	AlignBegin=114952|AlignEnd=115072|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 3	=da	_	ADP	POSTP	_	4	comp:obl	_	AlignBegin=115072|AlignEnd=115191|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 4	jʔ	_	VERB	V2	VerbClass=2	5	comp/m	_	AlignBegin=115191|AlignEnd=115281|GE=come|RX=[V2].[IRG]|TokenType=Root
 5	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	7	comp:pred	_	AlignBegin=115281|AlignEnd=115371|GE=[CVB].[MNR]|RX=[PRF]|TokenType=InflAff
@@ -925,12 +925,12 @@
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=159309|AlignEnd=159451|GE=[/]|TokenType=Break
 7	nʔandaː	_	NOUN	N	Gender=Fem	9	udep	_	AlignBegin=159886|AlignEnd=160182|GE=shadow|RX=[N].[F]|TokenType=Root
 8	=t	_	DET	DET	Gender=Fem	7	det	_	AlignBegin=160182|AlignEnd=160477|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-9	heːtaː	_	NOUN	N	Gender=Fem	11	comp/m	_	AlignBegin=160477|AlignEnd=160575|GE=wall|RX=[N].[F]|TokenType=Root
+9	heːtaː	_	NOUN	N	Gender=Fem	11	comp	_	AlignBegin=160477|AlignEnd=160575|GE=wall|RX=[N].[F]|TokenType=Root
 10	=t	_	DET	DET	Gender=Fem	9	det	_	AlignBegin=160575|AlignEnd=160673|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-11	-i	_	ADP	CASE	Case=Gen	12	comp	_	AlignBegin=160673|AlignEnd=160771|GE=[GEN]|RX=[CASE]|TokenType=InflAff
-12	=na	_	NOUN	REL	PronType=Rel	14	comp/m	_	AlignBegin=160771|AlignEnd=160869|GE=thing|RX=[N.F]|TokenType=Clit
+11	=i	_	ADP	CASE	Case=Gen	12	comp	_	AlignBegin=160673|AlignEnd=160771|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
+12	=na	_	NOUN	REL	PronType=Rel	14	comp	_	AlignBegin=160771|AlignEnd=160869|GE=thing|RX=[N.F]|TokenType=Clit
 13	=t	_	DET	DET	Gender=Fem	12	det	_	AlignBegin=160869|AlignEnd=160967|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-14	-i	_	ADP	CASE	Case=Gen	16	comp	_	AlignBegin=160967|AlignEnd=161068|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+14	=i	_	ADP	CASE	Case=Gen	16	comp	_	AlignBegin=160967|AlignEnd=161068|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=161068|AlignEnd=161658|GE=[/]|TokenType=Break
 16	whiː	_	ADP	POSTP	_	17	comp:obl	_	AlignBegin=161658|AlignEnd=161985|GE=under|RX=[POSTP]|TokenType=Root
 17	sʔa	_	VERB	V1	VerbClass=1	18	comp/m	_	AlignBegin=161985|AlignEnd=162094|GE=sit|RX=[V1].[DER]|TokenType=Root
@@ -942,8 +942,8 @@
 23	lamma	_	NOUN	N	Gender=Fem	29	comp:obj	_	AlignBegin=164297|AlignEnd=164446|GE=crowd|RX=[N].[F]|TokenType=Root
 24	=t	_	DET	DET	Gender=Fem	23	det	_	AlignBegin=164446|AlignEnd=164595|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
 25	/	_	PUNCT	_	_	23	punct	_	AlignBegin=164595|AlignEnd=164892|GE=[/]|TokenType=Break
-26	dhaj	_	NOUN	N	Gender=Masc|Number=Coll	27	comp/m	_	AlignBegin=164892|AlignEnd=164983|GE=people|RX=[N].[COL].[M]|TokenType=Root
-27	-i	_	ADP	CASE	Case=Gen	23	udep	_	AlignBegin=164983|AlignEnd=165074|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+26	dhaj	_	NOUN	N	Gender=Masc|Number=Coll	27	comp	_	AlignBegin=164892|AlignEnd=164983|GE=people|RX=[N].[COL].[M]|TokenType=Root
+27	=i	_	ADP	CASE	Case=Gen	23	udep	_	AlignBegin=164983|AlignEnd=165074|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 28	=t	_	DET	DET	Gender=Fem	27	det	_	AlignBegin=165074|AlignEnd=165166|GE=[INDF].[F]|RX=[REL]|TokenType=Clit
 29	rh	_	VERB	V2	VerbClass=2	32	parataxis:obj	_	AlignBegin=165166|AlignEnd=165303|GE=see|RX=[V2]|TokenType=Root
 30	-ani	_	PRON	TAM.PNG	Aspect=Imp|Number=Sing|Person=1	29	subj/m	_	AlignBegin=165303|AlignEnd=165440|GE=[IPFV].[1SG]|RX=[TAM].[PNG]|TokenType=InflAff
@@ -1029,8 +1029,8 @@
 26	=hoːb	_	SCONJ	CONJ	_	33	mod	_	AlignBegin=176549|AlignEnd=176660|GE=when|RX=[CONJ]|TokenType=Clit
 27	/	_	PUNCT	_	_	26	punct	_	AlignBegin=176660|AlignEnd=176995|GE=[/]|TokenType=Break
 28	i=	_	DET	DET	Definite=Def|Gender=Masc	29	det	_	AlignBegin=177501|AlignEnd=177599|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-29	girma	_	NOUN	N	Gender=Masc	30	comp/m	_	AlignBegin=177599|AlignEnd=177697|GE=head|RX=[N].[M]|TokenType=Root
-30	-i	_	ADP	CASE	Case=Gen	31	comp	_	AlignBegin=177697|AlignEnd=177795|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+29	girma	_	NOUN	N	Gender=Masc	30	comp	_	AlignBegin=177599|AlignEnd=177697|GE=head|RX=[N].[M]|TokenType=Root
+30	=i	_	ADP	CASE	Case=Gen	31	comp	_	AlignBegin=177697|AlignEnd=177795|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 31	geːb	_	ADP	POSTP	_	33	comp:obl	_	AlignBegin=177795|AlignEnd=178089|GE=beside|RX=[POSTP]|TokenType=Root
 32	eː-	_	PRON	PNG	Number=Sing|Person=1	33	subj/m	_	AlignBegin=178089|AlignEnd=178236|GE=[1SG]|RX=[PNG]|TokenType=InflAff
 33	stʔi	_	VERB	V1	Aspect=Imp|VerbClass=1|Voice=Mid	0	root	_	AlignBegin=178236|AlignEnd=178383|GE=sit\MID.IPFV|RX=[V1].[DER]|TokenType=Root
@@ -1212,9 +1212,9 @@
 # phonetic_text = ʤanna =t -i tak i- kati eːn //
 # text = ʤannaːti tak ikati eːn //
 # text_en =  He becomes a man of the paradise, they said.
-1	ʤanna	_	NOUN	N	Gender=Fem	3	comp/m	_	AlignBegin=202998|AlignEnd=203141|GE=paradise|RX=[N].[F]|TokenType=Root
+1	ʤanna	_	NOUN	N	Gender=Fem	3	comp	_	AlignBegin=202998|AlignEnd=203141|GE=paradise|RX=[N].[F]|TokenType=Root
 2	=t	_	DET	DET	Gender=Fem	1	det	_	AlignBegin=203141|AlignEnd=203284|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-3	-i	_	ADP	CASE	Case=Gen	4	udep	_	AlignBegin=203284|AlignEnd=203426|GE=[GEN]|RX=[CASE]|TokenType=InflAff
+3	=i	_	ADP	CASE	Case=Gen	4	udep	_	AlignBegin=203284|AlignEnd=203426|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
 4	tak	_	NOUN	N	Gender=Masc	6	subj	_	AlignBegin=203426|AlignEnd=203854|GE=man|RX=[N].[M]|TokenType=Root
 5	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	6	subj/m	_	AlignBegin=203854|AlignEnd=204068|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 6	kati	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=204068|AlignEnd=204282|GE=become\IPFV|RX=[V1].[IRG]|TokenType=Root
