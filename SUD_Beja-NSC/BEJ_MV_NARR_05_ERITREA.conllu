@@ -947,17 +947,15 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_05_ERITREA.WAV
 # sent_timecode = 169676, 171210
 # phonetic_text = < bani ʔaːdam > han bi= i- hass -ej =t /
-# text = < bani ʔaːdam > han bi= ihassaj =t /
+# text = bani ʔaːdam han bi= ihassaj =t /
 # text_en =  A human being could not even pass!"
-1	<	_	PUNCT	_	_	2	punct	_	AlignBegin=169676|AlignEnd=169895|GE=[<]|TokenType=Root
-2	bani	_	NOUN	_	Foreign=Yes	3	udep	_	AlignBegin=169895|AlignEnd=170114|GE=son_of|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-3	ʔaːdam	_	PROPN	_	Foreign=Yes	7	subj	_	AlignBegin=170114|AlignEnd=170333|GE=[Adam]|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-4	>	_	PUNCT	_	_	3	punct	_	AlignBegin=170333|AlignEnd=170552|GE=[>]|TokenType=Break
-5	han	_	PART	PTCL	_	7	mod	_	AlignBegin=170552|AlignEnd=170771|GE=also|RX=[PTCL].[FOC]|TokenType=Root
-6	bi=	_	PART	PTCL	Mood=Opt	7	mod	_	AlignBegin=170771|AlignEnd=170815|GE=[OPT]|RX=[PTCL]|TokenType=Clit
-7	ihassaj	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	0	root	_	AlignBegin=170815|AlignEnd=170947|GE=[3SG].[M]pass[NEG].[OPT]|MGloss=[3SG].[M]pass[NEG].[OPT]|MSeg=i-hass-aj|RX=[PNG][V2][TAM]|TokenType=Root
-8	=t	_	CCONJ	CONJ	_	7	cc	_	AlignBegin=170947|AlignEnd=170990|GE=[COORD]|RX=[CONJ]|TokenType=Clit
-9	/	_	PUNCT	_	_	7	punct	_	AlignBegin=170990|AlignEnd=171210|GE=[/]|TokenType=Break
+1	bani	_	NOUN	_	Foreign=Yes	2	udep	_	AlignBegin=169895|AlignEnd=170114|GE=son_of|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+2	ʔaːdam	_	PROPN	_	Foreign=Yes	5	subj	_	AlignBegin=170114|AlignEnd=170333|GE=[Adam]|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+3	han	_	PART	PTCL	_	5	mod	_	AlignBegin=170552|AlignEnd=170771|GE=also|RX=[PTCL].[FOC]|TokenType=Root
+4	bi=	_	PART	PTCL	Mood=Opt	5	mod	_	AlignBegin=170771|AlignEnd=170815|GE=[OPT]|RX=[PTCL]|TokenType=Clit
+5	ihassaj	_	VERB	V2	Gender=Masc|Number=Sing|VerbClass=2	0	root	_	AlignBegin=170815|AlignEnd=170947|GE=[3SG].[M]pass[NEG].[OPT]|MGloss=[3SG].[M]pass[NEG].[OPT]|MSeg=i-hass-aj|RX=[PNG][V2][TAM]|TokenType=Root
+6	=t	_	CCONJ	CONJ	_	5	cc	_	AlignBegin=170947|AlignEnd=170990|GE=[COORD]|RX=[CONJ]|TokenType=Clit
+7	/	_	PUNCT	_	_	5	punct	_	AlignBegin=170990|AlignEnd=171210|GE=[/]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_05_eritrea_179-185
 # speaker_id = SP

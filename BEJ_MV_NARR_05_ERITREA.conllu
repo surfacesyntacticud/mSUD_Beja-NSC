@@ -1068,19 +1068,17 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_05_ERITREA.WAV
 # sent_timecode = 169676, 171210
 # phonetic_text = < bani ʔaːdam > han bi= i- hass -ej =t /
-# text = < bani ʔaːdam > han biːhassejt /
+# text = bani ʔaːdam han bi= i- hass -aj =t /
 # text_en =  A human being could not even pass!"
-1	<	_	PUNCT	_	_	2	punct	_	AlignBegin=169676|AlignEnd=169895|GE=[<]|TokenType=Root
-2	bani	_	NOUN	_	Foreign=Yes	3	udep	_	AlignBegin=169895|AlignEnd=170114|GE=son_of|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-3	ʔaːdam	_	PROPN	_	Foreign=Yes	8	subj	_	AlignBegin=170114|AlignEnd=170333|GE=[Adam]|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-4	>	_	PUNCT	_	_	3	punct	_	AlignBegin=170333|AlignEnd=170552|GE=[>]|TokenType=Break
-5	han	_	PART	PTCL	_	8	mod	_	AlignBegin=170552|AlignEnd=170771|GE=also|RX=[PTCL].[FOC]|TokenType=Root
-6	bi=	_	PART	PTCL	Mood=Opt	8	mod	_	AlignBegin=170771|AlignEnd=170815|GE=[OPT]|RX=[PTCL]|TokenType=Clit
-7	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	8	subj/m	_	AlignBegin=170815|AlignEnd=170859|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
-8	hass	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=170859|AlignEnd=170903|GE=pass|RX=[V2]|TokenType=Root
-9	-aj	_	PART	TAM	Mood=Opt|Polarity=Neg	8	mod/m	_	AlignBegin=170903|AlignEnd=170947|GE=[NEG].[OPT]|RX=[TAM]|TokenType=InflAff
-10	=t	_	CCONJ	CONJ	_	8	cc	_	AlignBegin=170947|AlignEnd=170990|GE=[COORD]|RX=[CONJ]|TokenType=Clit
-11	/	_	PUNCT	_	_	8	punct	_	AlignBegin=170990|AlignEnd=171210|GE=[/]|TokenType=Break
+1	bani	_	NOUN	_	Foreign=Yes	2	udep	_	AlignBegin=169895|AlignEnd=170114|GE=son_of|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+2	ʔaːdam	_	PROPN	_	Foreign=Yes	6	subj	_	AlignBegin=170114|AlignEnd=170333|GE=[Adam]|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+3	han	_	PART	PTCL	_	6	mod	_	AlignBegin=170552|AlignEnd=170771|GE=also|RX=[PTCL].[FOC]|TokenType=Root
+4	bi=	_	PART	PTCL	Mood=Opt	6	mod	_	AlignBegin=170771|AlignEnd=170815|GE=[OPT]|RX=[PTCL]|TokenType=Clit
+5	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	6	subj/m	_	AlignBegin=170815|AlignEnd=170859|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
+6	hass	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=170859|AlignEnd=170903|GE=pass|RX=[V2]|TokenType=Root
+7	-aj	_	PART	TAM	Mood=Opt|Polarity=Neg	6	mod/m	_	AlignBegin=170903|AlignEnd=170947|GE=[NEG].[OPT]|RX=[TAM]|TokenType=InflAff
+8	=t	_	CCONJ	CONJ	_	6	cc	_	AlignBegin=170947|AlignEnd=170990|GE=[COORD]|RX=[CONJ]|TokenType=Clit
+9	/	_	PUNCT	_	_	6	punct	_	AlignBegin=170990|AlignEnd=171210|GE=[/]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_05_eritrea_179-185
 # speaker_id = SP
