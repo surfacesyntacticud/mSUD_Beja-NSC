@@ -285,29 +285,28 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_02_FARMER.WAV
 # sent_timecode = 58489, 64542
 # phonetic_text = ʔakr -aː =t firha =t -eː misis -tiːt / j= ʔar =eː haːj i- t- dagi =aːt / ti= zirʔa =t =ihi =da //
-# text = ʔakr -aː =t firha =t =eː misistiːt / j= ʔar =eː haːj itdagi =aːt / ti= zirʔa =t =ihi =da //
+# text = ʔakraː =t firha =t =eː misistiːt / j= ʔar =eː haːj itdagi =aːt / ti= zirʔa =t =ihi =da //
 # text_en =  He is really happy and (lit. he was dying of strong happyness) he goes back with his children to his field.
-1	ʔakr	_	VERB	V1	VerbClass=1	2	comp	_	AlignBegin=58489|AlignEnd=58615|GE=be_strong|RX=[V1]|TokenType=Root
-2	-aː	_	AUX	_	_	4	mod	_	AlignBegin=58615|AlignEnd=58741|GE=[CVB].[MNR]|TokenType=InflAff
-3	=t	_	DET	DET	Gender=Fem	2	det	_	AlignBegin=58741|AlignEnd=58867|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-4	firha	_	NOUN	N	Gender=Fem	6	comp	_	AlignBegin=58867|AlignEnd=58993|GE=joy|RX=[N].[F]|TokenType=Root
-5	=t	_	DET	DET	Gender=Fem	4	det	_	AlignBegin=58993|AlignEnd=59119|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-6	=eː	_	ADP	CASE	Case=Gen|Number=Plur	7	mod	_	AlignBegin=59119|AlignEnd=59245|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
-7	misistiːt	_	VERB	V1	VerbClass=1	13	mod	_	AlignBegin=59245|AlignEnd=59623|GE=die[CVB].[SEQ]|MGloss=die[CVB].[SEQ]|MSeg=misis-tiːt|RX=[V1]|TokenType=Root
-8	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=59623|AlignEnd=60003|GE=[/]|TokenType=Break
-9	j=	_	DET	DET	Definite=Def|Gender=Masc	10	det	_	AlignBegin=60003|AlignEnd=60119|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
-10	ʔar	_	NOUN	N	_	12	comp	_	AlignBegin=60119|AlignEnd=60235|GE=child|RX=[N]|TokenType=Root
-11	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	10	mod@poss	_	AlignBegin=60235|AlignEnd=60350|GE=[POSS].[3PL].[ACC]|RX=[PRO]|TokenType=Clit
-12	haːj	_	ADP	POSTP	Case=Com	13	comp:obl	_	AlignBegin=60350|AlignEnd=60697|GE=[COM]|RX=[POSTP]|TokenType=Root
-13	itdagi	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=60697|AlignEnd=60958|GE=[3SG].[M][MID]bring_back\IPFV|MGloss=[3SG].[M][MID]bring_back\IPFV|MSeg=i-t-dagi|RX=[PNG][V1].[DER][V1]|TokenType=Root
-14	=aːt	_	CCONJ	CONJ	_	13	cc	_	AlignBegin=60958|AlignEnd=61044|GE=[COORD]|RX=[CONJ]|TokenType=Clit
-15	/	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=61044|AlignEnd=61391|GE=[/]|TokenType=Break
-16	ti=	_	DET	DET	Definite=Def|Gender=Fem	17	det	_	AlignBegin=62666|AlignEnd=62775|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
-17	zirʔa	_	NOUN	N	Gender=Fem	20	comp	_	AlignBegin=62775|AlignEnd=62884|GE=field|RX=[N].[F]|TokenType=Root
-18	=t	_	DET	DET	Gender=Fem	17	det	_	AlignBegin=62884|AlignEnd=62993|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
-19	=ihi	_	PRON	PRO	Case=Gen|Number=Sing|Person=3|Poss=Yes	17	mod@poss	_	AlignBegin=62993|AlignEnd=63102|GE=[POSS].[3SG].[GEN]|RX=[PRO]|TokenType=Clit
-20	=da	_	ADP	POSTP	_	13	dislocated:obl	_	AlignBegin=63102|AlignEnd=63212|GE=[DIR]|RX=[POSTP]|TokenType=Clit
-21	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=63212|AlignEnd=63757|GE=[//]|TokenType=Break
+1	ʔakraː	_	VERB	V1	VerbClass=1	3	mod	_	AlignBegin=58489|AlignEnd=58741|GE=be_strong[CVB].[MNR]|MGloss=be_strong[CVB].[MNR]|MSeg=ʔakr-aː|RX=[V1]|TokenType=Root
+2	=t	_	DET	DET	Gender=Fem	1	det	_	AlignBegin=58741|AlignEnd=58867|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
+3	firha	_	NOUN	N	Gender=Fem	5	comp	_	AlignBegin=58867|AlignEnd=58993|GE=joy|RX=[N].[F]|TokenType=Root
+4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=58993|AlignEnd=59119|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
+5	=eː	_	ADP	CASE	Case=Gen|Number=Plur	6	mod	_	AlignBegin=59119|AlignEnd=59245|GE=[GEN].[PL]|RX=[CASE]|TokenType=Clit
+6	misistiːt	_	VERB	V1	VerbClass=1	12	mod	_	AlignBegin=59245|AlignEnd=59623|GE=die[CVB].[SEQ]|MGloss=die[CVB].[SEQ]|MSeg=misis-tiːt|RX=[V1]|TokenType=Root
+7	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=59623|AlignEnd=60003|GE=[/]|TokenType=Break
+8	j=	_	DET	DET	Definite=Def|Gender=Masc	9	det	_	AlignBegin=60003|AlignEnd=60119|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
+9	ʔar	_	NOUN	N	_	11	comp	_	AlignBegin=60119|AlignEnd=60235|GE=child|RX=[N]|TokenType=Root
+10	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	9	mod@poss	_	AlignBegin=60235|AlignEnd=60350|GE=[POSS].[3PL].[ACC]|RX=[PRO]|TokenType=Clit
+11	haːj	_	ADP	POSTP	Case=Com	12	comp:obl	_	AlignBegin=60350|AlignEnd=60697|GE=[COM]|RX=[POSTP]|TokenType=Root
+12	itdagi	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=60697|AlignEnd=60958|GE=[3SG].[M][MID]bring_back\IPFV|MGloss=[3SG].[M][MID]bring_back\IPFV|MSeg=i-t-dagi|RX=[PNG][V1].[DER][V1]|TokenType=Root
+13	=aːt	_	CCONJ	CONJ	_	12	cc	_	AlignBegin=60958|AlignEnd=61044|GE=[COORD]|RX=[CONJ]|TokenType=Clit
+14	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=61044|AlignEnd=61391|GE=[/]|TokenType=Break
+15	ti=	_	DET	DET	Definite=Def|Gender=Fem	16	det	_	AlignBegin=62666|AlignEnd=62775|GE=[DEF].[F]|RX=[DET]|TokenType=Clit
+16	zirʔa	_	NOUN	N	Gender=Fem	19	comp	_	AlignBegin=62775|AlignEnd=62884|GE=field|RX=[N].[F]|TokenType=Root
+17	=t	_	DET	DET	Gender=Fem	16	det	_	AlignBegin=62884|AlignEnd=62993|GE=[INDF].[F]|RX=[DET]|TokenType=Clit
+18	=ihi	_	PRON	PRO	Case=Gen|Number=Sing|Person=3|Poss=Yes	16	mod@poss	_	AlignBegin=62993|AlignEnd=63102|GE=[POSS].[3SG].[GEN]|RX=[PRO]|TokenType=Clit
+19	=da	_	ADP	POSTP	_	12	dislocated:obl	_	AlignBegin=63102|AlignEnd=63212|GE=[DIR]|RX=[POSTP]|TokenType=Clit
+20	//	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=63212|AlignEnd=63757|GE=[//]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_02_farmer_069-075
 # speaker_id = SP
