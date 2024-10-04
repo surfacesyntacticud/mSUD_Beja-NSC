@@ -5,7 +5,7 @@
 # sent_timecode = 0, 5607
 # phonetic_text = gaːl / ʤabanaː =t =oː oːn i= suːg =iːb dannʔi =hoːb / rabameːk -aːji =b =u =it gaːl dhaːj jʔ -i =t / finʤaːn /  hoːj hi -jaː -n =heːb i- ndi /
 # text = gaːl / ʤabanaː =t =oː oːn i= suːg =iːb dannʔi =hoːb / rabameːkaːji =b =u =it gaːl dhaːj jʔi =t / finʤaːn / hoːj hijaːn =heːb indi /
-# text_en =  When someone is making his coffee at the market, since he is one of the Rabameek, someone comes to him and says: "Give me a cup from it!"
+# text_en = When someone is making his coffee at the market, since he is one of the Rabameek, someone comes to him and says: "Give me a cup from it!"
 1	gaːl	_	NUM	NUM	_	10	subj	_	AlignBegin=0|AlignEnd=236|GE=one|RX=[SBJ].[NUM]|TokenType=Root
 2	/	_	PUNCT	_	_	1	punct	_	AlignBegin=236|AlignEnd=472|GE=[/]|TokenType=Break
 3	ʤabanaː	_	NOUN	N	Gender=Fem	10	comp:obj	_	AlignBegin=472|AlignEnd=593|GE=coffee|RX=[N].[F]|TokenType=Root
@@ -41,7 +41,7 @@
 # sent_timecode = 5607, 6929
 # phonetic_text = finʤaːn gaːl i- niːw /
 # text = finʤaːn gaːl iniːw /
-# text_en =  He gives him one cup,
+# text_en = He gives him one cup,
 1	finʤaːn	_	NOUN	N	Gender=Masc	3	comp:obj	_	AlignBegin=5607|AlignEnd=5890|GE=cup|RX=[N].[M]|TokenType=Root
 2	gaːl	_	NUM	NUM	_	1	mod	_	AlignBegin=5890|AlignEnd=6173|GE=one|RX=[NUM]|TokenType=Root
 3	iniːw	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=6173|AlignEnd=6456|GE=[3SG].[M]give\IPFV|MGloss=[3SG].[M]give\IPFV|MSeg=i-niːw|RX=[PNG][V1].[IRG]|TokenType=Root
@@ -53,7 +53,7 @@
 # sent_timecode = 6929, 7984
 # phonetic_text = i= mali -a i- niːw /
 # text = i= malia iniːw /
-# text_en =  he gives him the second one.
+# text_en = he gives him the second one.
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=6929|AlignEnd=7024|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 2	malia	_	NUM	NUM	_	3	comp:obj	_	AlignBegin=7024|AlignEnd=7213|GE=two[ORD]|MGloss=two[ORD]|MSeg=mali-a|RX=[NUM][NUM]|TokenType=Root
 3	iniːw	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	0	root	_	AlignBegin=7213|AlignEnd=7497|GE=[3SG].[M]give\IPFV|MGloss=[3SG].[M]give\IPFV|MSeg=i-niːw|RX=[PNG][V1].[IRG]|TokenType=Root
@@ -65,7 +65,7 @@
 # sent_timecode = 7984, 16991
 # phonetic_text = i= mhaj -a i- niːw =hoːb ontʔa / oː= buːn lʔoː =b =u =it uːn /  giːg -i diːt /  oːn i= mhaj -a finʤaːn i- niːw =hoːb / sss / < gahwat muːna muːna > i- ndi //
 # text = i= mhaja iniːw =hoːb ontʔa / oː= buːn lʔoː =b =u =it uːn / giːgi diːt / oːn i= mhaja finʤaːn iniːw =hoːb / sss / gahwat muːna indi //
-# text_en =  When he gives him the third one, then, because he has had enough coffee, this one wants to leave and when he gives him the third cup, he says: "Sip!, this is Mouna's coffee!"
+# text_en = When he gives him the third one, then, because he has had enough coffee, this one wants to leave and when he gives him the third cup, he says: "Sip!, this is Mouna's coffee!"
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=7984|AlignEnd=8102|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 2	mhaja	_	NUM	NUM	_	3	comp:obj	_	AlignBegin=8102|AlignEnd=8337|GE=three[ORD]|MGloss=three[ORD]|MSeg=mhaj-a|RX=[NUM][NUM]|TokenType=Root
 3	iniːw	_	VERB	V1	Aspect=Imp|Gender=Masc|Number=Sing|VerbClass=1	4	comp	_	AlignBegin=8337|AlignEnd=8573|GE=[3SG].[M]give\IPFV|MGloss=[3SG].[M]give\IPFV|MSeg=i-niːw|RX=[PNG][V1].[IRG]|TokenType=Root
@@ -103,7 +103,7 @@
 # sent_timecode = 16991, 24022
 # phonetic_text = i= finʤan mhaj / koː =jeː ʃaw~waw -iːtiːt i= findikʷ =iːb gid -tiːt /  i- nʈhiːm eːn ifi# i= finʤan =eː ʤuwwaː =b //
 # text = i= finʤan mhaj / koː =jeː ʃaw~wawiːtiːt i= findikʷ =iːb gidtiːt / inʈhiːm eːn ifi# i= finʤan =eː ʤuwwaːb //
-# text_en =  He gathers all three cups and throws them into the mortar, and and he grinds, they said, er, his cups inside.
+# text_en = He gathers all three cups and throws them into the mortar, and and he grinds, they said, er, his cups inside.
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=16991|AlignEnd=17113|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 2	finʤan	_	NOUN	N	Gender=Masc	7	comp:obj	_	AlignBegin=17113|AlignEnd=17234|GE=cup|RX=[N].[M]|TokenType=Root
 3	mhaj	_	NUM	NUM	_	2	mod	_	AlignBegin=17234|AlignEnd=17477|GE=three|RX=[NUM]|TokenType=Root
@@ -131,7 +131,7 @@
 # sent_timecode = 24022, 31461
 # phonetic_text = mali -a muːna -i geːb gʷʔa -a i- ndi eːn / oː= buːn oːn /  tʔa /  i= tʔa gʷʔa -taːn =eːb i- kati =jeːk //
 # text = malia muːna =i geːb gʷʔaa indi eːn / oː= buːn oːn / tʔa / tʔa gʷʔataːn =eːb ikati =jeːk //
-# text_en =  "Next time, drink with Mouna!" he says, they said, if it is this coffee that you would drink!"
+# text_en = "Next time, drink with Mouna!" he says, they said, if it is this coffee that you would drink!"
 1	malia	_	PART	PTCL	Number=Plur	5	comp:obl	_	AlignBegin=24022|AlignEnd=24335|GE=two[PL]|MGloss=two[PL]|MSeg=mali-a|RX=[PTCL][DET]|TokenType=Root
 2	muːna	_	PROPN	N	_	3	comp	_	AlignBegin=24335|AlignEnd=24491|GE=[Mouna]|RX=[N].[PROP]|TokenType=Root
 3	=i	_	ADP	CASE	Case=Gen	4	comp	_	AlignBegin=24491|AlignEnd=24648|GE=[GEN]|RX=[CASE]|TokenType=Clit|wordform=-i
@@ -159,7 +159,7 @@
 # sent_timecode = 31461, 33487
 # phonetic_text = ʔamaːr =oːn baː= kʷaːs -a samaːr =oːn laughter //
 # text = ʔamaːr =oːn baː= kʷaːsa samaːr =oːn //
-# text_en =  Let it not be our destiny!
+# text_en = Let it not be our destiny!
 1	ʔamaːr	_	NOUN	N	Gender=Masc	4	comp:obj	_	AlignBegin=31461|AlignEnd=31663|GE=possessions|RX=[N].[M]|TokenType=Root
 2	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	1	mod@poss	_	AlignBegin=31663|AlignEnd=31866|GE=[POSS].[1PL].[ACC]|RX=[PRO]|TokenType=Clit
 3	baː=	_	PART	PTCL	Polarity=Neg	4	mod	_	AlignBegin=31866|AlignEnd=32001|GE=[NEG].[PROH]|RX=[PTCL]|TokenType=Clit
