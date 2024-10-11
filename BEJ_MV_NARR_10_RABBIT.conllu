@@ -36,9 +36,9 @@
 1	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=4456|AlignEnd=4561|GE=[DEF].[SG].[M].[NOM]|RX=[DET]|TokenType=Clit
 2	doːr	_	NOUN	N	Gender=Masc	17	mod	_	AlignBegin=4561|AlignEnd=4666|GE=time|RX=[N].[M]|TokenType=Root
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=4666|AlignEnd=4877|GE=[/]|TokenType=Break
-4	ʔasir	_	NOUN	N	Gender=Masc	2	mod@relcl	_	AlignBegin=4877|AlignEnd=5067|GE=afternoon|RX=[N].[M]|TokenType=Root
-5	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	4	subj	_	AlignBegin=5067|AlignEnd=5257|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
-6	/	_	PUNCT	_	_	4	punct	_	AlignBegin=5257|AlignEnd=5637|GE=[/]|TokenType=Break
+4	ʔasir	_	NOUN	N	Gender=Masc	5	subj/m	_	AlignBegin=4877|AlignEnd=5067|GE=afternoon|RX=[N].[M]|TokenType=Root
+5	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	2	mod@relcl	_	AlignBegin=5067|AlignEnd=5257|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
+6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=5257|AlignEnd=5637|GE=[/]|TokenType=Break
 7	dif	_	VERB	V1	VerbClass=1	14	conj:coord	_	AlignBegin=6894|AlignEnd=7044|GE=leave|RX=[V1]|TokenType=Root
 8	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	7	subj/m	_	AlignBegin=7044|AlignEnd=7194|GE=[IMP].[SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff
 9	=t	_	CCONJ	CONJ	_	7	cc	_	AlignBegin=7194|AlignEnd=7344|GE=[COORD]|RX=[CONJ]|TokenType=Clit
@@ -50,7 +50,7 @@
 15	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	14	subj/m	_	AlignBegin=9755|AlignEnd=9896|GE=[IMP].[SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff
 16	i-	_	PRON	PNG	Gender=Masc|Person=3	17	subj/m	_	AlignBegin=9896|AlignEnd=9967|GE=[3]|RX=[PNG]|TokenType=InflAff
 17	diː	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=9967|AlignEnd=10038|GE=say\PFV|RX=[V1].[IRG]|TokenType=Root
-18	-n	_	PRON	_	Number=Plur	17	unk/m	_	AlignBegin=10038|AlignEnd=10109|GE=[PL]|TokenType=InflAff
+18	-n	_	PRON	_	Number=Plur	17	subj	_	AlignBegin=10038|AlignEnd=10109|GE=[PL]|TokenType=InflAff
 19	=heːb	_	PRON	PRO	Number=Sing|Person=1	17	comp:obj	_	AlignBegin=10109|AlignEnd=10179|GE=[OBJ].[1SG]|RX=[PRO]|TokenType=Clit
 20	//	_	PUNCT	_	_	17	punct	_	AlignBegin=10179|AlignEnd=10462|GE=[//]|TokenType=Break
 
@@ -235,7 +235,7 @@
 11	ali	_	PROPN	N	_	14	subj	_	AlignBegin=38241|AlignEnd=38543|GE=[Ali]|RX=[N].[PROP]|TokenType=Root
 12	baːb	_	NOUN	N	Gender=Masc	14	comp:pred	_	AlignBegin=38543|AlignEnd=38644|GE=father|RX=[N].[M]|TokenType=Root
 13	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	12	udep@poss	_	AlignBegin=38644|AlignEnd=38745|GE=[POSS].[2SG].[ACC]|RX=[PRO]|TokenType=Clit
-14	=i	_	PRON	PNG	Number=Sing|Person=3	17	parataxis:obj	_	AlignBegin=38745|AlignEnd=38845|GE==COP.3SG|RX=[=PRED.N]|TokenType=InflAff
+14	=i	_	AUX	PNG	Number=Sing|Person=3	17	parataxis:obj	_	AlignBegin=38745|AlignEnd=38845|GE==COP.3SG|RX=[=PRED.N]|TokenType=InflAff
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=38845|AlignEnd=39147|GE=[/]|TokenType=Break
 16	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	17	subj/m	_	AlignBegin=39147|AlignEnd=39239|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 17	ni	_	VERB	V1	Aspect=Perf|VerbClass=1	26	conj:coord	_	AlignBegin=39239|AlignEnd=39331|GE=say\PFV|RX=[V1].[IRG]|TokenType=Root

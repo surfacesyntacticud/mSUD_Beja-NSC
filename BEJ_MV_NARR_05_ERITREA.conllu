@@ -63,7 +63,7 @@
 37	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	36	subj/m	_	AlignBegin=15034|AlignEnd=15204|GE=[IPFV].[3PL]|RX=[TAM].[PNG]|TokenType=InflAff
 38	=ajt	_	SCONJ	CONJ	_	42	mod	_	AlignBegin=15204|AlignEnd=15375|GE=[CSL]|RX=[CONJ]|TokenType=Clit
 39	/	_	PUNCT	_	_	38	punct	_	AlignBegin=15375|AlignEnd=15886|GE=[/]|TokenType=Break
-40	ʔiːbaːb	_	NOUN	N.V	Gender=Fem	_	_	_	AlignBegin=15886|AlignEnd=16108|GE=travel|RX=[SBJ].[N].[V].[F]|TokenType=Root
+40	ʔiːbaːb	_	NOUN	N.V	Gender=Fem	41	comp/m	_	AlignBegin=15886|AlignEnd=16108|GE=travel|RX=[SBJ].[N].[V].[F]|TokenType=Root
 41	-kina	_	NOUN	N	Gender=Masc	42	subj	_	AlignBegin=16108|AlignEnd=16330|GE=owner|RX=[N].[M]|TokenType=InflAff
 42	giːg	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=16330|AlignEnd=16552|GE=leave|RX=[V2]|TokenType=Root
 43	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	42	subj/m	_	AlignBegin=16552|AlignEnd=16774|GE=[IPFV].[3PL]|RX=[TAM].[PNG]|TokenType=InflAff
@@ -423,7 +423,7 @@
 4	=da	_	ADP	POSTP	_	7	comp:obl	_	AlignBegin=72318|AlignEnd=72404|GE=[DIR]|RX=[POSTP]|TokenType=Clit
 5	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	det	_	AlignBegin=72404|AlignEnd=72573|GE=[DEF].[SG].[M].[NOM]|RX=[DET]|TokenType=Clit
 6	meːk	_	NOUN	N	_	7	subj	_	AlignBegin=72573|AlignEnd=72742|GE=donkey|RX=[SBJ].[N]|TokenType=Root
-7	jʔ	_	VERB	V2	VerbClass=2	_	_	_	AlignBegin=72742|AlignEnd=72855|GE=come|RX=[V2].[IRG]|TokenType=Root
+7	jʔ	_	VERB	V2	VerbClass=2	8	comp/m	_	AlignBegin=72742|AlignEnd=72855|GE=come|RX=[V2].[IRG]|TokenType=Root
 8	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	9	comp	_	AlignBegin=72855|AlignEnd=72968|GE=[AOR].[3SG].[M]|RX=[TAM].[PNG]|TokenType=InflAff
 9	=hoːb	_	SCONJ	CONJ	_	13	mod	_	AlignBegin=72968|AlignEnd=73080|GE=when|RX=[CONJ]|TokenType=Clit
 10	/	_	PUNCT	_	_	9	punct	_	AlignBegin=73080|AlignEnd=73419|GE=[/]|TokenType=Break
@@ -560,7 +560,7 @@
 7	=jaːt	_	CCONJ	CONJ	_	5	cc	_	AlignBegin=92049|AlignEnd=92149|GE=[COORD]|RX=[CONJ]|TokenType=Clit
 8	/	_	PUNCT	_	_	5	punct	_	AlignBegin=92149|AlignEnd=92452|GE=[/]|TokenType=Break
 9	bak	_	PART	DEICT	_	10	mod	_	AlignBegin=92452|AlignEnd=92762|GE=thus|RX=[DEICT].[MNR]|TokenType=Root
-10	tʔi	_	VERB	V1	VerbClass=1	_	_	_	AlignBegin=92762|AlignEnd=92814|GE=resemble|RX=[V1].[IRG]|TokenType=Root
+10	tʔi	_	VERB	V1	VerbClass=1	11	comp/m	_	AlignBegin=92762|AlignEnd=92814|GE=resemble|RX=[V1].[IRG]|TokenType=Root
 11	-it	_	SCONJ	N.V	_	12	comp	_	AlignBegin=92814|AlignEnd=92866|DerPos=NOUN|GE=[VN]|RX=[N].[V]|TokenType=DerAff
 12	=eː	_	SCONJ	CONJ.REL	PronType=Rel	13	mod@relcl	_	AlignBegin=92866|AlignEnd=92918|GE=[REL]|RX=[CONJ]|TokenType=Clit
 13	=naː	_	NOUN	CONJ	_	15	subj	_	AlignBegin=92918|AlignEnd=92970|GE=thing|RX=[CONJ]|TokenType=Clit

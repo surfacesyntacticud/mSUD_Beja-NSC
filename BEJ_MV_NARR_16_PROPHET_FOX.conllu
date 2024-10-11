@@ -215,7 +215,7 @@
 30	=eːt	_	SCONJ	_	Gender=Fem	21	mod@relcl	_	AlignBegin=40912|AlignEnd=41108|GE= =[REL].[F]|RX= =CONJ|TokenType=Clit
 31	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	32	subj/m	_	AlignBegin=41108|AlignEnd=41238|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 32	miː-	_	AUX	V1	Aspect=Aor|VerbClass=1|Voice=Pass	33	comp/m	_	AlignBegin=41238|AlignEnd=41369|DerPos=VERB|GE= [PASS].[INT].[AOR]-|RX= [V1].[DER]-|TokenType=DerAff
-33	firʔa	_	VERB	V1	VerbClass=1	0	root/m	_	AlignBegin=41369|AlignEnd=41500|GE= take_out|Gloss= take_out|RX= [V1]
+33	firʔa	_	VERB	V1	VerbClass=1	0	root	_	AlignBegin=41369|AlignEnd=41500|GE= take_out|Gloss= take_out|RX= [V1]
 34	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	33	discourse	_	AlignBegin=41500|AlignEnd=41892|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
 35	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=41892|AlignEnd=42782|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
@@ -431,7 +431,7 @@
 22	=t	_	DET	DET	Gender=Fem	21	det	_	AlignBegin=81897|AlignEnd=82007|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 23	dhaːj	_	ADP	POSTP	_	25	comp:obl	_	AlignBegin=82007|AlignEnd=82228|GE= [DIR]|RX= [POSTP]
 24	haːj	_	ADP	POSTP	Case=Com	25	mod	_	AlignBegin=82228|AlignEnd=82449|GE= [COM]|RX= [POSTP]
-25	jʔ	_	VERB	V2	VerbClass=2	_	_	_	AlignBegin=82449|AlignEnd=82559|GE= come|Gloss= come|RX= [V2].[IRG]
+25	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=82449|AlignEnd=82559|GE= come|Gloss= come|RX= [V2].[IRG]
 26	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	25	subj/m	_	AlignBegin=82559|AlignEnd=82669|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 27	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	25	discourse	_	AlignBegin=82669|AlignEnd=82890|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
 28	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=82890|AlignEnd=83239|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
@@ -1431,8 +1431,8 @@
 14	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	15	subj/m	_	AlignBegin=248174|AlignEnd=248260|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 15	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=248260|AlignEnd=248346|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]
 16	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	15	discourse	_	AlignBegin=248346|AlignEnd=248518|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
-17	//	_	PUNCT	PUNCT	_	0	root	_	AlignBegin=248518|AlignEnd=248690|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-18	{laughter}	_	PUNCT	PUNCT	_	0	root	_	AlignBegin=249086|AlignEnd=249620|GE= [{]laughter[}]|Gloss= {laughter}|RX= [PUNCT]
+17	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=248518|AlignEnd=248690|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+18	{laughter}	_	PUNCT	PUNCT	_	16	discourse	_	AlignBegin=249086|AlignEnd=249620|GE= [{]laughter[}]|Gloss= {laughter}|RX= [PUNCT]
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_290-294
 # text = ti= w= hagiː =t =i =ka hanka fitik -na / aː= nda dhaːj jʔ -eːn =hoːb / ti= w= hagiː =t =i =ka hanka fitik -na / ti- ndi eːn //
@@ -1543,7 +1543,7 @@
 10	doːr	_	NOUN	N	Gender=Masc	14	mod	_	AlignBegin=265464|AlignEnd=265554|GE= time|Gloss= time|RX= [N].[M]
 11	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=265554|AlignEnd=265733|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 12	gibit	_	VERB	V1	VerbClass=1	13	comp/m	_	AlignBegin=265733|AlignEnd=265864|GE= sip|Gloss= sip|RX= [V1]
-13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:aux	_	AlignBegin=265864|AlignEnd=265995|DerPos=NOUN|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
+13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:aux	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 14	dannʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=265995|AlignEnd=266258|GE= [IPFV].[[][3SG][]]|Gloss= do|RX= [V1].[IRG]
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=266258|AlignEnd=266520|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
 16	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=266520|AlignEnd=266891|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
@@ -1783,8 +1783,8 @@
 5	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	4	subj/m	_	AlignBegin=246161|AlignEnd=246333|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=246333|AlignEnd=246678|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_337-341
-# text = ka= a- ki jhaː / ʔiʃ -i =heːb i- ndi eːn // ʔamaːr =oːn baː= kʷaːs -a samaːr =oːn //
+# sent_id = BEJ_MV_NARR_16_Prophet_Fox_337-339
+# text = ka= a- ki jhaː / ʔiʃ -i =heːb i- ndi eːn //
 # phonetic_text = kaːki jhaː / ʔiʃiheːb indi eːn // amaːroːn baːkʷaːsa samaːroːn // {laughter}
 # text_en =  'No!  Leave me alone, you!' it says, they said.
 1	ka=	_	PART	PTCL	Aspect=Imp	3	mod	_	AlignBegin=285067|AlignEnd=285160|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
@@ -1799,12 +1799,17 @@
 10	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=286308|AlignEnd=286441|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]
 11	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	10	discourse	_	AlignBegin=286441|AlignEnd=286705|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
 12	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=286705|AlignEnd=287779|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-13	ʔamaːr	_	NOUN	N	Gender=Masc	16	comp:obj	_	AlignBegin=287779|AlignEnd=288053|GE= possessions|Gloss= possessions|RX= [N].[M]
-14	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	13	udep@poss	_	AlignBegin=288053|AlignEnd=288328|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
-15	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	16	mod	_	AlignBegin=288328|AlignEnd=288511|GE= [NEG].[PROH]=|RX= [PTCL]=|TokenType=Clit
-16	kʷaːs	_	VERB	V1	VerbClass=1	0	root	_	AlignBegin=288511|AlignEnd=288694|GE= create|Gloss= create|RX= [V1].[IRG]
-17	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	16	subj/m	_	AlignBegin=288694|AlignEnd=288878|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-18	samaːr	_	NOUN	N	Gender=Masc	16	dislocated:obj	_	AlignBegin=288878|AlignEnd=289153|GE= offspring|Gloss= offspring|RX= [N].[M]
-19	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	18	udep@poss	_	AlignBegin=289153|AlignEnd=289428|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
-20	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=289428|AlignEnd=289978|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+
+# sent_id = BEJ_MV_NARR_16_Prophet_Fox_340-341
+# text = ʔamaːr =oːn baː= kʷaːs -a samaːr =oːn //
+# phonetic_text = kaːki jhaː / ʔiʃiheːb indi eːn // amaːroːn baːkʷaːsa samaːroːn // {laughter}
+# text_en =  'No!  Leave me alone, you!' it says, they said.
+1	ʔamaːr	_	NOUN	N	Gender=Masc	4	comp:obj	_	AlignBegin=287779|AlignEnd=288053|GE= possessions|Gloss= possessions|RX= [N].[M]
+2	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	1	udep@poss	_	AlignBegin=288053|AlignEnd=288328|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
+3	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	4	mod	_	AlignBegin=288328|AlignEnd=288511|GE= [NEG].[PROH]=|RX= [PTCL]=|TokenType=Clit
+4	kʷaːs	_	VERB	V1	VerbClass=1	0	root	_	AlignBegin=288511|AlignEnd=288694|GE= create|Gloss= create|RX= [V1].[IRG]
+5	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	4	subj/m	_	AlignBegin=288694|AlignEnd=288878|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
+6	samaːr	_	NOUN	N	Gender=Masc	4	dislocated:obj	_	AlignBegin=288878|AlignEnd=289153|GE= offspring|Gloss= offspring|RX= [N].[M]
+7	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	6	udep@poss	_	AlignBegin=289153|AlignEnd=289428|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
+8	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=289428|AlignEnd=289978|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 

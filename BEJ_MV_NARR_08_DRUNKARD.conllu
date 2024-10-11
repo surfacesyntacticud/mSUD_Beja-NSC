@@ -132,7 +132,7 @@
 4	/	_	PUNCT	_	_	3	punct	_	AlignBegin=22165|AlignEnd=22396|GE=[/]|TokenType=Break
 5	i=	_	DET	DET	Definite=Def|Gender=Masc	6	det	_	AlignBegin=22589|AlignEnd=22724|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 6	ɖeːfa	_	NOUN	N	Gender=Masc	7	comp	_	AlignBegin=22724|AlignEnd=22859|GE=door|RX=[N].[M]|TokenType=Root
-7	dhaːj	_	ADP	POSTP	_	8	:obl	_	AlignBegin=22859|AlignEnd=23129|GE=[DIR]|RX=[POSTP]|TokenType=Root
+7	dhaːj	_	ADP	POSTP	_	8	comp	_	AlignBegin=22859|AlignEnd=23129|GE=[DIR]|RX=[POSTP]|TokenType=Root
 8	kʷil	_	VERB	V1	VerbClass=1	9	comp/m	_	AlignBegin=23129|AlignEnd=23264|GE=knock|RX=[V1]|TokenType=Root
 9	-tiːt	_	AUX	_	_	48	mod	_	AlignBegin=23264|AlignEnd=23399|DerPos=NOUN|GE=[CVB].[SEQ]|TokenType=DerAff
 10	/	_	PUNCT	_	_	9	punct	_	AlignBegin=23399|AlignEnd=23671|GE=[/]|TokenType=Break
@@ -494,21 +494,21 @@
 # phonetic_text = maːlik -iː jhaː / uːn uː= tak / i= wali -a =jeːsoːn =u hoː =k -a / dhaːj baː= adʔim -a / tuː= na / ti- ndi =heːb //
 # text = maːlik -iː jhaː / uːn uː= tak / i= wali -a =jeːsoːn =u hoːk -a / dhaːj baː= adʔim -a / tuː= na / ti- ndi =heːb //
 # text_en =  "Malik! this man is one of our saints, don't implore God for you about him!" the thing (i.e. calling voice) said that to me.
-1	maːlik	_	PROPN	N	_	_	_	_	AlignBegin=92696|AlignEnd=92842|GE=[Malik]|RX=[N].[PROP]|TokenType=Root
+1	maːlik	_	PROPN	N	_	2	comp/m	_	AlignBegin=92696|AlignEnd=92842|GE=[Malik]|RX=[N].[PROP]|TokenType=Root
 2	-iː	_	ADP	CASE	Case=Voc	3	comp	_	AlignBegin=92842|AlignEnd=92988|GE=[VOC]|RX=[CASE]|TokenType=InflAff
 3	jhaː	_	PRON	PTCL	Gender=Masc|Number=Sing	13	vocative	_	AlignBegin=92988|AlignEnd=93280|GE=[ADRF].[SG].[M]|RX=[PTCL]|TokenType=Root
 4	/	_	PUNCT	_	_	3	punct	_	AlignBegin=93280|AlignEnd=93572|GE=[/]|TokenType=Break
 5	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	AlignBegin=93572|AlignEnd=93772|GE=[PROX].[SG].[M].[NOM]|RX=[DEM]|TokenType=Root
 6	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	det	_	AlignBegin=93772|AlignEnd=93872|GE=[DEF].[SG].[M].[NOM]|RX=[DET]|TokenType=Clit
-7	tak	_	NOUN	N	Gender=Masc	10	subj	_	AlignBegin=93872|AlignEnd=93972|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
+7	tak	_	NOUN	N	Gender=Masc	13	subj	_	AlignBegin=93872|AlignEnd=93972|GE=man|RX=[SBJ].[N].[M]|TokenType=Root
 8	/	_	PUNCT	_	_	7	punct	_	AlignBegin=93972|AlignEnd=94171|GE=[/]|TokenType=Break
 9	i=	_	DET	DET	Definite=Def|Gender=Masc	10	det	_	AlignBegin=94171|AlignEnd=94279|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 10	wali	_	NOUN	N	Gender=Masc	13	comp:pred	_	AlignBegin=94279|AlignEnd=94387|GE=saint|RX=[N].[M]|TokenType=Root
 11	-a	_	DET	_	Number=Plur	10	det/m	_	AlignBegin=94387|AlignEnd=94495|GE=[PL]|TokenType=InflAff
 12	=jeːsoːn	_	PRON	PRO	Case=Abl|Number=Plur|Person=1|Poss=Yes	10	udep@poss	_	AlignBegin=94495|AlignEnd=94603|GE=[POSS].[1PL].[ABL]|RX=[PRO]|TokenType=Clit
 13	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	19	conj:coord	_	AlignBegin=94603|AlignEnd=94711|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
-14	hoːk	_	ADP	POSTP	Case=Abl	19	discourse	_	AlignBegin=94711|AlignEnd=94891|GE=[2SG.DAT/ABL]|RX=[PRO]|TokenType=Root
-15	-a	_	PART	_	_	_	_	_	AlignBegin=95071|AlignEnd=95251|GE=[ADRE].[M]|TokenType=InflAff
+14	hoːk	_	ADP	POSTP	Case=Abl	15	comp/m	_	AlignBegin=94711|AlignEnd=94891|GE=[2SG.DAT/ABL]|RX=[PRO]|TokenType=Root
+15	-a	_	PART	_	_	19	discourse	_	AlignBegin=95071|AlignEnd=95251|GE=[ADRE].[M]|TokenType=InflAff
 16	/	_	PUNCT	_	_	15	punct	_	AlignBegin=95251|AlignEnd=95791|GE=[/]|TokenType=Break
 17	dhaːj	_	ADP	POSTP	_	19	comp:obl	_	AlignBegin=96371|AlignEnd=96714|GE=[DIR]|RX=[POSTP]|TokenType=Root
 18	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	19	mod	_	AlignBegin=96714|AlignEnd=96828|GE=[NEG].[PROH]|RX=[PTCL]|TokenType=Clit
