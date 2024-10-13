@@ -542,7 +542,7 @@
 17	nʔa	_	VERB	V1	VerbClass=1	18	comp/m	_	AlignBegin=98843|AlignEnd=98985|GE= be_down|Gloss= be_down|RX= [V1].[IRG]
 18	-ti	_	AUX	CVB	VerbForm=Conv	19	compound:svc	_	AlignBegin=98985|AlignEnd=99128|DerPos=NOUN|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 19	daː	_	VERB	V2	VerbClass=2	20	comp/m	_	AlignBegin=99128|AlignEnd=99271|GE= be_there|Gloss= be_there|RX= [V2]
-20	-s	_	AUX	V2	VerbClass=2|Voice=Cau	23	comp:aux	_	AlignBegin=99271|AlignEnd=99414|DerPos=VERB|GE= -[CAUS]|RX= -[V2].[DER]|TokenType=DerAff
+20	-s	_	AUX	V2	VerbClass=2|Voice=Cau	23	comp:obj	_	AlignBegin=99271|AlignEnd=99414|DerPos=VERB|GE= -[CAUS]|RX= -[V2].[DER]|TokenType=DerAff
 21	i-	_	PRON	PNG	Person=3	23	subj/m	_	AlignBegin=99414|AlignEnd=99471|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 22	siːs-	_	AUX	V1	VerbClass=1|Voice=Cau	23	comp/m	_	AlignBegin=99471|AlignEnd=99528|DerPos=VERB|GE= [DBL].[CAUS]-|RX= [V1].[DER]-|TokenType=DerAff
 23	joːdi	_	VERB	LV	Aspect=Perf|VerbType=Light	25	comp	_	AlignBegin=99528|AlignEnd=99585|GE= [INT].[PFV]|Gloss= say|RX= [LV]
@@ -1543,7 +1543,7 @@
 10	doːr	_	NOUN	N	Gender=Masc	14	mod	_	AlignBegin=265464|AlignEnd=265554|GE= time|Gloss= time|RX= [N].[M]
 11	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=265554|AlignEnd=265733|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 12	gibit	_	VERB	V1	VerbClass=1	13	comp/m	_	AlignBegin=265733|AlignEnd=265864|GE= sip|Gloss= sip|RX= [V1]
-13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:aux	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
+13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:obj	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 14	dannʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=265995|AlignEnd=266258|GE= [IPFV].[[][3SG][]]|Gloss= do|RX= [V1].[IRG]
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=266258|AlignEnd=266520|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
 16	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=266520|AlignEnd=266891|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
@@ -1675,135 +1675,6 @@
 # text = ʔamaːr =oːn baː= kʷaːs -a samaːr =oːn //
 # phonetic_text =  amaːroːn baːkʷaːsa samaːroːn // {laughter}
 # text_en = Let it not be our fate!
-1	ʔamaːr	_	NOUN	N	Gender=Masc	4	comp:obj	_	AlignBegin=287779|AlignEnd=288053|GE= possessions|Gloss= possessions|RX= [N].[M]
-2	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	1	udep@poss	_	AlignBegin=288053|AlignEnd=288328|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
-3	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	4	mod	_	AlignBegin=288328|AlignEnd=288511|GE= [NEG].[PROH]=|RX= [PTCL]=|TokenType=Clit
-4	kʷaːs	_	VERB	V1	VerbClass=1	0	root	_	AlignBegin=288511|AlignEnd=288694|GE= create|Gloss= create|RX= [V1].[IRG]
-5	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	4	subj/m	_	AlignBegin=288694|AlignEnd=288878|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-6	samaːr	_	NOUN	N	Gender=Masc	4	dislocated:obj	_	AlignBegin=288878|AlignEnd=289153|GE= offspring|Gloss= offspring|RX= [N].[M]
-7	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	6	udep@poss	_	AlignBegin=289153|AlignEnd=289428|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
-8	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=289428|AlignEnd=289978|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_135-145
-# text = ontʔa / lhaweː =t / t= ʔaraw -i toːn rh -aː =t =u akoː / lhajt kʷiːkʷʔaːj =iːb daːj -eːtiːt / kʷiːkʷʔaːj jhaː / ʔar~raraweː -sam -ni / ti- ndi eːn //
-# phonetic_text = ontʔa / lhaweːt / tʔarawi toːn rhaːtu akoː / lhajt kʷiːkʷʔaːjiːb daːjeːtiːt / kʷiːkʷʔaːj jhaː / ʔarraraweːsamni / tindi eːn //
-# text_en = Now, since Vixen saw this friendship,  the following day after it went to Crow (to tell it),  it says: Crow! Let's become friends!' they said,
-1	ontʔa	_	PART	PTCL	_	3	discourse	_	AlignBegin=125303|AlignEnd=125545|GE= now|Gloss= now|RX= [PTCL]
-2	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=125545|AlignEnd=126011|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-3	lhaweː	_	NOUN	N	Gender=Fem	13	subj	_	AlignBegin=126011|AlignEnd=126129|GE= vixen|Gloss= vixen|RX= [SBJ].[N].[F]
-4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=126129|AlignEnd=126247|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=126247|AlignEnd=126642|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-6	t=	_	DET	DET	Definite=Def|Gender=Fem	7	det	_	AlignBegin=126642|AlignEnd=126726|GE= [DEF].[F]=|RX= [DET]=|TokenType=Clit
-7	ʔaraw	_	NOUN	N	Number=Plur	_	_	_	AlignBegin=126726|AlignEnd=126810|GE= [PL]|Gloss= friend|RX= [N]
-8	-i	_	PART	SUFX	_	7	comp/m	_	AlignBegin=126810|AlignEnd=126895|GE= -[ABST]|RX= -[SUFX]|TokenType=InflAff
-9	toːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	AlignBegin=126895|AlignEnd=127148|GE= [PROX].[SG].[F].[ACC]|RX= [DEM]
-10	rh	_	VERB	V2	VerbClass=2	11	comp/m	_	AlignBegin=127148|AlignEnd=127211|GE= see|Gloss= see|RX= [V2]
-11	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	13	comp:pred	_	AlignBegin=127211|AlignEnd=127274|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -[PRF]|TokenType=DerAff
-12	=t	_	DET	DET	Gender=Fem	11	det	_	AlignBegin=127274|AlignEnd=127337|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-13	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	_	_	_	AlignBegin=127337|AlignEnd=127401|GE= =[COP].[3SG]|RX= =[PRED].[N]|TokenType=Clit
-14	akoː	_	PART	PTCL	_	19	mod	_	AlignBegin=127401|AlignEnd=127654|GE= given_that|Gloss= given_that|RX= [PTCL]
-15	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=127654|AlignEnd=127907|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-16	lhajt	_	ADV	ADV	_	19	mod	_	AlignBegin=127907|AlignEnd=128243|GE= tomorrow|Gloss= tomorrow|RX= [ADV]
-17	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	18	comp	_	AlignBegin=128243|AlignEnd=128411|GE= crow|Gloss= crow|RX= [N].[M]
-18	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	19	comp:obl	_	AlignBegin=128411|AlignEnd=128579|GE= =[LOC].[SG]|RX= =[POSTP]|TokenType=Clit
-19	daːj	_	VERB	V2	VerbClass=2	20	comp/m	_	AlignBegin=128579|AlignEnd=128747|GE= be_there|Gloss= be_there|RX= [V2]
-20	-eːtiːt	_	AUX	CVB	VerbForm=Conv	25	mod	_	AlignBegin=128747|AlignEnd=128915|DerPos=NOUN|GE= -[CVB].[SEQ]|RX= -.|TokenType=DerAff
-21	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=128915|AlignEnd=129251|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-22	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	25	vocative	_	AlignBegin=129251|AlignEnd=129528|GE= crow|Gloss= crow|RX= [N].[M]
-23	jhaː	_	PART	PTCL	_	22	vocative	_	AlignBegin=129528|AlignEnd=129805|GE= [ADRF]|RX= [PTCL]
-24	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=129805|AlignEnd=130832|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-25	ʔar~raraweː	_	NOUN	N	Gender=Fem	30	parataxis:obj	_	AlignBegin=130832|AlignEnd=131023|GE= [PLAC]|Gloss= friendship|RX= [N].[F]
-26	-sam	_	AUX	V2	VerbClass=2|Voice=Rcp	25	comp/m	_	AlignBegin=131023|AlignEnd=131215|DerPos=VERB|GE= -[RECP]|RX= -[V2].[DER]|TokenType=DerAff
-27	-ni	_	PRON	TAM.PNG	Aspect=Aor|Number=Plur|Person=1	26	subj/m	_	AlignBegin=131215|AlignEnd=131407|GE= -[AOR].[1PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-28	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=131407|AlignEnd=132209|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-29	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	30	subj/m	_	AlignBegin=132209|AlignEnd=132292|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
-30	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=132292|AlignEnd=132376|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]
-31	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	30	discourse	_	AlignBegin=132376|AlignEnd=132543|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
-32	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=132543|AlignEnd=132710|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_201-209
-# text = igeːsi ontʔa / lhaweː =t =i =dha // lhaweː =t / jhak -a ti- ndi eːn i= kna =juːk a# ## aj -a ʤhar -i =b =wa =jaːj //
-# phonetic_text = igeːsi ontʔa / lhaweːtidha // lhaweːt / jhaka tindi eːn iknajuːk a# ## aja ʤhariːbwajaːj //
-# text_en = Straight away, now,  it says to Vixen: 'Vixen, get up! they said, really you are unlucky,
-1	igeːsi	_	ADV	ADV	_	15	mod	_	AlignBegin=176660|AlignEnd=176888|GE= immediately|Gloss= immediately|RX= [ADV]
-2	ontʔa	_	PART	PTCL	_	1	discourse	_	AlignBegin=176888|AlignEnd=177117|GE= now|Gloss= now|RX= [PTCL]
-3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=177117|AlignEnd=178142|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-4	lhaweː	_	NOUN	N	Gender=Fem	6	comp	_	AlignBegin=178142|AlignEnd=178252|GE= vixen|Gloss= vixen|RX= [N].[F]
-5	=t	_	DET	DET	Gender=Fem	4	det	_	AlignBegin=178252|AlignEnd=178362|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-6	=i	_	ADP	CASE	Case=Gen	7	udep	_	AlignBegin=178362|AlignEnd=178472|GE= =[GEN]|RX= =[CASE]|TokenType=Clit
-7	=dha	_	ADP	POSTP	_	15	comp:obl	_	AlignBegin=178472|AlignEnd=178583|GE= =[DIR]|RX= =[POSTP]|TokenType=Clit
-8	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=178583|AlignEnd=179975|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-9	lhaweː	_	NOUN	N	Gender=Fem	12	subj	_	AlignBegin=179975|AlignEnd=180133|GE= vixen|Gloss= vixen|RX= [N].[F]
-10	=t	_	DET	DET	Gender=Fem	9	det	_	AlignBegin=180133|AlignEnd=180292|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=180292|AlignEnd=181234|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-12	jhak	_	VERB	V2	VerbClass=2	15	parataxis:obj	_	AlignBegin=181234|AlignEnd=181345|GE= get_up|Gloss= get_up|RX= [V2]
-13	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	12	subj/m	_	AlignBegin=181345|AlignEnd=181456|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-14	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	15	subj/m	_	AlignBegin=181456|AlignEnd=181567|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
-15	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	_	_	_	AlignBegin=181567|AlignEnd=181678|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]
-16	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	15	discourse	_	AlignBegin=181678|AlignEnd=181900|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
-17	i=	_	DET	DET	Definite=Def|Gender=Masc	18	det	_	AlignBegin=181900|AlignEnd=181974|GE= [DEF].[M]=|RX= [DET]=|TokenType=Clit
-18	kna	_	PRON	PRO	Reflex=Yes	_	_	_	AlignBegin=181974|AlignEnd=182048|GE= owner|Gloss= owner|RX= [SBJ].[PRO].[REFL]
-19	=juːk	_	PRON	PRO	Case=Nom|Number=Sing|Person=2|Poss=Yes	18	udep@poss	_	AlignBegin=182048|AlignEnd=182122|GE= =[POSS].[2SG].[NOM]|RX= =[PRO]|TokenType=Clit
-20	a#	_	X	FS	_	_	_	_	AlignBegin=182122|AlignEnd=182344|GE= [FS]|RX= [FS]
-21	##	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=182344|AlignEnd=182960|GE= [PUNCT]|RX= [PUNCT]
-22	aj	_	VERB	V1	VerbClass=1	23	comp/m	_	AlignBegin=182960|AlignEnd=183106|GE= die|Gloss= die|RX= [V1].[IRG]
-23	-a	_	AUX	CVB	VerbForm=Conv	_	_	_	AlignBegin=183106|AlignEnd=183253|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -.|TokenType=DerAff
-24	ʤhar	_	NOUN	N	Gender=Masc	_	_	_	AlignBegin=183253|AlignEnd=183311|GE= chance|Gloss= chance|RX= [N].[M]
-25	-i	_	PART	CASE	Case=Gen	_	_	_	AlignBegin=183311|AlignEnd=183370|GE= -[GEN]|RX= -[CASE]|TokenType=InflAff
-26	=b	_	DET	DET	Case=Acc|Gender=Masc	_	_	_	AlignBegin=183370|AlignEnd=183428|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
-27	=wa	_	AUX	N.COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop	0	root	_	AlignBegin=183428|AlignEnd=183487|GE= =[COP].[2SG].[M]|RX= =[PRED].[N]|TokenType=Clit
-28	=jaːj	_	PART	PTCL	_	_	_	_	AlignBegin=183487|AlignEnd=183546|GE= =thus|Gloss= =thus|RX= =[PTCL]|TokenType=Clit
-29	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=183546|AlignEnd=183840|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_267-268
-# text = kʷiːkʷʔaːj eːjawna eːn //
-# phonetic_text = kʷiːkʷʔaːj eːjawna eːn //
-# text_en = They give it to Crow, they said.
-1	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	2	comp:obj	_	AlignBegin=228305|AlignEnd=228528|GE= crow|Gloss= crow|RX= [N].[M]
-2	eːjawna	_	VERB	V1	Aspect=Imp|Number=Plur|Person=3|VerbClass=1	0	root	_	AlignBegin=228528|AlignEnd=228752|GE= [IPFV].[3PL]|Gloss= give|RX= [V1].[IRG]
-3	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	2	discourse	_	AlignBegin=228752|AlignEnd=228976|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
-4	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=228976|AlignEnd=230202|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_269-269
-# text = ti= martaba /
-# phonetic_text = timartaba /
-# text_en =  The mattress...
-1	ti=	_	DET	DET	Definite=Def|Gender=Fem	2	det	_	AlignBegin=230202|AlignEnd=230325|GE= [DEF].[F]=|RX= [DET]=|TokenType=Clit
-2	martaba	_	NOUN	N	Gender=Fem	0	root	_	AlignBegin=230325|AlignEnd=230449|GE= mattress|Gloss= mattress|RX= [N].[F]
-3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=230449|AlignEnd=230696|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_285-285
-# text = kʷiːkʷʔaːj eː= nda waliːk -a /
-# phonetic_text = kʷiːkʷʔaːj eːnda waliːka /
-# text_en =  'Crow! call the people!
-1	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	4	subj	_	AlignBegin=245300|AlignEnd=245644|GE= crow|Gloss= crow|RX= [N].[M]
-2	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	3	det	_	AlignBegin=245644|AlignEnd=245816|GE= [DEF].[PL].[M].[ACC]=|RX= [DET]=|TokenType=Clit
-3	nda	_	NOUN	N	Gender=Masc|Number=Plur	4	comp:obj	_	AlignBegin=245816|AlignEnd=245989|GE= [PL]|Gloss= man|RX= [N].[M]
-4	waliːk	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=245989|AlignEnd=246161|GE= call|Gloss= call|RX= [V2]
-5	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	4	subj/m	_	AlignBegin=246161|AlignEnd=246333|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=246333|AlignEnd=246678|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_337-339
-# text = ka= a- ki jhaː / ʔiʃ -i =heːb i- ndi eːn //
-# phonetic_text = kaːki jhaː / ʔiʃiheːb indi eːn // amaːroːn baːkʷaːsa samaːroːn // {laughter}
-# text_en =  'No!  Leave me alone, you!' it says, they said.
-1	ka=	_	PART	PTCL	Aspect=Imp	3	mod	_	AlignBegin=285067|AlignEnd=285160|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
-2	a-	_	PRON	PNG	Number=Sing|Person=1	3	subj/m	_	AlignBegin=285160|AlignEnd=285254|GE= [1SG]-|RX= [PNG]-|TokenType=InflAff
-3	ki	_	AUX	AUX	Aspect=Perf	6	parataxis:coord	_	AlignBegin=285254|AlignEnd=285348|GE= [PFV]|Gloss= become|RX= [AUX].[NEG]
-4	jhaː	_	PART	PTCL	_	6	discourse	_	AlignBegin=285348|AlignEnd=285630|GE= [ADRF]|RX= [PTCL]
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=285630|AlignEnd=285912|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-6	ʔiʃ	_	VERB	V1	VerbClass=1	10	parataxis:obj	_	AlignBegin=285912|AlignEnd=286000|GE= let|Gloss= let|RX= [V1]
-7	-i	_	PRON	TAM.PNG	Gender=Fem|Mood=Imp|Number=Sing	6	subj/m	_	AlignBegin=286000|AlignEnd=286088|GE= -[IMP].[SG].[F]|RX= -[TAM].[PNG]|TokenType=InflAff
-8	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	6	comp:obj	_	AlignBegin=286088|AlignEnd=286176|GE= =[OBJ].[1SG]|RX= =[PRO]|TokenType=Clit
-9	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	10	subj/m	_	AlignBegin=286176|AlignEnd=286308|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
-10	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=286308|AlignEnd=286441|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]
-11	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	10	discourse	_	AlignBegin=286441|AlignEnd=286705|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]
-12	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=286705|AlignEnd=287779|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-
-# sent_id = BEJ_MV_NARR_16_Prophet_Fox_340-341
-# text = ʔamaːr =oːn baː= kʷaːs -a samaːr =oːn //
-# phonetic_text = kaːki jhaː / ʔiʃiheːb indi eːn // amaːroːn baːkʷaːsa samaːroːn // {laughter}
-# text_en =  'No!  Leave me alone, you!' it says, they said.
 1	ʔamaːr	_	NOUN	N	Gender=Masc	4	comp:obj	_	AlignBegin=287779|AlignEnd=288053|GE= possessions|Gloss= possessions|RX= [N].[M]
 2	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	1	udep@poss	_	AlignBegin=288053|AlignEnd=288328|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
 3	baː=	_	PART	PTCL	Mood=Imp|Polarity=Neg	4	mod	_	AlignBegin=288328|AlignEnd=288511|GE= [NEG].[PROH]=|RX= [PTCL]=|TokenType=Clit

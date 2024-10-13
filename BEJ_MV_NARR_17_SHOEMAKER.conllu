@@ -270,8 +270,8 @@
 38	kna	_	PRON	PUNCT	Reflex=Yes	41	discourse	_	AlignBegin=51235|AlignEnd=52075|GE=owner|RX= [PRO].[REFL]
 39	/	_	PUNCT	PNG	_	_	_	_	AlignBegin=52075|AlignEnd=52152|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 40	eː-	_	PRON	V1	Gender=Masc|Number=Sing|Person=3	41	subj/m	_	AlignBegin=52152|AlignEnd=52229|GE= [3SG]-[M]|RX= [PNG]-|TokenType=InflAff
-41	t-	_	AUX	V1	VerbClass=1|Voice=Mid	42	comp/m	_	AlignBegin=52229|AlignEnd=52306|GE= [MID]|Gloss= ignore|RX= [V1].[DER]|TokenType=DerAff
-42	giːm	giːm	VERB	PUNCT	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=52306|AlignEnd=52938|GE= [IPFV]|Gloss=ignore|RX= [V1]|TokenType=Root
+41	t-	_	AUX	V1	VerbClass=1|Voice=Mid	0	root	_	AlignBegin=52229|AlignEnd=52306|DerPos=VERB|GE= [MID]|Gloss= ignore|RX= [V1].[DER]|TokenType=DerAff
+42	giːm	giːm	VERB	PUNCT	Aspect=Imp|VerbClass=1	41	comp/m	_	AlignBegin=52306|AlignEnd=52938|GE= [IPFV]|Gloss=ignore|RX= [V1]|TokenType=Root
 43	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=52306|AlignEnd=52938|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_063-070
@@ -295,7 +295,7 @@
 15	tak	_	NOUN	N	Gender=Masc	20	subj	_	AlignBegin=56740|AlignEnd=56958|GE= man|Gloss= man|RX= [SBJ].[N].[M]
 16	hoːj	_	ADP	POSTP	Case=Loc	20	comp:obl	_	AlignBegin=56958|AlignEnd=57177|GE= [LOC]|RX= [POSTP]
 17	dilib	_	VERB	V1	VerbClass=1	18	comp/m	_	AlignBegin=57177|AlignEnd=57286|GE= buy|Gloss= buy|RX= [V1]
-18	-ti	_	AUX	CVB	VerbForm=Conv	20	comp:aux	_	AlignBegin=57286|AlignEnd=57396|DerPos=AUX|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
+18	-ti	_	AUX	CVB	VerbForm=Conv	20	comp:obj	_	AlignBegin=57286|AlignEnd=57396|DerPos=AUX|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 19	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	20	subj/m	_	AlignBegin=57396|AlignEnd=57505|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 20	niːn	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=57505|AlignEnd=57615|GE= [IPFV]|Gloss= take|RX= [V1].[IRG]
 21	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=57615|AlignEnd=57834|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
@@ -503,7 +503,7 @@
 # text_en = buy them from him.
 1	hoːj	_	ADP	POSTP	Case=Loc	5	comp:obl	_	AlignBegin=94000|AlignEnd=94267|GE= [LOC]|RX= [POSTP]
 2	dilib	_	VERB	V1	VerbClass=1	3	comp/m	_	AlignBegin=94267|AlignEnd=94400|GE= buy|Gloss= buy|RX= [V1]
-3	-ti	_	AUX	CVB	VerbForm=Conv	5	comp:aux	_	AlignBegin=94400|AlignEnd=94534|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
+3	-ti	_	AUX	CVB	VerbForm=Conv	5	comp:obj	_	AlignBegin=94400|AlignEnd=94534|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 4	i-	_	PRON	PNG	Person=3	5	subj/m	_	AlignBegin=94534|AlignEnd=94623|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 5	jaj	_	VERB	V2	Aspect=Imp|VerbClass=2	0	root	_	AlignBegin=94623|AlignEnd=94712|GE= [IPFV]|Gloss= take|RX= [V2].[IRG]
 6	-na	_	PRON	PNG	Number=Plur	5	subj/m	_	AlignBegin=94712|AlignEnd=94801|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
@@ -803,7 +803,7 @@
 6	hoːs	_	ADP	POSTP	Case=Abl	11	comp:obl	_	AlignBegin=141859|AlignEnd=142024|GE= [ABL]|RX= [POSTP]
 7	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	6	udep@poss	_	AlignBegin=142024|AlignEnd=142189|GE= =[POSS].[1SG].[ACC]|RX= =[PRO]|TokenType=Clit
 8	dilib	_	VERB	V1	VerbClass=1	9	comp/m	_	AlignBegin=142189|AlignEnd=142354|GE= buy|Gloss= buy|RX= [V1]
-9	-ti	_	AUX	CVB	VerbForm=Conv	11	comp:aux	_	AlignBegin=142354|AlignEnd=142520|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
+9	-ti	_	AUX	CVB	VerbForm=Conv	11	comp:obj	_	AlignBegin=142354|AlignEnd=142520|DerPos=VERB|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 10	i-	_	PRON	PNG	Person=3	11	subj/m	_	AlignBegin=142520|AlignEnd=142630|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 11	jaj	_	VERB	V2	Aspect=Imp|VerbClass=2	14	parataxis:obj	_	AlignBegin=142630|AlignEnd=142740|GE= [IPFV]|Gloss= come|RX= [V2].[IRG]
 12	-na	_	PRON	PNG	Number=Plur	11	subj/m	_	AlignBegin=142740|AlignEnd=142850|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
