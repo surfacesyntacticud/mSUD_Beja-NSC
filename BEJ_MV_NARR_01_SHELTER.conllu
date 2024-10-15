@@ -9,7 +9,7 @@
 4	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	3	udep@poss	_	AlignBegin=982|AlignEnd=1085|GE==[POSS].[1SG].[NOM]|RX==[PRO]|TokenType=Clit
 5	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=1085|AlignEnd=1815|TokenType=Break
 6	hoː	_	PRON	PRO	Case=Dat|Number=Sing|Person=1	7	comp:obl	_	AlignBegin=1815|AlignEnd=2092|GE=[1SG].[DAT]|RX=[PRO]|TokenType=Root
-7	kʷiɖ	_	VERB	V2	VerbClass=2	10	parataxis:obj	_	AlignBegin=2092|AlignEnd=2231|GE=disappear|Gloss=disappear|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+7	kʷiɖ	_	VERB	V2	VerbClass=2	10	comp:obj	_	AlignBegin=2092|AlignEnd=2231|GE=disappear|Gloss=disappear|Reported=Yes|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 8	-ja	_	PRON	TAM, PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	7	subj/m	_	AlignBegin=2231|AlignEnd=2370|GE=-[PFV].[3SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 9	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	10	subj/m	_	AlignBegin=2370|AlignEnd=2509|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 10	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=2509|AlignEnd=2648|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -84,7 +84,7 @@
 31	whiː	_	ADP	POSTP	_	34	comp:obl	_	AlignBegin=16431|AlignEnd=16756|GE=under|Gloss=under|RX=[POSTP]|TokenType=Root
 32	/	_	PUNCT	PUNCT	_	31	punct	_	AlignBegin=16756|AlignEnd=17082|TokenType=Break
 33	a-	_	PRON	PNG	Number=Sing|Person=1	34	subj/m	_	AlignBegin=17082|AlignEnd=17217|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
-34	sʔa	_	VERB	V1	Aspect=Perf|VerbClass=1|Voice=Mid	36	parataxis:obj	_	AlignBegin=17217|AlignEnd=17352|GE=sit\[MID].[PFV]|Gloss=sit|ReportedSpeech=Yes|RX=[V1].[DER]|TokenType=Root
+34	sʔa	_	VERB	V1	Aspect=Perf|VerbClass=1|Voice=Mid	36	comp:obj	_	AlignBegin=17217|AlignEnd=17352|GE=sit\[MID].[PFV]|Gloss=sit|Reported=Yes|ReportedSpeech=Yes|RX=[V1].[DER]|TokenType=Root
 35	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	36	subj/m	_	AlignBegin=17352|AlignEnd=17487|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 36	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=17487|AlignEnd=17623|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 37	//	_	PUNCT	PUNCT	_	36	punct	_	AlignBegin=17623|AlignEnd=18153|TokenType=Break
@@ -113,7 +113,7 @@
 17	/	_	PUNCT	PUNCT	_	16	punct	_	AlignBegin=21657|AlignEnd=22569|TokenType=Break
 18	hoːj	_	ADP	PRO	Case=Abl	20	comp:obl	_	AlignBegin=22569|AlignEnd=22777|GE=[LOC]|RX=[POSTP]|TokenType=Root
 19	a-	_	PRON	PNG	Number=Sing|Person=1	20	subj/m	_	AlignBegin=22777|AlignEnd=22881|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
-20	moːk	_	VERB	V1	Aspect=Perf|VerbClass=1	22	parataxis:obj	_	AlignBegin=22881|AlignEnd=22986|GE=take_shelter\[INT].[PFV]|Gloss=take_shelter|ReportedSpeech=Yes|RX=[V1].[DER]|TokenType=Root
+20	moːk	_	VERB	V1	Aspect=Perf|VerbClass=1	22	comp:obj	_	AlignBegin=22881|AlignEnd=22986|GE=take_shelter\[INT].[PFV]|Gloss=take_shelter|Reported=Yes|ReportedSpeech=Yes|RX=[V1].[DER]|TokenType=Root
 21	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	22	subj/m	_	AlignBegin=22986|AlignEnd=23090|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 22	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=23090|AlignEnd=23195|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 23	//	_	PUNCT	PUNCT	_	22	punct	_	AlignBegin=23195|AlignEnd=23859|TokenType=Break
@@ -140,7 +140,7 @@
 15	=hoːb	_	SCONJ	CONJ	_	18	mod	_	AlignBegin=26874|AlignEnd=26998|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 16	//	_	PUNCT	PUNCT	_	15	punct	_	AlignBegin=26998|AlignEnd=28033|TokenType=Break
 17	tak	_	NOUN	N	Gender=Masc	18	subj	_	AlignBegin=28033|AlignEnd=28250|GE=man|Gloss=man|RX=[SBJ].[N].[M]|TokenType=Root
-18	ʔeːja	_	VERB	V2, IRG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbClass=2	21	parataxis:obj	_	AlignBegin=28250|AlignEnd=28359|GE=come\[PFV].[3SG].[M]|Gloss=come|ReportedSpeech=Yes|RX=[V2].[IRG]|TokenType=Root
+18	ʔeːja	_	VERB	V2, IRG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|VerbClass=2	21	comp:obj	_	AlignBegin=28250|AlignEnd=28359|GE=come\[PFV].[3SG].[M]|Gloss=come|Reported=Yes|ReportedSpeech=Yes|RX=[V2].[IRG]|TokenType=Root
 19	=heːb	_	PRON	PRO	Number=Sing|Person=1	18	comp:obj	_	AlignBegin=28359|AlignEnd=28468|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 20	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	21	subj/m	_	AlignBegin=28468|AlignEnd=28577|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 21	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=28577|AlignEnd=28686|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -178,7 +178,7 @@
 1	ontʔa	_	ADV	PTCL	_	4	discourse	_	AlignBegin=35009|AlignEnd=35339|GE=now|Gloss=now|RX=[PTCL]|TokenType=Root
 2	//	_	PUNCT	PUNCT	_	1	punct	_	AlignBegin=35339|AlignEnd=35670|TokenType=Break
 3	bak	_	ADV	DEICT	_	4	mod	_	AlignBegin=35670|AlignEnd=35939|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
-4	ʔabk	_	VERB	V1	VerbClass=1	11	parataxis:obj	_	AlignBegin=35939|AlignEnd=36028|GE=take|Gloss=take|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+4	ʔabk	_	VERB	V1	VerbClass=1	11	comp:obj	_	AlignBegin=35939|AlignEnd=36028|GE=take|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 5	-i	_	PRON	TAM, PNG	Gender=Fem|Mood=Imp|Number=Sing	4	subj/m	_	AlignBegin=36028|AlignEnd=36118|GE=-[IMP].[SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 6	-n	_	PART	SUFX	_	4	mod/m	_	AlignBegin=36118|AlignEnd=36208|GE=-[EMPH]|RX=-[SUFX]|TokenType=InflAff
 7	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=36208|AlignEnd=36736|TokenType=Break
@@ -189,7 +189,7 @@
 12	=oː	_	PRON	PRO	Number=Sing|Person=1	11	comp:obj	_	AlignBegin=37089|AlignEnd=37148|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 13	=hoːb	_	SCONJ	CONJ	_	18	mod	_	AlignBegin=37148|AlignEnd=37207|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 14	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=37207|AlignEnd=37443|TokenType=Break
-15	ajwa	_	PART	PTCL	_	18	parataxis:obj	_	AlignBegin=37443|AlignEnd=37774|GE=yes|Gloss=yes|ReportedSpeech=Yes|RX=[PTCL]|TokenType=Root
+15	ajwa	_	PART	PTCL	_	18	comp:obj	_	AlignBegin=37443|AlignEnd=37774|GE=yes|Gloss=yes|Reported=Yes|ReportedSpeech=Yes|RX=[PTCL]|TokenType=Root
 16	/	_	PUNCT	PUNCT	_	15	punct	_	AlignBegin=37774|AlignEnd=38105|TokenType=Break
 17	a-	_	PRON	PNG	Number=Sing|Person=1	18	subj/m	_	AlignBegin=38105|AlignEnd=38239|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
 18	di	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=38239|AlignEnd=38373|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -209,7 +209,7 @@
 7	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=39312|AlignEnd=39715|TokenType=Break
 8	hoːj	_	ADP	PRO	Case=Abl	10	comp:obl	_	AlignBegin=39715|AlignEnd=40053|GE=[LOC]|RX=[POSTP]|TokenType=Root
 9	sallam	_	VERB	V2	VerbClass=2	10	comp/m	_	AlignBegin=40053|AlignEnd=40165|GE=give|Gloss=give|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
-10	-am	_	AUX	V2	VerbClass=2|Voice=Mid	13	parataxis:obj	_	AlignBegin=40165|AlignEnd=40278|DerPos=VERB|GE=-[MID]|RX=-[V2].[DER]|TokenType=DerAff
+10	-am	_	AUX	V2	VerbClass=2|Voice=Mid	13	comp:obj	_	AlignBegin=40165|AlignEnd=40278|DerPos=VERB|GE=-[MID]|Reported=Yes|RX=-[V2].[DER]|TokenType=DerAff
 11	-an	_	PRON	TAM, PNG	Aspect=Perf|Number=Sing|Person=1	10	subj/m	_	AlignBegin=40278|AlignEnd=40391|GE=-[PFV].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 12	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	13	subj/m	_	AlignBegin=40391|AlignEnd=40560|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 13	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=40560|AlignEnd=40729|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -236,7 +236,7 @@
 14	=heːb	_	PRON	PRO	Number=Sing|Person=1	11	comp:obj	_	AlignBegin=44601|AlignEnd=44706|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 15	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=44706|AlignEnd=45124|TokenType=Break
 16	bak	_	ADV	DEICT	_	17	mod	_	AlignBegin=45124|AlignEnd=45415|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
-17	ʔabk	_	VERB	V1	VerbClass=1	21	parataxis:obj	_	AlignBegin=45415|AlignEnd=45512|GE=take|Gloss=take|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+17	ʔabk	_	VERB	V1	VerbClass=1	21	comp:obj	_	AlignBegin=45415|AlignEnd=45512|GE=take|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 18	-i	_	PRON	TAM, PNG	Gender=Fem|Mood=Imp|Number=Sing	17	subj/m	_	AlignBegin=45512|AlignEnd=45609|GE=-[IMP].[SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 19	-n	_	PART	SUFX	_	17	mod/m	_	AlignBegin=45609|AlignEnd=45707|GE=-[EMPH]|RX=-[SUFX]|TokenType=InflAff
 20	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	21	subj/m	_	AlignBegin=45707|AlignEnd=45780|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -246,7 +246,7 @@
 24	//	_	PUNCT	PUNCT	_	23	punct	_	AlignBegin=45999|AlignEnd=46291|TokenType=Break
 25	hoːj	_	ADP	PRO	Case=Abl	27	comp:obl	_	AlignBegin=46291|AlignEnd=46614|GE=[LOC]|RX=[POSTP]|TokenType=Root
 26	sallam	_	VERB	V2	VerbClass=2	27	comp/m	_	AlignBegin=46614|AlignEnd=46722|GE=give|Gloss=give|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
-27	-am	_	AUX	V2	VerbClass=2|Voice=Mid	30	parataxis:obj	_	AlignBegin=46722|AlignEnd=46830|DerPos=VERB|GE=-[MID]|RX=-[V2].[DER]|TokenType=DerAff
+27	-am	_	AUX	V2	VerbClass=2|Voice=Mid	30	comp:obj	_	AlignBegin=46722|AlignEnd=46830|DerPos=VERB|GE=-[MID]|Reported=Yes|RX=-[V2].[DER]|TokenType=DerAff
 28	-an	_	PRON	TAM, PNG	Aspect=Perf|Number=Sing|Person=1	27	subj/m	_	AlignBegin=46830|AlignEnd=46938|GE=-[PFV].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 29	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	30	subj/m	_	AlignBegin=46938|AlignEnd=47100|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 30	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=47100|AlignEnd=47262|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -271,7 +271,7 @@
 12	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=52111|AlignEnd=52598|TokenType=Break
 13	daːji	_	ADJ	ADJ	_	15	mod	_	AlignBegin=52598|AlignEnd=52741|GE=good|Gloss=good|RX=[ADJ]|TokenType=Root
 14	=t	_	DET	DET	Definite=Ind|Gender=Fem	13	det	_	AlignBegin=52741|AlignEnd=52885|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
-15	ʔabk	_	VERB	V1	VerbClass=1	19	parataxis:obj	_	AlignBegin=52885|AlignEnd=52981|GE=take|Gloss=take|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+15	ʔabk	_	VERB	V1	VerbClass=1	19	comp:obj	_	AlignBegin=52885|AlignEnd=52981|GE=take|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 16	-i	_	PRON	TAM, PNG	Gender=Fem|Mood=Imp|Number=Sing	15	subj/m	_	AlignBegin=52981|AlignEnd=53077|GE=-[IMP].[SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 17	-n	_	PART	SUFX	_	15	mod/m	_	AlignBegin=53077|AlignEnd=53173|GE=-[EMPH]|RX=-[SUFX]|TokenType=InflAff
 18	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	19	subj/m	_	AlignBegin=53173|AlignEnd=53244|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -281,7 +281,7 @@
 22	//	_	PUNCT	PUNCT	_	21	punct	_	AlignBegin=53460|AlignEnd=53748|TokenType=Break
 23	hoːj	_	ADP	PRO	Case=Abl	25	comp:obl	_	AlignBegin=53748|AlignEnd=54050|GE=[LOC]|RX=[POSTP]|TokenType=Root
 24	sallam	_	VERB	V2	VerbClass=2	25	comp/m	_	AlignBegin=54050|AlignEnd=54151|GE=give|Gloss=give|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
-25	-am	_	AUX	V2	VerbClass=2|Voice=Mid	28	parataxis:obj	_	AlignBegin=54151|AlignEnd=54252|DerPos=VERB|GE=-[MID]|RX=-[V2].[DER]|TokenType=DerAff
+25	-am	_	AUX	V2	VerbClass=2|Voice=Mid	28	comp:obj	_	AlignBegin=54151|AlignEnd=54252|DerPos=VERB|GE=-[MID]|Reported=Yes|RX=-[V2].[DER]|TokenType=DerAff
 26	-an	_	PRON	TAM, PNG	Aspect=Perf|Number=Sing|Person=1	25	subj/m	_	AlignBegin=54252|AlignEnd=54353|GE=-[PFV].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 27	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	28	subj/m	_	AlignBegin=54353|AlignEnd=54504|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 28	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=54504|AlignEnd=54656|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -309,7 +309,7 @@
 # phonetic_text = bak ʔabkin ijoːhoːb / hoːj sallamamant // ontʔa / doːrka toːʃa kitʔat tamat niki /
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	bak	_	PART	DEICT	_	2	mod	_	AlignBegin=58718|AlignEnd=58986|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
-2	ʔabk	_	VERB	V1	VerbClass=1	6	parataxis:obj	_	AlignBegin=58986|AlignEnd=59075|GE=take|Gloss=take|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+2	ʔabk	_	VERB	V1	VerbClass=1	6	comp:obj	_	AlignBegin=58986|AlignEnd=59075|GE=take|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 3	-i	_	PRON	TAM, PNG	Gender=Fem|Mood=Imp|Number=Sing	2	subj/m	_	AlignBegin=59075|AlignEnd=59164|GE=-[IMP].[SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 4	-n	_	PART	SUFX	_	2	mod/m	_	AlignBegin=59164|AlignEnd=59254|GE=-[EMPH]|RX=-[SUFX]|TokenType=InflAff
 5	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	6	subj/m	_	AlignBegin=59254|AlignEnd=59321|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -416,7 +416,7 @@
 14	-ja	_	PRON	TAM, PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	13	subj/m	_	AlignBegin=79544|AlignEnd=79643|GE=-[PFV].[3SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 15	-i	_	PART	-L	_	13	unk/m	_	AlignBegin=79643|AlignEnd=79742|GE=-[L]|ProperName=-L|TokenType=InflAff
 16	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	17	subj/m	_	AlignBegin=79742|AlignEnd=79890|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
-17	ha	_	AUX	AUX, EMPH	Aspect=Aor	19	parataxis:obj	_	AlignBegin=79890|AlignEnd=80038|GE=take\[AOR]|Gloss=take|ReportedSpeech=Yes|RX=[AUX].[EMPH]|TokenType=Root
+17	ha	_	AUX	AUX, EMPH	Aspect=Aor	19	comp:obj	_	AlignBegin=79890|AlignEnd=80038|GE=take\[AOR]|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[AUX].[EMPH]|TokenType=Root
 18	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	19	subj/m	_	AlignBegin=80038|AlignEnd=80186|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 19	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=80186|AlignEnd=80334|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 20	//	_	PUNCT	PUNCT	_	19	punct	_	AlignBegin=80334|AlignEnd=80803|TokenType=Break
@@ -427,7 +427,7 @@
 # phonetic_text = askʷi ini //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	a-	_	PRON	PNG	Number=Sing|Person=1	2	subj/m	_	AlignBegin=80803|AlignEnd=80904|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
-2	skʷi	_	VERB	V1	Aspect=Perf|VerbClass=1	4	parataxis:obj	_	AlignBegin=80904|AlignEnd=81006|GE=pursue\[PFV]|Gloss=pursue|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+2	skʷi	_	VERB	V1	Aspect=Perf|VerbClass=1	4	comp:obj	_	AlignBegin=80904|AlignEnd=81006|GE=pursue\[PFV]|Gloss=pursue|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 3	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	4	subj/m	_	AlignBegin=81006|AlignEnd=81108|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 4	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=81108|AlignEnd=81210|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 5	//	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=81210|AlignEnd=81414|TokenType=Break
@@ -549,7 +549,7 @@
 54	=hoːb	_	SCONJ	CONJ	_	57	mod	_	AlignBegin=103099|AlignEnd=103217|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 55	/	_	PUNCT	PUNCT	_	54	punct	_	AlignBegin=103217|AlignEnd=103840|TokenType=Break
 56	a-	_	PRON	PNG	Number=Sing|Person=1	57	subj/m	_	AlignBegin=103840|AlignEnd=103993|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
-57	hagit	_	VERB	V1	Aspect=Perf|VerbClass=1	59	parataxis:obj	_	AlignBegin=103993|AlignEnd=104146|GE=wait\[PFV]|Gloss=wait|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+57	hagit	_	VERB	V1	Aspect=Perf|VerbClass=1	59	comp:obj	_	AlignBegin=103993|AlignEnd=104146|GE=wait\[PFV]|Gloss=wait|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 58	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	59	subj/m	_	AlignBegin=104146|AlignEnd=104299|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 59	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=104299|AlignEnd=104453|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 60	//	_	PUNCT	PUNCT	_	59	punct	_	AlignBegin=104453|AlignEnd=105512|TokenType=Break
@@ -578,7 +578,7 @@
 17	=i	_	ADP	CASE	Case=Gen	14	udep	_	AlignBegin=109520|AlignEnd=109670|GE=-[GEN]|RX=-[CASE]|TokenType=Clit
 18	=t	_	DET	DET	Definite=Ind|Gender=Fem	17	det	_	AlignBegin=109670|AlignEnd=109820|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
 19	/	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=109820|AlignEnd=110269|TokenType=Break
-20	sallam	_	VERB	V2	VerbClass=2	24	parataxis:obj	_	AlignBegin=110269|AlignEnd=110395|GE=give|Gloss=give|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+20	sallam	_	VERB	V2	VerbClass=2	24	comp:obj	_	AlignBegin=110269|AlignEnd=110395|GE=give|Gloss=give|Reported=Yes|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 21	-ta	_	PRON	TAM, PNG	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	20	subj/m	_	AlignBegin=110395|AlignEnd=110521|GE=-[PFV].[3SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 22	=heːb	_	PRON	PRO	Number=Sing|Person=1	20	comp:obj	_	AlignBegin=110521|AlignEnd=110647|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 23	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	24	subj/m	_	AlignBegin=110647|AlignEnd=110836|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -591,7 +591,7 @@
 # phonetic_text = bak ʔabkan tijoːhoːb // hoːj sallamaman ini //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	bak	_	PART	DEICT	_	12	mod	_	AlignBegin=111791|AlignEnd=112025|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
-2	ʔabik	_	VERB	V1	VerbClass=1	6	parataxis:obj	_	AlignBegin=112025|AlignEnd=112103|GE=take|Gloss=take|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+2	ʔabik	_	VERB	V1	VerbClass=1	6	comp:obj	_	AlignBegin=112025|AlignEnd=112103|GE=take|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 3	-a	_	PRON	TAM, PNG	Gender=Masc|Mood=Imp|Number=Sing	2	subj/m	_	AlignBegin=112103|AlignEnd=112181|GE=-[IMP].[SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 4	-n	_	PART	SUFX	_	2	mod/m	_	AlignBegin=112181|AlignEnd=112259|GE=-[EMPH]|RX=-[SUFX]|TokenType=InflAff
 5	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	6	subj/m	_	AlignBegin=112259|AlignEnd=112317|GE=[3SG].[F]-|RX=[PNG]-|TokenType=InflAff
@@ -601,7 +601,7 @@
 9	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=112493|AlignEnd=112728|TokenType=Break
 10	hoːj	_	ADP	PRO	Case=Abl	12	comp:obl	_	AlignBegin=112728|AlignEnd=113007|GE=[LOC]|RX=[POSTP]|TokenType=Root
 11	sallam	_	VERB	V2	VerbClass=2	12	comp/m	_	AlignBegin=113007|AlignEnd=113100|GE=give|Gloss=give|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
-12	-am	_	AUX	V2	VerbClass=2|Voice=Mid	15	parataxis:obj	_	AlignBegin=113100|AlignEnd=113193|DerPos=VERB|GE=-[MID]|RX=-[V2].[DER]|TokenType=DerAff
+12	-am	_	AUX	V2	VerbClass=2|Voice=Mid	15	comp:obj	_	AlignBegin=113100|AlignEnd=113193|DerPos=VERB|GE=-[MID]|Reported=Yes|RX=-[V2].[DER]|TokenType=DerAff
 13	-an	_	PRON	TAM, PNG	Aspect=Perf|Number=Sing|Person=1	12	subj/m	_	AlignBegin=113193|AlignEnd=113287|GE=-[PFV].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 14	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	15	subj/m	_	AlignBegin=113287|AlignEnd=113426|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 15	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=113426|AlignEnd=113566|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -624,7 +624,7 @@
 10	-ta	_	PRON	TAM, PNG	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	9	subj/m	_	AlignBegin=115817|AlignEnd=115914|GE=-[PFV].[3SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 11	=ajt	_	SCONJ	CONJ	_	23	mod	_	AlignBegin=115914|AlignEnd=116010|GE==[CSL]|RX==[CONJ]|TokenType=Clit
 12	=heːb	_	PRON	PRO	Number=Sing|Person=1	9	comp:obj	_	AlignBegin=116010|AlignEnd=116107|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
-13	ʔabik	_	VERB	V1	VerbClass=1	17	parataxis:obj	_	AlignBegin=116107|AlignEnd=116236|GE=take|Gloss=take|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
+13	ʔabik	_	VERB	V1	VerbClass=1	17	comp:obj	_	AlignBegin=116107|AlignEnd=116236|GE=take|Gloss=take|Reported=Yes|ReportedSpeech=Yes|RX=[V1]|TokenType=Root
 14	-a	_	PRON	TAM, PNG	Gender=Masc|Mood=Imp|Number=Sing	13	subj/m	_	AlignBegin=116236|AlignEnd=116365|GE=-[IMP].[SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 15	-n	_	PART	SUFX	_	13	mod/m	_	AlignBegin=116365|AlignEnd=116494|GE=-[EMPH]|RX=-[SUFX]|TokenType=InflAff
 16	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	17	subj/m	_	AlignBegin=116494|AlignEnd=116590|GE=[3SG].[F]-|RX=[PNG]-|TokenType=InflAff
@@ -738,7 +738,7 @@
 # phonetic_text = tak rhita tijoːhoːb / oːtak rhan ani /
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	tak	_	NOUN	N	Gender=Masc	2	comp:obj	_	AlignBegin=134339|AlignEnd=134576|GE=man|Gloss=man|RX=[N].[M]|TokenType=Root
-2	rhi	_	VERB	V2	VerbClass=2	5	parataxis:obj	_	AlignBegin=134576|AlignEnd=134694|GE=see|Gloss=see|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+2	rhi	_	VERB	V2	VerbClass=2	5	comp:obj	_	AlignBegin=134576|AlignEnd=134694|GE=see|Gloss=see|Reported=Yes|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 3	-ta	_	PRON	TAM, PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=2	2	subj/m	_	AlignBegin=134694|AlignEnd=134813|GE=-[PFV].[2SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 4	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	5	subj/m	_	AlignBegin=134813|AlignEnd=134872|GE=[3SG].[F]-|RX=[PNG]-|TokenType=InflAff
 5	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	7	comp	_	AlignBegin=134872|AlignEnd=134931|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -747,7 +747,7 @@
 8	?	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=135050|AlignEnd=135288|RX=[?]|TokenType=Break
 9	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	10	det	_	AlignBegin=135288|AlignEnd=135433|GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|TokenType=Clit
 10	tak	_	NOUN	N	Gender=Masc	11	comp:obj	_	AlignBegin=135433|AlignEnd=135579|GE=man|Gloss=man|RX=[N].[M]|TokenType=Root
-11	rh	_	VERB	V2	VerbClass=2	14	parataxis:obj	_	AlignBegin=135579|AlignEnd=135725|GE=see|Gloss=see|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+11	rh	_	VERB	V2	VerbClass=2	14	comp:obj	_	AlignBegin=135579|AlignEnd=135725|GE=see|Gloss=see|Reported=Yes|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 12	-an	_	PRON	TAM, PNG	Aspect=Perf|Number=Sing|Person=1	11	subj/m	_	AlignBegin=135725|AlignEnd=135871|GE=-[PFV].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 13	a-	_	PRON	PNG	Number=Sing|Person=1	14	subj/m	_	AlignBegin=135871|AlignEnd=136017|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff
 14	ni	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=136017|AlignEnd=136163|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -772,7 +772,7 @@
 12	-jeː	_	AUX	CVB	VerbForm=Conv	15	comp:obj	_	AlignBegin=139215|AlignEnd=139431|DerPos=NOUN|GE=-[CVB].[SMLT]|TokenType=DerAff
 13	hoːj	_	ADP	PRO	Case=Abl	15	comp:obl	_	AlignBegin=139431|AlignEnd=139862|GE=[LOC]|RX=[POSTP]|TokenType=Root
 14	giːg	_	VERB	V2	VerbClass=2	15	comp/m	_	AlignBegin=139862|AlignEnd=139969|GE=leave|Gloss=leave|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
-15	-is	_	AUX	V2	VerbClass=2|Voice=Cau	20	parataxis:obj	_	AlignBegin=139969|AlignEnd=140077|DerPos=VERB|GE=-[CAUS]|RX=-[V2].[DER]|TokenType=DerAff
+15	-is	_	AUX	V2	VerbClass=2|Voice=Cau	20	comp:obj	_	AlignBegin=139969|AlignEnd=140077|DerPos=VERB|GE=-[CAUS]|Reported=Yes|RX=-[V2].[DER]|TokenType=DerAff
 16	-ta	_	PRON	TAM, PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=2	15	subj/m	_	AlignBegin=140077|AlignEnd=140185|GE=-[PFV].[2SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 17	=ja	_	PART	PTCL	_	15	discourse	_	AlignBegin=140185|AlignEnd=140293|GE==[EMPH]|RX==[PTCL]|TokenType=Clit
 18	/	_	PUNCT	PUNCT	_	15	punct	_	AlignBegin=140293|AlignEnd=141332|TokenType=Break
@@ -787,7 +787,7 @@
 # text_en = "She blamed me", he said.
 # phonetic_text = ʃamattiheːb ini //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
-1	ʃamat	_	VERB	V2	VerbClass=2	5	parataxis:obj	_	AlignBegin=142509|AlignEnd=142620|GE=blame|Gloss=blame|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+1	ʃamat	_	VERB	V2	VerbClass=2	5	comp:obj	_	AlignBegin=142509|AlignEnd=142620|GE=blame|Gloss=blame|Reported=Yes|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 2	-ti	_	PRON	TAM, PNG	Aspect=Perf|Gender=Fem|Number=Sing|Person=3	1	subj/m	_	AlignBegin=142620|AlignEnd=142731|GE=-[PFV].[3SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 3	=heːb	_	PRON	PRO	Number=Sing|Person=1	1	comp:obj	_	AlignBegin=142731|AlignEnd=142843|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=142843|AlignEnd=143010|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -855,7 +855,7 @@
 31	kteːn	_	VERB	V1, IRG	Aspect=Imp|VerbClass=1|Voice=Mid	32	comp:obj	_	AlignBegin=152235|AlignEnd=152411|GE=know\[MID].[IPFV]|Gloss=know|RX=[V1].[DER].[IRG]|TokenType=Root
 32	=aj	_	SCONJ	CONJ	_	34	mod	_	AlignBegin=152411|AlignEnd=152587|GE==[CSL]|RX==[CONJ]|TokenType=Clit
 33	//	_	PUNCT	PUNCT	_	32	punct	_	AlignBegin=152587|AlignEnd=153596|TokenType=Break
-34	sallam	_	VERB	V2	VerbClass=2	38	parataxis:obj	_	AlignBegin=153596|AlignEnd=153739|GE=give|Gloss=give|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
+34	sallam	_	VERB	V2	VerbClass=2	38	comp:obj	_	AlignBegin=153596|AlignEnd=153739|GE=give|Gloss=give|Reported=Yes|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 35	-a	_	PRON	TAM, PNG	Gender=Masc|Mood=Imp|Number=Sing	34	subj/m	_	AlignBegin=153739|AlignEnd=153882|GE=-[IMP].[SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 36	=heːb	_	PRON	PRO	Number=Sing|Person=1	34	comp:obj	_	AlignBegin=153882|AlignEnd=154026|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 37	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	38	subj/m	_	AlignBegin=154026|AlignEnd=154133|GE=[3SG].[F]-|RX=[PNG]-|TokenType=InflAff
@@ -889,7 +889,7 @@
 7	dh	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=158686|AlignEnd=158783|GE=[DIR]|RX=[POSTP]|TokenType=Root
 8	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	7	comp:obj	_	AlignBegin=158783|AlignEnd=158881|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
 9	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	10	subj/m	_	AlignBegin=158881|AlignEnd=158978|GE=[3SG].[F]-|RX=[PNG]-|TokenType=InflAff
-10	ki	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	12	parataxis:obj	_	AlignBegin=158978|AlignEnd=159076|GE=become\[PFV]|Gloss=become|ReportedSpeech=Yes|RX=[V1].[IRG]|TokenType=Root
+10	ki	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	12	comp:obj	_	AlignBegin=158978|AlignEnd=159076|GE=become\[PFV]|Gloss=become|Reported=Yes|ReportedSpeech=Yes|RX=[V1].[IRG]|TokenType=Root
 11	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	12	subj/m	_	AlignBegin=159076|AlignEnd=159173|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 12	di	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=159173|AlignEnd=159271|GE=say\[PFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 13	eːn	_	VERB	V1, IRG	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	12	discourse	_	AlignBegin=159271|AlignEnd=159466|GE=say\[PFV].[3PL]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
