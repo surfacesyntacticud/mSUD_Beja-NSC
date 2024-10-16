@@ -6,7 +6,7 @@
 2	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=245|AlignEnd=491|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 3	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	4	subj/m	_	AlignBegin=491|AlignEnd=666|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 4	fi	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=666|AlignEnd=842|GE= [AOR]|Gloss= be_there|RX= [V1].[IRG]|TokenType=Root
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=842|AlignEnd=1194|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=842|AlignEnd=1194|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_003-004
 # text = ʔar =eː iː- biri /
@@ -16,7 +16,7 @@
 2	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	1	udep@poss	_	AlignBegin=1372|AlignEnd=1550|GE= =[POSS].[3PL].[ACC]|RX= =[PRO]|TokenType=Clit
 3	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	4	subj/m	_	AlignBegin=1550|AlignEnd=1728|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 4	biri	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=1728|AlignEnd=1906|GE= [AOR]|Gloss= have|RX= [V1].[IRG]|TokenType=Root
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=1906|AlignEnd=2476|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=1906|AlignEnd=2476|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_005-005
 # text = takat =t =oː iː- biri /
@@ -27,7 +27,7 @@
 3	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	1	udep@poss	_	AlignBegin=2770|AlignEnd=2918|GE= =[POSS].[3SG].[ACC]|RX= =[PRO]|TokenType=Clit
 4	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=2918|AlignEnd=3139|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 5	biri	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=3139|AlignEnd=3360|GE= [AOR]|Gloss= have|RX= [V1].[IRG]|TokenType=Root
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=3360|AlignEnd=3802|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=3360|AlignEnd=3802|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_006-007
 # text = miskiːn -aː =b =a /
@@ -37,7 +37,7 @@
 2	-aː	_	DET	_	Number=Plur	4	comp:pred	_	AlignBegin=3949|AlignEnd=4096|GE= -[PL]|RX= -.|TokenType=InflAff
 3	=b	_	DET	DET	Case=Acc|Gender=Masc	2	det	_	AlignBegin=4096|AlignEnd=4243|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 4	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	0	root	_	AlignBegin=4243|AlignEnd=4391|GE= =[COP].[3PL]|RX= =[PRED].[N]|TokenType=Clit
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=4391|AlignEnd=5089|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=4391|AlignEnd=5089|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_008-011
 # text = giɖʔa =t =ka / tikʷikʷ -tiːt eːt ti= giɖʔa =t =eːb / i= diraːr =oː i- hariw eːn /
@@ -61,7 +61,7 @@
 16	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	17	subj/m	_	AlignBegin=7652|AlignEnd=7776|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 17	hariw	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=7776|AlignEnd=7900|GE= [PFV]|Gloss= seek|RX= [V1]|TokenType=Root
 18	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	17	discourse	_	AlignBegin=7900|AlignEnd=8148|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-19	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=8148|AlignEnd=9218|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+19	/	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=8148|AlignEnd=9218|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_012-016
 # text = giɖʔa =t / tʔa iː- tikʷikʷ =eːb oː= doːr / gaːl ʤoːz giɖʔa =t =eːb / uː= kna doːr han hoːj ka= giːg -jaː /
@@ -91,7 +91,7 @@
 22	ka=	_	PART	PTCL	Aspect=Imp	23	mod	_	AlignBegin=13886|AlignEnd=13969|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 23	giːg	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=13969|AlignEnd=14052|GE= leave|Gloss= leave|RX= [V2]|TokenType=Root
 24	-jaː	_	PRON	TAM.PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	23	subj/m	_	AlignBegin=14052|AlignEnd=14136|GE= -[PFV].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-25	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=14136|AlignEnd=14386|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	/	_	PUNCT	PUNCT	_	23	punct	_	AlignBegin=14136|AlignEnd=14386|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_017-020
 # text = asarama =t jin -a i- sini / tamin -a faɖig =t jin -a i- sni / doːr han hoːj ka= giːg -jaː =ajt /
@@ -120,7 +120,7 @@
 21	giːg	_	VERB	V2	VerbClass=2	23	comp	_	AlignBegin=17452|AlignEnd=17509|GE= leave|Gloss= leave|RX= [V2]|TokenType=Root
 22	-jaː	_	PRON	TAM.PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	21	comp/m	_	AlignBegin=17509|AlignEnd=17565|GE= -[PFV].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 23	=ajt	_	SCONJ	CONJ	_	15	dislocated:mod	_	AlignBegin=17565|AlignEnd=17622|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-24	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=17622|AlignEnd=19480|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+24	/	_	PUNCT	PUNCT	_	15	punct	_	AlignBegin=17622|AlignEnd=19480|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_021-040
 # text = uːn allaːji / dhaːj i- khan =ajt // oːn amseːnoːk / giɖʔa =t =eː ah -eːtiːt / fassa~sal -eːtiːt / daː -s -i =jeːb oː= doːr / ontʔa / w= haˈwaːd jʔ -eː // w= haˈwaːd jʔ -i =hoːb / ʔiʃ -ti giːg -jaː =t // j= ʔar =eː /
@@ -175,7 +175,7 @@
 47	j=	_	DET	DET	Definite=Def|Gender=Masc	48	det	_	AlignBegin=33294|AlignEnd=33379|GE= [DEF].[M]=|RX= [DET]=|TokenType=Clit
 48	ʔar	_	NOUN	N	Gender=Masc|Number=Plur	41	dislocated:obj	_	AlignBegin=33379|AlignEnd=33464|GE= [M].[PL]|Gloss= child|RX= [N]|TokenType=Root
 49	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	48	udep@poss	_	AlignBegin=33464|AlignEnd=33549|GE= =[POSS].[3PL].[ACC]|RX= =[PRO]|TokenType=Clit
-50	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=33549|AlignEnd=33973|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+50	/	_	PUNCT	PUNCT	_	43	punct	_	AlignBegin=33549|AlignEnd=33973|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_041-051
 # text = mhali giriʃ iː- bri =t / mhall =eː i= giriʃ =eː j= ʔar =eː / dhaːj diraːr =ijoː dʔi -tiːt / j= ʔar =eː haːj eː- bi =jaːt / iː- t- drir =aːt / w= ʔiʃa =joː siːleːl -eːtiːt / diw -i eːn //
@@ -220,11 +220,11 @@
 37	=joː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	36	udep@poss	_	AlignBegin=41110|AlignEnd=41268|GE= =[POSS].[3SG].[ACC]|RX= =[PRO]|TokenType=Clit
 38	siːleːl	_	VERB	V2	VerbClass=2	39	comp/m	_	AlignBegin=41268|AlignEnd=41505|GE= pray|Gloss= pray|RX= [V2]|TokenType=Root
 39	-eːtiːt	_	AUX	CVB	VerbForm=Conv	41	mod	_	AlignBegin=41505|AlignEnd=41742|DerPos=NOUN|GE= -[CVB].[SEQ]|RX= -.|TokenType=DerAff
-40	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=41742|AlignEnd=42216|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+40	/	_	PUNCT	PUNCT	_	41	punct	_	AlignBegin=41742|AlignEnd=42216|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 41	diw	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=42216|AlignEnd=42277|GE= sleep|Gloss= sleep|RX= [V2]|TokenType=Root
 42	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	41	subj/m	_	AlignBegin=42277|AlignEnd=42338|GE= -[AOR].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 43	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	41	discourse	_	AlignBegin=42338|AlignEnd=42460|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-44	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=42460|AlignEnd=43554|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+44	//	_	PUNCT	PUNCT	_	41	punct	_	AlignBegin=42460|AlignEnd=43554|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_052-062
 # text = faʤil ontʔa / mh -eːti jʔ -i =hoːb / aːt ti= giɖʔa am- hajd -aː =t / aka -jeː i- sini =hoːb oː= kna / baː= hajiːd giːg -jaːn =eːb // baː= hajiːd giːg -jaːn =eːb teː= kna / eː- t- giːm /
@@ -272,7 +272,7 @@
 40	eː-	_	PRON	V1	Gender=Masc|Number=Sing|Person=3	41	subj/m	_	AlignBegin=52152|AlignEnd=52229|GE= [3SG]-[M]|RX= [PNG]-|TokenType=InflAff
 41	t-	_	AUX	V1	VerbClass=1|Voice=Mid	0	root	_	AlignBegin=52229|AlignEnd=52306|DerPos=VERB|GE= [MID]|Gloss= ignore|RX= [V1].[DER]|TokenType=DerAff
 42	giːm	giːm	VERB	PUNCT	Aspect=Imp|VerbClass=1	41	comp/m	_	AlignBegin=52306|AlignEnd=52938|GE= [IPFV]|Gloss=ignore|RX= [V1]|TokenType=Root
-43	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=52306|AlignEnd=52938|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+43	/	_	PUNCT	PUNCT	_	41	punct	_	AlignBegin=52306|AlignEnd=52938|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_063-070
 # text = haːjloː wari =t giɖʔa / ǝǝǝ ʔaːwi =t aka -jeː areː / teːn / tak hoːj dilib -ti i- niːn / daːji taman =iː //
@@ -302,7 +302,7 @@
 22	daːji	_	ADJ	ADJ	_	23	mod	_	AlignBegin=57834|AlignEnd=58099|GE= good|Gloss= good|RX= [ADJ]|TokenType=Root
 23	taman	_	NOUN	N	Gender=Masc	24	comp	_	AlignBegin=58099|AlignEnd=58231|GE= price|Gloss= price|RX= [N].[M]|TokenType=Root
 24	=iː	_	ADP	POSTP	Case=Abl|Number=Sing	20	dislocated:obl	_	AlignBegin=58231|AlignEnd=58364|GE= =[ABL].[SG]|RX= =[POSTP]|TokenType=Clit
-25	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=58364|AlignEnd=59606|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	//	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=58364|AlignEnd=59606|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_071-073
 # text = wari =t giɖʔa ah -eːtiːt / ontʔa fassa~sal -eː / w= haˈwaːd dhaːj jʔ -iːni /
@@ -323,7 +323,7 @@
 13	dhaːj	_	ADP	POSTP	_	14	comp:obl	_	AlignBegin=62046|AlignEnd=62294|GE= [DIR]|RX= [POSTP]|TokenType=Root
 14	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=62294|AlignEnd=62418|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 15	-iːni	_	PRON	TAM.PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=3	14	subj/m	_	AlignBegin=62418|AlignEnd=62542|GE= -[IPFV].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-16	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=62542|AlignEnd=62790|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+16	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=62542|AlignEnd=62790|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_074-079
 # text = i= tafsiːl faːjis -i =hoːb / haːjid -aː =b ba= kaːj / ti= giɖʔa =t =eː daː -s -eːtiːt / ʔiʃ -ti j= ʔar =eː eː- bi /
@@ -356,7 +356,7 @@
 25	=eː	_	PRON	PRO	Case=Acc|Number=Plur|Person=3|Poss=Yes	24	udep@poss	_	AlignBegin=67425|AlignEnd=67524|GE= =[POSS].[3PL].[ACC]|RX= =[PRO]|TokenType=Clit
 26	eː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	27	subj/m	_	AlignBegin=67524|AlignEnd=67671|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 27	bi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=67671|AlignEnd=67819|GE= [INT].[IPFV]|Gloss= go|RX= [V1].[DER].[IRG]|TokenType=Root
-28	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=67819|AlignEnd=68344|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+28	/	_	PUNCT	PUNCT	_	27	punct	_	AlignBegin=67819|AlignEnd=68344|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_080-088
 # text = giriʃ -aː =b iː- br =ajt oː= doːr oːn / wana i- dilib =eːt / ti= giɖʔa =t =eːb daːji giriʃ -a mir -aː =b =u =it / daːji na // j= ʔar =eːhi =d i- niːn eːn / haːj i- t- dariːr -na =eːt //
@@ -407,7 +407,7 @@
 43	dariːr	_	VERB	V1	Aspect=Imp|VerbClass=1	42	comp/m	_	AlignBegin=74834|AlignEnd=74896|GE= [IPFV]|Gloss= dine|RX= [V1]|TokenType=Root
 44	-na	_	PRON	PNG	Number=Plur	42	subj/m	_	AlignBegin=74896|AlignEnd=74958|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
 45	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	30	dislocated@relcl	_	AlignBegin=74958|AlignEnd=75021|GE= =[REL].[F]|RX= =[CONJ]|TokenType=Clit
-46	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=75021|AlignEnd=76789|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+46	//	_	PUNCT	PUNCT	_	37	punct	_	AlignBegin=75021|AlignEnd=76789|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_089-097
 # text = ontʔa / dirar -tiːt / w= ʔiʃa =joː siːleːl -tiːt / diw -iːni winneːt saːlhi tak // siːleːl =iːb / gʷada -am -i =b =u =it /
@@ -423,7 +423,7 @@
 8	=joː	_	PRON	PRO	Case=Acc|Number=Sing|Person=3|Poss=Yes	7	udep	_	AlignBegin=78904|AlignEnd=79053|GE= =[POSS].[3SG].[ACC]|RX= =[PRO]|TokenType=Clit
 9	siːleːl	_	VERB	V2	VerbClass=2	10	comp/m	_	AlignBegin=79053|AlignEnd=79277|GE= pray|Gloss= pray|RX= [V2]|TokenType=Root
 10	-tiːt	_	AUX	CVB	VerbForm=Conv	12	mod	_	AlignBegin=79277|AlignEnd=79501|DerPos=NOUN|GE= -[CVB].[SEQ]|RX= -.|TokenType=DerAff
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=79501|AlignEnd=79949|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+11	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=79501|AlignEnd=79949|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 12	diw	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=79949|AlignEnd=80104|GE= sleep|Gloss= sleep|RX= [V2]|TokenType=Root
 13	-iːni	_	PRON	TAM.PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=3	12	subj/m	_	AlignBegin=80104|AlignEnd=80259|GE= -[IPFV].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 14	winneːt	_	ADV	ADV	_	15	mod	_	AlignBegin=80259|AlignEnd=80570|GE= plenty|Gloss= plenty|RX= [ADV]|TokenType=Root
@@ -439,7 +439,7 @@
 24	=b	_	DET	DET	Case=Acc|Gender=Masc	23	det	_	AlignBegin=82402|AlignEnd=82475|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 25	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	26	comp	_	AlignBegin=82475|AlignEnd=82547|GE= =[COP].[3SG]|RX= =[PRED].[N]|TokenType=Clit
 26	=it	_	SCONJ	CONJ	_	12	dislocated:mod	_	AlignBegin=82547|AlignEnd=82620|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-27	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=82620|AlignEnd=84269|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+27	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=82620|AlignEnd=84269|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_098-104
 # text = faʤil mh -eːti jʔ -i =jeːb oː= doːr eːt ti= giɖʔa / t= ʔafa girab ʔiʃ -aː =b iː- kti =jeːt / am- hajd -aː =t aka -jeː =wa / daːwli -loːj -a =t aka -jeː i- seːn -n =hoːb // ʔaːwi =t aka -jeː uː= dhaj jʔ -eːn =aːt /
@@ -495,7 +495,7 @@
 48	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=93365|AlignEnd=93470|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 49	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	48	subj/m	_	AlignBegin=93470|AlignEnd=93576|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 50	=aːt	_	CCONJ	CONJ	_	48	cc	_	AlignBegin=93576|AlignEnd=93682|GE= =[COORD]|RX= =[CONJ]|TokenType=Clit
-51	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=93682|AlignEnd=94000|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+51	/	_	PUNCT	PUNCT	_	48	punct	_	AlignBegin=93682|AlignEnd=94000|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_105-106
 # text = hoːj dilib -ti i- jaj -na //
@@ -507,7 +507,7 @@
 4	i-	_	PRON	PNG	Person=3	5	subj/m	_	AlignBegin=94534|AlignEnd=94623|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 5	jaj	_	VERB	V2	Aspect=Imp|VerbClass=2	0	root	_	AlignBegin=94623|AlignEnd=94712|GE= [IPFV]|Gloss= take|RX= [V2].[IRG]|TokenType=Root
 6	-na	_	PRON	PNG	Number=Plur	5	subj/m	_	AlignBegin=94712|AlignEnd=94801|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-7	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=94801|AlignEnd=96706|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=94801|AlignEnd=96706|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_107-107
 # text = areː tʔa ontʔabit toː= na ti= t- hiːjad toː= kna gam -aː =b =u =it areː =ka /
@@ -530,7 +530,7 @@
 15	=it	_	SCONJ	CONJ	_	_	_	_	AlignBegin=99565|AlignEnd=99649|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
 16	areː	_	PART	PTCL	_	17	comp	_	AlignBegin=99649|AlignEnd=99859|GE= then|Gloss= then|RX= [PTCL]|TokenType=Root
 17	=ka	_	ADP	POSTP	Degree=Cmp	14	discourse	_	AlignBegin=99859|AlignEnd=100070|GE= =[CMPR]|RX= =[POSTP]|TokenType=Clit
-18	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=100070|AlignEnd=100491|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+18	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=100070|AlignEnd=100491|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_108-112
 # text = oːn / ti= giɖʔa =t =eː bass / harʔa i- ba =eːk / fassal -at daː -s -at iː- kʷsi eːn //
@@ -557,7 +557,7 @@
 19	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	20	subj/m	_	AlignBegin=103163|AlignEnd=103331|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 20	kʷsi	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=103331|AlignEnd=103499|GE= [AOR]|Gloss= create|RX= [V1].[IRG]|TokenType=Root
 21	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	20	discourse	_	AlignBegin=103499|AlignEnd=103835|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-22	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=103835|AlignEnd=104171|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+22	//	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=103835|AlignEnd=104171|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_113-114
 # text = teː= kna bass fassal -at daː -s -at iː- kʷsi eːn /
@@ -574,7 +574,7 @@
 9	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	10	subj/m	_	AlignBegin=105327|AlignEnd=105471|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 10	kʷsi	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=105471|AlignEnd=105616|GE= [AOR]|Gloss= create|RX= [V1].[IRG]|TokenType=Root
 11	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	10	discourse	_	AlignBegin=105616|AlignEnd=105905|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-12	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=105905|AlignEnd=106632|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+12	/	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=105905|AlignEnd=106632|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_115-116
 # text = faʤil =ka jʔ -i =jeːb =ka / am- hajd -aː =t aka -jeː i- siːn -na /
@@ -596,7 +596,7 @@
 14	i-	_	PRON	PNG	Person=3	15	subj/m	_	AlignBegin=108187|AlignEnd=108299|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 15	siːn	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=108299|AlignEnd=108411|GE= [AOR]|Gloss= wait|RX= [V1]|TokenType=Root
 16	-na	_	PRON	PNG	Number=Plur	15	subj/m	_	AlignBegin=108411|AlignEnd=108524|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-17	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=108524|AlignEnd=108862|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+17	/	_	PUNCT	PUNCT	_	15	punct	_	AlignBegin=108524|AlignEnd=108862|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_117-120
 # text = j= ʔar =aː =wa / barhi =wa rajjh -am -jaːn -i / i- toː- gaːd -n -i iː- jheː -na /
@@ -622,7 +622,7 @@
 18	iː-	_	PRON	PNG	Person=3	19	subj/m	_	AlignBegin=111133|AlignEnd=111235|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 19	jheː	_	AUX	AUX.EMPH	Aspect=Perf	0	root	_	AlignBegin=111235|AlignEnd=111338|GE= [PFV]|Gloss= take|RX= [AUX].[EMPH]|TokenType=Root
 20	-na	_	PRON	PNG	Number=Plur	19	subj/m	_	AlignBegin=111338|AlignEnd=111441|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-21	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=111441|AlignEnd=112162|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+21	/	_	PUNCT	PUNCT	_	19	punct	_	AlignBegin=111441|AlignEnd=112162|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_121-122
 # text = eː= ʃʔa iː- jheː -na /
@@ -633,7 +633,7 @@
 3	iː-	_	PRON	PNG	Person=3	4	subj/m	_	AlignBegin=112499|AlignEnd=112611|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 4	jheː	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=112611|AlignEnd=112723|GE= [PFV]|Gloss= take|RX= [V1].[IRG]|TokenType=Root
 5	-na	_	PRON	PNG	Number=Plur	4	subj/m	_	AlignBegin=112723|AlignEnd=112836|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=112836|AlignEnd=113278|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+6	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=112836|AlignEnd=113278|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_123-124
 # text = t= ʔani iː- jheː -na /
@@ -644,7 +644,7 @@
 3	iː-	_	PRON	PNG	Person=3	4	subj/m	_	AlignBegin=113603|AlignEnd=113711|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 4	jheː	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=113711|AlignEnd=113819|GE= [PFV]|Gloss= take|RX= [V1].[IRG]|TokenType=Root
 5	-na	_	PRON	PNG	Number=Plur	4	subj/m	_	AlignBegin=113819|AlignEnd=113928|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=113928|AlignEnd=114746|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+6	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=113928|AlignEnd=114746|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_125-130
 # text = ahaː / oːn i= reːw =iːb / bi= i- bari -n =i ʤinis teː= kam hadiːd / ki= i- haːj -na /
@@ -671,7 +671,7 @@
 19	i-	_	PRON	PNG	Person=3	20	subj/m	_	AlignBegin=117955|AlignEnd=118017|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 20	haːj	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=118017|AlignEnd=118079|GE= [PFV]|Gloss= be_there|RX= [V1].[IRG]|TokenType=Root
 21	-na	_	PRON	PNG	Number=Plur	20	subj/m	_	AlignBegin=118079|AlignEnd=118141|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-22	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=118141|AlignEnd=118797|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+22	/	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=118141|AlignEnd=118797|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_131-134
 # text = aːn aː= kna bass geː / rajha =i gidhiː iː- fi rajjha //
@@ -689,7 +689,7 @@
 10	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	11	subj/m	_	AlignBegin=121099|AlignEnd=121262|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 11	fi	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=121262|AlignEnd=121425|GE= [AOR]|Gloss= be_there|RX= [V1].[IRG]|TokenType=Root
 12	rajjha	_	NOUN	N	Gender=Masc	11	dislocated:pred	_	AlignBegin=121425|AlignEnd=121752|GE= happyness|Gloss= happyness|RX= [N].[M]|TokenType=Root
-13	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=121752|AlignEnd=122627|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+13	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=121752|AlignEnd=122627|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_135-141
 # text = bass rajjh -am -aː =b aka -jeː / uːt ti= takat =t =uː hoːj daːj -eːtiːt / jaː iraːnaj umbaruːk / suːr bak tʔi -it =eːt / hajʔa =t =iːb bi= n- haː =jeːk aːn hinin /
@@ -731,7 +731,7 @@
 34	=jeːk	_	SCONJ	CONJ	_	33	mod	_	AlignBegin=128849|AlignEnd=128921|GE= =if|Gloss= =if|RX= =[CONJ]|TokenType=Clit
 35	aːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	36	det	_	AlignBegin=128921|AlignEnd=129208|GE= [PROX].[PL].[M].[NOM]|RX= [DEM]|TokenType=Root
 36	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1	33	dislocated:subj	_	AlignBegin=129208|AlignEnd=129495|GE= [1PL].[NOM]|RX= [SBJ].[PRO]|TokenType=Root
-37	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=129495|AlignEnd=129782|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+37	/	_	PUNCT	PUNCT	_	33	punct	_	AlignBegin=129495|AlignEnd=129782|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_142-142
 # text = naː =t ti- mri =i nifʔaː =u /
@@ -744,7 +744,7 @@
 5	=i	_	SCONJ	CONJ.REL	PronType=Rel	6	mod@relcl	_	AlignBegin=130392|AlignEnd=130515|GE= =[REL]|RX= =[CONJ]|TokenType=Clit
 6	nifʔaː	_	NOUN	N	Gender=Masc	7	comp:pred	_	AlignBegin=130515|AlignEnd=130698|GE= money|Gloss= money|RX= [N].[M]|TokenType=Root
 7	=u	_	AUX	COP	Case=Nom|Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=130698|AlignEnd=130881|GE= =[COP].[3SG]|RX= =[PRED].[NOM]|TokenType=Clit
-8	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=130881|AlignEnd=131248|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+8	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=130881|AlignEnd=131248|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_143-155
 # text = kak / gab -ta -i tiː- jha / ti- ndi =hoːb // uːn ani eːt ti= giɖʔa / ti= ʃaga -am -i =jeːt // fassal -ani / daː -s -ani / faʤil =ka am- heːjd -a i- sn =heːb /
@@ -789,7 +789,7 @@
 37	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	38	subj/m	_	AlignBegin=140409|AlignEnd=140540|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 38	sn	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=140540|AlignEnd=140671|GE= [PFV]|Gloss= wait|Reported=Yes|RX= [V1]|TokenType=Root
 39	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	38	comp:obj	_	AlignBegin=140671|AlignEnd=140803|GE= =[OBJ].[1SG]|RX= =[PRO]|TokenType=Clit
-40	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=140803|AlignEnd=141198|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+40	/	_	PUNCT	PUNCT	_	38	punct	_	AlignBegin=140803|AlignEnd=141198|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_156-159
 # text = uː= dhaj =ka jʔ -eːtiːt hoːs =i dilib -ti i- jaj -na i- ndi =hoːb / oːt toː= na ti= t- haːjid / niː- ktiːn eːn //
@@ -821,7 +821,7 @@
 24	niː-	_	PRON	PNG	Number=Plur|Person=1	25	subj/m	_	AlignBegin=145035|AlignEnd=145169|GE= [1PL]-|RX= [PNG]-|TokenType=InflAff
 25	ktiːn	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=145169|AlignEnd=145303|GE= [MID].[IPFV]|Gloss= know|RX= [V1].[DER].[IRG]|TokenType=Root
 26	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	25	discourse	_	AlignBegin=145303|AlignEnd=145571|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-27	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=145571|AlignEnd=145839|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+27	//	_	PUNCT	PUNCT	_	25	punct	_	AlignBegin=145571|AlignEnd=145839|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_160-166
 # text = tuːt tuː= na haˈwaːd bi= ti- jʔ -aj =eːk / bʔeː =b ka= ʔeːta diː -tiːt / t= ʔoːda =t =iːb tilʔi =t dʔi -jaː ti- ndi eːn // oː= mhiːn // wi= am- ʔarw -a =b // ti= giɖʔa =t =eːk daː -s -ti =jeːb oː= mhiːn //
@@ -907,7 +907,7 @@
 25	=t	_	DET	DET	Gender=Fem	24	det	_	AlignBegin=160779|AlignEnd=160871|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 26	=iheː	_	PRON	PRO	Case=Gen|Number=Sing|Person=3|Poss=Yes	24	udep@poss	_	AlignBegin=160871|AlignEnd=160963|GE= =[POSS].[3SG].[GEN]|RX= =[PRO]|TokenType=Clit
 27	=d	_	ADP	POSTP	_	20	dislocated:obl	_	AlignBegin=160963|AlignEnd=161056|GE= =[DIR]|RX= =[POSTP]|TokenType=Clit
-28	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=161056|AlignEnd=163398|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+28	//	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=161056|AlignEnd=163398|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_179-187
 # text = dirar -tiːt / w= ʔiʃa =joː faːjis -eːtiːt / ontʔa nʔa -ti bʔa -ti i- kati =jeːb oː= doːr / barhi =wa / takat =t =i =wa / am- mallh -eː jʔ -eːna eːn // mhall =aː //
@@ -950,7 +950,7 @@
 35	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=169755|AlignEnd=170033|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 36	mhall	_	NUM	NUM	_	32	dislocated:subj	_	AlignBegin=170033|AlignEnd=170156|GE= two|Gloss= two|RX= [NUM]|TokenType=Root
 37	=aː	_	PRON	PRO	Case=Nom|Number=Plur|Poss=Yes	36	udep@poss	_	AlignBegin=170156|AlignEnd=170280|GE= =[POSS].[PL].[NOM]|RX= =[PRO]|TokenType=Clit
-38	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=170280|AlignEnd=171585|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+38	//	_	PUNCT	PUNCT	_	32	punct	_	AlignBegin=170280|AlignEnd=171585|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_188-201
 # text = oːt ti= tilʔi =t =iː ʃibib -eː / oːt ti= tilʔi =t =iː ʃibib -eː / doːrhanhanhan naː =t baː= ʃuːm -aj / ʃibib -eː / doːrhan naː =t baː= ʃuːm -aj / aːn aːmas / mhaloː =t ʤhali i- kati -n =hoːb / w= haˈwaːd =i tarab =eːb uːn / i= ɖeːfa kaɖaw -iːni /
@@ -1011,7 +1011,7 @@
 53	ɖeːfa	_	NOUN	N	Gender=Masc	54	subj	_	AlignBegin=182823|AlignEnd=183042|GE= door|Gloss= door|RX= [SBJ].[N].[M]|TokenType=Root
 54	kaɖaw	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=183042|AlignEnd=183261|GE= make_noise|Gloss= make_noise|RX= [V2]|TokenType=Root
 55	-iːni	_	PRON	TAM.PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=3	54	subj/m	_	AlignBegin=183261|AlignEnd=183481|GE= -[IPFV].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
-56	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=183481|AlignEnd=184208|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+56	/	_	PUNCT	PUNCT	_	54	punct	_	AlignBegin=183481|AlignEnd=184208|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_202-202
 # text = takat ʃuːm -tini eːn //
@@ -1021,7 +1021,7 @@
 2	ʃuːm	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=184451|AlignEnd=184572|GE= go_in|Gloss= go_in|RX= [V2]|TokenType=Root
 3	-tini	_	PRON	TAM.PNG	Aspect=Imp|Gender=Fem|Number=Sing|Person=3	2	subj/m	_	AlignBegin=184572|AlignEnd=184694|GE= -[IPFV].[3SG].[F]|RX= -[TAM].[PNG]|TokenType=InflAff
 4	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	2	discourse	_	AlignBegin=184694|AlignEnd=184937|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-5	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=184937|AlignEnd=185933|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	//	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=184937|AlignEnd=185933|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_203-205
 # text = mali -a / kaɖaw -iːni mali -a =t ʃuːm -tini /
@@ -1037,7 +1037,7 @@
 8	=t	_	DET	DET	Gender=Fem	7	det	_	AlignBegin=187081|AlignEnd=187205|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 9	ʃuːm	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=187205|AlignEnd=187390|GE= go_in|Gloss= go_in|RX= [V2]|TokenType=Root
 10	-tini	_	PRON	TAM.PNG	Aspect=Imp|Gender=Fem|Number=Sing|Person=3	9	subj/m	_	AlignBegin=187390|AlignEnd=187576|GE= -[IPFV].[3SG].[F]|RX= -[TAM].[PNG]|TokenType=InflAff
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=187576|AlignEnd=187948|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+11	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=187576|AlignEnd=187948|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_206-207
 # text = mhaj =t mʔa ʃuːm -eːn /
@@ -1048,7 +1048,7 @@
 3	mʔa	_	NOUN	N	Gender=Fem|Number=Plur	4	subj	_	AlignBegin=188295|AlignEnd=188642|GE= [PL]|Gloss= woman|RX= [SBJ].[N].[F]|TokenType=Root
 4	ʃuːm	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=188642|AlignEnd=188815|GE= go_in|Gloss= go_in|RX= [V2]|TokenType=Root
 5	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	4	subj/m	_	AlignBegin=188815|AlignEnd=188989|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=188989|AlignEnd=189712|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+6	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=188989|AlignEnd=189712|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_208-209
 # text = mhaj =t ʤaːntaːji =t =a =it //
@@ -1060,7 +1060,7 @@
 4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=190338|AlignEnd=190463|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 5	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	0	root	_	AlignBegin=190463|AlignEnd=190588|GE= =[COP].[3PL]|RX= =[PRED].[N]|TokenType=Clit
 6	=it	_	SCONJ	CONJ	_	5	comp	_	AlignBegin=190588|AlignEnd=190714|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-7	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=190714|AlignEnd=191548|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=190714|AlignEnd=191548|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_210-211
 # text = bass i- haːjid -na /
@@ -1070,7 +1070,7 @@
 2	i-	_	PRON	PNG	Person=3	3	subj/m	_	AlignBegin=191867|AlignEnd=191973|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 3	haːjid	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=191973|AlignEnd=192079|GE= [IPFV]|Gloss= sew|RX= [V1]|TokenType=Root
 4	-na	_	PRON	PNG	Number=Plur	3	subj/m	_	AlignBegin=192079|AlignEnd=192186|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=192186|AlignEnd=193153|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=192186|AlignEnd=193153|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_212-215
 # text = faːjis -eːn =eːb =ka / jisis -tiːt daːwli -is -eːtiːt oːn oː= ʤoːz / bak daː -s -eːna /
@@ -1094,7 +1094,7 @@
 16	daː	_	VERB	V2	VerbClass=2	17	comp/m	_	AlignBegin=196200|AlignEnd=196289|GE= be_there|Gloss= be_there|RX= [V2]|TokenType=Root
 17	-s	_	AUX	V2	VerbClass=2|Voice=Cau	0	root	_	AlignBegin=196289|AlignEnd=196378|DerPos=VERB|GE= -[CAUS]|RX= -[V2].[DER]|TokenType=DerAff
 18	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	17	subj/m	_	AlignBegin=196378|AlignEnd=196467|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-19	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=196467|AlignEnd=197271|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+19	/	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=196467|AlignEnd=197271|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_216-220
 # text = haːjid -eː haːjid -eː jisis -eː / haːjid -eː jisis -eː / haːjid -eː jisis -eː / kass =t =eː ti= giɖʔa faːjis -eːn /
@@ -1124,7 +1124,7 @@
 22	giɖʔa	_	NOUN	N	Gender=Fem	23	comp:obj	_	AlignBegin=200508|AlignEnd=200700|GE= shoe|Gloss= shoe|RX= [N].[F]|TokenType=Root
 23	faːjis	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=200700|AlignEnd=200891|GE= finish|Gloss= finish|RX= [V2]|TokenType=Root
 24	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	23	subj/m	_	AlignBegin=200891|AlignEnd=201083|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-25	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=201083|AlignEnd=201750|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	/	_	PUNCT	PUNCT	_	23	punct	_	AlignBegin=201083|AlignEnd=201750|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_221-230
 # text = bak daː -s -eːn =eːb oː= doːr / ontʔa / ti= t- hiːjad / i- kteːni -n =aːt / baraː / ʔiʃ -ti giːg -eːn //
@@ -1155,7 +1155,7 @@
 23	-ti	_	AUX	CVB	VerbForm=Conv	24	mod	_	AlignBegin=206766|AlignEnd=206919|DerPos=NOUN|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 24	giːg	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=206919|AlignEnd=207072|GE= leave|Gloss= leave|RX= [V2]|TokenType=Root
 25	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	24	subj/m	_	AlignBegin=207072|AlignEnd=207225|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-26	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=207225|AlignEnd=208361|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+26	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=207225|AlignEnd=208361|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_231-241
 # text = lhajt faʤil / iraːnaj eːt / ti= ʤaːntaːji aːn hinin / kak / iraːnaj / oːn i= ʤaza =joː / ni- kʷeːs eː- d -na //
@@ -1186,7 +1186,7 @@
 23	eː-	_	PRON	PNG	Person=3	24	subj/m	_	AlignBegin=214182|AlignEnd=214289|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 24	d	_	VERB	AUX.FUT	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=214289|AlignEnd=214397|GE= [IPFV]|Gloss= say|Reported=Yes|TokenType=Root
 25	-na	_	PRON	PNG	Number=Plur	24	subj/m	_	AlignBegin=214397|AlignEnd=214505|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-26	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=214505|AlignEnd=215410|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+26	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=214505|AlignEnd=215410|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_242-247
 # text = oːn i= ʤaza =joː =na / kak sak -iːni diːt / fakka~kar -eːn =aːt //
@@ -1202,11 +1202,11 @@
 8	sak	_	VERB	V2	VerbClass=2	10	comp:obj	_	AlignBegin=216892|AlignEnd=217001|GE= do|Gloss= do|Reported=Yes|RX= [V2]|TokenType=Root
 9	-iːni	_	PRON	TAM.PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=3	8	subj/m	_	AlignBegin=217001|AlignEnd=217111|GE= -[IPFV].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 10	diːt	_	VERB	V1.CVB	VerbClass=1|VerbForm=Conv	12	mod	_	AlignBegin=217111|AlignEnd=217330|GE= [CVB].[SEQ]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=217330|AlignEnd=217855|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+11	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=217330|AlignEnd=217855|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 12	fakka~kar	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=217855|AlignEnd=218038|GE= [PLAC]|Gloss= think|RX= [V2].[DER]|TokenType=Root
 13	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	12	subj/m	_	AlignBegin=218038|AlignEnd=218222|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 14	=aːt	_	CCONJ	CONJ	_	12	cc	_	AlignBegin=218222|AlignEnd=218406|GE= =[COORD]|RX= =[CONJ]|TokenType=Clit
-15	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=218406|AlignEnd=219727|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+15	//	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=218406|AlignEnd=219727|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_248-253
 # text = aːn hinin // mhaj =t / fatiːr -a niː- dʔa ti- ndi eːn uːt ti= takat // taː= mʔa han mhaj =t =a =ajt /
@@ -1236,7 +1236,7 @@
 22	=t	_	DET	DET	Gender=Fem	21	det	_	AlignBegin=223925|AlignEnd=224004|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 23	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	12	dislocated:mod	_	AlignBegin=224004|AlignEnd=224083|GE= =[COP].[3PL]|RX= =[PRED].[N]|TokenType=Clit
 24	=ajt	_	SCONJ	CONJ	_	23	mod	_	AlignBegin=224083|AlignEnd=224162|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-25	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=224162|AlignEnd=225019|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=224162|AlignEnd=225019|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_254-260
 # text = lʔa =wa / sakʷkʷar =t =wa / hoːj dʔi -tiːt / imbateː ni- dʔa / giɖʔa =t daː -s -eːti baː= hiːw -a / eːt ti= fatiːr -a / mhaj =t koː =t =eː daː -s -a -jaː ti- ndi eːn //
@@ -1283,7 +1283,7 @@
 39	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	40	subj/m	_	AlignBegin=231291|AlignEnd=231436|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 40	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=231436|AlignEnd=231581|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 41	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	40	discourse	_	AlignBegin=231581|AlignEnd=231871|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-42	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=231871|AlignEnd=232162|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+42	//	_	PUNCT	PUNCT	_	40	punct	_	AlignBegin=231871|AlignEnd=232162|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_261-263
 # text = daːjiː =t =i diː -tiːt // mhaj =t koː =t =eː ti= fatiːr -a daː -s -i =t /
@@ -1307,7 +1307,7 @@
 16	-s	_	AUX	V2	VerbClass=2|Voice=Cau	0	root	_	AlignBegin=234556|AlignEnd=234637|DerPos=VERB|GE= -[CAUS]|RX= -[V2].[DER]|TokenType=DerAff
 17	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	16	subj/m	_	AlignBegin=234637|AlignEnd=234718|GE= -[AOR].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 18	=t	_	CCONJ	CONJ	_	16	cc	_	AlignBegin=234718|AlignEnd=234799|GE= =[COORD]|RX= =[CONJ]|TokenType=Clit
-19	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=234799|AlignEnd=235124|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+19	/	_	PUNCT	PUNCT	_	16	punct	_	AlignBegin=234799|AlignEnd=235124|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_264-269
 # text = oːn suːr -n =eːt =hoːk // majʔa =oː dʔi -tiːt / i- ndiːf eːn // hamniː =t aka -jeː //
@@ -1332,7 +1332,7 @@
 17	=t	_	DET	DET	Gender=Fem	16	det	_	AlignBegin=238384|AlignEnd=238518|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 18	aka	_	VERB	V1	VerbClass=1	19	comp/m	_	AlignBegin=238518|AlignEnd=238652|GE= become|Gloss= become|RX= [V1].[IRG]|TokenType=Root
 19	-jeː	_	AUX	CVB	VerbForm=Conv	13	dislocated:mod	_	AlignBegin=238652|AlignEnd=238786|DerPos=NOUN|GE= -[CVB].[SMLT]|RX= -.|TokenType=DerAff
-20	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=238786|AlignEnd=239643|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+20	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=238786|AlignEnd=239643|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_270-278
 # text = beːntoːj ti= takat =t =i =da jʔ -eːtiːt / dirar -tiːt / takat =hi =wa barhi =wa / am- malh -eː jʔ -eːtiːt / mhasi beːt ti= tilʔi =t =oː ti= dʔi -jaː =b iː- ktiː -n =eː =naː =t =iː / talʔ -am -iːna eːn //
@@ -1384,7 +1384,7 @@
 44	-am	_	AUX	V2	VerbClass=2	0	root	_	AlignBegin=246646|AlignEnd=246719|DerPos=VERB|GE= -[MID]|RX= -[V2].[DER]|TokenType=DerAff
 45	-iːna	_	PRON	TAM.PNG	Aspect=Aor|Number=Plur|Person=3	44	subj/m	_	AlignBegin=246719|AlignEnd=246793|GE= -[AOR].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 46	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	44	discourse	_	AlignBegin=246793|AlignEnd=247013|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-47	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=247013|AlignEnd=247850|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+47	//	_	PUNCT	PUNCT	_	44	punct	_	AlignBegin=247013|AlignEnd=247850|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_279-287
 # text = aːn aːmas / i- t- katʔi -n =eːb oː= doːr / ʤaːntaːji mhaj =t / koː =t =aː jʔ -eːn =aːt // giɖʔa =t ʃibib~ʃibib -s -eːn =hoːb / ka= rh -jaːn /
@@ -1422,7 +1422,7 @@
 30	ka=	_	PART	PTCL	Aspect=Imp	31	mod	_	AlignBegin=253501|AlignEnd=253579|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 31	rh	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=253579|AlignEnd=253658|GE= see|Gloss= see|RX= [V2]|TokenType=Root
 32	-jaːn	_	PRON	TAM.PNG	Aspect=Perf|Number=Plur|Person=3	31	subj/m	_	AlignBegin=253658|AlignEnd=253737|GE= -[PFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-33	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=253737|AlignEnd=253974|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+33	/	_	PUNCT	PUNCT	_	31	punct	_	AlignBegin=253737|AlignEnd=253974|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_288-289
 # text = ti= giɖʔa =t =i mhiːn ti= fatiːr -a rh -eːn /
@@ -1438,7 +1438,7 @@
 8	-a	_	DET	_	Number=Plur	7	det/m	_	AlignBegin=254719|AlignEnd=254812|GE= -[PL]|RX= -.|TokenType=InflAff
 9	rh	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=254812|AlignEnd=254952|GE= see|Gloss= see|RX= [V2]|TokenType=Root
 10	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	9	subj/m	_	AlignBegin=254952|AlignEnd=255092|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-11	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=255092|AlignEnd=255948|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+11	/	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=255092|AlignEnd=255948|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_290-291
 # text = miʃi eː- t- liːg -na / ka~kaf -eːna /
@@ -1449,10 +1449,10 @@
 3	t-	_	AUX	V1	VerbClass=1|Voice=Mid	4	comp/m	_	AlignBegin=256385|AlignEnd=256473|DerPos=VERB|GE= [MID]-|RX= [V1].[DER]-|TokenType=DerAff
 4	liːg	_	VERB	V1	Aspect=Imp|VerbClass=1	7	parataxis:coord	_	AlignBegin=256473|AlignEnd=256561|GE= [IPFV]|Gloss= dance|RX= [V1].[DER]|TokenType=Root
 5	-na	_	PRON	PNG	Number=Plur	4	subj/m	_	AlignBegin=256561|AlignEnd=256649|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=256649|AlignEnd=257000|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+6	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=256649|AlignEnd=257000|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 7	ka~kaf	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=257000|AlignEnd=257211|GE= [PLAC]|Gloss= sing|RX= [V2].[DER]|TokenType=Root
 8	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	7	subj/m	_	AlignBegin=257211|AlignEnd=257423|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-9	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=257423|AlignEnd=257846|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+9	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=257423|AlignEnd=257846|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_292-294
 # text = ti= fatiːr -a =t =eːb / firha =t =eː misis -tiːt gaːt =ka fatiːr -aː =t =oː ʔaːm -eːti i- dʔa -na eːn //
@@ -1481,7 +1481,7 @@
 21	dʔa	_	AUX	AUX.EMPH	Aspect=Imp	0	root	_	AlignBegin=260837|AlignEnd=260968|GE= [IPFV]|Gloss= do|RX= [AUX].[EMPH]|TokenType=Root
 22	-na	_	PRON	PNG	Number=Plur	21	subj/m	_	AlignBegin=260968|AlignEnd=261099|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
 23	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	21	discourse	_	AlignBegin=261099|AlignEnd=261490|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-24	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=261490|AlignEnd=262558|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+24	//	_	PUNCT	PUNCT	_	21	punct	_	AlignBegin=261490|AlignEnd=262558|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_295-297
 # text = bak tʔi -it =i / gab -a mi- jaːj uːn uː= tak / gab -jaː -i iː- jha eːna /
@@ -1506,7 +1506,7 @@
 17	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	18	subj/m	_	AlignBegin=265007|AlignEnd=265135|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 18	jha	_	AUX	AUX.EMPH	Aspect=Perf	0	root	_	AlignBegin=265135|AlignEnd=265264|GE= [PFV]|Gloss= take|RX= [AUX].[EMPH]|TokenType=Root
 19	eːna	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	18	discourse	_	AlignBegin=265264|AlignEnd=265521|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-20	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=265521|AlignEnd=265778|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+20	/	_	PUNCT	PUNCT	_	18	punct	_	AlignBegin=265521|AlignEnd=265778|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_298-299
 # text = ʔamaːr =oːn baː= kʷaːs -a / samaːr =oːn //
@@ -1520,7 +1520,7 @@
 6	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=266561|AlignEnd=266953|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 7	samaːr	_	NOUN	N	Gender=Masc	4	dislocated:obj	_	AlignBegin=266953|AlignEnd=267145|GE= offspring|Gloss= offspring|RX= [N].[M]|TokenType=Root
 8	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	7	udep@poss	_	AlignBegin=267145|AlignEnd=267338|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
-9	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=267338|AlignEnd=267723|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+9	//	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=267338|AlignEnd=267723|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_252-253
 # text = taː= mʔa han mhaj =t =a =ajt /
@@ -1533,5 +1533,5 @@
 5	=t	_	DET	DET	Gender=Fem	4	det	_	AlignBegin=223925|AlignEnd=224004|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 6	=a	_	AUX	N.COP	Number=Plur|Person=3|VerbType=Cop	0	root	_	AlignBegin=224004|AlignEnd=224083|GE= =[COP].[3PL]|RX= =[PRED].[N]|TokenType=Clit
 7	=ajt	_	SCONJ	CONJ	_	6	mod	_	AlignBegin=224083|AlignEnd=224162|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-8	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=224162|AlignEnd=225019|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+8	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=224162|AlignEnd=225019|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 

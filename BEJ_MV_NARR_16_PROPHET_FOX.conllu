@@ -17,10 +17,10 @@
 13	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	10	discourse	_	AlignBegin=3536|AlignEnd=3891|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 14	ʔiːbaːb	_	NOUN	N.V	Gender=Fem	10	dislocated:obj	_	AlignBegin=3891|AlignEnd=4068|GE= [N].[AC]|Gloss= travel|RX= [N].[V].[F]|TokenType=Root
 15	=t	_	DET	DET	Gender=Fem	14	det	_	AlignBegin=4068|AlignEnd=4246|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-16	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=4246|AlignEnd=4845|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+16	//	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=4246|AlignEnd=4845|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_007-009
-# text = ʔaraweː -sam -ti =jaːt / i= nabi < ʕalehu issalaːt wa ssalaːm > < ʕalehu issalaːt wa ssalaːm > //
+# text = ʔaraweː -sam -ti =jaːt / i= nabi ʕalehu issalaːt wa ssalaːm ʕalehu issalaːt wa ssalaːm //
 # phonetic_text = ʔaraweːsamtijaːt / inabi < ʕalehu issalaːt wa ssalaːm > //
 # text_en =  It was becoming friend with the Prophet, prayer and peace be on him,
 1	ʔaraweː	_	NOUN	N	Gender=Fem	2	comp/m	_	AlignBegin=4845|AlignEnd=4950|GE=friendship|Gloss= friendship|RX= [N].[F]|TokenType=Root
@@ -30,16 +30,15 @@
 5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=5373|AlignEnd=5901|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 6	i=	_	DET	DET	Definite=Def|Gender=Masc	7	det	_	AlignBegin=5901|AlignEnd=5948|GE= [DEF].[M]=|RX= [DET]=|TokenType=Clit
 7	nabi	_	NOUN	N	Foreign=Yes|Gender=Masc	2	dislocated:obj	_	AlignBegin=5948|AlignEnd=5996|GE= prophet|Gloss= prophet|Lang=ar|RX= [N].[M].[BORR].[ARA]|TokenType=Root
-8	<	_	PUNCT	<	_	_	_	_	AlignBegin=5996|AlignEnd=6044|GE= [<]|RX= [<]|TokenType=Root
-9	ʕalehu issalaːt wa ssalaːm	_	X	_	Foreign=Yes	7	parataxis:foreign	_	AlignBegin=6044|AlignEnd=6092|GE= ʕalehu[ ]issalaːt[ ]wa[ ]ssalaːm|Gloss= ʕalehu issalaːt wa ssalaːm|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-10	>	_	PUNCT	>	_	_	_	_	AlignBegin=6092|AlignEnd=6140|GE= [>]|RX= [>]|TokenType=Root
-11	<	_	PUNCT	<	_	_	_	_	AlignBegin=6140|AlignEnd=6379|GE= [<]|RX= [<]|TokenType=Root
+8	ʕalehu	ʕalehu issalaːt wa ssalaːm	X	_	Foreign=Yes	9	comp:obl	_	AlignBegin=6044|AlignEnd=6092|GE= on[ ]him|Gloss= on him|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+9	issalaːt	_	X	_	Foreign=Yes	7	parataxis:foreign	_	AlignBegin=6044|AlignEnd=6092|GE= the[ ]prayer|Gloss= the prayer|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+10	wa	_	X	_	Foreign=Yes	9	cc	_	AlignBegin=6044|AlignEnd=6092|GE= the[ ]prayer|Gloss= the prayer|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+11	ssalaːm	_	X	_	Foreign=Yes	9	conj:coord	_	AlignBegin=6044|AlignEnd=6092|GE= the_peace|Gloss= the_peace|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 12	ʕalehu	_	X	_	Foreign=Yes	13	comp:obl	_	AlignBegin=6379|AlignEnd=6619|GE= on[ ]him|Gloss= on him|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 13	issalaːt	_	X	_	Foreign=Yes	9	parataxis:foreign	_	AlignBegin=6619|AlignEnd=6858|GE= the[ ]prayer|Gloss= the prayer|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 14	wa	_	X	_	Foreign=Yes	13	cc	_	AlignBegin=6858|AlignEnd=7097|GE= and|Gloss= and|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 15	ssalaːm	_	X	_	Foreign=Yes	13	conj:coord	_	AlignBegin=7097|AlignEnd=7337|GE= the_peace|Gloss= the_peace|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-16	>	_	PUNCT	>	_	_	_	_	AlignBegin=7337|AlignEnd=7576|GE= [>]|RX= [>]|TokenType=Root
-17	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=7576|AlignEnd=8752|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+16	//	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=7576|AlignEnd=8752|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_010-025
 # text = ontʔa / hiddaːb / ʔiːbaːb -eː ʔiːbaːb -eː ʔiːbaːb -eː / lhaweː =t // a- haragʷi =jeːk / tiː- d =eːb oː= doːr / beːn j= ʔawi baj =i =t / j= ʔaweː =ji ʔaweː =b ʃaw~wawi =i =t / i= nabi -i =t sala ak -eːna / i= nabi -i =t sala ak -eːna di -i iː- d eːn //
@@ -105,7 +104,7 @@
 58	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	59	subj/m	_	AlignBegin=20315|AlignEnd=20462|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 59	d	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=20462|AlignEnd=20610|GE= [AOR]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 60	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	59	discourse	_	AlignBegin=20610|AlignEnd=20905|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-61	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=20905|AlignEnd=22151|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+61	//	_	PUNCT	PUNCT	_	59	punct	_	AlignBegin=20905|AlignEnd=22151|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_026-033
 # text = tiː- dif =aːt / j= ʔaweː =ji ʔaweː =b ʃaw~waw =iːtiːt lhaweː =t =i =t sala ak -eːna / lhaweː =t -i =t sala ak -eːna / tiː- d =eːb oː= doːr / naː =t / sala =t dhaːj ka= ʔeːta //
@@ -152,7 +151,7 @@
 39	dhaːj	_	ADP	POSTP	_	41	comp:obl	_	AlignBegin=29683|AlignEnd=30018|GE= [DIR]|RX= [POSTP]|TokenType=Root
 40	ka=	_	PART	PTCL	Aspect=Imp	41	mod	_	AlignBegin=30018|AlignEnd=30185|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 41	ʔeːta	_	VERB	V2	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbClass=2	0	root	_	AlignBegin=30185|AlignEnd=30353|GE= [PFV].[3SG].[F]|Gloss= come|RX= [V2].[IRG]|TokenType=Root
-42	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=30353|AlignEnd=31741|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+42	//	_	PUNCT	PUNCT	_	41	punct	_	AlignBegin=30353|AlignEnd=31741|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_034-039
 # text = simas# ## a- gʷoːj =eːk / tiː- d =hoːb // si- maːsiw -i =heːb hoːk / iː- d eːn //
@@ -177,7 +176,7 @@
 17	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	18	subj/m	_	AlignBegin=34987|AlignEnd=35049|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 18	d	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=35049|AlignEnd=35111|GE= [AOR]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 19	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	18	discourse	_	AlignBegin=35111|AlignEnd=35235|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-20	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=35235|AlignEnd=36061|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+20	//	_	PUNCT	PUNCT	_	18	punct	_	AlignBegin=35235|AlignEnd=36061|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_040-044
 # text = i= nabi =i =t sala ak -eːna / i= nabi =i =t sala ak -eːna tiː- d =hoːb / igeːsi sala =t bass // ʔeːɖa =t =i =t hallaːn =eːt ti- miː- firʔa eːn //
@@ -217,7 +216,7 @@
 32	miː-	_	AUX	V1	Aspect=Aor|VerbClass=1|Voice=Pass	33	comp/m	_	AlignBegin=41238|AlignEnd=41369|DerPos=VERB|GE= [PASS].[INT].[AOR]-|RX= [V1].[DER]-|TokenType=DerAff
 33	firʔa	_	VERB	V1	VerbClass=1	0	root	_	AlignBegin=41369|AlignEnd=41500|GE= take_out|Gloss= take_out|RX= [V1]|TokenType=Root
 34	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	33	discourse	_	AlignBegin=41500|AlignEnd=41892|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-35	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=41892|AlignEnd=42782|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+35	//	_	PUNCT	PUNCT	_	33	punct	_	AlignBegin=41892|AlignEnd=42782|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_045-046
 # text = tam -eːti hoːj gab -ti =jaːt areː tiː- t- ram eːn //
@@ -234,7 +233,7 @@
 9	t-	_	AUX	V1	VerbClass=1|Voice=Mid	0	root	_	AlignBegin=44057|AlignEnd=44155|DerPos=VERB|GE= [MID]-|RX= [V1].[DER]-|TokenType=DerAff
 10	ram	_	VERB	V1	Aspect=Aor|VerbClass=1	9	comp/m	_	AlignBegin=44155|AlignEnd=44253|GE= [AOR]|Gloss= accompany|RX= [V1]|TokenType=Root
 11	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	9	discourse	_	AlignBegin=44253|AlignEnd=44547|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-12	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=44547|AlignEnd=45317|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+12	//	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=44547|AlignEnd=45317|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_047-052
 # text = hiːreːr -eː hiːreːr -eː hiːreːr -eː / ontʔa / tiː- jiwaːj eːn //
@@ -252,7 +251,7 @@
 10	tiː-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	11	subj/m	_	AlignBegin=48518|AlignEnd=48627|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 11	jiwaːj	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=48627|AlignEnd=48737|GE= [INT].[AOR]|Gloss= be_thirsty|RX= [V1].[DER]|TokenType=Root
 12	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	11	discourse	_	AlignBegin=48737|AlignEnd=48956|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-13	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=48956|AlignEnd=49612|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+13	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=48956|AlignEnd=49612|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_053-063
 # text = ti- jiwaːj =hoːb / a- jiwaːj =eːk tiː- d =hoːb // beːn / t= ʔaba baj =i =t / magʷal firik =iːt / i= nabi -i =t ʃiha aka -i / i= nabi -i =t ʃiha aka -i di -i iː- d eːn //
@@ -301,7 +300,7 @@
 41	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	42	subj/m	_	AlignBegin=57224|AlignEnd=57363|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 42	d	_	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=57363|AlignEnd=57502|GE= [AOR]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 43	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	42	discourse	_	AlignBegin=57502|AlignEnd=57780|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-44	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=57780|AlignEnd=58689|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+44	//	_	PUNCT	PUNCT	_	42	punct	_	AlignBegin=57780|AlignEnd=58689|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_064-072
 # text = ʔeːti =jaːt / i= magʷal ti- firik =aːt / lhaweː =t =i =t ʃiha aka =i / lhaweː =t -i =t ʃɛːka# ## i= ʃiha aka -i / tiː- d =eːb oː= doːr / naː dhaːj ka= ʔeːta eːn //
@@ -346,7 +345,7 @@
 37	ka=	_	PART	PTCL	Aspect=Imp	38	mod	_	AlignBegin=65378|AlignEnd=65499|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 38	ʔeːta	_	VERB	V2	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbClass=2	0	root	_	AlignBegin=65499|AlignEnd=65620|GE= [PFV].[3SG].[F]|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 39	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	38	discourse	_	AlignBegin=65620|AlignEnd=65862|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-40	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=65862|AlignEnd=66776|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+40	//	_	PUNCT	PUNCT	_	38	punct	_	AlignBegin=65862|AlignEnd=66776|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_073-082
 # text = a- gʷoːj =eːk / tiː- d =hoːb // si- maːsiw =i =heːb iː =hoːk iː- d =hoːb // i= nabi -i =t ʃiha aka -i / tiː- d =eːb oː= doːr / miʃi jam i- miː- firʔa -na =t / gʷʔ -eːti hoːj lʔa -tiːt tiː- t- ram eːn //
@@ -401,7 +400,7 @@
 47	t-	_	AUX	V1	VerbClass=1|Voice=Mid	0	root	_	AlignBegin=74876|AlignEnd=74966|DerPos=VERB|GE= [MID]-|RX= [V1].[DER]-|TokenType=DerAff
 48	ram	_	VERB	V1	Aspect=Aor|VerbClass=1	47	comp/m	_	AlignBegin=74966|AlignEnd=75056|GE= [AOR]|Gloss= accompany|RX= [V1]|TokenType=Root
 49	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	48	discourse	_	AlignBegin=75056|AlignEnd=75326|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-50	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=75326|AlignEnd=76082|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+50	//	_	PUNCT	PUNCT	_	47	punct	_	AlignBegin=75326|AlignEnd=76082|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_083-089
 # text = dif -eː dif -eː dif -eː dif -eː / dhaj =i =da jʔ -eːn =eːb oː= doːr / ontʔa / iːjʔaː =t dhaːj haːj jʔ -eːna eːn //
@@ -434,7 +433,7 @@
 25	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=82449|AlignEnd=82559|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 26	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	25	subj/m	_	AlignBegin=82559|AlignEnd=82669|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 27	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	25	discourse	_	AlignBegin=82669|AlignEnd=82890|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-28	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=82890|AlignEnd=83239|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+28	//	_	PUNCT	PUNCT	_	25	punct	_	AlignBegin=82890|AlignEnd=83239|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_090-096
 # text = uː= dhaj // fira# firaʃ / əəə maɖam =t / dhaj haːj jʔ -eːn eːn / martabaː =t //
@@ -458,7 +457,7 @@
 16	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=86499|AlignEnd=86655|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 17	martabaː	_	NOUN	N	Gender=Fem|Number=Plur	8	conj:dicto	_	AlignBegin=86655|AlignEnd=86798|GE= [PL]|Gloss= mattress|RX= [N].[F]|TokenType=Root
 18	=t	_	DET	DET	Gender=Fem	17	det	_	AlignBegin=86798|AlignEnd=86941|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-19	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=86941|AlignEnd=87784|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+19	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=86941|AlignEnd=87784|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_097-099
 # text = dhaːj jʔ -eːn =hoːb / beːn lhaweː =t hiː -na i- ndi eːn //
@@ -477,7 +476,7 @@
 11	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	12	subj/m	_	AlignBegin=88945|AlignEnd=89061|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 12	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=89061|AlignEnd=89178|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 13	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	12	discourse	_	AlignBegin=89178|AlignEnd=89411|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-14	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=89411|AlignEnd=90261|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+14	//	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=89411|AlignEnd=90261|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_100-101
 # text = lhaweː =t eːwna eːn //
@@ -487,7 +486,7 @@
 2	=t	_	DET	DET	Gender=Fem	1	det	_	AlignBegin=90376|AlignEnd=90492|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 3	eːwna	_	VERB	V1	Aspect=Imp|Number=Plur|Person=3|VerbClass=1	0	root	_	AlignBegin=90492|AlignEnd=90724|GE= [IPFV].[3PL]|Gloss= give|RX= [V1].[IRG]|TokenType=Root
 4	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	3	discourse	_	AlignBegin=90724|AlignEnd=90956|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-5	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=90956|AlignEnd=91882|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	//	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=90956|AlignEnd=91882|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_102-104
 # text = aneːb beːt ti= naweː =t =eː / i= karas w= ʔakr -aː =ka =b ʃibib -na =t / naweː =t dhaːj haːj mʔ -aːna //
@@ -517,7 +516,7 @@
 22	haːj	_	ADP	POSTP	Case=Com	23	mod	_	AlignBegin=95498|AlignEnd=95697|GE= [COM]|RX= [POSTP]|TokenType=Root
 23	mʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=95697|AlignEnd=95797|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 24	-aːna	_	PRON	TAM.PNG	Mood=Imp|Number=Plur	23	subj/m	_	AlignBegin=95797|AlignEnd=95897|GE= -[IMP].[PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-25	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=95897|AlignEnd=96097|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	//	_	PUNCT	PUNCT	_	23	punct	_	AlignBegin=95897|AlignEnd=96097|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_105-116
 # text = dh =i haːj mʔ -aːna i- ndi =hoːb / ti= nawi dhaːj jʔ -eːna =t // nʔa -ti daː -s i- siːs- joːdi -n =hoːb / khaːj bʔ -aː i- ndi =hoːb / martabaː =t toːt toː= kna / miʃi // daːwri daːwri ah -aː =t / hajjʔajikʷ -tiːt i- kati eːn //
@@ -575,7 +574,7 @@
 50	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	51	subj/m	_	AlignBegin=105240|AlignEnd=105406|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 51	kati	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=105406|AlignEnd=105573|GE= [IPFV]|Gloss= become|RX= [V1].[IRG]|TokenType=Root
 52	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	51	discourse	_	AlignBegin=105573|AlignEnd=105906|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-53	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=105906|AlignEnd=106920|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+53	//	_	PUNCT	PUNCT	_	51	punct	_	AlignBegin=105906|AlignEnd=106920|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_117-122
 # text = daːjiː =t =i diː -tiːt ontʔa / uː= dhaj iːjʔaː =t / dhaːj haːj jʔ -eːn =eːb oː= doːr / oːn lhaweː =t hiː -na i- ndi =hoːb / lhaweː =t ti= iːjʔaː gʷʔ -eːti dannʔi //
@@ -617,7 +616,7 @@
 34	gʷʔ	_	VERB	V2	VerbClass=2	35	comp/m	_	AlignBegin=112236|AlignEnd=112379|GE= drink|Gloss= drink|RX= [V2]|TokenType=Root
 35	-eːti	_	AUX	CVB	VerbForm=Conv	36	comp:aux	_	AlignBegin=112379|AlignEnd=112522|DerPos=NOUN|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 36	dannʔi	_	AUX	AUX.EMPH	Aspect=Imp	0	root	_	AlignBegin=112522|AlignEnd=112807|GE= [IPFV].[[][3SG][]]|Gloss= do|RX= [AUX].[EMPH]|TokenType=Root
-37	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=112807|AlignEnd=113093|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+37	//	_	PUNCT	PUNCT	_	36	punct	_	AlignBegin=112807|AlignEnd=113093|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_123-124
 # text = a# am# aneːb ʔamuːl faːdi =b hiː -na =heːb i- ndi eːn //
@@ -635,7 +634,7 @@
 10	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	11	subj/m	_	AlignBegin=114609|AlignEnd=114735|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 11	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=114735|AlignEnd=114862|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 12	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	11	discourse	_	AlignBegin=114862|AlignEnd=115115|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-13	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=115115|AlignEnd=115855|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+13	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=115115|AlignEnd=115855|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_125-128
 # text = w= ʔamuːl i= faːdi eːwna =eːb oː= doːr / ʔas -ti i- ngiːd eːn / w= ʔamuːl //
@@ -658,7 +657,7 @@
 15	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=118013|AlignEnd=118244|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 16	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	17	det	_	AlignBegin=118244|AlignEnd=118359|GE= [DEF].[SG].[M]=|RX= [DET]=|TokenType=Clit
 17	ʔamuːl	_	NOUN	N	Gender=Masc	13	dislocated:obj	_	AlignBegin=118359|AlignEnd=118475|GE= milk_container|Gloss= milk_container|RX= [N].[M]|TokenType=Root
-18	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=118475|AlignEnd=119571|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+18	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=118475|AlignEnd=119571|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_129-130
 # text = w= ʔamuːl tikʷ -eːti jʔ -i =hoːb / mhall =eː j= ʔaj =eːsoː ʔanbiːk /
@@ -678,7 +677,7 @@
 12	ʔaj	_	NOUN	N	Gender=Masc	14	comp:obl	_	AlignBegin=121122|AlignEnd=121201|GE= hand|Gloss= hand|RX= [N].[M]|TokenType=Root
 13	=eːsoː	_	PRON	PRO	Case=Abl|Number=Sing|Person=3|Poss=Yes	12	udep@poss	_	AlignBegin=121201|AlignEnd=121280|GE= =[POSS].[3SG].[ABL]|RX= =[PRO]|TokenType=Clit
 14	ʔanbiːk	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	0	root	_	AlignBegin=121280|AlignEnd=121516|GE= [IPFV].[3SG]|Gloss= take|RX= [V1]|TokenType=Root
-15	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=121516|AlignEnd=121753|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+15	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=121516|AlignEnd=121753|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_131-132
 # text = ʔataːb ʔamuːl / ʔaː =t =eːb i- kati /
@@ -692,7 +691,7 @@
 6	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	2	comp:obl	_	AlignBegin=122938|AlignEnd=123043|GE= =[LOC].[PL]|RX= =[POSTP]|TokenType=Clit
 7	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	8	subj/m	_	AlignBegin=123043|AlignEnd=123200|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 8	kati	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=123200|AlignEnd=123358|GE= [IPFV]|Gloss= become|RX= [V1].[IRG]|TokenType=Root
-9	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=123358|AlignEnd=123674|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=123358|AlignEnd=123674|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_133-134
 # text = gʷʔ -eːti hoːj i- nlʔi eːn //
@@ -704,7 +703,7 @@
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=124037|AlignEnd=124128|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 5	nlʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=124128|AlignEnd=124219|GE= [IPFV]|Gloss= be_quenched|RX= [V1]|TokenType=Root
 6	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	5	discourse	_	AlignBegin=124219|AlignEnd=124401|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-7	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=124401|AlignEnd=125303|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=124401|AlignEnd=125303|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_135-151
 # text = ontʔa / lhaweː =t / t= ʔaraw -i toːn rh -aː =t =u akoː / lhajt kʷiːkʷʔaːj =iːb daːj -eːtiːt / kʷiːkʷʔaːj jhaː / ʔar~raraweː -sam -ni / ti- ndi eːn // uːn ani / naː =t / rh -aː =t =u =it //
@@ -753,7 +752,7 @@
 41	=t	_	DET	DET	Gender=Fem	40	det	_	AlignBegin=134991|AlignEnd=135056|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 42	=u	_	AUX	N.COP	Number=Sing|Person=1|VerbType=Cop	43	comp	_	AlignBegin=135056|AlignEnd=135120|GE= =[COP].[1SG]|RX= =[PRED].[N]|TokenType=Clit
 43	=it	_	SCONJ	CONJ	_	30	dislocated:mod	_	AlignBegin=135120|AlignEnd=135185|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-44	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=135185|AlignEnd=136104|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+44	//	_	PUNCT	PUNCT	_	30	punct	_	AlignBegin=135185|AlignEnd=136104|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_152-157
 # text = daːjiː =t =i diːt kʷiːkʷʔaːj =wa / lhaweː =t =wa / i- moː- ra~rim -na eːn //
@@ -775,7 +774,7 @@
 14	ra~rim	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=139716|AlignEnd=139792|GE= [PLAC].[IPFV]|Gloss= accompany|RX= [V1].[DER]|TokenType=Root
 15	-na	_	PRON	PNG	Number=Plur	14	subj/m	_	AlignBegin=139792|AlignEnd=139869|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
 16	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=139869|AlignEnd=140175|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-17	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=140175|AlignEnd=141153|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+17	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=140175|AlignEnd=141153|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_158-159
 # text = tiː- jiwaːj =eːk soː- j -a =heːb /
@@ -788,7 +787,7 @@
 5	j	_	VERB	V1	VerbClass=1	0	root	_	AlignBegin=141720|AlignEnd=141834|GE= say|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 6	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	5	subj/m	_	AlignBegin=141834|AlignEnd=141947|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 7	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	5	comp:obj	_	AlignBegin=141947|AlignEnd=142061|GE= =[OBJ].[1SG]|RX= =[PRO]|TokenType=Clit
-8	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=142061|AlignEnd=142656|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+8	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=142061|AlignEnd=142656|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_160-165
 # text = t- haragʷi =jeːk soː- j -a =heːb / ti- ndi eːn // lhaweː =t //
@@ -808,7 +807,7 @@
 12	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=144220|AlignEnd=144925|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 13	lhaweː	_	NOUN	N	Gender=Fem	10	dislocated:subj	_	AlignBegin=144925|AlignEnd=145185|GE= vixen|Gloss= vixen|RX= [SBJ].[N].[F]|TokenType=Root
 14	=t	_	DET	DET	Gender=Fem	13	det	_	AlignBegin=145185|AlignEnd=145446|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
-15	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=145446|AlignEnd=146386|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+15	//	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=145446|AlignEnd=146386|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_166-181
 # text = ontʔa kʷiːkʷʔaːj // i= sikka =i hiːreːr -eː a- haragʷi i- ndi =jeːb oː= doːr / dif -a =t / beːn j= ʔawi baj -a =t / ʃaw~wawi -a =t / lhaweː =t =i =t / sala ak -eːna / lhaweː =t =i =t sala ak -eːna di -jaː // ti- ndi eːn //
@@ -867,7 +866,7 @@
 51	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	52	subj/m	_	AlignBegin=157040|AlignEnd=157110|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 52	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=157110|AlignEnd=157181|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 53	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	52	discourse	_	AlignBegin=157181|AlignEnd=157323|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-54	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=157323|AlignEnd=158066|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+54	//	_	PUNCT	PUNCT	_	52	punct	_	AlignBegin=157323|AlignEnd=158066|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_182-188
 # text = j= ʔawi ʃaw~waw =iːtiːt ontʔa / lhaweː =t =i =t sala ak -eːna // lhaweː =t -i =t sala ak -eːna i- ndi =hoːb / naː =t / sala =t dhaːj ka= ʔeːta //
@@ -906,7 +905,7 @@
 31	dhaːj	_	ADP	POSTP	_	33	comp:obl	_	AlignBegin=163952|AlignEnd=164254|GE= [DIR]|RX= [POSTP]|TokenType=Root
 32	ka=	_	PART	PTCL	Aspect=Imp	33	mod	_	AlignBegin=164254|AlignEnd=164405|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 33	ʔeːta	_	VERB	V2	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbClass=2	0	root	_	AlignBegin=164405|AlignEnd=164556|GE= [PFV].[3SG].[F]|Gloss= come|RX= [V2].[IRG]|TokenType=Root
-34	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=164556|AlignEnd=165149|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+34	//	_	PUNCT	PUNCT	_	33	punct	_	AlignBegin=164556|AlignEnd=165149|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_189-192
 # text = ago# aga# ## a- gʷoːj =eːk / i- ndi =hoːb // si- maːsiw -a =heːb hoːk / ti- ndi eːn //
@@ -932,7 +931,7 @@
 18	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	19	subj/m	_	AlignBegin=167534|AlignEnd=167662|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 19	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=167662|AlignEnd=167791|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 20	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	19	discourse	_	AlignBegin=167791|AlignEnd=168048|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-21	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=168048|AlignEnd=169248|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+21	//	_	PUNCT	PUNCT	_	19	punct	_	AlignBegin=168048|AlignEnd=169248|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_193-195
 # text = lhaweː =t =i =t sala ak -eːna // lhaweː =t -i =t sala ak -eːna // diːt i- gʷoːji eːn //
@@ -958,7 +957,7 @@
 18	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	19	subj/m	_	AlignBegin=172916|AlignEnd=173036|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 19	gʷoːji	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=173036|AlignEnd=173157|GE= [IPFV]|Gloss= be_unable|RX= [V1]|TokenType=Root
 20	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	19	discourse	_	AlignBegin=173157|AlignEnd=173398|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-21	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=173398|AlignEnd=173639|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+21	//	_	PUNCT	PUNCT	_	19	punct	_	AlignBegin=173398|AlignEnd=173639|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_196-197
 # text = naː =t ki= t- aki eːn //
@@ -970,7 +969,7 @@
 4	t-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	5	subj/m	_	AlignBegin=173876|AlignEnd=173935|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 5	aki	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=173935|AlignEnd=173995|GE= [PFV]|Gloss= become|RX= [V1].[IRG]|TokenType=Root
 6	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	5	discourse	_	AlignBegin=173995|AlignEnd=174173|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-7	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=174173|AlignEnd=174601|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=174173|AlignEnd=174601|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_198-200
 # text = naː =t / sala =t dhaːj ka= ʔeːta eːn //
@@ -985,7 +984,7 @@
 7	ka=	_	PART	PTCL	Aspect=Imp	8	mod	_	AlignBegin=175525|AlignEnd=175630|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 8	ʔeːta	_	VERB	V2	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbClass=2	0	root	_	AlignBegin=175630|AlignEnd=175736|GE= [PFV].[3SG].[F]|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 9	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	8	discourse	_	AlignBegin=175736|AlignEnd=175948|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-10	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=175948|AlignEnd=176660|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+10	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=175948|AlignEnd=176660|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_201-204
 # text = igeːsi ontʔa / lhaweː =t =i =dha // lhaweː =t / jhak -a ti- ndi eːn
@@ -1024,7 +1023,7 @@
 10	=b	_	DET	DET	Case=Acc|Gender=Masc	9	det	_	AlignBegin=183370|AlignEnd=183428|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 11	=wa	_	AUX	N.COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop	0	root	_	AlignBegin=183428|AlignEnd=183487|GE= =[COP].[2SG].[M]|RX= =[PRED].[N]|TokenType=Clit
 12	=jaːj	_	PART	PTCL	_	11	discourse	_	AlignBegin=183487|AlignEnd=183546|GE= =thus|Gloss= =thus|RX= =[PTCL]|TokenType=Clit
-13	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=183546|AlignEnd=183840|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+13	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=183546|AlignEnd=183840|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_210-211
 # text = ʔakr -a aja -a ʤhari =b =wa =jaːj //
@@ -1038,7 +1037,7 @@
 6	=b	_	DET	DET	Case=Acc|Gender=Masc	5	det	_	AlignBegin=184355|AlignEnd=184398|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 7	=wa	_	AUX	N.COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop	0	root	_	AlignBegin=184398|AlignEnd=184441|GE= =[COP].[2SG].[M]|RX= =[PRED].[N]|TokenType=Clit
 8	=jaːj	_	PART	PTCL	_	7	discourse	_	AlignBegin=184441|AlignEnd=184484|GE= =thus|Gloss= =thus|RX= =[PTCL]|TokenType=Clit
-9	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=184484|AlignEnd=185825|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+9	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=184484|AlignEnd=185825|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_212-212
 # text = nifir =wa /
@@ -1046,7 +1045,7 @@
 # text_en = You are detestable,
 1	nifir	_	NOUN	N	Gender=Masc	2	comp:pred	_	AlignBegin=185825|AlignEnd=185988|GE= horror|Gloss= horror|RX= [N].[M]|TokenType=Root
 2	=wa	_	AUX	N.COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop	0	root	_	AlignBegin=185988|AlignEnd=186152|GE= =[COP].[2SG].[M]|RX= =[PRED].[N]|TokenType=Clit
-3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=186152|AlignEnd=186480|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+3	/	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=186152|AlignEnd=186480|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_213-218
 # text = kʷiːkʷʔaːj / w= hadal / w= haraːmʤʔoːr // jhak -a / ti- ndi eːn //
@@ -1066,7 +1065,7 @@
 12	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	13	subj/m	_	AlignBegin=188812|AlignEnd=188881|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 13	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=188881|AlignEnd=188950|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 14	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	13	discourse	_	AlignBegin=188950|AlignEnd=189088|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-15	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=189088|AlignEnd=189226|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+15	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=189088|AlignEnd=189226|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_219-219
 # text = i- moː- ra~rim -na /
@@ -1076,7 +1075,7 @@
 2	moː-	_	AUX	V1	VerbClass=1|Voice=Rcp	0	root	_	AlignBegin=189339|AlignEnd=189453|DerPos=VERB|GE= [RECP]-|RX= [V1].[DER]-|TokenType=DerAff
 3	ra~rim	_	VERB	V1	Aspect=Imp|VerbClass=1	2	comp/m	_	AlignBegin=189453|AlignEnd=189567|GE= [PLAC].[IPFV]|Gloss= accompany|RX= [V1].[DER]|TokenType=Root
 4	-na	_	PRON	PNG	Number=Plur	2	subj/m	_	AlignBegin=189567|AlignEnd=189681|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=189681|AlignEnd=190136|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	/	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=189681|AlignEnd=190136|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_220-226
 # text = dif -eː dif -eː dif -eː / tʔa a- jiwaːj =eːk i- ndi =hoːb / lhaweː =t =i =t ʃiha ak -eːna di -jaː =t / beːn oː= mhiːn / ʃiha =t firik -a ti- ndi eːn //
@@ -1119,7 +1118,7 @@
 35	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	36	subj/m	_	AlignBegin=195358|AlignEnd=195486|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 36	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=195486|AlignEnd=195615|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 37	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	36	discourse	_	AlignBegin=195615|AlignEnd=195873|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-38	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=195873|AlignEnd=196818|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+38	//	_	PUNCT	PUNCT	_	36	punct	_	AlignBegin=195873|AlignEnd=196818|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_227-230
 # text = areː / t= ʔaba jʔ -eːtiːt / fanriːk eːn //
@@ -1131,10 +1130,10 @@
 4	ʔaba	_	NOUN	N	Gender=Fem	5	comp:obj	_	AlignBegin=197368|AlignEnd=197509|GE= river_branch|Gloss= river_branch|RX= [N].[F]|TokenType=Root
 5	jʔ	_	VERB	V2	VerbClass=2	6	comp/m	_	AlignBegin=197509|AlignEnd=197650|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 6	-eːtiːt	_	AUX	CVB	VerbForm=Conv	8	mod	_	AlignBegin=197650|AlignEnd=197791|DerPos=NOUN|GE= -[CVB].[SEQ]|RX= -.|TokenType=DerAff
-7	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=197791|AlignEnd=198074|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=197791|AlignEnd=198074|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 8	fanriːk	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=198074|AlignEnd=198320|GE= [IPFV].[[][3SG][]]|Gloss= dig|RX= [V1]|TokenType=Root
 9	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	8	discourse	_	AlignBegin=198320|AlignEnd=198567|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-10	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=198567|AlignEnd=199391|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+10	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=198567|AlignEnd=199391|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_231-234
 # text = lhaweː =t =i =t ʃiha ak -eːna / lhaweː =t -i =t ʃiha ak -eːna i- ndi =hoːb / naː =t dhaːj ka= ʔeːta eːn //
@@ -1165,7 +1164,7 @@
 23	ka=	_	PART	PTCL	Aspect=Imp	24	mod	_	AlignBegin=202895|AlignEnd=203035|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 24	ʔeːta	_	VERB	V2	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbClass=2	0	root	_	AlignBegin=203035|AlignEnd=203175|GE= [PFV].[3SG].[F]|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 25	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	24	discourse	_	AlignBegin=203175|AlignEnd=203455|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-26	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=203455|AlignEnd=204543|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+26	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=203455|AlignEnd=204543|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_235-240
 # text = sima# ## a- gʷoːj =eːk i- ndi =hoːb / si- maːsiw -a =heːb hoːk / ti- ndi eːn //
@@ -1189,7 +1188,7 @@
 16	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	17	subj/m	_	AlignBegin=207389|AlignEnd=207462|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 17	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=207462|AlignEnd=207535|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 18	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	17	discourse	_	AlignBegin=207535|AlignEnd=207681|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-19	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=207681|AlignEnd=208736|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+19	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=207681|AlignEnd=208736|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_241-245
 # text = lhaweː =t =i =t ʃiha aka =i // lhaweː =t -i =t ʃiha aka -i / i- ndi =hoːb // naː =t dhaːj ka= ʔeːta //
@@ -1220,7 +1219,7 @@
 23	dhaːj	_	ADP	POSTP	_	25	comp:obl	_	AlignBegin=212748|AlignEnd=212997|GE= [DIR]|RX= [POSTP]|TokenType=Root
 24	ka=	_	PART	PTCL	Aspect=Imp	25	mod	_	AlignBegin=212997|AlignEnd=213121|GE= [NEG].[IPFV]=|RX= [PTCL]=|TokenType=Clit
 25	ʔeːta	_	VERB	V2	Aspect=Perf|Gender=Fem|Number=Sing|Person=3|VerbClass=2	0	root	_	AlignBegin=213121|AlignEnd=213246|GE= [PFV].[3SG].[F]|Gloss= come|RX= [V2].[IRG]|TokenType=Root
-26	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=213246|AlignEnd=213670|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+26	//	_	PUNCT	PUNCT	_	25	punct	_	AlignBegin=213246|AlignEnd=213670|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_246-246
 # text = jhak -a ti- ndi eːn //
@@ -1231,7 +1230,7 @@
 3	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	4	subj/m	_	AlignBegin=213870|AlignEnd=213970|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 4	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=213970|AlignEnd=214071|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 5	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	4	discourse	_	AlignBegin=214071|AlignEnd=214272|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-6	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=214272|AlignEnd=214473|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+6	//	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=214272|AlignEnd=214473|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_247-250
 # text = kʷiːkʷʔaːj w= hadal // ʔakr -a aj -a dhar =i =b =wa =jaːj //
@@ -1250,7 +1249,7 @@
 11	=b	_	DET	DET	Case=Acc|Gender=Masc	9	det	_	AlignBegin=216205|AlignEnd=216259|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 12	=wa	_	AUX	N.COP	Gender=Masc|Number=Sing|Person=2|VerbType=Cop	0	root	_	AlignBegin=216259|AlignEnd=216313|GE= =[COP].[2SG].[M]|RX= =[PRED].[N]|TokenType=Clit
 13	=jaːj	_	PART	PTCL	_	12	discourse	_	AlignBegin=216313|AlignEnd=216368|GE= =thus|Gloss= =thus|RX= =[PTCL]|TokenType=Clit
-14	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=216368|AlignEnd=216858|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+14	//	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=216368|AlignEnd=216858|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_251-252
 # text = eː- dif -na eːn //
@@ -1260,7 +1259,7 @@
 2	dif	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=216914|AlignEnd=216970|GE= [IPFV]|Gloss= leave|RX= [V1]|TokenType=Root
 3	-na	_	PRON	PNG	Number=Plur	2	subj/m	_	AlignBegin=216970|AlignEnd=217027|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
 4	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	2	discourse	_	AlignBegin=217027|AlignEnd=217197|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-5	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=217197|AlignEnd=217939|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+5	//	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=217197|AlignEnd=217939|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_253-254
 # text = dhaj =i =da jʔ -eːna eːn //
@@ -1272,7 +1271,7 @@
 4	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=218249|AlignEnd=218404|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 5	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	4	subj/m	_	AlignBegin=218404|AlignEnd=218559|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 6	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	4	discourse	_	AlignBegin=218559|AlignEnd=218869|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-7	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=218869|AlignEnd=219775|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	//	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=218869|AlignEnd=219775|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_255-263
 # text = dhaj -i =da jʔ -eːn =hoːb / martabaː =t dhaːj {laughter} / jʔ -eːn =eːb oː= doːr / ti= martaba / beːn lhaweː =t hiː -na i- ni //
@@ -1306,7 +1305,7 @@
 26	-na	_	PRON	TAM.PNG	Mood=Imp|Number=Plur	25	subj/m	_	AlignBegin=224865|AlignEnd=224986|GE= -[IMP].[PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 27	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	28	subj/m	_	AlignBegin=224986|AlignEnd=225107|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 28	ni	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=225107|AlignEnd=225228|GE= [PFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-29	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=225228|AlignEnd=225716|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+29	//	_	PUNCT	PUNCT	_	28	punct	_	AlignBegin=225228|AlignEnd=225716|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_264-266
 # text = beːn əəə / kʷiːkʷʔaːj hiː -na ti- ndi eːn //
@@ -1321,7 +1320,7 @@
 7	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	8	subj/m	_	AlignBegin=226756|AlignEnd=226864|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 8	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=226864|AlignEnd=226973|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 9	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	8	discourse	_	AlignBegin=226973|AlignEnd=227190|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-10	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=227190|AlignEnd=228305|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+10	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=227190|AlignEnd=228305|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_267-269
 # text = kʷiːkʷʔaːj eːjawna eːn // ti= martaba /
@@ -1333,7 +1332,7 @@
 4	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=228976|AlignEnd=230202|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 5	ti=	_	DET	DET	Definite=Def|Gender=Fem	6	det	_	AlignBegin=230202|AlignEnd=230325|GE= [DEF].[F]=|RX= [DET]=|TokenType=Clit
 6	martaba	_	NOUN	N	Gender=Fem	2	dislocated:obj	_	AlignBegin=230325|AlignEnd=230449|GE= mattress|Gloss= mattress|RX= [N].[F]|TokenType=Root
-7	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=230449|AlignEnd=230696|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	/	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=230449|AlignEnd=230696|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_270-274
 # text = aneːb beːt ti= naweː =t =eː {laughter} / {laughter} naweː =t haːj mʔ -aːna =heːb / ti- ndi eːn //
@@ -1358,7 +1357,7 @@
 17	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	18	subj/m	_	AlignBegin=234937|AlignEnd=235013|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 18	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=235013|AlignEnd=235089|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 19	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	18	discourse	_	AlignBegin=235089|AlignEnd=235242|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-20	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=235242|AlignEnd=236011|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+20	//	_	PUNCT	PUNCT	_	18	punct	_	AlignBegin=235242|AlignEnd=236011|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_275-280
 # text = dhaːj jʔ -eːn =hoːb / ti= nawi dhaːj / bʔ -aː ti- ndi =jeːb oː= doːr / naweː =t hoːj talʔ -am -eːna eːn /
@@ -1388,7 +1387,7 @@
 22	-am	_	AUX	V2	VerbClass=2	0	root	_	AlignBegin=240057|AlignEnd=240168|DerPos=VERB|GE= -[MID]|RX= -[V2].[DER]|TokenType=DerAff
 23	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	22	subj/m	_	AlignBegin=240168|AlignEnd=240279|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 24	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	22	discourse	_	AlignBegin=240279|AlignEnd=240613|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-25	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=240613|AlignEnd=242379|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	/	_	PUNCT	PUNCT	_	22	punct	_	AlignBegin=240613|AlignEnd=242379|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_281-282
 # text = ontʔa / wheːli ti- ndi eːn //
@@ -1400,7 +1399,7 @@
 4	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	5	subj/m	_	AlignBegin=243222|AlignEnd=243380|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 5	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=243380|AlignEnd=243538|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 6	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	5	discourse	_	AlignBegin=243538|AlignEnd=243854|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-7	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=243854|AlignEnd=244171|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	//	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=243854|AlignEnd=244171|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_283-284
 # text = ʤaw -tini eːn /
@@ -1409,7 +1408,7 @@
 1	ʤaw	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=244171|AlignEnd=244299|GE= shout|Gloss= shout|RX= [V2]|TokenType=Root
 2	-tini	_	PRON	TAM.PNG	Aspect=Imp|Gender=Fem|Number=Sing|Person=3	1	subj/m	_	AlignBegin=244299|AlignEnd=244428|GE= -[IPFV].[3SG].[F]|RX= -[TAM].[PNG]|TokenType=InflAff
 3	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	1	discourse	_	AlignBegin=244428|AlignEnd=244685|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-4	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=244685|AlignEnd=245300|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+4	/	_	PUNCT	PUNCT	_	1	punct	_	AlignBegin=244685|AlignEnd=245300|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_285-289
 # text = kʷiːkʷʔaːj eː= nda waliːk -a / kʷiːkʷʔaːj eː= nda waliːk -a / {laughter} ti- ndi eːn //  {laughter}
@@ -1468,7 +1467,7 @@
 28	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	29	subj/m	_	AlignBegin=254437|AlignEnd=254502|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 29	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=254502|AlignEnd=254568|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 30	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	29	discourse	_	AlignBegin=254568|AlignEnd=254699|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-31	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=254699|AlignEnd=255533|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+31	//	_	PUNCT	PUNCT	_	29	punct	_	AlignBegin=254699|AlignEnd=255533|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_295-298
 # text = ontʔa / aː= nda dhaːj jʔ -eːna /
@@ -1481,7 +1480,7 @@
 5	dhaːj	_	ADP	POSTP	_	6	comp:obl	_	AlignBegin=256611|AlignEnd=256766|GE= [DIR]|RX= [POSTP]|TokenType=Root
 6	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=256766|AlignEnd=256843|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 7	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	6	subj/m	_	AlignBegin=256843|AlignEnd=256921|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-8	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=256921|AlignEnd=257240|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+8	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=256921|AlignEnd=257240|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_299-300
 # text = ti= nawi soːkʷ -eːti hoːj i- farʔa -na //
@@ -1495,7 +1494,7 @@
 6	i-	_	PRON	PNG	Person=3	7	subj/m	_	AlignBegin=258326|AlignEnd=258446|GE= [3]-|RX= [PNG]-|TokenType=InflAff
 7	farʔa	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=258446|AlignEnd=258567|GE= [IPFV]|Gloss= take_out|RX= [V1]|TokenType=Root
 8	-na	_	PRON	PNG	Number=Plur	7	subj/m	_	AlignBegin=258567|AlignEnd=258688|GE= -[PL]|RX= -[PNG]|TokenType=InflAff
-9	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=258688|AlignEnd=259548|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+9	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=258688|AlignEnd=259548|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_301-305
 # text = ontʔa // ti= iːjʔaː / dhaːj haːj jʔ -eːna eːn //
@@ -1511,7 +1510,7 @@
 8	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=261731|AlignEnd=261832|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 9	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	8	subj/m	_	AlignBegin=261832|AlignEnd=261934|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 10	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	8	discourse	_	AlignBegin=261934|AlignEnd=262138|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-11	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=262138|AlignEnd=262342|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+11	//	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=262138|AlignEnd=262342|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_306-308
 # text = tʔa areː aː= nda / haːj jʔ -eːna //
@@ -1525,7 +1524,7 @@
 6	haːj	_	ADP	POSTP	Case=Com	7	mod	_	AlignBegin=263376|AlignEnd=263493|GE= [COM]|RX= [POSTP]|TokenType=Root
 7	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=263493|AlignEnd=263551|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 8	-eːna	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	7	subj/m	_	AlignBegin=263551|AlignEnd=263610|GE= -[IPFV].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
-9	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=263610|AlignEnd=263727|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+9	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=263610|AlignEnd=263727|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_309-315
 # text = beːn kʷiːkʷʔaːj hiː -na // ti- ndi =jeːb oː= doːr // gibit -ti dannʔi eːn // kʷiːkʷʔaːj //
@@ -1548,7 +1547,7 @@
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=266258|AlignEnd=266520|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=266520|AlignEnd=266891|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 17	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	14	dislocated:subj	_	AlignBegin=266891|AlignEnd=267060|GE= crow|Gloss= crow|RX= [N].[M]|TokenType=Root
-18	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=267060|AlignEnd=268336|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+18	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=267060|AlignEnd=268336|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_316-321
 # text = ontʔa aneːb ʔamuːl faːdi =b hiː -na =heːb // ti- ndi =hoːb / w= ʔamuːl eːjawna =eːb oː= doːr / ʔas -ti ti- ngiːd //
@@ -1578,7 +1577,7 @@
 22	-ti	_	AUX	CVB	VerbForm=Conv	24	compound:svc	_	AlignBegin=271516|AlignEnd=271674|DerPos=NOUN|GE= -[CVB].[GNRL]|RX= -.|TokenType=DerAff
 23	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	24	subj/m	_	AlignBegin=271674|AlignEnd=271831|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 24	ngiːd	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=271831|AlignEnd=271989|GE= [IPFV]|Gloss= throw|RX= [V1]|TokenType=Root
-25	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=271989|AlignEnd=272821|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+25	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=271989|AlignEnd=272821|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_322-326
 # text = ʔas -ti ti- ngiːd =hoːb / w= ʔamuːl hoːg -eːti jʔ -eːtiːt / bhoː =t hoːj dannʔi eːn / i= girma =i // {laughter}
@@ -1619,7 +1618,7 @@
 4	-a	_	AUX	CVB	VerbForm=Conv	5	mod	_	AlignBegin=279376|AlignEnd=279512|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -.|TokenType=DerAff
 5	naːj	_	NOUN	V2	VerbClass=2	6	comp:obj	_	AlignBegin=279512|AlignEnd=279783|GE= [N].[AC]|Gloss= spend_the_night|RX= [V2]|TokenType=Root
 6	ʃanbiːb	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	0	root	_	AlignBegin=279783|AlignEnd=280054|GE= [IPFV].[3SG]|Gloss= look|RX= [V1]|TokenType=Root
-7	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=280054|AlignEnd=280559|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+7	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=280054|AlignEnd=280559|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_331-334
 # text = diw -a naː -jaː =t =i kʷiːkʷʔaːj / kʷiːkʷʔaːj ti- ndi eːn //
@@ -1637,7 +1636,7 @@
 10	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	11	subj/m	_	AlignBegin=281996|AlignEnd=282108|GE= [3SG].[F]-|RX= [PNG]-|TokenType=InflAff
 11	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=282108|AlignEnd=282221|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 12	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	11	discourse	_	AlignBegin=282221|AlignEnd=282446|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-13	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=282446|AlignEnd=283214|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+13	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=282446|AlignEnd=283214|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_335-336
 # text = ti= iːjʔaː naː =t hoːj t- ʔiʃ -a kʷiːkʷʔaːj //
@@ -1652,7 +1651,7 @@
 7	ʔiʃ	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=284088|AlignEnd=284176|GE= [PFV]|Gloss= let|RX= [V1]|TokenType=Root
 8	-a	_	PRON	PNG	Gender=Masc|Number=Sing	7	subj/m	_	AlignBegin=284176|AlignEnd=284264|GE= -[SG].[M]|RX= -[PNG]|TokenType=InflAff
 9	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	7	vocative	_	AlignBegin=284264|AlignEnd=284526|GE= crow|Gloss= crow|RX= [N].[M]|TokenType=Root
-10	?	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=284526|AlignEnd=285067|GE= [PUNCT]|RX= [PUNCT]|TokenType=Root
+10	?	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=284526|AlignEnd=285067|GE= [PUNCT]|RX= [PUNCT]|TokenType=Root
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_337-340
 # text = ka= a- ki jhaː / ʔiʃ -i =heːb i- ndi eːn //
@@ -1669,7 +1668,7 @@
 9	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	10	subj/m	_	AlignBegin=286176|AlignEnd=286308|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 10	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=286308|AlignEnd=286441|GE= [IPFV]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
 11	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	10	discourse	_	AlignBegin=286441|AlignEnd=286705|GE= [PFV].[3PL]|Gloss= say|RX= [V1].[IRG]|TokenType=Root
-12	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=286705|AlignEnd=287779|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+12	//	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=286705|AlignEnd=287779|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_341-341
 # text = ʔamaːr =oːn baː= kʷaːs -a samaːr =oːn //
@@ -1682,5 +1681,5 @@
 5	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	4	subj/m	_	AlignBegin=288694|AlignEnd=288878|GE= -[IMP].[SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 6	samaːr	_	NOUN	N	Gender=Masc	4	dislocated:obj	_	AlignBegin=288878|AlignEnd=289153|GE= offspring|Gloss= offspring|RX= [N].[M]|TokenType=Root
 7	=oːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1|Poss=Yes	6	udep@poss	_	AlignBegin=289153|AlignEnd=289428|GE= =[POSS].[1PL].[ACC]|RX= =[PRO]|TokenType=Clit
-8	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=289428|AlignEnd=289978|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
+8	//	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=289428|AlignEnd=289978|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
