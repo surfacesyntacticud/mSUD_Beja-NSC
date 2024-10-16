@@ -675,7 +675,7 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	2	subj/m	_	AlignBegin=124427|AlignEnd=124599|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 2	ki	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	9	mod	_	AlignBegin=124599|AlignEnd=124771|GE=become\[PFV]|Gloss=become|RX=[V1].[IRG]|TokenType=Root
-3	sar	_	VERB	V1	VerbClass=1|Voice=Mid	_	_	_	AlignBegin=124771|AlignEnd=124885|GE=be_awake\[MID]|Gloss=be_awake|RX=[V1].[DER]|TokenType=Root
+3	sar	_	VERB	V1	VerbClass=1|Voice=Mid	4	comp/m	_	AlignBegin=124771|AlignEnd=124885|GE=be_awake\[MID]|Gloss=be_awake|RX=[V1].[DER]|TokenType=Root
 4	-oːj	_	SCONJ	N	_	5	comp:obj	_	AlignBegin=124885|AlignEnd=125000|DerPos=NOUN|GE=-[N].[AC]|RX=-[N].[V]|TokenType=DerAff
 5	=ka	_	ADP	POSTP	_	2	subj	_	AlignBegin=125000|AlignEnd=125115|GE==[DISTR]|RX==[POSTP]|TokenType=Clit
 6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=125115|AlignEnd=126003|TokenType=Break
@@ -845,7 +845,7 @@
 21	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	19	udep@poss	_	AlignBegin=150611|AlignEnd=150690|GE==[POSS].[1SG].[NOM]|RX==[PRO]|TokenType=Clit
 22	/	_	PUNCT	PUNCT	_	19	punct	_	AlignBegin=150690|AlignEnd=151006|TokenType=Break
 23	ti=	_	DET	DET	Definite=Def|Gender=Fem	24	det	_	AlignBegin=151006|AlignEnd=151181|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
-24	sitoːb	_	VERB	V1, IRG	VerbClass=1	_	_	_	AlignBegin=151181|AlignEnd=151357|GE=convey|Gloss=convey|RX=[V1].[IRG]|TokenType=Root
+24	sitoːb	_	VERB	V1, IRG	VerbClass=1	25	comp/m	_	AlignBegin=151181|AlignEnd=151357|GE=convey|Gloss=convey|RX=[V1].[IRG]|TokenType=Root
 25	-oːj	_	NOUN	N	_	31	comp:obj	_	AlignBegin=151357|AlignEnd=151533|DerPos=NOUN|GE=-[N].[AC]|RX=-[N].[V]|TokenType=DerAff
 26	ti=	_	SCONJ	REL	Definite=Def|Gender=Fem	28	comp:obj	_	AlignBegin=151533|AlignEnd=151664|GE=[DEF].[F]=|RX=[REL]=|TokenType=Clit
 27	a-	_	PRON	PNG	Number=Sing|Person=1	28	subj/m	_	AlignBegin=151664|AlignEnd=151796|GE=[1SG]-|RX=[PNG]-|TokenType=InflAff

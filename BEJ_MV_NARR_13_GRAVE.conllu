@@ -108,7 +108,7 @@
 3	halak	_	NOUN	N	Gender=Masc	10	subj	_	AlignBegin=18549|AlignEnd=18653|GE=cloth|RX=[SBJ].[N].[M]|TokenType=Root
 4	-a	_	DET	_	_	3	det/m	_	AlignBegin=18653|AlignEnd=18757|GE=[PL]|TokenType=InflAff
 5	=jaː	_	PRON	PRO	Case=Nom|Number=Plur|Person=3|Poss=Yes	3	udep@poss	_	AlignBegin=18757|AlignEnd=18860|GE=[POSS].[3PL].[NOM]|RX=[PRO]|TokenType=Clit
-6	jiwaːʃ	_	NOUN	N	Gender=Masc	_	_	_	AlignBegin=18860|AlignEnd=18998|GE=dirt|RX=[N].[M]|TokenType=Root
+6	jiwaːʃ	_	NOUN	N	Gender=Masc	7	comp	_	AlignBegin=18860|AlignEnd=18998|GE=dirt|RX=[N].[M]|TokenType=Root
 7	-i	_	PRON	_	_	3	mod	_	AlignBegin=18998|AlignEnd=19136|GE=[ADJZR]|TokenType=InflAff
 8	=b	_	DET	DET	Gender=Masc	7	det	_	AlignBegin=19136|AlignEnd=19275|GE=[INDF].[M]|RX=[DET]|TokenType=Clit
 9	iː-	_	PRON	PNG	Person=3	10	subj/m	_	AlignBegin=19275|AlignEnd=19379|GE=[3]|RX=[PNG]|TokenType=InflAff
@@ -431,7 +431,7 @@
 10	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	9	udep@poss	_	AlignBegin=70136|AlignEnd=70246|GE=[POSS].[2SG].[ACC]|RX=[PRO]|TokenType=Clit
 11	/	_	PUNCT	_	_	9	punct	_	AlignBegin=70246|AlignEnd=70579|GE=[/]|TokenType=Root
 12	bak	_	PART	DEICT	_	14	mod	_	AlignBegin=70579|AlignEnd=70962|GE=thus|RX=[DEICT].[MNR]|TokenType=Root
-13	tʔi	_	VERB	V1	VerbClass=1	_	_	_	AlignBegin=70962|AlignEnd=71090|GE=resemble|RX=[V1].[IRG]|TokenType=Root
+13	tʔi	_	VERB	V1	VerbClass=1	14	comp/m	_	AlignBegin=70962|AlignEnd=71090|GE=resemble|RX=[V1].[IRG]|TokenType=Root
 14	-it	_	SCONJ	N.V	_	15	comp	_	AlignBegin=71090|AlignEnd=71218|DerPos=NOUN|GE=[VN]|RX=[N].[V]|TokenType=DerAff
 15	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	16	mod@relcl	_	AlignBegin=71218|AlignEnd=71345|GE=[REL].[F]|RX=[CONJ]|TokenType=Clit
 16	hajʔa	_	NOUN	N	Gender=Fem	18	comp	_	AlignBegin=71345|AlignEnd=71473|GE=manner|RX=[N].[F]|TokenType=Root
@@ -674,7 +674,7 @@
 33	afirh	_	VERB	V2	VerbClass=2	34	comp/m	_	AlignBegin=118639|AlignEnd=118777|GE=rejoice|RX=[V2]|TokenType=Root
 34	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	36	comp:pred	_	AlignBegin=118777|AlignEnd=118915|DerPos=NOUN|GE=[CVB].[MNR]|RX=[PRF]|TokenType=DerAff
 35	=b	_	DET	DET	Case=Acc|Gender=Masc	34	det	_	AlignBegin=118915|AlignEnd=119053|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
-36	aka	_	AUX	AUX	Aspect=Perf	_	_	_	AlignBegin=119053|AlignEnd=119191|GE=become|RX=[AUX].[PRF]|TokenType=Root
+36	aka	_	AUX	AUX	Aspect=Perf	37	comp/m	_	AlignBegin=119053|AlignEnd=119191|GE=become|RX=[AUX].[PRF]|TokenType=Root
 37	-jeː	_	AUX	_	_	45	conj:coord	_	AlignBegin=119191|AlignEnd=119329|DerPos=NOUN|GE=[CVB].[SMLT]|TokenType=DerAff
 38	=wa	_	CCONJ	CONJ	_	37	cc	_	AlignBegin=119329|AlignEnd=119467|GE=[COORD]|RX=[CONJ]|TokenType=Clit
 39	/	_	PUNCT	_	_	37	punct	_	AlignBegin=119467|AlignEnd=119881|GE=[/]|TokenType=Break
@@ -700,7 +700,7 @@
 # text = bak tʔiːteːna / beːn oːtak / rhan idi eːn //
 # text_en =  "I saw something like that happen to this man", he said, they said.
 1	bak	_	PART	DEICT	_	3	mod	_	AlignBegin=123128|AlignEnd=123547|GE=thus|RX=[DEICT].[MNR]|TokenType=Root
-2	tʔi	_	VERB	V1	VerbClass=1	_	_	_	AlignBegin=123547|AlignEnd=123652|GE=resemble|RX=[V1].[IRG]|TokenType=Root
+2	tʔi	_	VERB	V1	VerbClass=1	3	comp/m	_	AlignBegin=123547|AlignEnd=123652|GE=resemble|RX=[V1].[IRG]|TokenType=Root
 3	-it	_	SCONJ	N.V	_	4	comp:obj	_	AlignBegin=123652|AlignEnd=123757|DerPos=NOUN|GE=[VN]|RX=[N].[V]|TokenType=DerAff
 4	=eː	_	SCONJ	CONJ.REL	PronType=Rel	5	mod@relcl	_	AlignBegin=123757|AlignEnd=123862|GE=[REL]|RX=[CONJ]|TokenType=Clit
 5	=na	_	NOUN	CONJ	_	11	comp:obj	_	AlignBegin=123862|AlignEnd=123966|GE=thing|RX=[N.F]|TokenType=Clit

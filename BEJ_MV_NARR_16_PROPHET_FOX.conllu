@@ -34,10 +34,10 @@
 9	ʕalehu issalaːt wa ssalaːm	_	X	_	Foreign=Yes	7	parataxis:foreign	_	AlignBegin=6044|AlignEnd=6092|GE= ʕalehu[ ]issalaːt[ ]wa[ ]ssalaːm|Gloss= ʕalehu issalaːt wa ssalaːm|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 10	>	_	PUNCT	>	_	_	_	_	AlignBegin=6092|AlignEnd=6140|GE= [>]|RX= [>]|TokenType=Root
 11	<	_	PUNCT	<	_	_	_	_	AlignBegin=6140|AlignEnd=6379|GE= [<]|RX= [<]|TokenType=Root
-12	ʕalehu	_	X	_	Foreign=Yes	_	_	_	AlignBegin=6379|AlignEnd=6619|GE= on[ ]him|Gloss= on him|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-13	issalaːt	_	X	_	Foreign=Yes	_	_	_	AlignBegin=6619|AlignEnd=6858|GE= the[ ]prayer|Gloss= the prayer|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-14	wa	_	X	_	Foreign=Yes	9	parataxis:foreign	_	AlignBegin=6858|AlignEnd=7097|GE= and|Gloss= and|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-15	ssalaːm	_	X	_	Foreign=Yes	_	_	_	AlignBegin=7097|AlignEnd=7337|GE= the_peace|Gloss= the_peace|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+12	ʕalehu	_	X	_	Foreign=Yes	13	comp:obl	_	AlignBegin=6379|AlignEnd=6619|GE= on[ ]him|Gloss= on him|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+13	issalaːt	_	X	_	Foreign=Yes	9	parataxis:foreign	_	AlignBegin=6619|AlignEnd=6858|GE= the[ ]prayer|Gloss= the prayer|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+14	wa	_	X	_	Foreign=Yes	13	cc	_	AlignBegin=6858|AlignEnd=7097|GE= and|Gloss= and|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+15	ssalaːm	_	X	_	Foreign=Yes	13	conj:coord	_	AlignBegin=7097|AlignEnd=7337|GE= the_peace|Gloss= the_peace|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 16	>	_	PUNCT	>	_	_	_	_	AlignBegin=7337|AlignEnd=7576|GE= [>]|RX= [>]|TokenType=Root
 17	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=7576|AlignEnd=8752|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
@@ -716,7 +716,7 @@
 4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=126129|AlignEnd=126247|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
 5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=126247|AlignEnd=126642|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 6	t=	_	DET	DET	Definite=Def|Gender=Fem	7	det	_	AlignBegin=126642|AlignEnd=126726|GE= [DEF].[F]=|RX= [DET]=|TokenType=Clit
-7	ʔaraw	_	NOUN	N	Number=Plur	_	_	_	AlignBegin=126726|AlignEnd=126810|GE= [PL]|Gloss= friend|RX= [N]|TokenType=Root
+7	ʔaraw	_	NOUN	N	Number=Plur	13	comp:obj	_	AlignBegin=126726|AlignEnd=126810|GE= [PL]|Gloss= friend|RX= [N]|TokenType=Root
 8	-i	_	PART	SUFX	_	7	comp/m	_	AlignBegin=126810|AlignEnd=126895|GE= -[ABST]|RX= -[SUFX]|TokenType=InflAff
 9	toːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	AlignBegin=126895|AlignEnd=127148|GE= [PROX].[SG].[F].[ACC]|RX= [DEM]|TokenType=Root
 10	rh	_	VERB	V2	VerbClass=2	11	comp/m	_	AlignBegin=127148|AlignEnd=127211|GE= see|Gloss= see|RX= [V2]|TokenType=Root

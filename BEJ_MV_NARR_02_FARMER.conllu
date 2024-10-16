@@ -312,7 +312,7 @@
 38	kna	_	PRON	PRO	Reflex=Yes	40	subj	_	AlignBegin=55875|AlignEnd=56036|GE=owner|RX=[PRO].[REFL]|TokenType=Root
 39	/	_	PUNCT	PUNCT	_	38	punct	_	AlignBegin=56036|AlignEnd=56360|GE=[/]|TokenType=Break
 40	guːd~guːd	_	VERB	V2	VerbClass=2	41	comp:aux	_	AlignBegin=56537|AlignEnd=56727|GE=[PLAC~be_numerous]|RX=[V2].[DER]|TokenType=Root
-41	ah	_	AUX	AUX.EMPH	_	_	_	_	AlignBegin=56917|AlignEnd=57012|GE=take|RX=[AUX].[EMPH]|TokenType=Root
+41	ah	_	AUX	AUX.EMPH	_	42	comp/m	_	AlignBegin=56917|AlignEnd=57012|GE=take|RX=[AUX].[EMPH]|TokenType=Root
 42	-a	_	AUX	_	_	33	dislocated:mod	_	AlignBegin=57012|AlignEnd=57107|DerPos=NOUN|GE=[CVB].[MNR]|TokenType=DerAff
 43	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	42	discourse	_	AlignBegin=57107|AlignEnd=57297|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
 44	//	_	PUNCT	PUNCT	_	33	punct	_	AlignBegin=57297|AlignEnd=57485|GE=[//]|TokenType=Break
@@ -918,7 +918,7 @@
 11	haːj	_	ADP	POSTP	Case=Com	13	comp:obl	_	AlignBegin=181084|AlignEnd=181394|GE=[COM]|RX=[POSTP]|TokenType=Root
 12	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	13	subj/m	_	AlignBegin=181394|AlignEnd=181497|GE=[3SG].[F]|RX=[PNG]|TokenType=InflAff
 13	t-	_	AUX	V1	VerbClass=1|Voice=Mid	0	root	_	AlignBegin=181497|AlignEnd=181600|DerPos=VERB|GE=[MID]|RX=[V1].[DER]|TokenType=DerAff
-14	farʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	_	_	_	AlignBegin=181600|AlignEnd=181704|GE=take_out\IPFV|RX=[V1]|TokenType=Root
+14	farʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	13	comp/m	_	AlignBegin=181600|AlignEnd=181704|GE=take_out\IPFV|RX=[V1]|TokenType=Root
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	13	discourse	_	AlignBegin=181704|AlignEnd=182014|GE=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
 16	/	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=182014|AlignEnd=182326|GE=[/]|TokenType=Break
 17	ɖimi	_	VERB	V1	VerbClass=1	18	comp/m	_	AlignBegin=182326|AlignEnd=182382|GE=stink|RX=[V1]|TokenType=Root
@@ -1140,7 +1140,7 @@
 2	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	10	dislocated:subj	_	AlignBegin=225946|AlignEnd=226138|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 3	suːr	_	ADV	ADV	_	10	mod	_	AlignBegin=226138|AlignEnd=226330|GE=before|RX=[ADV]|TokenType=Root
 4	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=226330|AlignEnd=226522|GE=[/]|TokenType=Break
-5	nifr	_	NOUN	N	Gender=Masc	_	_	_	AlignBegin=226990|AlignEnd=227245|GE=horror|RX=[N].[M]|TokenType=Root
+5	nifr	_	NOUN	N	Gender=Masc	6	comp/m	_	AlignBegin=226990|AlignEnd=227245|GE=horror|RX=[N].[M]|TokenType=Root
 6	-i	_	PART	SUFX	_	7	mod	_	AlignBegin=227245|AlignEnd=227500|GE=[ADJZR]|RX=[SUFX]|TokenType=InflAff
 7	ʤaːntaːji	_	NOUN	N	_	8	mod	_	AlignBegin=227500|AlignEnd=228010|GE=jinni|RX=[N]|TokenType=Root
 8	atoːrbi	_	ADJ	ADJ	_	10	comp:pred	_	AlignBegin=228010|AlignEnd=228180|GE=nasty|RX=[ADJ]|TokenType=Root

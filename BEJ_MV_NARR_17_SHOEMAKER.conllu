@@ -464,7 +464,7 @@
 17	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	20	comp:pred	_	AlignBegin=87960|AlignEnd=88068|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -[PRF]|TokenType=DerAff
 18	=b	_	DET	DET	Case=Acc|Gender=Masc	17	det	_	AlignBegin=88068|AlignEnd=88176|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 19	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	20	subj/m	_	AlignBegin=88176|AlignEnd=88283|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
-20	kti	_	AUX	AUX	Aspect=Aor	_	_	_	AlignBegin=88283|AlignEnd=88391|GE= [AOR]|Gloss= become|RX= [AUX].[PRF]|TokenType=Root
+20	kti	_	AUX	AUX	Aspect=Aor	21	comp	_	AlignBegin=88283|AlignEnd=88391|GE= [AOR]|Gloss= become|RX= [AUX].[PRF]|TokenType=Root
 21	=jeːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	11	mod@relcl	_	AlignBegin=88391|AlignEnd=88499|GE= =[REL].[F]|RX= =[CONJ]|TokenType=Clit
 22	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=88499|AlignEnd=88823|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 23	am-	_	AUX	V1	VerbClass=1|Voice=Pass	24	comp/m	_	AlignBegin=88823|AlignEnd=88918|DerPos=VERB|GE= [PASS]-|RX= [V1].[DER]-|TokenType=DerAff
@@ -528,8 +528,8 @@
 13	=b	_	DET	DET	Case=Acc|Gender=Masc	12	det	_	AlignBegin=99397|AlignEnd=99481|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 14	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	0	root	_	AlignBegin=99481|AlignEnd=99565|GE= =[COP].[3SG]|RX= =[PRED].[N]|TokenType=Clit
 15	=it	_	SCONJ	CONJ	_	_	_	_	AlignBegin=99565|AlignEnd=99649|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
-16	areː	_	PART	PTCL	_	_	_	_	AlignBegin=99649|AlignEnd=99859|GE= then|Gloss= then|RX= [PTCL]|TokenType=Root
-17	=ka	_	ADP	POSTP	Degree=Cmp	_	_	_	AlignBegin=99859|AlignEnd=100070|GE= =[CMPR]|RX= =[POSTP]|TokenType=Clit
+16	areː	_	PART	PTCL	_	17	comp	_	AlignBegin=99649|AlignEnd=99859|GE= then|Gloss= then|RX= [PTCL]|TokenType=Root
+17	=ka	_	ADP	POSTP	Degree=Cmp	14	discourse	_	AlignBegin=99859|AlignEnd=100070|GE= =[CMPR]|RX= =[POSTP]|TokenType=Clit
 18	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=100070|AlignEnd=100491|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_17_shoemaker_108-112
@@ -769,10 +769,10 @@
 17	giɖʔa	_	NOUN	N	Gender=Fem	25	comp:obj	_	AlignBegin=134988|AlignEnd=135084|GE= shoe|Gloss= shoe|RX= [N].[F]|TokenType=Root
 18	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=135084|AlignEnd=136417|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 19	ti=	_	PRON	REL	Definite=Def|Gender=Fem|PronType=Rel	17	mod@relcl	_	AlignBegin=136417|AlignEnd=136531|GE= [DEF].[F]=|RX= [REL]=|TokenType=Clit
-20	ʃaga	_	VERB	V2	VerbClass=2	21	comp/m	_	AlignBegin=136531|AlignEnd=136646|GE= work|Gloss= work|RX= [V2]|TokenType=Root
-21	-am	_	AUX	V2	VerbClass=2	23	comp:obj	_	AlignBegin=136646|AlignEnd=136760|DerPos=VERB|GE= -[MID]|RX= -[V2].[DER]|TokenType=DerAff
+20	ʃaga	_	VERB	V2	VerbClass=2	19	comp	_	AlignBegin=136531|AlignEnd=136646|GE= work|Gloss= work|RX= [V2]|TokenType=Root
+21	-am	_	AUX	V2	VerbClass=2	20	comp/m	_	AlignBegin=136646|AlignEnd=136760|DerPos=VERB|GE= -[MID]|RX= -[V2].[DER]|TokenType=DerAff
 22	-i	_	PRON	TAM.PNG	Aspect=Aor|Number=Sing|Person=1	21	subj/m	_	AlignBegin=136760|AlignEnd=136875|GE= -[AOR].[1SG]|RX= -[TAM].[PNG]|TokenType=InflAff
-23	=jeːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	_	_	_	AlignBegin=136875|AlignEnd=136990|GE= =[REL].[F]|RX= =[CONJ]|TokenType=Clit
+23	=jeːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	21	comp:obj	_	AlignBegin=136875|AlignEnd=136990|GE= =[REL].[F]|RX= =[CONJ]|TokenType=Clit
 24	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=136990|AlignEnd=138010|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 25	fassal	_	VERB	V2	VerbClass=2	29	parataxis:coord	_	AlignBegin=138010|AlignEnd=138214|GE= cut|Gloss= cut|RX= [V2]|TokenType=Root
 26	-ani	_	PRON	TAM.PNG	Aspect=Imp|Number=Sing|Person=1	25	subj/m	_	AlignBegin=138214|AlignEnd=138418|GE= -[IPFV].[1SG]|RX= -[TAM].[PNG]|TokenType=InflAff

@@ -751,10 +751,10 @@
 17	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=148369|AlignEnd=148625|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 18	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	AlignBegin=148625|AlignEnd=149003|GE= [PROX].[SG].[M].[NOM]|RX= [DEM]|TokenType=Root
 19	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	det	_	AlignBegin=149003|AlignEnd=149192|GE= [DEF].[SG].[M].[NOM]=|RX= [DET]=|TokenType=Clit
-20	tak	_	NOUN	N	Gender=Masc	_	_	_	AlignBegin=149192|AlignEnd=149382|GE= man|Gloss= man|RX= [SBJ].[N].[M]|TokenType=Root
-21	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	_	_	_	AlignBegin=149382|AlignEnd=149508|GE= [IPFV].[[][3SG][]]|Gloss= seek|RX= [V1]|TokenType=Root
+20	tak	_	NOUN	N	Gender=Masc	21	subj	_	AlignBegin=149192|AlignEnd=149382|GE= man|Gloss= man|RX= [SBJ].[N].[M]|TokenType=Root
+21	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	23	comp	_	AlignBegin=149382|AlignEnd=149508|GE= [IPFV].[[][3SG][]]|Gloss= seek|RX= [V1]|TokenType=Root
 22	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	21	comp:obj	_	AlignBegin=149508|AlignEnd=149634|GE= =[OBJ].[2SG]|RX= =[PRO]|TokenType=Clit
-23	=aj	_	SCONJ	CONJ	_	_	_	_	AlignBegin=149634|AlignEnd=149760|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
+23	=aj	_	SCONJ	CONJ	_	14	dislocated:mod	_	AlignBegin=149634|AlignEnd=149760|GE= =[CSL]|RX= =[CONJ]|TokenType=Clit
 24	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=149760|AlignEnd=150591|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_14_sijadok_176-180
@@ -1170,10 +1170,10 @@
 2	huːri	_	NOUN	N	Gender=Fem	13	subj	_	AlignBegin=220037|AlignEnd=220144|GE= houri|Gloss= houri|RX= [SBJ].[N].[F]|TokenType=Root
 3	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=220144|AlignEnd=220358|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
 4	ti=	_	DET	DET	Definite=Def|Gender=Fem	5	det	_	AlignBegin=220358|AlignEnd=220461|GE= [DEF].[F]=|RX= [DET]=|TokenType=Clit
-5	daːwri	_	ADJ	N	_	10	comp:pred	_	AlignBegin=220461|AlignEnd=220564|GE= beautiful|Gloss= beautiful|RX= [ADJ]|TokenType=Root
-6	=i	_	ADP	CASE	Case=Gen	_	_	_	AlignBegin=220564|AlignEnd=220667|GE= =[GEN]|RX= =[CASE]|TokenType=InflAff
-7	daːwri	_	VERB	V2	VerbClass=2	8	comp/m	_	AlignBegin=220667|AlignEnd=220822|GE= be_beautiful|Gloss= be_beautiful|RX= [V2]|TokenType=Root
-8	-ja	_	AUX	CVB	VerbForm=Conv	_	_	_	AlignBegin=220822|AlignEnd=220977|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -.|TokenType=DerAff
+5	daːwri	_	ADJ	N	_	6	comp	_	AlignBegin=220461|AlignEnd=220564|GE= beautiful|Gloss= beautiful|RX= [ADJ]|TokenType=Root
+6	=i	_	ADP	CASE	Case=Gen	10	comp:obl	_	AlignBegin=220564|AlignEnd=220667|GE= =[GEN]|RX= =[CASE]|TokenType=InflAff
+7	daːwri	_	VERB	V2	VerbClass=2	10	comp:pred	_	AlignBegin=220667|AlignEnd=220822|GE= be_beautiful|Gloss= be_beautiful|RX= [V2]|TokenType=Root
+8	-ja	_	AUX	CVB	VerbForm=Conv	7	comp/m	_	AlignBegin=220822|AlignEnd=220977|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -.|TokenType=DerAff
 9	ha	_	VERB	V1	VerbClass=1	10	comp/m	_	AlignBegin=220977|AlignEnd=221080|GE= be_there|Gloss= be_there|RX= [V1].[IRG]|TokenType=Root
 10	-a	_	AUX	CVB	VerbForm=Conv	13	mod	_	AlignBegin=221080|AlignEnd=221183|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -.|TokenType=DerAff
 11	=t	_	DET	DET	Gender=Fem	10	det	_	AlignBegin=221183|AlignEnd=221286|GE= =[INDF].[F]|RX= =[DET]|TokenType=Clit
@@ -1756,7 +1756,7 @@
 # phonetic_text = dhaːj jʔijaːt /
 # text_en = he went to him,
 1	dhaːj	_	ADP	POSTP	_	2	comp:obl	_	AlignBegin=306733|AlignEnd=306935|GE= [DIR]|RX= [POSTP]|TokenType=Root
-2	jʔ	_	VERB	V2	VerbClass=2	_	_	_	AlignBegin=306935|AlignEnd=307002|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
+2	jʔ	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=306935|AlignEnd=307002|GE= come|Gloss= come|RX= [V2].[IRG]|TokenType=Root
 3	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	2	subj/m	_	AlignBegin=307002|AlignEnd=307069|GE= -[AOR].[3SG].[M]|RX= -[TAM].[PNG]|TokenType=InflAff
 4	=jaːt	_	CCONJ	CONJ	_	2	cc	_	AlignBegin=307069|AlignEnd=307137|GE= =[COORD]|RX= =[CONJ]|TokenType=Clit
 5	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=307137|AlignEnd=307339|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break

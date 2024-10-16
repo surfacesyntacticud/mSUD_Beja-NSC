@@ -98,7 +98,7 @@
 25	kʷibs	_	VERB	V1	VerbClass=1	26	comp/m	_	AlignBegin=18908|AlignEnd=19010|GE= hide|Gloss= hide|RX= [V1]|TokenType=Root
 26	-a	_	AUX	CVB	VerbForm=Conv	28	mod	_	AlignBegin=19010|AlignEnd=19112|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -.|TokenType=DerAff
 27	/	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=19112|AlignEnd=19766|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
-28	kallaf	_	VERB	V2	VerbClass=2	_	_	_	AlignBegin=19766|AlignEnd=19894|GE= feed|Gloss= feed|RX= [V2]|TokenType=Root
+28	kallaf	_	VERB	V2	VerbClass=2	30	comp	_	AlignBegin=19766|AlignEnd=19894|GE= feed|Gloss= feed|RX= [V2]|TokenType=Root
 29	-iːn	_	PRON	TAM.PNG	Aspect=Aor|Number=Plur|Person=3	28	subj/m	_	AlignBegin=19894|AlignEnd=20023|GE= -[AOR].[3PL]|RX= -[TAM].[PNG]|TokenType=InflAff
 30	akoː	_	PART	PTCL	_	22	dislocated:mod	_	AlignBegin=20023|AlignEnd=20280|GE= given_that|Gloss= given_that|RX= [PTCL]|TokenType=Root
 31	//	_	PUNCT	PUNCT	_	_	_	_	AlignBegin=20280|AlignEnd=20537|GE= [PUNCT]|RX= [PUNCT]|TokenType=Break
@@ -968,13 +968,13 @@
 # phonetic_text = < siddik alla XXX istaːf# > / {clap} {laughter}
 # text_en = May god forgive...
 1	<	_	PUNCT	<	_	_	_	_	AlignBegin=139604|AlignEnd=139848|GE= [<]|RX= [<]|TokenType=Root
-2	siddik	siddik	X	_	Foreign=Yes	_	_	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-3	alla	alla	X	_	Foreign=Yes	_	_	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-4	XXX	XXX	X	_	Foreign=Yes	_	_	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
-5	istaːfer	istaːfer	X	_	Foreign=Yes	_	_	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+2	siddik	siddik	X	_	Foreign=Yes	3	udep	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+3	alla	alla	X	_	Foreign=Yes	5	subj	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+4	XXX	XXX	X	_	Foreign=Yes	5	discourse	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+5	istaːfer	istaːfer	X	_	Foreign=Yes	8	conj:coord	_	AlignBegin=139848|AlignEnd=140093|GE= truth|Gloss= truth|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 6	alla	_	X	_	Foreign=Yes	8	subj	_	AlignBegin=140093|AlignEnd=140338|GE= [God]|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 7	XXX	_	X	_	_	8	discourse	_	AlignBegin=140338|AlignEnd=140583|GE= [XXX]|RX= [XXX]|TokenType=Root
-8	istaːf#	_	X	_	Foreign=Yes	_	_	_	AlignBegin=140583|AlignEnd=140828|GE= forgive|Gloss= forgive|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
+8	istaːf#	_	X	_	Foreign=Yes	0	root	_	AlignBegin=140583|AlignEnd=140828|GE= forgive|Gloss= forgive|Lang=ar|RX= [CSW].[ARA]|TokenType=Root
 9	>	_	PUNCT	>	_	_	_	_	AlignBegin=140828|AlignEnd=141073|GE= [>]|RX= [>]|TokenType=Root
 10	/	_	PUNCT	/	_	_	_	_	AlignBegin=141073|AlignEnd=141318|GE= [/]|RX= [/]|TokenType=Break
 

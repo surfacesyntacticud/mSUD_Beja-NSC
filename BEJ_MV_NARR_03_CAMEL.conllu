@@ -151,7 +151,7 @@
 32	meːk	_	NOUN	N	_	33	comp	_	AlignBegin=25865|AlignEnd=25964|GE=donkey|Gloss=donkey|RX=[N]|TokenType=Root
 33	=i	_	ADP	CASE	Case=Gen	34	mod	_	AlignBegin=25964|AlignEnd=26064|GE=-[GEN]|RX=-[CASE]|TokenType=Clit|wordform=-i
 34	m-	_	SCONJ	N	_	36	comp:obj	_	AlignBegin=26064|AlignEnd=26163|DerPos=NOUN|GE=[N].[AC]-|RX=[N].[V]-|TokenType=DerAff
-35	ʔam	_	VERB	V1	VerbClass=1|Voice=Mid	_	_	_	AlignBegin=26163|AlignEnd=26262|GE=ride\[MID]|Gloss=ride|RX=[V1].[DER]|TokenType=Root
+35	ʔam	_	VERB	V1	VerbClass=1|Voice=Mid	36	comp	_	AlignBegin=26163|AlignEnd=26262|GE=ride\[MID]|Gloss=ride|RX=[V1].[DER]|TokenType=Root
 36	=eː	_	SCONJ	CONJ	_	39	comp:obj	_	AlignBegin=26262|AlignEnd=26362|GE==[REL]|RX==[CONJ]|TokenType=Clit
 37	sagi	_	ADJ	ADJ	_	39	comp:pred	_	AlignBegin=26362|AlignEnd=26461|GE=far|Gloss=far|RX=[ADJ]|TokenType=Root
 38	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	37	det	_	AlignBegin=26461|AlignEnd=26560|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
@@ -307,7 +307,7 @@
 15	=uːn	_	PRON	PRO	Case=Nom|Number=Plur|Person=1|Poss=Yes	14	udep@poss	_	AlignBegin=58415|AlignEnd=58556|GE==[POSS].[1PL].[NOM]|RX==[PRO]|TokenType=Clit
 16	hoːj	_	ADP	PRO	Case=Abl	17	comp:obl	_	AlignBegin=58556|AlignEnd=58837|GE=[LOC]|RX=[POSTP]|TokenType=Root
 17	am-	_	AUX	V1	VerbClass=1|Voice=Rcp	0	root	_	AlignBegin=58837|AlignEnd=58930|DerPos=VERB|GE=[RECP]-|RX=[V1].[DER]-|TokenType=DerAff
-18	mar~ri	_	VERB	V1	VerbClass=1	_	_	_	AlignBegin=58930|AlignEnd=59023|GE=find~[PLAC]find~PLAC|RX=[V1].[DER]|TokenType=Root
+18	mar~ri	_	VERB	V1	VerbClass=1	19	comp/m	_	AlignBegin=58930|AlignEnd=59023|GE=find~[PLAC]find~PLAC|RX=[V1].[DER]|TokenType=Root
 19	-ja	_	PRON	TAM, PNG	Aspect=Perf|Gender=Masc|Number=Sing|Person=3	17	subj/m	_	AlignBegin=59023|AlignEnd=59117|GE=-[PFV].[3SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 20	eːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	22	det	_	AlignBegin=59117|AlignEnd=59398|GE=[PROX].[PL].[M].[ACC]|RX=[DEM]|TokenType=Root
 21	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	22	det	_	AlignBegin=59398|AlignEnd=59538|GE=[DEF].[PL].[M].[ACC]=|RX=[DET]=|TokenType=Clit
@@ -513,7 +513,7 @@
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=93207|AlignEnd=93619|TokenType=Break
 6	fidig	_	VERB	V1	VerbClass=1	7	comp/m	_	AlignBegin=93619|AlignEnd=93811|GE=untie|Gloss=untie|RX=[V1]|TokenType=Root
 7	-a	_	AUX	CVB	VerbForm=Conv	8	comp:aux	_	AlignBegin=93811|AlignEnd=94003|DerPos=NOUN|GE=-[CVB].[MNR]|TokenType=DerAff
-8	dʔi	_	AUX	AUX, EMPH	_	_	_	_	AlignBegin=94003|AlignEnd=94099|GE=do|Gloss=do|RX=[AUX].[EMPH]|TokenType=Root
+8	dʔi	_	AUX	AUX, EMPH	_	9	comp/m	_	AlignBegin=94003|AlignEnd=94099|GE=do|Gloss=do|RX=[AUX].[EMPH]|TokenType=Root
 9	-jaː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	11	comp:pred	_	AlignBegin=94099|AlignEnd=94195|DerPos=NOUN|GE=-[CVB].[MNR]|RX=-[PRF]|TokenType=DerAff
 10	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	9	det	_	AlignBegin=94195|AlignEnd=94291|GE==[INDF].[M].[ACC]|RX==[DET]|TokenType=Clit
 11	=u	_	AUX	N, COP	Number=Sing|Person=1|VerbType=Cop	0	root	_	AlignBegin=94291|AlignEnd=94387|GE==[COP].[1SG]|RX==[PRED].[N]|TokenType=Clit
@@ -659,7 +659,7 @@
 10	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	11	det	_	AlignBegin=117942|AlignEnd=118101|GE= [DEF].[SG].[M].[ACC]=|RX= [DET]=|TokenType=Clit
 11	kaːm	_	NOUN	N	_	13	comp:obj	_	AlignBegin=118101|AlignEnd=118261|GE= camel|Gloss= camel|RX= [N]|TokenType=Root
 12	rh	_	VERB	V2	VerbClass=2	13	comp/m	_	AlignBegin=118261|AlignEnd=118367|GE= see|Gloss= see|RX= [V2]|TokenType=Root
-13	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	_	_	_	AlignBegin=118367|AlignEnd=118474|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -[PRF]|TokenType=DerAff
+13	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	16	comp:obj	_	AlignBegin=118367|AlignEnd=118474|DerPos=NOUN|GE= -[CVB].[MNR]|RX= -[PRF]|TokenType=DerAff
 14	=b	_	DET	DET	Case=Acc|Gender=Masc	13	det	_	AlignBegin=118474|AlignEnd=118581|GE= =[INDF].[M].[ACC]|RX= =[DET]|TokenType=Clit
 15	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	16	subj/m	_	AlignBegin=118581|AlignEnd=118687|GE= [3SG].[M]-|RX= [PNG]-|TokenType=InflAff
 16	ktiːn	_	VERB	V1	Aspect=Imp|VerbClass=1	17	comp	_	AlignBegin=118687|AlignEnd=118794|GE= [MID].[IPFV]|Gloss= know|RX= [V1].[DER].[IRG]|TokenType=Root
@@ -712,7 +712,7 @@
 # text_en = "I went to look for my camel in it and I brought it back and I made it kneel down and when I put the saddle on it, the camel's belly was full.
 1	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	7	subj	_	AlignBegin=129291|AlignEnd=129594|GE= [1SG].[NOM]|RX= [SBJ].[PRO]|TokenType=Root
 2	i=	_	DET	DET	Definite=Def|Gender=Masc	3	det	_	AlignBegin=129594|AlignEnd=129695|GE= [DEF].[M]=|RX= [DET]=|TokenType=Clit
-3	kaːm	_	NOUN	N	_	_	_	_	AlignBegin=129695|AlignEnd=129796|GE= camel|Gloss= camel|RX= [N]|TokenType=Root
+3	kaːm	_	NOUN	N	_	7	comp:obj	_	AlignBegin=129695|AlignEnd=129796|GE= camel|Gloss= camel|RX= [N]|TokenType=Root
 4	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	3	udep@poss	_	AlignBegin=129796|AlignEnd=129897|GE= =[POSS].[1SG].[ACC]|RX= =[PRO]|TokenType=Clit
 5	hoːj	_	ADP	POSTP	Case=Loc	7	comp:obl	_	AlignBegin=129897|AlignEnd=130200|GE= [LOC]|RX= [POSTP]|TokenType=Root
 6	a-	_	PRON	PNG	Number=Sing|Person=1	7	subj/m	_	AlignBegin=130200|AlignEnd=130301|GE= [1SG]-|RX= [PNG]-|TokenType=InflAff
