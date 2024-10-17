@@ -61,7 +61,7 @@
 # text_en =  he gives him the second one.
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=6929|AlignEnd=7024|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 2	mali	_	NUM	NUM	_	5	comp:obj	_	AlignBegin=7024|AlignEnd=7119|GE=two|RX=[NUM]|TokenType=Root
-3	-a	_	NUM	NUM	NumType=Ord	2	mod/m	_	AlignBegin=7119|AlignEnd=7213|GE=[ORD]|RX=[NUM]|TokenType=InflAff
+3	-a	_	X	NUM	NumType=Ord	2	mod/m	_	AlignBegin=7119|AlignEnd=7213|DerPos=ADJ|GE=[ORD]|RX=[NUM]|TokenType=DerAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=7213|AlignEnd=7355|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 5	niːw	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=7355|AlignEnd=7497|GE=give\IPFV|RX=[V1].[IRG]|TokenType=Root
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=7497|AlignEnd=7781|GE=[/]|TokenType=Break
@@ -75,7 +75,7 @@
 # text_en =  When he gives him the third one, then, because he has had enough coffee, this one wants to leave and when he gives him the third cup, he says: "Sip!, this is Mouna's coffee!"
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=7984|AlignEnd=8102|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 2	mhaj	_	NUM	NUM	_	5	comp:obj	_	AlignBegin=8102|AlignEnd=8220|GE=three|RX=[NUM]|TokenType=Root
-3	-a	_	NUM	NUM	NumType=Ord	2	mod/m	_	AlignBegin=8220|AlignEnd=8337|GE=[ORD]|RX=[NUM]|TokenType=InflAff
+3	-a	_	X	NUM	NumType=Ord	2	mod/m	_	AlignBegin=8220|AlignEnd=8337|DerPos=ADJ|GE=[ORD]|RX=[NUM]|TokenType=DerAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=8337|AlignEnd=8455|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 5	niːw	_	VERB	V1	Aspect=Imp|VerbClass=1	6	comp	_	AlignBegin=8455|AlignEnd=8573|GE=give\IPFV|RX=[V1].[IRG]|TokenType=Root
 6	=hoːb	_	SCONJ	CONJ	_	13	mod	_	AlignBegin=8573|AlignEnd=8690|GE=when|RX=[CONJ]|TokenType=Clit
@@ -85,7 +85,7 @@
 10	buːn	_	NOUN	N	Gender=Masc	11	comp	_	AlignBegin=9544|AlignEnd=9692|GE=coffee|RX=[N].[M]|TokenType=Root
 11	lʔoː	_	ADJ	ADJ	_	13	comp:pred	_	AlignBegin=9692|AlignEnd=9766|GE=satiated|RX=[ADJ]|TokenType=Root
 12	=b	_	DET	DET	Case=Acc|Gender=Masc	11	det	_	AlignBegin=9766|AlignEnd=9840|GE=[INDF].[M].[ACC]|RX=[DET]|TokenType=Clit
-13	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	14	comp:obj	_	AlignBegin=9840|AlignEnd=9914|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
+13	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	14	comp	_	AlignBegin=9840|AlignEnd=9914|GE=[COP].[3SG]|RX=[PRED].[N]|TokenType=Clit
 14	=it	_	SCONJ	CONJ	_	17	mod	_	AlignBegin=9914|AlignEnd=9988|GE=[CSL]|RX=[CONJ]|TokenType=Clit
 15	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	17	subj	_	AlignBegin=9988|AlignEnd=10284|GE=[PROX].[SG].[M].[NOM]|RX=[SBJ].[DEM]|TokenType=Root
 16	/	_	PUNCT	_	_	15	punct	_	AlignBegin=10284|AlignEnd=10578|GE=[/]|TokenType=Break
@@ -96,7 +96,7 @@
 21	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	AlignBegin=12419|AlignEnd=12709|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|TokenType=Root
 22	i=	_	DET	DET	Definite=Def|Gender=Masc	23	det	_	AlignBegin=12709|AlignEnd=12806|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 23	mhaj	_	NUM	NUM	_	25	mod	_	AlignBegin=12806|AlignEnd=12903|GE=three|RX=[NUM]|TokenType=Root
-24	-a	_	NUM	NUM	NumType=Ord	23	mod/m	_	AlignBegin=12903|AlignEnd=12999|GE=[ORD]|RX=[NUM]|TokenType=InflAff
+24	-a	_	X	NUM	NumType=Ord	23	mod/m	_	AlignBegin=12903|AlignEnd=12999|DerPos=ADJ|GE=[ORD]|RX=[NUM]|TokenType=DerAff
 25	finʤaːn	_	NOUN	N	Gender=Masc	27	comp:obj	_	AlignBegin=12999|AlignEnd=13289|GE=cup|RX=[N].[M]|TokenType=Root
 26	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	27	subj/m	_	AlignBegin=13289|AlignEnd=13386|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 27	niːw	_	VERB	V1	Aspect=Imp|VerbClass=1	28	comp	_	AlignBegin=13386|AlignEnd=13483|GE=give\IPFV|RX=[V1].[IRG]|TokenType=Root

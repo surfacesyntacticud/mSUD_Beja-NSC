@@ -31,11 +31,11 @@
 6	i=	_	DET	DET	Definite=Def|Gender=Masc	7	det	_	AlignBegin=5901|AlignEnd=5948|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
 7	nabi	_	NOUN	N	Foreign=Yes|Gender=Masc	2	dislocated:obj	_	AlignBegin=5948|AlignEnd=5996|GE=prophet|Gloss=prophet|Lang=ar|RX=[N].[M].[BORR].[ARA]|TokenType=Root
 8	ʕalehu	ʕalehu issalaːt wa ssalaːm	X	_	Foreign=Yes	9	comp:obl	_	AlignBegin=6044|AlignEnd=6092|GE=on[ ]him|Gloss=on him|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-9	issalaːt	_	X	_	Foreign=Yes	7	parataxis:foreign	_	AlignBegin=6044|AlignEnd=6092|GE=the[ ]prayer|Gloss=the prayer|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+9	issalaːt	_	X	_	Foreign=Yes	7	parataxis	_	AlignBegin=6044|AlignEnd=6092|GE=the[ ]prayer|Gloss=the prayer|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 10	wa	_	X	_	Foreign=Yes	9	cc	_	AlignBegin=6044|AlignEnd=6092|GE=the[ ]prayer|Gloss=the prayer|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 11	ssalaːm	_	X	_	Foreign=Yes	9	conj:coord	_	AlignBegin=6044|AlignEnd=6092|GE=the_peace|Gloss=the_peace|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 12	ʕalehu	_	X	_	Foreign=Yes	13	comp:obl	_	AlignBegin=6379|AlignEnd=6619|GE=on[ ]him|Gloss=on him|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-13	issalaːt	_	X	_	Foreign=Yes	9	parataxis:foreign	_	AlignBegin=6619|AlignEnd=6858|GE=the[ ]prayer|Gloss=the prayer|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+13	issalaːt	_	X	_	Foreign=Yes	9	parataxis	_	AlignBegin=6619|AlignEnd=6858|GE=the[ ]prayer|Gloss=the prayer|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 14	wa	_	X	_	Foreign=Yes	13	cc	_	AlignBegin=6858|AlignEnd=7097|GE=and|Gloss=and|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 15	ssalaːm	_	X	_	Foreign=Yes	13	conj:coord	_	AlignBegin=7097|AlignEnd=7337|GE=the_peace|Gloss=the_peace|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	2	punct	_	AlignBegin=7576|AlignEnd=8752|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
@@ -1454,7 +1454,7 @@
 15	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	14	subj/m	_	AlignBegin=252018|AlignEnd=252099|GE=-[IPFV].[3PL]|RX=-[TAM].[PNG]|TokenType=InflAff
 16	=hoːb	_	SCONJ	CONJ	_	29	mod	_	AlignBegin=252099|AlignEnd=252181|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 17	/	_	PUNCT	PUNCT	_	16	punct	_	AlignBegin=252181|AlignEnd=252426|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
-18	ti=	_	PRON	REL	Definite=Def|Gender=Fem|PronType=Rel	23	comp:obj	_	AlignBegin=252426|AlignEnd=252509|GE=[DEF].[F]=|RX=[REL]=|TokenType=Clit
+18	ti=	_	PRON	REL	Definite=Def|Gender=Fem|PronType=Rel	23	comp	_	AlignBegin=252426|AlignEnd=252509|GE=[DEF].[F]=|RX=[REL]=|TokenType=Clit
 19	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	20	det	_	AlignBegin=252509|AlignEnd=252593|GE=[DEF].[SG].[M]=|RX=[DET]=|TokenType=Clit
 20	hagiː	_	NOUN	N	Gender=Masc	18	mod@relcl	_	AlignBegin=252593|AlignEnd=252677|GE=buttocks|Gloss=buttocks|RX=[N].[M]|TokenType=Root
 21	=t	_	DET	DET	Gender=Fem	20	det	_	AlignBegin=252677|AlignEnd=252760|GE==[INDF].[F]|RX==[DET]|TokenType=Clit

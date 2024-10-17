@@ -76,7 +76,7 @@
 # text = eː= kam ji= iː- bri -n =eː =naː =iːb kaːm hoːj danri eːn //
 # text_en = he killed them one of the camels they had, they said.
 1	eː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	2	det	_	AlignBegin=13641|AlignEnd=13811|GE=[DEF].[PL].[M].[ACC]|RX=[DET]|TokenType=Clit
-2	kam	_	NOUN	N	_	9	comp:obj	_	AlignBegin=13811|AlignEnd=13981|GE=camel|RX=[N]|TokenType=Root
+2	kam	_	NOUN	N	_	9	comp	_	AlignBegin=13811|AlignEnd=13981|GE=camel|RX=[N]|TokenType=Root
 3	ji=	_	PRON	CONJ.REL	Gender=Masc|Number=Plur|PronType=Rel	5	comp:obj	_	AlignBegin=13981|AlignEnd=14030|GE=[REL].[PL].[M]|RX=[CONJ]|TokenType=Clit
 4	iː-	_	PRON	PNG	Person=3	5	subj/m	_	AlignBegin=14030|AlignEnd=14079|GE=[3]|RX=[PNG]|TokenType=InflAff
 5	bri	_	VERB	V1	Aspect=Aor|VerbClass=1	7	comp	_	AlignBegin=14079|AlignEnd=14128|GE=have\AOR|RX=[V1].[IRG]|TokenType=Root
@@ -476,8 +476,8 @@
 16	/	_	PUNCT	_	_	14	punct	_	AlignBegin=75741|AlignEnd=76157|GE=[/]|TokenType=Break
 17	w=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	18	det	_	AlignBegin=76683|AlignEnd=76841|GE=[DEF].[SG].[M].[NOM|RX=[DET]|TokenType=Clit
 18	jhaːm	_	NOUN	N	Gender=Masc	22	udep	_	AlignBegin=76841|AlignEnd=76998|GE=leopard|RX=[N].[M]|TokenType=Root
-19	hasara	_	PART	PTCL	_	18	cc	_	AlignBegin=76998|AlignEnd=77313|GE=[ADVS]|RX=[PTCL]|TokenType=Root
-20	/	_	PUNCT	_	_	19	punct	_	AlignBegin=77313|AlignEnd=77628|GE=[/]|TokenType=Break
+19	hasara	_	ADV	PTCL	_	18	discourse	_	AlignBegin=76998|AlignEnd=77313|GE=[ADVS]|RX=[PTCL]|TokenType=Root
+20	/	_	PUNCT	_	_	18	punct	_	AlignBegin=77313|AlignEnd=77628|GE=[/]|TokenType=Break
 21	i=	_	DET	DET	Definite=Def|Gender=Masc	22	det	_	AlignBegin=77858|AlignEnd=78017|GE=[DEF].[M]|RX=[DET]|TokenType=Clit
 22	daba	_	NOUN	N	Gender=Masc	25	subj	_	AlignBegin=78017|AlignEnd=78176|GE=front|RX=[SBJ].[N].[M]|TokenType=Root
 23	aniː	_	PRON	PRO	Case=Gen|Number=Sing|Person=1|Poss=Yes	24	udep	_	AlignBegin=78176|AlignEnd=78494|GE=[POSS].[1SG].[GEN]|RX=[PRO]|TokenType=Root
@@ -638,7 +638,7 @@
 20	/	_	PUNCT	_	_	18	punct	_	AlignBegin=100959|AlignEnd=101365|GE=[/]|TokenType=Break
 21	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	23	subj	_	AlignBegin=101365|AlignEnd=101660|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 22	a-	_	PRON	PNG	Number=Sing|Person=1	23	subj/m	_	AlignBegin=101660|AlignEnd=101808|GE=[1SG]|RX=[PNG]|TokenType=InflAff
-23	nʈʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	25	comp:obj	_	AlignBegin=101808|AlignEnd=101955|GE=hit\IPFV|Reported=Yes|RX=[V1]|TokenType=Root|TypeToken=stem
+23	nʈʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	25	comp	_	AlignBegin=101808|AlignEnd=101955|GE=hit\IPFV|Reported=Yes|RX=[V1]|TokenType=Root|TypeToken=stem
 24	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	det	_	AlignBegin=101955|AlignEnd=102029|GE=[DEF].[SG].[M].[ACC]|RX=[DET]|TokenType=Clit
 25	mi-	_	SCONJ	N.V	_	30	conj:coord	_	AlignBegin=102029|AlignEnd=102103|DerPos=NOUN|GE=[N].[AC]|RX=[N].[V]|TokenType=DerAff
 26	jaːd	_	VERB	V1	VerbClass=1	25	comp/m	_	AlignBegin=102103|AlignEnd=102177|GE=say|RX=[V1].[IRG]|TokenType=Root
