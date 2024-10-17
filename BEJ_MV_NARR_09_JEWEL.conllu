@@ -34,7 +34,7 @@
 27	amas	_	ADV	ADV	_	28	mod	_	AlignBegin=6759|AlignEnd=7106|GE=at_night|RX=[ADV]|TokenType=Root
 28	kʷanri	_	VERB	V1	Aspect=Imp|Number=Sing|Person=3|VerbClass=1	29	comp:obj	_	AlignBegin=7106|AlignEnd=7453|GE=graze\IPFV.[3SG]|Reported=Yes|RX=[V1]|TokenType=Root
 29	di	_	VERB	V1	Aspect=Perf|VerbClass=1	30	comp/m	_	AlignBegin=7453|AlignEnd=7627|GE=say|RX=[V1].[IRG]|TokenType=Root
-30	-jeː	_	AUX	_	_	32	mod	_	AlignBegin=7627|AlignEnd=7800|DerPos=NOUN|GE=[CVB].[SMLT]|TokenType=DerAff
+30	-jeː	_	AUX	_	_	32	mod	_	AlignBegin=7627|AlignEnd=7800|DerPos=VERB|GE=[CVB].[SMLT]|TokenType=DerAff
 31	eː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	32	subj/m	_	AlignBegin=7800|AlignEnd=7916|GE=[3SG].[M]|RX=[PNG]|TokenType=InflAff
 32	msiːw	_	VERB	V1	Aspect=Imp|VerbClass=1	33	comp	_	AlignBegin=7916|AlignEnd=8032|GE=hear\INT.IPFV|RX=[V1].[DER]|TokenType=Root
 33	=hoːb	_	SCONJ	CONJ	_	38	mod	_	AlignBegin=8032|AlignEnd=8147|GE=when|RX=[CONJ]|TokenType=Clit
@@ -148,11 +148,11 @@
 # text = gʷʔadeː gʷʔadeː gʷʔadeː / uːt tuːtji titfarʔijaːt /
 # text_en =  While he watches during a long time, the monster goes out and
 1	gʷʔad	_	VERB	V1	VerbClass=1	2	comp/m	_	AlignBegin=28644|AlignEnd=28798|GE=watch|RX=[V1]|TokenType=Root
-2	-eː	_	AUX	_	_	3	conj:coord	_	AlignBegin=28798|AlignEnd=28951|DerPos=NOUN|GE=[CVB].[SMLT]|TokenType=DerAff
+2	-eː	_	AUX	_	_	3	conj:coord	_	AlignBegin=28798|AlignEnd=28951|DerPos=VERB|GE=[CVB].[SMLT]|TokenType=DerAff
 3	gʷʔad	_	VERB	V1	VerbClass=1	4	comp/m	_	AlignBegin=28951|AlignEnd=29105|GE=watch|RX=[V1]|TokenType=Root
-4	-eː	_	AUX	_	_	5	conj:coord	_	AlignBegin=29105|AlignEnd=29258|DerPos=NOUN|GE=[CVB].[SMLT]|TokenType=DerAff
+4	-eː	_	AUX	_	_	5	conj:coord	_	AlignBegin=29105|AlignEnd=29258|DerPos=VERB|GE=[CVB].[SMLT]|TokenType=DerAff
 5	gʷʔad	_	VERB	V1	VerbClass=1	6	comp/m	_	AlignBegin=29258|AlignEnd=29412|GE=watch|RX=[V1]|TokenType=Root
-6	-eː	_	AUX	_	_	12	mod	_	AlignBegin=29412|AlignEnd=29565|DerPos=NOUN|GE=[CVB].[SMLT]|TokenType=DerAff
+6	-eː	_	AUX	_	_	12	mod	_	AlignBegin=29412|AlignEnd=29565|DerPos=VERB|GE=[CVB].[SMLT]|TokenType=DerAff
 7	/	_	PUNCT	_	_	6	punct	_	AlignBegin=29565|AlignEnd=29873|GE=[/]|TokenType=Break
 8	uːt	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	AlignBegin=29873|AlignEnd=30230|GE=[PROX].[SG].[F].[NOM]|RX=[DEM]|TokenType=Root
 9	tuː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	det	_	AlignBegin=30230|AlignEnd=30408|GE=[DEF].[SG].[F].[NOM]|RX=[DET]|TokenType=Clit
