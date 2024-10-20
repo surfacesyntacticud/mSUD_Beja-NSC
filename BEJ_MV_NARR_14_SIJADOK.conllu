@@ -224,7 +224,7 @@
 3	-it	_	SCONJ	N.V	_	4	comp	_	AlignBegin=49496|AlignEnd=49611|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 4	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	5	mod@relcl	_	AlignBegin=49611|AlignEnd=49726|GE==[REL].[F]|RX==[CONJ]|TokenType=Clit
 5	takat	_	NOUN	N	Gender=Fem	6	subj	_	AlignBegin=49726|AlignEnd=50071|GE=woman|Gloss=woman|RX=[SBJ].[N].[F]|TokenType=Root
-6	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	9	comp:obj	_	AlignBegin=50071|AlignEnd=50243|GE=[IPFV].[[][3SG].[F][]]|Gloss=seek|Reported=Yes|RX=[V1]|TokenType=Root
+6	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	9	comp:obj	_	AlignBegin=50071|AlignEnd=50243|GE=[IPFV].[3SG].[F]|Gloss=seek|Reported=Yes|RX=[V1]|TokenType=Root
 7	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	6	comp:obj	_	AlignBegin=50243|AlignEnd=50416|GE==[OBJ].[2SG]|RX==[PRO]|TokenType=Clit
 8	eː-	_	PRON	PNG	Person=3	9	subj/m	_	AlignBegin=50416|AlignEnd=50502|GE=[3]-|RX=[PNG]-|TokenType=InflAff
 9	d	_	VERB	V1	Aspect=Imp|Number=Plur|Person=3|VerbClass=1	11	comp	_	AlignBegin=50502|AlignEnd=50588|GE=[IPFV].[3PL]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -379,7 +379,7 @@
 31	barraːb	_	ADP	POSTP	_	32	mod	_	AlignBegin=82591|AlignEnd=82847|GE=outside|Gloss=outside|RX=[POSTP]|TokenType=Root
 32	sʔ	_	VERB	V1	VerbClass=1	33	comp/m	_	AlignBegin=82847|AlignEnd=82975|GE=[MID]|Gloss=sit|RX=[V1].[DER]|TokenType=Root
 33	-eː	_	AUX	CVB	VerbForm=Conv	34	mod	_	AlignBegin=82975|AlignEnd=83103|DerPos=VERB|GE=-[CVB].[SMLT]|RX=-.|TokenType=DerAff
-34	sanni	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=83103|AlignEnd=83360|GE=[IPFV].[[][3SG][]]|Gloss=wait|RX=[V1]|TokenType=Root
+34	sanni	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=83103|AlignEnd=83360|GE=[IPFV].[3SG]|Gloss=wait|RX=[V1]|TokenType=Root
 35	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	34	discourse	_	AlignBegin=83360|AlignEnd=83616|GE=[PFV].[3PL]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 36	//	_	PUNCT	PUNCT	_	38	punct	_	AlignBegin=83616|AlignEnd=83873|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 37	i=	_	DET	DET	Definite=Def|Gender=Masc	38	det	_	AlignBegin=83873|AlignEnd=83975|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
@@ -750,7 +750,7 @@
 18	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	20	det	_	AlignBegin=148625|AlignEnd=149003|GE=[PROX].[SG].[M].[NOM]|RX=[DEM]|TokenType=Root
 19	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	det	_	AlignBegin=149003|AlignEnd=149192|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 20	tak	_	NOUN	N	Gender=Masc	21	subj	_	AlignBegin=149192|AlignEnd=149382|GE=man|Gloss=man|RX=[SBJ].[N].[M]|TokenType=Root
-21	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	23	comp	_	AlignBegin=149382|AlignEnd=149508|GE=[IPFV].[[][3SG][]]|Gloss=seek|RX=[V1]|TokenType=Root
+21	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	23	comp	_	AlignBegin=149382|AlignEnd=149508|GE=[IPFV].[3SG]|Gloss=seek|RX=[V1]|TokenType=Root
 22	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	21	comp:obj	_	AlignBegin=149508|AlignEnd=149634|GE==[OBJ].[2SG]|RX==[PRO]|TokenType=Clit
 23	=aj	_	SCONJ	CONJ	_	14	dislocated:mod	_	AlignBegin=149634|AlignEnd=149760|GE==[CSL]|RX==[CONJ]|TokenType=Clit
 24	//	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=149760|AlignEnd=150591|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
@@ -1155,7 +1155,7 @@
 2	ʤoːhar	_	NOUN	N	Gender=Masc	3	comp	_	AlignBegin=218271|AlignEnd=218431|GE=jewel|Gloss=jewel|RX=[SBJ].[N].[M]|TokenType=Root
 3	hoːj	_	ADP	POSTP	Case=Loc	5	comp:obl	_	AlignBegin=218431|AlignEnd=218750|GE=[LOC]|RX=[POSTP]|TokenType=Root
 4	i-	_	PRON	V1	Aspect=Aor|VerbClass=1	5	subj/m	_	AlignBegin=218750|AlignEnd=219069|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
-5	hi	hi	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=218750|AlignEnd=219069|GE=[AOR].[[][3SG].[M][]]|Gloss=be_there|RX=[V1].[IRG]|TokenType=Root
+5	hi	hi	VERB	V1	Aspect=Aor|VerbClass=1	0	root	_	AlignBegin=218750|AlignEnd=219069|GE=[AOR].[3SG].[M]|Gloss=be_there|RX=[V1].[IRG]|TokenType=Root
 6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=219069|AlignEnd=219930|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_14_sijadok_257-259

@@ -616,7 +616,7 @@
 12	mali	_	PART	PTCL	_	15	discourse	_	AlignBegin=122443|AlignEnd=122634|GE=two|Gloss=two|RX=[PTCL]|TokenType=Root
 13	-a	_	NUM	NUM	NumType=Ord	12	mod/m	_	AlignBegin=122634|AlignEnd=122826|GE=-[ORD]|RX=-[NUM]|TokenType=InflAff
 14	aneːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	15	comp:obj	_	AlignBegin=122826|AlignEnd=123210|GE=[1SG].[ACC]|RX=[PRO]|TokenType=Root
-15	kantiːm	_	VERB	V1	Aspect=Imp|VerbClass=1	17	comp	_	AlignBegin=123210|AlignEnd=123338|GE=[IPFV].[[][2SG].[M][]]|Gloss=arrive|RX=[V1]|TokenType=Root
+15	kantiːm	_	VERB	V1	Aspect=Imp|VerbClass=1	17	comp	_	AlignBegin=123210|AlignEnd=123338|GE=[IPFV].[2SG].[M]|Gloss=arrive|RX=[V1]|TokenType=Root
 16	=oː	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	15	comp:obj	_	AlignBegin=123338|AlignEnd=123466|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
 17	=hoːb	_	SCONJ	CONJ	_	20	mod	_	AlignBegin=123466|AlignEnd=123594|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 18	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=123594|AlignEnd=124331|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
@@ -692,14 +692,14 @@
 # text_en = When he ties it well it says: 'Hey! What's the matter? You have killed me!' [and]
 1	hakʷir	_	VERB	V1	VerbClass=1	2	comp/m	_	AlignBegin=138026|AlignEnd=138159|GE=bind|Gloss=bind|RX=[V1]|TokenType=Root
 2	-ti	_	AUX	CVB	VerbForm=Conv	3	comp:aux	_	AlignBegin=138159|AlignEnd=138292|DerPos=NOUN|GE=-[CVB].[GNRL]|RX=-.|TokenType=DerAff
-3	dannʔi	_	AUX	AUX.EMPH	Aspect=Imp	4	comp	_	AlignBegin=138292|AlignEnd=138425|GE=[IPFV].[[][3SG][]]|Gloss=do|RX=[AUX].[EMPH]|TokenType=Root
+3	dannʔi	_	AUX	AUX.EMPH	Aspect=Imp	4	comp	_	AlignBegin=138292|AlignEnd=138425|GE=[IPFV].[3SG]|Gloss=do|RX=[AUX].[EMPH]|TokenType=Root
 4	=hoːb	_	SCONJ	CONJ	_	16	mod	_	AlignBegin=138425|AlignEnd=138558|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=138558|AlignEnd=138825|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 6	jhaː	_	INTJ	PTCL	Gender=Masc|Number=Sing	10	vocative	_	AlignBegin=138825|AlignEnd=139144|GE=[ADRF].[SG].[M]|RX=[PTCL]|TokenType=Root
 7	naːnaːt	naːnaːt	ADV	_	PronType=Int	10	mod	_	GE=how|RX=[PRO].[INTER]|TokenType=Root
 8	=iː	_	ADP	POSTP	Case=Abl|Number=Sing	7	comp	_	AlignBegin=139357|AlignEnd=139464|GE==[ABL].[SG]|RX==[POSTP]|TokenType=Clit
 9	ti-	_	PRON	PNG	Number=Sing|Person=2	10	subj/m	_	AlignBegin=139464|AlignEnd=139570|GE=[2SG]-|RX=[PNG]-|TokenType=InflAff
-10	dir	_	VERB	V1	Aspect=Perf|VerbClass=1	16	comp:obj	_	AlignBegin=139570|AlignEnd=139677|GE=[PFV].[[][M][]]|Gloss=kill|Reported=Yes|RX=[V1]|TokenType=Root
+10	dir	_	VERB	V1	Aspect=Perf|VerbClass=1	16	comp:obj	_	AlignBegin=139570|AlignEnd=139677|GE=[PFV].[M]|Gloss=kill|Reported=Yes|RX=[V1]|TokenType=Root
 11	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	10	comp:obj	_	AlignBegin=139677|AlignEnd=139784|GE==[POSS].[1SG].[NOM]|RX==[PRO]|TokenType=Root
 12	/	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=139784|AlignEnd=140104|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 13	ǝǝǝ	_	INTJ	HESIT	_	16	conj:dicto	_	AlignBegin=140104|AlignEnd=140385|GE=er|Gloss=er|RX=[HESIT]|TokenType=Root
@@ -740,7 +740,7 @@
 9	=had	_	ADP	POSTP	_	11	comp:obl	_	AlignBegin=144630|AlignEnd=144782|GE==until|Gloss==until|RX==[POSTP]|TokenType=Clit
 10	//	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=144782|AlignEnd=145654|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 11	fiːn	_	VERB	V2	VerbClass=2	12	comp/m	_	AlignBegin=145654|AlignEnd=145742|GE=rest|Gloss=rest|RX=[V2]|TokenType=Root
-12	-at	_	PRON	TAM.PNG	Mood=Pot	13	comp	_	AlignBegin=145742|AlignEnd=145830|GE=-[POT].[[][1SG][]]|RX=-[TAM].[PNG]|TokenType=InflAff
+12	-at	_	PRON	TAM.PNG	Mood=Pot	13	comp	_	AlignBegin=145742|AlignEnd=145830|GE=-[POT].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 13	=aj	_	SCONJ	CONJ	_	6	dislocated:mod	_	AlignBegin=145830|AlignEnd=145918|GE==[CSL]|RX==[CONJ]|TokenType=Clit
 14	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	15	subj/m	_	AlignBegin=145918|AlignEnd=146050|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 15	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=146050|AlignEnd=146183|GE=[IPFV]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -974,7 +974,7 @@
 7	tak	_	NOUN	N	Gender=Masc	14	comp:obj	_	AlignBegin=190217|AlignEnd=190377|GE=man|Gloss=man|RX=[N].[M]|TokenType=Root
 8	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=190377|AlignEnd=190697|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 9	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1	12	subj	_	AlignBegin=190697|AlignEnd=190936|GE=[1PL].[NOM]|RX=[PRO]|TokenType=Root
-10	ʃibi#	_	X	FS	_	12	conj:dicto	_	AlignBegin=190936|AlignEnd=191176|GE=ʃibi[#]|Gloss=ʃibi#|RX=[FS]|TokenType=Root
+10	ʃibi#	_	X	FS	_	12	conj:dicto	_	AlignBegin=190936|AlignEnd=191176|RX=[FS]|TokenType=Root
 11	##	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=191176|AlignEnd=191416|GE=[PUNCT]|RX=[PUNCT]|TokenType=Root
 12	ʃibib	_	VERB	V1	VerbClass=1	13	comp/m	_	AlignBegin=191416|AlignEnd=191583|GE=look|Gloss=look|RX=[V1]|TokenType=Root
 13	-a	_	AUX	CVB	VerbForm=Conv	14	comp:aux	_	AlignBegin=191583|AlignEnd=191751|DerPos=VERB|GE=-[CVB].[MNR]|RX=-.|TokenType=DerAff
