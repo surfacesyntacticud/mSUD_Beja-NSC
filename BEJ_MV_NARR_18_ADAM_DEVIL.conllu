@@ -396,7 +396,7 @@
 # phonetic_text = imoːrarimna eːn //
 # text_en = they leave together, they said.
 1	i-	_	PRON	PNG	Person=3	3	subj/m	_	AlignBegin=79648|AlignEnd=79731|GE=[3]-|RX=[PNG]-|TokenType=InflAff
-2	moː-	_	AUX	V1	VerbClass=1|Voice=Rcp	3	comp/m	_	AlignBegin=79731|AlignEnd=79815|DerPos=VERB|GE=[RECP]-|RX=[V1].[DER]|TokenType=DerAff
+2	moː-	_	AUX	V1	VerbClass=1|Voice=Rcp	3	comp/m	_	AlignBegin=79731|AlignEnd=79815|DerPos=VERB|GE=[RECP]-|RX=[V1].[DER]-|TokenType=DerAff
 3	ra~rim	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=79815|AlignEnd=79898|GE=[PLAC].[IPFV]|Gloss=accompany|RX=[V1].[DER]|TokenType=Root
 4	-na	_	PRON	PNG	Number=Plur	3	subj/m	_	AlignBegin=79898|AlignEnd=79982|GE=-[PL]|RX=-[PNG]|TokenType=InflAff
 5	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	3	discourse	_	AlignBegin=79982|AlignEnd=80316|GE=[PFV].[3PL]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -1297,7 +1297,7 @@
 12	ʃiːtaːn	_	NOUN	N	Gender=Masc	14	subj	_	AlignBegin=246027|AlignEnd=246093|GE=devil|Gloss=devil|RX=[SBJ].[N].[M]|TokenType=Root
 13	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=246093|AlignEnd=246225|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 14	ɖaːb	_	VERB	V2	VerbClass=2	15	comp/m	_	AlignBegin=246225|AlignEnd=246388|GE=run|Gloss=run|RX=[V2]|TokenType=Root
-15	-eː	_	PUNCT	PUNCT.CVB	VerbForm=Conv	20	mod	_	AlignBegin=246388|AlignEnd=246551|DerPos=VERB|GE=-[CVB].[SMLT]|RX=[PUNCT]|TokenType=DerAff
+15	-eː	_	PUNCT	PUNCT.CVB	VerbForm=Conv	20	mod	_	AlignBegin=246388|AlignEnd=246551|DerPos=VERB|GE=-[CVB].[SMLT]|RX=-[PUNCT]|TokenType=DerAff
 16	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	17	discourse	_	AlignBegin=246551|AlignEnd=246877|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|TokenType=Root
 17	aːdam	_	PROPN	N	_	18	comp	_	AlignBegin=246877|AlignEnd=246985|GE=[Adam]|RX=[N].[PROP]|TokenType=Root
 18	=i	_	ADP	CASE	Case=Gen	19	udep	_	AlignBegin=246985|AlignEnd=247094|GE==[GEN]|RX==[CASE]|TokenType=Clit

@@ -167,7 +167,7 @@
 8	d	_	VERB	V1	Aspect=Aor|VerbClass=1	9	comp	_	AlignBegin=33296|AlignEnd=33362|GE=[AOR]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 9	=hoːb	_	SCONJ	CONJ	_	18	mod	_	AlignBegin=33362|AlignEnd=33428|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 10	//	_	PUNCT	PUNCT	_	9	punct	_	AlignBegin=33428|AlignEnd=33626|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
-11	si-	_	AUX	V1	VerbClass=1|Voice=Cau	18	comp:obj	_	AlignBegin=33626|AlignEnd=33739|DerPos=VERB|GE=[CAUS]-|Reported=Yes|RX=[V1].[DER]|TokenType=DerAff
+11	si-	_	AUX	V1	VerbClass=1|Voice=Cau	18	comp:obj	_	AlignBegin=33626|AlignEnd=33739|DerPos=VERB|GE=[CAUS]-|Reported=Yes|RX=[V1].[DER]-|TokenType=DerAff
 12	maːsiw	_	VERB	V1	VerbClass=1	11	comp/m	_	AlignBegin=33739|AlignEnd=33852|GE=[INT]|Gloss=hear|RX=[V1].[DER]|TokenType=Root
 13	-i	_	PRON	TAM.PNG	Gender=Fem|Mood=Imp|Number=Sing	12	subj/m	_	AlignBegin=33852|AlignEnd=33965|GE=-[IMP].[SG].[F]|RX=-[TAM].[PNG]|TokenType=InflAff
 14	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	12	comp:obj	_	AlignBegin=33965|AlignEnd=34079|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
@@ -369,7 +369,7 @@
 16	d	_	VERB	V1	Aspect=Aor|VerbClass=1	17	comp	_	AlignBegin=68735|AlignEnd=68855|GE=[AOR]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 17	=hoːb	_	SCONJ	CONJ	_	28	mod	_	AlignBegin=68855|AlignEnd=68975|GE==when|Gloss==when|RX==[CONJ]|TokenType=Clit
 18	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=68975|AlignEnd=70197|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
-19	i=	_	DET	PNG	Definite=Def|Gender=Masc	20	det	_	AlignBegin=70197|AlignEnd=70303|GE=[DEF].[M]=|RX=[PNG]-|TokenType=Clit
+19	i=	_	DET	PNG	Definite=Def|Gender=Masc	20	det	_	AlignBegin=70197|AlignEnd=70303|GE=[DEF].[M]=|RX=[PNG]=|TokenType=Clit
 20	nabi	_	NOUN	N	Gender=Masc	21	comp	_	AlignBegin=70303|AlignEnd=70410|GE=prophet|Gloss=prophet|RX=[N].[M]|TokenType=Root
 21	=i	_	ADP	CASE	Case=Gen	23	udep	_	AlignBegin=70410|AlignEnd=70517|GE==[GEN]|RX==[CASE]|TokenType=Clit
 22	=t	_	DET	DET	Gender=Fem	23	det	_	AlignBegin=70517|AlignEnd=70624|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
@@ -770,7 +770,7 @@
 10	=wa	_	CCONJ	CONJ	_	8	cc	_	AlignBegin=138782|AlignEnd=138921|GE==[COORD]|RX==[CONJ]|TokenType=Clit
 11	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=138921|AlignEnd=139564|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 12	i-	_	PRON	PNG	Person=3	13	subj/m	_	AlignBegin=139564|AlignEnd=139640|GE=[3]-|RX=[PNG]-|TokenType=InflAff
-13	moː-	_	AUX	V1	VerbClass=1|Voice=Rcp	14	comp/m	_	AlignBegin=139640|AlignEnd=139716|DerPos=VERB|GE=[RECP]-|RX=[V1].[DER]|TokenType=DerAff
+13	moː-	_	AUX	V1	VerbClass=1|Voice=Rcp	14	comp/m	_	AlignBegin=139640|AlignEnd=139716|DerPos=VERB|GE=[RECP]-|RX=[V1].[DER]-|TokenType=DerAff
 14	ra~rim	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=139716|AlignEnd=139792|GE=[PLAC].[IPFV]|Gloss=accompany|RX=[V1].[DER]|TokenType=Root
 15	-na	_	PRON	PNG	Number=Plur	14	subj/m	_	AlignBegin=139792|AlignEnd=139869|GE=-[PL]|RX=-[PNG]|TokenType=InflAff
 16	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=139869|AlignEnd=140175|GE=[PFV].[3PL]|Gloss=say|RX=[V1].[IRG]|TokenType=Root
@@ -796,7 +796,7 @@
 1	t-	_	PRON	PNG	Number=Sing|Person=2	2	subj/m	_	AlignBegin=142656|AlignEnd=142779|GE=[2SG]-|RX=[PNG]-|TokenType=InflAff
 2	haragʷi	_	VERB	V1	Aspect=Imp|VerbClass=1	3	comp	_	AlignBegin=142779|AlignEnd=142902|GE=[IPFV]|Gloss=be_hungry|RX=[V1].[IRG]|TokenType=Root
 3	=jeːk	_	SCONJ	CONJ	_	4	mod	_	AlignBegin=142902|AlignEnd=143025|GE==if|Gloss==if|RX==[CONJ]|TokenType=Clit
-4	soː-	_	AUX	V1	VerbClass=1|Voice=Cau	5	comp/m	_	AlignBegin=143025|AlignEnd=143117|DerPos=VERB|GE=[CAUS]-|RX=[V1].[DER]|TokenType=DerAff
+4	soː-	_	AUX	V1	VerbClass=1|Voice=Cau	5	comp/m	_	AlignBegin=143025|AlignEnd=143117|DerPos=VERB|GE=[CAUS]-|RX=[V1].[DER]-|TokenType=DerAff
 5	j	_	VERB	V1	VerbClass=1	10	comp:obj	_	AlignBegin=143117|AlignEnd=143210|GE=say|Gloss=say|Reported=Yes|RX=[V1].[IRG]|TokenType=Root
 6	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	5	subj/m	_	AlignBegin=143210|AlignEnd=143302|GE=-[IMP].[SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 7	=heːb	_	PRON	PRO	Case=Acc|Number=Sing|Person=1	5	comp:obj	_	AlignBegin=143302|AlignEnd=143395|GE==[OBJ].[1SG]|RX==[PRO]|TokenType=Clit
