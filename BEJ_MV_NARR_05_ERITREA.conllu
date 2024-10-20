@@ -6,7 +6,7 @@
 # text = tigabaːteːtiːb / askinaːbaːjt //
 # text_en =  As we were living at Gabeet
 1	ti=	_	DET	DET	Definite=Def|Gender=Fem	2	det	_	AlignBegin=0|AlignEnd=177|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
-2	gabaːteː	_	PROPN	N	_	4	comp	_	AlignBegin=177|AlignEnd=354|GE=[Gabeet]|RX=[N].[PROP]|TokenType=Root
+2	gabaːteː	_	PROPN	N	_	4	comp	_	AlignBegin=177|AlignEnd=354|GE=Gabeet|RX=[N].[PROP]|TokenType=Root
 3	=t	_	DET	DET	Gender=Fem	2	det	_	AlignBegin=354|AlignEnd=531|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
 4	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	6	comp:obl	_	AlignBegin=531|AlignEnd=708|GE==[LOC].[SG]|RX==[POSTP]|TokenType=Clit
 5	/	_	PUNCT	_	_	4	punct	_	AlignBegin=708|AlignEnd=1416|GE=[/]|TokenType=Break
@@ -25,7 +25,7 @@
 # text = iʃaraf // ani geːb iːfijeː / ahamad // whasan ʔoːriwa / ahamad whasan ʔoːri naːji ʔarwa / ahamad uːknawa / harnaːjeːtida ʔiːbaːbeːnajt / ʔiːbaːbkna giːgeːn /
 # text_en =  and the Ashraf among whom I was (were), the children of Ahmad, the son of the son of Hasan and Ahmed himself, as they are travelling to Harnajeet, the travellers leave,
 1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=3911|AlignEnd=4107|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
-2	ʃaraf	_	PROPN	N	_	36	dislocated:subj	_	AlignBegin=4107|AlignEnd=4303|GE=[Ashraf]|RX=[N].[PROP]|TokenType=Root
+2	ʃaraf	_	PROPN	N	_	36	dislocated:subj	_	AlignBegin=4107|AlignEnd=4303|GE=Ashraf|RX=[N].[PROP]|TokenType=Root
 3	//	_	PUNCT	_	_	2	punct	_	AlignBegin=4303|AlignEnd=4694|GE=[//]|TokenType=Break
 4	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	7	subj	_	AlignBegin=4694|AlignEnd=4995|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 5	geːb	_	ADP	POSTP	_	7	comp:obl	_	AlignBegin=4995|AlignEnd=5296|GE=beside|RX=[POSTP]|TokenType=Root
@@ -33,17 +33,17 @@
 7	fi	_	VERB	V1	Aspect=Aor|VerbClass=1	8	comp	_	AlignBegin=5396|AlignEnd=5496|GE=be_there\AOR|RX=[V1].[IRG]|TokenType=Root
 8	=jeː	_	SCONJ	CONJ.REL	PronType=Rel	2	mod@relcl	_	AlignBegin=5496|AlignEnd=5597|GE==[REL]|RX==[CONJ]|TokenType=Clit
 9	/	_	PUNCT	_	_	2	punct	_	AlignBegin=5597|AlignEnd=5898|GE=[/]|TokenType=Break
-10	ahamad	_	PROPN	N	_	13	conj:coord	_	AlignBegin=6944|AlignEnd=7225|GE=[Ahmed]|RX=[N].[PROP]|TokenType=Root
+10	ahamad	_	PROPN	N	_	13	conj:coord	_	AlignBegin=6944|AlignEnd=7225|GE=Ahmed|RX=[N].[PROP]|TokenType=Root
 11	//	_	PUNCT	_	_	10	punct	_	AlignBegin=7225|AlignEnd=7506|GE=[//]|TokenType=Break
 12	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	13	det	_	AlignBegin=8676|AlignEnd=8868|GE=[DEF].[SG].[M]=|RX=[DET]=|TokenType=Clit
-13	hasan	_	PROPN	N	_	14	comp	_	AlignBegin=8868|AlignEnd=9060|GE=[Hasan]|RX=[N].[PROP]|TokenType=Root
+13	hasan	_	PROPN	N	_	14	comp	_	AlignBegin=8868|AlignEnd=9060|GE=Hasan|RX=[N].[PROP]|TokenType=Root
 14	ʔoːr	_	NOUN	N	_	15	comp	_	AlignBegin=9060|AlignEnd=9188|GE=child|RX=[N]|TokenType=Root
 15	=i	_	ADP	CASE	Case=Gen	22	conj:coord	_	AlignBegin=9188|AlignEnd=9316|GE==[GEN]|RX==[CASE]|TokenType=Clit|wordform=-i
 16	=wa	_	CCONJ	CONJ	_	15	cc	_	AlignBegin=9316|AlignEnd=9444|GE==[COORD]|RX==[CONJ]|TokenType=Clit
 17	/	_	PUNCT	_	_	15	punct	_	AlignBegin=9444|AlignEnd=9829|GE=[/]|TokenType=Break
-18	ahamad	_	PROPN	N	_	20	conj:coord	_	AlignBegin=10187|AlignEnd=10487|GE=[Ahmed]|RX=[N].[PROP]|TokenType=Root
+18	ahamad	_	PROPN	N	_	20	conj:coord	_	AlignBegin=10187|AlignEnd=10487|GE=Ahmed|RX=[N].[PROP]|TokenType=Root
 19	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	20	det	_	AlignBegin=10487|AlignEnd=10637|GE=[DEF].[SG].[M]=|RX=[DET]=|TokenType=Clit
-20	hasan	_	PROPN	N	_	21	comp	_	AlignBegin=10637|AlignEnd=10787|GE=[Hasan]|RX=[N].[PROP]|TokenType=Root
+20	hasan	_	PROPN	N	_	21	comp	_	AlignBegin=10637|AlignEnd=10787|GE=Hasan|RX=[N].[PROP]|TokenType=Root
 21	ʔoːr	_	NOUN	N	_	22	comp	_	AlignBegin=10787|AlignEnd=10937|GE=child|RX=[N]|TokenType=Root
 22	=i	_	ADP	CASE	Case=Gen	23	udep	_	AlignBegin=10937|AlignEnd=11087|GE==[GEN]|RX==[CASE]|TokenType=Clit|wordform=-i
 23	naː	_	NOUN	N	Gender=Fem	24	comp	_	AlignBegin=11087|AlignEnd=11237|GE=thing|RX=[N].[F]|TokenType=Root
@@ -51,12 +51,12 @@
 25	ʔar	_	NOUN	N	_	28	conj:coord	_	AlignBegin=11387|AlignEnd=11537|GE=child|RX=[N]|TokenType=Root
 26	=wa	_	CCONJ	CONJ	_	25	cc	_	AlignBegin=11537|AlignEnd=11687|GE==[COORD]|RX==[CONJ]|TokenType=Clit
 27	/	_	PUNCT	_	_	25	punct	_	AlignBegin=11687|AlignEnd=11989|GE=[/]|TokenType=Break
-28	ahamad	_	PROPN	N	_	36	subj	_	AlignBegin=12962|AlignEnd=13359|GE=[Ahmed]|RX=[N].[PROP]|TokenType=Root
+28	ahamad	_	PROPN	N	_	36	subj	_	AlignBegin=12962|AlignEnd=13359|GE=Ahmed|RX=[N].[PROP]|TokenType=Root
 29	uː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	30	det	_	AlignBegin=13359|AlignEnd=13491|GE=[DEF].[SG].[M].[NOM]=|RX=[DET]=|TokenType=Clit
 30	kna	_	PRON	PRO	Reflex=Yes	28	mod	_	AlignBegin=13491|AlignEnd=13623|GE=owner|RX=[PRO].[REFL]|TokenType=Root
 31	=wa	_	CCONJ	CONJ	_	30	cc	_	AlignBegin=13623|AlignEnd=13756|GE==[COORD]|RX==[CONJ]|TokenType=Clit
 32	/	_	PUNCT	_	_	28	punct	_	AlignBegin=13756|AlignEnd=14152|GE=[/]|TokenType=Break
-33	harnaːjeːt	_	PROPN	N	_	34	comp	_	AlignBegin=14353|AlignEnd=14523|GE=[Harnajeet]|RX=[N].[PROP]|TokenType=Root
+33	harnaːjeːt	_	PROPN	N	_	34	comp	_	AlignBegin=14353|AlignEnd=14523|GE=Harnajeet|RX=[N].[PROP]|TokenType=Root
 34	=i	_	ADP	CASE	Case=Gen	35	comp	_	AlignBegin=14523|AlignEnd=14693|GE==[GEN]|RX==[CASE]|TokenType=Clit|wordform=-i
 35	=da	_	ADP	POSTP	_	36	comp:obl	_	AlignBegin=14693|AlignEnd=14864|GE==[DIR]|RX==[POSTP]|TokenType=Clit
 36	ʔiːbaːb	_	VERB	V2	VerbClass=2	38	comp	_	AlignBegin=14864|AlignEnd=15034|GE=travel|RX=[V2]|TokenType=Root
@@ -78,7 +78,7 @@
 # text_en =  myself and Ahmed we stay.
 1	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	3	conj:coord	_	AlignBegin=17218|AlignEnd=17413|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 2	=wa	_	CCONJ	CONJ	_	1	cc	_	AlignBegin=17413|AlignEnd=17608|GE==[COORD]|RX==[CONJ]|TokenType=Clit
-3	ahamad	_	PROPN	N	_	9	subj	_	AlignBegin=17608|AlignEnd=17803|GE=[Ahmed]|RX=[SBJ].[N].[PROP]|TokenType=Root
+3	ahamad	_	PROPN	N	_	9	subj	_	AlignBegin=17608|AlignEnd=17803|GE=Ahmed|RX=[SBJ].[N].[PROP]|TokenType=Root
 4	=wa	_	CCONJ	CONJ	_	3	cc	_	AlignBegin=17803|AlignEnd=17998|GE==[COORD]|RX==[CONJ]|TokenType=Clit
 5	/	_	PUNCT	_	_	3	punct	_	AlignBegin=17998|AlignEnd=18387|GE=[/]|TokenType=Break
 6	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	7	det	_	AlignBegin=18493|AlignEnd=18649|GE=[DEF].[SG].[M].[ACC]=|RX=[DET]=|TokenType=Clit
@@ -96,7 +96,7 @@
 # text_en =  As for me, since Ahmed had no leg, I left to bring him water.
 1	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	20	dislocated:subj	_	AlignBegin=20202|AlignEnd=20400|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 2	/	_	PUNCT	_	_	1	punct	_	AlignBegin=20400|AlignEnd=20598|GE=[/]|TokenType=Break
-3	ahamad	_	PROPN	N	_	9	subj	_	AlignBegin=20598|AlignEnd=21020|GE=[Ahmed]|RX=[SBJ].[N].[PROP]|TokenType=Root
+3	ahamad	_	PROPN	N	_	9	subj	_	AlignBegin=20598|AlignEnd=21020|GE=Ahmed|RX=[SBJ].[N].[PROP]|TokenType=Root
 4	i=	_	DET	DET	Definite=Def|Gender=Masc	5	det	_	AlignBegin=21020|AlignEnd=21161|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
 5	ragad	_	NOUN	N	Gender=Masc	9	comp:obj	_	AlignBegin=21161|AlignEnd=21302|GE=leg|RX=[N].[M]|TokenType=Root
 6	-a	_	DET	_	Number=Plur	5	det/m	_	AlignBegin=21302|AlignEnd=21442|GE=-[PL]|TokenType=InflAff
@@ -621,7 +621,7 @@
 10	=hoːb	_	SCONJ	CONJ	_	19	mod	_	AlignBegin=102389|AlignEnd=102550|GE==when|RX==[CONJ]|TokenType=Clit
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=102550|AlignEnd=103032|GE=[/]|TokenType=Break
 12	teː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	13	det	_	AlignBegin=103998|AlignEnd=104172|GE=[DEF].[PL].[F].[ACC]=|RX=[DET]=|TokenType=Clit
-13	dwaːn	_	PROPN	N	_	15	comp:obj	_	AlignBegin=104172|AlignEnd=104345|GE=[Dwan]|RX=[N].[PROP]|TokenType=Root
+13	dwaːn	_	PROPN	N	_	15	comp:obj	_	AlignBegin=104172|AlignEnd=104345|GE=Dwan|RX=[N].[PROP]|TokenType=Root
 14	eː-	_	PRON	PNG	Person=3	15	subj/m	_	AlignBegin=104345|AlignEnd=104461|GE=[3]-|RX=[PNG]-|TokenType=InflAff
 15	d	_	VERB	V1	Aspect=Imp|VerbClass=1	17	mod@relcl	_	AlignBegin=104461|AlignEnd=104577|GE=say\IPFV|RX=[V1].[IRG]|TokenType=Root
 16	-na	_	PRON	PNG	Number=Plur	15	subj/m	_	AlignBegin=104577|AlignEnd=104692|GE=-[PL]|RX=-[PNG]|TokenType=InflAff
@@ -963,7 +963,7 @@
 12	=it	_	SCONJ	CONJ	_	22	mod	_	AlignBegin=153154|AlignEnd=153255|GE==[CSL]|RX==[CONJ]|TokenType=Clit
 13	//	_	PUNCT	_	_	12	punct	_	AlignBegin=153255|AlignEnd=153559|GE=[//]|TokenType=Break
 14	taː=	_	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	15	det	_	AlignBegin=153559|AlignEnd=153676|GE=[DEF].[PL].[F].[NOM]=|RX=[DET]=|TokenType=Clit
-15	dwaːn	_	PROPN	N	_	22	subj	_	AlignBegin=153676|AlignEnd=153793|GE=[Dwan]|RX=[N].[PROP]|TokenType=Root
+15	dwaːn	_	PROPN	N	_	22	subj	_	AlignBegin=153676|AlignEnd=153793|GE=Dwan|RX=[N].[PROP]|TokenType=Root
 16	//	_	PUNCT	_	_	15	punct	_	AlignBegin=153793|AlignEnd=154027|GE=[//]|TokenType=Break
 17	winneːt	_	ADV	ADV	_	18	mod	_	AlignBegin=154237|AlignEnd=154497|GE=plenty|RX=[ADV]|TokenType=Root
 18	daːwri	_	ADJ	ADJ	_	19	mod	_	AlignBegin=154497|AlignEnd=154757|GE=beautiful|RX=[ADJ]|TokenType=Root
@@ -1071,7 +1071,7 @@
 # text = bani ʔaːdam han bi= i- hass -aj =t /
 # text_en =  A human being could not even pass!"
 1	bani	_	NOUN	_	Foreign=Yes	2	udep	_	AlignBegin=169895|AlignEnd=170114|GE=son_of|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
-2	ʔaːdam	_	PROPN	_	Foreign=Yes	6	subj	_	AlignBegin=170114|AlignEnd=170333|GE=[Adam]|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
+2	ʔaːdam	_	PROPN	_	Foreign=Yes	6	subj	_	AlignBegin=170114|AlignEnd=170333|GE=Adam|Lang=ar|RX=[CSW].[ARA]|TokenType=Root
 3	han	_	PART	PTCL	_	6	mod	_	AlignBegin=170552|AlignEnd=170771|GE=also|RX=[PTCL].[FOC]|TokenType=Root
 4	bi=	_	PART	PTCL	Mood=Opt	6	mod	_	AlignBegin=170771|AlignEnd=170815|GE=[OPT]=|RX=[PTCL]=|TokenType=Clit
 5	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	6	subj/m	_	AlignBegin=170815|AlignEnd=170859|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
@@ -1669,7 +1669,7 @@
 25	-an	_	PRON	TAM.PNG	Aspect=Perf|Number=Sing|Person=1	24	subj/m	_	AlignBegin=266155|AlignEnd=266280|GE=-[PFV].[1SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 26	/	_	PUNCT	_	_	24	punct	_	AlignBegin=266280|AlignEnd=266531|GE=[/]|TokenType=Break
 27	ti=	_	DET	DET	Definite=Def|Gender=Fem	28	det	_	AlignBegin=266912|AlignEnd=267102|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
-28	gabaːti	_	PROPN	N	_	23	conj:appos	_	AlignBegin=267102|AlignEnd=267292|GE=[Gabaati]|RX=[N].[PROP]|TokenType=Root
+28	gabaːti	_	PROPN	N	_	23	conj:appos	_	AlignBegin=267102|AlignEnd=267292|GE=Gabaati|RX=[N].[PROP]|TokenType=Root
 29	//	_	PUNCT	_	_	24	punct	_	AlignBegin=267292|AlignEnd=267672|GE=[//]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_05_eritrea_285-285
@@ -1680,7 +1680,7 @@
 # text = tigabaːti eːlat gʷaːbti //
 # text_en =  Gabaati is a deserted champaign.
 1	ti=	_	DET	DET	Definite=Def|Gender=Fem	2	det	_	AlignBegin=267672|AlignEnd=267844|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
-2	gabaːti	_	PROPN	N	_	7	subj	_	AlignBegin=267844|AlignEnd=268017|GE=[Gabaati]|RX=[SBJ].[N].[PROP]|TokenType=Root
+2	gabaːti	_	PROPN	N	_	7	subj	_	AlignBegin=267844|AlignEnd=268017|GE=Gabaati|RX=[SBJ].[N].[PROP]|TokenType=Root
 3	eːla	_	ADJ	ADJ	_	5	mod	_	AlignBegin=268017|AlignEnd=268189|GE=white\DIM|RX=[ADJ]|TokenType=Root
 4	=t	_	DET	DET	Gender=Fem	3	det	_	AlignBegin=268189|AlignEnd=268362|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
 5	gʷaːb	_	NOUN	N	Gender=Masc	7	comp:pred	_	AlignBegin=268362|AlignEnd=268477|GE=champaign|RX=[N].[M]|TokenType=Root
