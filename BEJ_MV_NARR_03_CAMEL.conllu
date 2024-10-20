@@ -196,7 +196,7 @@
 27	t-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	28	subj/m	_	AlignBegin=33732|AlignEnd=33829|GE=[3SG].[F]-|RX=[PNG]-|TokenType=InflAff
 28	ʔam	_	VERB	V1,NEG	Mood=Opt|Polarity=Neg|VerbClass=1|Voice=Mid	29	comp	_	AlignBegin=33829|AlignEnd=33926|GE=ride\[MID].[NEG].[OPT]|Gloss=ride|RX=[V1].[DER]|TokenType=Root
 29	=eːb	_	SCONJ	CONJ	Gender=Masc|PronType=Rel	10	mod@relcl	_	AlignBegin=33926|AlignEnd=34024|GE==[REL].[M]|RX==[CONJ]|TokenType=Clit
-30	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=34024|AlignEnd=35599|GE=//|RX=PUNCT|TokenType=Break
+30	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=34024|AlignEnd=35599|GE=[//]|RX=PUNCT|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_03_camel_043-053
 # text = ontʔa / beːn / t= ʔoːt -i / i= bhali =jeː =da // i= kaːm -i wanas / dh =eː hadiːd -ja i- ni //
@@ -866,7 +866,7 @@
 8	ti=	_	DET	DET	Definite=Def|Gender=Fem	9	det	_	AlignBegin=155830|AlignEnd=155917|GE=[DEF].[F]=|RX=[DET]=|TokenType=Clit
 9	dangar	_	NOUN	N	Gender=Fem	11	comp	_	AlignBegin=155917|AlignEnd=156005|GE=racetrack|Gloss=racetrack|RX=[N].[F]|TokenType=Root
 10	=t	_	DET	DET	Gender=Fem	9	det	_	AlignBegin=156005|AlignEnd=156093|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
-11	=i	_	ADP	CASE	Case=Gen	12	udep	_	AlignBegin=156093|AlignEnd=156181|GE==GEN]|RX==[CASE]|TokenType=Clit
+11	=i	_	ADP	CASE	Case=Gen	12	udep	_	AlignBegin=156093|AlignEnd=156181|GE==[GEN]|RX==[CASE]|TokenType=Clit
 12	girma	_	NOUN	N	Gender=Masc	13	comp	_	AlignBegin=156181|AlignEnd=156356|GE=head|Gloss=head|RX=[N].[M]|TokenType=Root
 13	=i	_	ADP	CASE	Case=Gen	17	udep	_	AlignBegin=156356|AlignEnd=156532|GE==[GEN]|RX==[CASE]|TokenType=Clit
 14	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=156532|AlignEnd=156883|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
@@ -908,7 +908,7 @@
 10	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1	12	subj	_	AlignBegin=164485|AlignEnd=164800|GE=[1PL].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
 11	rhi	_	VERB	V2	VerbClass=2	12	comp/m	_	AlignBegin=164800|AlignEnd=164879|GE=see|Gloss=see|RX=[V2]|TokenType=Root
 12	-s	_	AUX	V2	VerbClass=2|Voice=Cau	13	comp/m	_	AlignBegin=164879|AlignEnd=164958|DerPos=VERB|GE=-[CAUS]|RX=-[V2].[DER]|TokenType=DerAff
-13	-at	_	NOUN	N.V	_	15	comp:aux	_	AlignBegin=164958|AlignEnd=165037|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+13	-at	_	SCONJ	N.V	_	15	comp:aux	_	AlignBegin=164958|AlignEnd=165037|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 14	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	13	comp:obj	_	AlignBegin=165037|AlignEnd=165116|GE==[POSS].[2SG].[ACC]|RX==[PRO]|TokenType=Clit
 15	ʔeːnaj	_	AUX	AUX	Aspect=Imp|Mood=Pot|Number=Plur|Person=1	0	root	_	AlignBegin=165116|AlignEnd=165432|GE=[IPFV].[1PL]|Gloss=come|Reported=Yes|RX=[AUX].[POT]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=165432|AlignEnd=165748|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
@@ -1096,7 +1096,7 @@
 7	-is	_	AUX	V2	VerbClass=2|Voice=Cau	0	root	_	AlignBegin=195556|AlignEnd=195637|DerPos=VERB|GE=-[CAUS]|RX=-[V2].[DER]|TokenType=DerAff
 8	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	7	subj/m	_	AlignBegin=195637|AlignEnd=195718|GE=-[IMP].[SG].[M]|RX=-[TAM].[PNG]|TokenType=InflAff
 9	=hoːn	_	PRON	PRO	Case=Acc|Number=Plur|Person=1	7	comp:obj	_	AlignBegin=195718|AlignEnd=195799|GE==[OBJ].[1PL]|RX==[PRO]|TokenType=Clit
-10	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=195799|AlignEnd=197172|GE=[/][/]|RX=[PUNCT]|TokenType=Break
+10	//	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=195799|AlignEnd=197172|GE=[//]|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_03_camel_220-221
 # text = dangar a- dʔi =hoːb / hoːj daːj -an =i daːj ka= a- kan /

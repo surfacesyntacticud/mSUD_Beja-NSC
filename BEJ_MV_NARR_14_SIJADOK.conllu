@@ -221,7 +221,7 @@
 # text_en = When they say: "There is a woman like that who is looking for you", she went towards him. (she said): "If you don't give me something of the Muslim nation's public treasury hunger is bound to kill my daughters."
 1	bak	_	PART	DEICT	_	6	mod	_	AlignBegin=49036|AlignEnd=49381|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
 2	tʔi	_	VERB	V1	VerbClass=1	3	comp/m	_	AlignBegin=49381|AlignEnd=49496|GE=resemble|Gloss=resemble|RX=[V1].[IRG]|TokenType=Root
-3	-it	_	NOUN	N.V	_	4	comp	_	AlignBegin=49496|AlignEnd=49611|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+3	-it	_	SCONJ	N.V	_	4	comp	_	AlignBegin=49496|AlignEnd=49611|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 4	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	5	mod@relcl	_	AlignBegin=49611|AlignEnd=49726|GE==[REL].[F]|RX==[CONJ]|TokenType=Clit
 5	takat	_	NOUN	N	Gender=Fem	6	subj	_	AlignBegin=49726|AlignEnd=50071|GE=woman|Gloss=woman|RX=[SBJ].[N].[F]|TokenType=Root
 6	hanriːw	_	VERB	V1	Aspect=Imp|VerbClass=1	9	comp:obj	_	AlignBegin=50071|AlignEnd=50243|GE=[IPFV].[[][3SG].[F][]]|Gloss=seek|Reported=Yes|RX=[V1]|TokenType=Root
@@ -416,7 +416,7 @@
 8	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=89319|AlignEnd=90341|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 9	bak	_	PART	DEICT	_	13	mod	_	AlignBegin=90341|AlignEnd=90719|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
 10	tʔi	_	AUX	V1	VerbClass=1	11	comp/m	_	AlignBegin=90719|AlignEnd=90782|GE=resemble|Gloss=resemble|RX=[V1].[IRG]|TokenType=Root
-11	-it	_	NOUN	N.V	_	12	comp	_	AlignBegin=90782|AlignEnd=90845|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+11	-it	_	SCONJ	N.V	_	12	comp	_	AlignBegin=90782|AlignEnd=90845|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 12	=eː	_	SCONJ	CONJ.REL	PronType=Rel	13	mod@relcl	_	AlignBegin=90845|AlignEnd=90908|GE==[REL]|RX==[CONJ]|TokenType=Clit
 13	=naː	_	NOUN	CONJ	_	15	comp	_	AlignBegin=90908|AlignEnd=90971|GE==thing|Gloss==thing|RX==[CONJ]|TokenType=Clit
 14	=t	_	DET	DET	Gender=Fem	13	det	_	AlignBegin=90971|AlignEnd=91034|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
@@ -805,7 +805,7 @@
 13	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=156307|AlignEnd=156574|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 14	bak	_	PART	DEICT	_	20	mod	_	AlignBegin=156574|AlignEnd=156833|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
 15	tʔi	_	VERB	V1	VerbClass=1	16	comp/m	_	AlignBegin=156833|AlignEnd=156876|GE=resemble|Gloss=resemble|RX=[V1].[IRG]|TokenType=Root
-16	-it	_	NOUN	N.V	_	17	comp:obj	_	AlignBegin=156876|AlignEnd=156919|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+16	-it	_	SCONJ	N.V	_	17	comp:obj	_	AlignBegin=156876|AlignEnd=156919|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 17	=eː	_	SCONJ	CONJ.REL	PronType=Rel	18	mod@relcl	_	AlignBegin=156919|AlignEnd=156963|GE==[REL]|RX==[CONJ]|TokenType=Clit
 18	=naː	_	NOUN	CONJ	_	20	comp:pred	_	AlignBegin=156963|AlignEnd=157006|GE==thing|Gloss==thing|RX==[CONJ]|TokenType=Clit
 19	=t	_	DET	DET	Gender=Fem	18	comp	_	AlignBegin=157006|AlignEnd=157049|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
@@ -913,7 +913,7 @@
 15	dh	_	ADP	POSTP	_	20	comp:obl	_	AlignBegin=173742|AlignEnd=173889|GE=[DIR]|RX=[POSTP]|TokenType=Root
 16	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	15	udep@poss	_	AlignBegin=173889|AlignEnd=174036|GE==[POSS].[1SG].[ACC]|RX==[PRO]|TokenType=Clit
 17	ʔiʃ	_	VERB	V1	VerbClass=1	20	comp:aux	_	AlignBegin=174036|AlignEnd=174183|GE=let|Gloss=let|RX=[V1]|TokenType=Root
-18	-at	_	NOUN	N.V	_	17	comp/m	_	AlignBegin=174183|AlignEnd=174331|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+18	-at	_	SCONJ	N.V	_	17	comp/m	_	AlignBegin=174183|AlignEnd=174331|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 19	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	20	subj/m	_	AlignBegin=174331|AlignEnd=174478|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 20	rib	_	AUX	AUX.CONTR	Aspect=Perf	0	root	_	AlignBegin=174478|AlignEnd=174625|GE=[PFV]|Gloss=refuse|RX=[AUX].[NEG].[CONTR]|TokenType=Root
 21	/	_	PUNCT	PUNCT	_	20	punct	_	AlignBegin=174625|AlignEnd=175242|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
@@ -1513,7 +1513,7 @@
 # text_en = "I saw something like a paradise,
 1	bak	_	PART	DEICT	_	2	mod	_	AlignBegin=282817|AlignEnd=283182|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
 2	tʔi	_	VERB	V1	VerbClass=1	3	comp/m	_	AlignBegin=283182|AlignEnd=283242|GE=resemble|Gloss=resemble|RX=[V1].[IRG]|TokenType=Root
-3	-it	_	NOUN	N.V	_	4	comp	_	AlignBegin=283242|AlignEnd=283303|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+3	-it	_	SCONJ	N.V	_	4	comp	_	AlignBegin=283242|AlignEnd=283303|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 4	=eː	_	SCONJ	CONJ.REL	PronType=Rel	5	mod@relcl	_	AlignBegin=283303|AlignEnd=283364|GE==[REL]|RX==[CONJ]|TokenType=Clit
 5	=naː	_	NOUN	CONJ	_	7	comp	_	AlignBegin=283364|AlignEnd=283425|GE==thing|Gloss==thing|RX==[CONJ]|TokenType=Clit
 6	=t	_	DET	DET	Gender=Fem	5	det	_	AlignBegin=283425|AlignEnd=283486|GE==[INDF].[F]|RX==[DET]|TokenType=Clit
@@ -1734,7 +1734,7 @@
 24	/	_	PUNCT	PUNCT	_	22	punct	_	AlignBegin=324292|AlignEnd=325136|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 25	bak	_	PART	DEICT	_	29	mod	_	AlignBegin=325136|AlignEnd=325451|GE=thus|Gloss=thus|RX=[DEICT].[MNR]|TokenType=Root
 26	tʔi	_	VERB	V1	VerbClass=1	27	comp/m	_	AlignBegin=325451|AlignEnd=325556|GE=resemble|Gloss=resemble|RX=[V1].[IRG]|TokenType=Root
-27	-it	_	NOUN	N.V	_	28	comp	_	AlignBegin=325556|AlignEnd=325661|GE=-[VN]|RX=-[N].[V]|TokenType=InflAff
+27	-it	_	SCONJ	N.V	_	28	comp	_	AlignBegin=325556|AlignEnd=325661|DerPos=NOUN|GE=-[VN]|RX=-[N].[V]|TokenType=DerAff
 28	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	29	mod@relcl	_	AlignBegin=325661|AlignEnd=325766|GE==[REL].[F]|RX==[CONJ]|TokenType=Clit
 29	ʔiːbaːb	_	NOUN	N.V	Gender=Fem	31	comp:obj	_	AlignBegin=325766|AlignEnd=326081|GE=[N].[AC]|Gloss=travel|RX=[SBJ].[N].[V].[F]|TokenType=Root
 30	/	_	PUNCT	PUNCT	_	31	punct	_	AlignBegin=326081|AlignEnd=326896|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
