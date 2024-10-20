@@ -568,7 +568,7 @@
 14	-tiːt	_	AUX	CVB	VerbForm=Conv	20	mod	_	AlignBegin=115409|AlignEnd=115606|DerPos=NOUN|GE=-[CVB].[SEQ]|RX=-.|TokenType=DerAff
 15	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=115606|AlignEnd=116000|GE=[PUNCT]|RX=[PUNCT]|TokenType=Break
 16	nʔa	_	VERB	V1	VerbClass=1	17	comp/m	_	AlignBegin=116000|AlignEnd=116094|GE=be_down|Gloss=be_down|RX=[V1].[IRG]|TokenType=Root
-17	-ti	_	AUX	CVB	VerbForm=Conv	20	conj:svc	_	AlignBegin=116094|AlignEnd=116189|DerPos=NOUN|GE=-[CVB].[GNRL]|RX=-.|TokenType=DerAff
+17	-ti	_	AUX	CVB	VerbForm=Conv	20	mod	_	AlignBegin=116094|AlignEnd=116189|DerPos=NOUN|GE=-[CVB].[GNRL]|RX=-.|TokenType=DerAff
 18	dhaːj	_	ADP	POSTP	_	20	comp:obl	_	AlignBegin=116189|AlignEnd=116379|GE=[DIR]|RX=[POSTP]|TokenType=Root
 19	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	20	subj/m	_	AlignBegin=116379|AlignEnd=116442|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 20	ndʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	21	comp	_	AlignBegin=116442|AlignEnd=116505|GE=[IPFV]|Gloss=do|RX=[V1]|TokenType=Root
@@ -1198,7 +1198,7 @@
 # text_en =  I want to become your friend,
 1	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	AlignBegin=229283|AlignEnd=229608|GE=[PROX].[SG].[M].[NOM]|RX=[DEM]|TokenType=Root
 2	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	4	subj	_	AlignBegin=229608|AlignEnd=229933|GE=[1SG].[NOM]|RX=[SBJ].[PRO]|TokenType=Root
-3	ʔaraweː	_	NOUN	N	Gender=Fem	4	comp	_	AlignBegin=229933|AlignEnd=230014|GE=friendship|Gloss=friendship|RX=[N].[F]|TokenType=Root
+3	ʔaraweː	_	NOUN	N	Gender=Fem	4	comp/m	_	AlignBegin=229933|AlignEnd=230014|GE=friendship|Gloss=friendship|RX=[N].[F]|TokenType=Root
 4	-sam	_	AUX	V2	VerbClass=2|Voice=Rcp	8	comp:aux	_	AlignBegin=230014|AlignEnd=230095|DerPos=VERB|GE=-[RECP]|RX=-[V2].[DER]|TokenType=DerAff
 5	-i	_	PRON	TAM.PNG	Number=Sing	4	subj/m	_	AlignBegin=230095|AlignEnd=230176|GE=-[FUT].[SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 6	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	4	comp:obj	_	AlignBegin=230176|AlignEnd=230258|GE==[OBJ].[2SG]|RX==[PRO]|TokenType=Clit
