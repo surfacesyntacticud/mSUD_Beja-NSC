@@ -59,9 +59,9 @@
 # phonetic_text = i= mali -a i- niːw /
 # text = imalja iniːw /
 # text_en =  he gives him the second one.
-1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=6929|AlignEnd=7024|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
-2	mali	_	NUM	NUM	_	5	comp:obj	_	AlignBegin=7024|AlignEnd=7119|GE=two|RX=[NUM]|TokenType=Root
-3	-a	_	X	NUM	NumType=Ord	2	mod/m	_	AlignBegin=7119|AlignEnd=7213|DerPos=ADJ|GE=-[ORD]|RX=-[NUM]|TokenType=DerAff
+1	i=	_	DET	DET	Definite=Def|Gender=Masc	3	det	_	AlignBegin=6929|AlignEnd=7024|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
+2	mali	_	NUM	NUM	_	3	comp/m	_	AlignBegin=7024|AlignEnd=7119|GE=two|RX=[NUM]|TokenType=Root
+3	-a	_	X	NUM	NumType=Ord	5	comp:obj	_	AlignBegin=7119|AlignEnd=7213|DerPos=ADJ|GE=-[ORD]|RX=-[NUM]|TokenType=DerAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=7213|AlignEnd=7355|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 5	niːw	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=7355|AlignEnd=7497|GE=give\IPFV|RX=[V1].[IRG]|TokenType=Root
 6	/	_	PUNCT	_	_	5	punct	_	AlignBegin=7497|AlignEnd=7781|GE=[/]|TokenType=Break
@@ -73,9 +73,9 @@
 # phonetic_text = i= mhaj -a i- niːw =hoːb ontʔa / oː= buːn lʔoː =b =u =it uːn /  giːg -i diːt /  oːn i= mhaj -a finʤaːn i- niːw =hoːb / sss / < gahwat muːna muːna > i- ndi //
 # text = i= mhaj -a i- niːw =hoːb ontʔa / oː= buːn lʔoː =b =u =it uːn / giːg -i diːt / oːn i= mhaj -a finʤaːn i- niːw =hoːb / sss / gahwat muːna i- ndi //
 # text_en =  When he gives him the third one, then, because he has had enough coffee, this one wants to leave and when he gives him the third cup, he says: "Sip!, this is Mouna's coffee!"
-1	i=	_	DET	DET	Definite=Def|Gender=Masc	2	det	_	AlignBegin=7984|AlignEnd=8102|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
-2	mhaj	_	NUM	NUM	_	5	comp:obj	_	AlignBegin=8102|AlignEnd=8220|GE=three|RX=[NUM]|TokenType=Root
-3	-a	_	X	NUM	NumType=Ord	2	mod/m	_	AlignBegin=8220|AlignEnd=8337|DerPos=ADJ|GE=-[ORD]|RX=-[NUM]|TokenType=DerAff
+1	i=	_	DET	DET	Definite=Def|Gender=Masc	3	det	_	AlignBegin=7984|AlignEnd=8102|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
+2	mhaj	_	NUM	NUM	_	3	comp/m	_	AlignBegin=8102|AlignEnd=8220|GE=three|RX=[NUM]|TokenType=Root
+3	-a	_	X	NUM	NumType=Ord	5	comp:obj	_	AlignBegin=8220|AlignEnd=8337|DerPos=ADJ|GE=-[ORD]|RX=-[NUM]|TokenType=DerAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=8337|AlignEnd=8455|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 5	niːw	_	VERB	V1	Aspect=Imp|VerbClass=1	6	comp	_	AlignBegin=8455|AlignEnd=8573|GE=give\IPFV|RX=[V1].[IRG]|TokenType=Root
 6	=hoːb	_	SCONJ	CONJ	_	13	mod	_	AlignBegin=8573|AlignEnd=8690|GE==when|RX==[CONJ]|TokenType=Clit
@@ -93,10 +93,10 @@
 18	-i	_	PRON	TAM.PNG	Number=Sing	17	subj/m	_	AlignBegin=11469|AlignEnd=11622|GE=-[FUT].[SG]|RX=-[TAM].[PNG]|TokenType=InflAff
 19	diːt	_	AUX	AUX.FUT	_	35	conj:coord	_	AlignBegin=11622|AlignEnd=11929|GE=say\CVB.SEQ|RX=[AUX].[FUT]|TokenType=Root
 20	/	_	PUNCT	_	_	19	punct	_	AlignBegin=11929|AlignEnd=12236|GE=[/]|TokenType=Break
-21	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	23	det	_	AlignBegin=12419|AlignEnd=12709|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|TokenType=Root
-22	i=	_	DET	DET	Definite=Def|Gender=Masc	23	det	_	AlignBegin=12709|AlignEnd=12806|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
-23	mhaj	_	NUM	NUM	_	25	mod	_	AlignBegin=12806|AlignEnd=12903|GE=three|RX=[NUM]|TokenType=Root
-24	-a	_	X	NUM	NumType=Ord	23	mod/m	_	AlignBegin=12903|AlignEnd=12999|DerPos=ADJ|GE=-[ORD]|RX=-[NUM]|TokenType=DerAff
+21	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	24	det	_	AlignBegin=12419|AlignEnd=12709|GE=[PROX].[SG].[M].[ACC]|RX=[DEM]|TokenType=Root
+22	i=	_	DET	DET	Definite=Def|Gender=Masc	24	det	_	AlignBegin=12709|AlignEnd=12806|GE=[DEF].[M]=|RX=[DET]=|TokenType=Clit
+23	mhaj	_	NUM	NUM	_	24	comp/m	_	AlignBegin=12806|AlignEnd=12903|GE=three|RX=[NUM]|TokenType=Root
+24	-a	_	X	NUM	NumType=Ord	25	mod	_	AlignBegin=12903|AlignEnd=12999|DerPos=ADJ|GE=-[ORD]|RX=-[NUM]|TokenType=DerAff
 25	finʤaːn	_	NOUN	N	Gender=Masc	27	comp:obj	_	AlignBegin=12999|AlignEnd=13289|GE=cup|RX=[N].[M]|TokenType=Root
 26	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	27	subj/m	_	AlignBegin=13289|AlignEnd=13386|GE=[3SG].[M]-|RX=[PNG]-|TokenType=InflAff
 27	niːw	_	VERB	V1	Aspect=Imp|VerbClass=1	28	comp	_	AlignBegin=13386|AlignEnd=13483|GE=give\IPFV|RX=[V1].[IRG]|TokenType=Root
