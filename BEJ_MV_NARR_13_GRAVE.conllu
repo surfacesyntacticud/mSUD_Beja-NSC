@@ -197,7 +197,7 @@
 18	=eːk	_	SCONJ	CONJ	_	27	conj:coord	_	AlignBegin=31996|AlignEnd=32181|Gloss==if|RX==[CONJ]|TokenType=Clit
 19	/	_	PUNCT	_	_	18	punct	_	AlignBegin=32181|AlignEnd=32735|Gloss=/|TokenType=Break
 20	afirh	_	VERB	V2	VerbClass=2	21	comp/m	_	AlignBegin=33324|AlignEnd=33429|Gloss=rejoice|RX=[V2]|TokenType=Root
-21	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	25	comp:aux	_	AlignBegin=33429|AlignEnd=33534|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+21	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	25	comp:pred	_	AlignBegin=33429|AlignEnd=33534|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 22	=b	_	DET	DET	Case=Acc|Gender=Masc	21	det	_	AlignBegin=33534|AlignEnd=33639|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 23	=ni	_	PART	_	_	21	mod	_	AlignBegin=33639|AlignEnd=33745|Gloss==CONTR|RX==[DM]|TokenType=Clit
 24	i-	_	PRON	PNG	Person=3	25	subj/m	_	AlignBegin=33745|AlignEnd=33850|Gloss=3-|RX=[PNG]-|TokenType=InflAff
@@ -449,9 +449,9 @@
 28	-aː	_	AUX	_	_	30	mod	_	AlignBegin=74063|AlignEnd=74214|DerPos=NOUN|Gloss=-CVB.MNR|TokenType=DerAff
 29	=t	_	DET	DET	Gender=Fem	28	det	_	AlignBegin=74214|AlignEnd=74364|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 30	waːw	_	NOUN	N	Gender=Fem|Number=Coll	31	comp	_	AlignBegin=74364|AlignEnd=74816|Gloss=wailing|RX=[N].[F].[COL]|TokenType=Root
-31	waːw	_	VERB	V2	VerbClass=2	32	comp/m	_	AlignBegin=74816|AlignEnd=75042|Gloss=weep|RX=[V2]|TokenType=Root
-32	-eːtiːt	_	AUX	_	_	0	root	_	AlignBegin=75042|AlignEnd=75268|DerPos=NOUN|Gloss=-CVB.SEQ|TokenType=DerAff
-33	/	_	PUNCT	_	_	32	punct	_	AlignBegin=75268|AlignEnd=75718|Gloss=/|TokenType=Root
+31	waːw	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=74816|AlignEnd=75042|Gloss=weep|RX=[V2]|TokenType=Root
+32	-eːtiːt	_	AUX	_	_	31	comp/m	_	AlignBegin=75042|AlignEnd=75268|DerPos=VERB|Gloss=-CVB.SEQ|TokenType=DerAff
+33	/	_	PUNCT	_	_	31	punct	_	AlignBegin=75268|AlignEnd=75718|Gloss=/|TokenType=Root
 
 # sent_id = BEJ_MV_NARR_13_grave_078-088
 # speaker_id = SP
@@ -490,7 +490,7 @@
 28	firʔ	_	VERB	V1	VerbClass=1	30	comp:obj	_	AlignBegin=83450|AlignEnd=83632|Gloss=take_out|Reported=Yes|RX=[V1]|TokenType=Root
 29	-a	_	PRON	TAM.PNG	Gender=Masc|Mood=Imp|Number=Sing	28	subj/m	_	AlignBegin=83632|AlignEnd=83815|Gloss=-IMP.SG.M|RX=-[TAM].[PNG]|TokenType=InflAff
 30	diː	_	VERB	V1	VerbClass=1	31	comp/m	_	AlignBegin=83815|AlignEnd=83997|Gloss=say|RX=[V1].[IRG]|TokenType=Root
-31	-tiːt	_	AUX	_	_	33	mod	_	AlignBegin=83997|AlignEnd=84180|DerPos=NOUN|Gloss=-CVB.SEQ|TokenType=DerAff
+31	-tiːt	_	AUX	_	_	33	mod	_	AlignBegin=83997|AlignEnd=84180|DerPos=VERB|Gloss=-CVB.SEQ|TokenType=DerAff
 32	/	_	PUNCT	_	_	31	punct	_	AlignBegin=84180|AlignEnd=84545|Gloss=/|TokenType=Root
 33	sallam	_	VERB	V2	VerbClass=2	37	comp:obj	_	AlignBegin=84545|AlignEnd=84672|Gloss=give|Reported=Yes|RX=[V2]|TokenType=Root
 34	-tini	_	PRON	TAM.PNG	Aspect=Imp|Gender=Fem|Number=Sing|Person=3	33	subj/m	_	AlignBegin=84672|AlignEnd=84799|Gloss=-IPFV.3SG.F|RX=-[TAM].[PNG]|TokenType=InflAff

@@ -49,7 +49,7 @@
 # text = ʔiːbaːb -eː haːʃ =iːb igam# ## i- ganif -na =eːb oː= doːr / jhaːm dhaːj jʔ -i =t /
 # text_en =  While they were travelling in a country, when they stopped, a leopard came towards them and
 1	ʔiːbaːb	_	VERB	V2	VerbClass=2	2	comp/m	_	AlignBegin=9193|AlignEnd=9374|Gloss=travel|RX=[V2]|TokenType=Root
-2	-eː	_	AUX	_	_	8	comp	_	AlignBegin=9374|AlignEnd=9555|DerPos=VERB|Gloss=-CVB.SMLT|TokenType=DerAff
+2	-eː	_	AUX	_	_	8	mod	_	AlignBegin=9374|AlignEnd=9555|DerPos=VERB|Gloss=-CVB.SMLT|TokenType=DerAff
 3	haːʃ	_	NOUN	N	Gender=Masc	4	comp	_	AlignBegin=9555|AlignEnd=9736|Gloss=land|RX=[N].[M]|TokenType=Root
 4	=iːb	_	ADP	POSTP	Case=Loc|Number=Sing	8	mod	_	AlignBegin=9736|AlignEnd=9917|Gloss==LOC.SG|RX==[POSTP]|TokenType=Clit
 5	igam#	_	X	FS	_	8	conj:dicto	_	AlignBegin=9917|AlignEnd=10279|Gloss=FS|RX=[FS]|TokenType=Unfinished
@@ -219,13 +219,13 @@
 # text_en =  "I'll tease it and I'll hit it", he says, they said.
 1	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	2	subj	_	AlignBegin=36799|AlignEnd=37145|Gloss=1SG.NOM|RX=[SBJ].[PRO]|TokenType=Root
 2	ʔaːlaʤ	_	VERB	V2	VerbClass=2	3	comp/m	_	AlignBegin=37145|AlignEnd=37318|Gloss=tease|RX=[V2]|TokenType=Root
-3	-eːtiːt	_	AUX	_	_	11	comp:obj	_	AlignBegin=37318|AlignEnd=37491|DerPos=NOUN|Gloss=-CVB.SEQ|Reported=Yes|TokenType=DerAff
+3	-eːtiːt	_	AUX	_	_	9	mod	_	AlignBegin=37318|AlignEnd=37491|DerPos=NOUN|Gloss=-CVB.SEQ|Reported=Yes|TokenType=DerAff
 4	/	_	PUNCT	_	_	3	punct	_	AlignBegin=37491|AlignEnd=37838|Gloss=/|TokenType=Break
 5	iː-	_	PRON	TAM.PNG	Number=Sing	6	subj/m	_	AlignBegin=38329|AlignEnd=38449|Gloss=FUT.SG-|RX=[TAM].[PNG]-|TokenType=InflAff
 6	ʈʔa	_	VERB	V1	VerbClass=1	8	comp:aux	_	AlignBegin=38449|AlignEnd=38568|Gloss=hit|RX=[V1]|TokenType=Root
 7	a-	_	PRON	PNG	Number=Sing|Person=1	8	subj/m	_	AlignBegin=38568|AlignEnd=38648|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
 8	ndi	_	AUX	AUX.FUT	Aspect=Imp	9	comp	_	AlignBegin=38648|AlignEnd=38728|Gloss=say\IPFV|RX=[AUX].[FUT]|TokenType=Root
-9	=aj	_	SCONJ	CONJ	_	3	mod	_	AlignBegin=38728|AlignEnd=38807|Gloss==CSL|RX==[CONJ]|TokenType=Clit
+9	=aj	_	SCONJ	CONJ	_	11	comp:obj	_	AlignBegin=38728|AlignEnd=38807|Gloss==CSL|Reported=Yes|RX==[CONJ]|TokenType=Clit
 10	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	11	subj/m	_	AlignBegin=38807|AlignEnd=38927|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 11	ndi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=38927|AlignEnd=39046|Gloss=say\IPFV|RX=[V1].[IRG]|TokenType=Root
 12	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	11	discourse	_	AlignBegin=39046|AlignEnd=39285|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
@@ -262,7 +262,7 @@
 # text = ʔakr -aː =ka =na han dh =eː a- tʔi =jajt / ʔaːlaʤ -ani i- ni //
 # text_en = as I felt that I was also the strongest, I'll tease it", he told himself.
 1	ʔakr	_	VERB	V1	VerbClass=1	2	comp/m	_	AlignBegin=41850|AlignEnd=41932|Gloss=be_strong|RX=[V1]|TokenType=Root
-2	-aː	_	AUX	_	_	3	comp	_	AlignBegin=41932|AlignEnd=42014|DerPos=NOUN|Gloss=-CVB.MNR|TokenType=DerAff
+2	-aː	_	AUX	_	_	3	comp	_	AlignBegin=41932|AlignEnd=42014|DerPos=VERB|Gloss=-CVB.MNR|TokenType=DerAff
 3	=ka	_	ADP	POSTP	Degree=Cmp	9	comp:obj	_	AlignBegin=42014|AlignEnd=42096|Gloss==CMPR|RX==[POSTP]|TokenType=Clit
 4	=na	_	PART	_	_	3	discourse	_	AlignBegin=42096|AlignEnd=42180|Gloss==CONTR|RX==[DM]|TokenType=Clit
 5	han	_	PART	PTCL	_	4	discourse	_	AlignBegin=42180|AlignEnd=42510|Gloss=also|RX=[PTCL].[FOC]|TokenType=Root
@@ -619,7 +619,7 @@
 1	tʔa	_	PART	PTCL	_	3	discourse	_	AlignBegin=97445|AlignEnd=97821|Gloss=now|RX=[PTCL]|TokenType=Root
 2	gajiː	_	ADV	ADV	_	3	mod	_	AlignBegin=97821|AlignEnd=98197|Gloss=anew|RX=[ADV]|TokenType=Root
 3	da~duːf	_	VERB	V2	VerbClass=2	4	comp/m	_	AlignBegin=98197|AlignEnd=98322|Gloss=PLAC~sweat|RX=[V2].[DER]|TokenType=Root
-4	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	7	comp:aux	_	AlignBegin=98322|AlignEnd=98447|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+4	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	7	comp:pred	_	AlignBegin=98322|AlignEnd=98447|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 5	=b	_	DET	DET	Case=Acc|Gender=Masc	4	det	_	AlignBegin=98447|AlignEnd=98573|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 6	aka	_	VERB	AUX	Aspect=Perf	7	comp/m	_	AlignBegin=98573|AlignEnd=98698|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
 7	-jeː	_	AUX	_	_	14	conj:coord	_	AlignBegin=98698|AlignEnd=98823|DerPos=AUX|Gloss=-CVB.SMLT|TokenType=DerAff
@@ -630,7 +630,7 @@
 12	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	11	udep@poss	_	AlignBegin=99599|AlignEnd=99735|Gloss==POSS.1SG.NOM|RX==[PRO]|TokenType=Clit
 13	winneːt	_	ADV	ADV	_	14	mod	_	AlignBegin=99735|AlignEnd=100143|Gloss=plenty|RX=[ADV]|TokenType=Root
 14	mha	_	VERB	V2	VerbClass=2	15	comp/m	_	AlignBegin=100143|AlignEnd=100279|Gloss=be_startled|RX=[V2]|TokenType=Root
-15	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	17	comp:aux	_	AlignBegin=100279|AlignEnd=100415|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+15	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	17	comp:pred	_	AlignBegin=100279|AlignEnd=100415|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 16	=b	_	DET	DET	Case=Acc|Gender=Masc	15	det	_	AlignBegin=100415|AlignEnd=100551|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 17	aka	_	AUX	AUX	Aspect=Perf	18	comp/m	_	AlignBegin=100551|AlignEnd=100687|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
 18	-jeː	_	AUX	_	_	25	conj:coord	_	AlignBegin=100687|AlignEnd=100823|DerPos=AUX|Gloss=-CVB.SMLT|TokenType=DerAff
@@ -648,7 +648,7 @@
 30	ʔimir	_	NOUN	N	Gender=Masc	32	comp:obj	_	AlignBegin=102714|AlignEnd=102883|Gloss=matter|RX=[N].[M]|TokenType=Root
 31	oːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	30	det	_	AlignBegin=102883|AlignEnd=103220|Gloss=PROX.SG.M.ACC|RX=[DEM]|TokenType=Root
 32	baːɖin	_	VERB	V1	VerbClass=1	33	comp/m	_	AlignBegin=103220|AlignEnd=103332|Gloss=forget\INT|RX=[V1].[DER]|TokenType=Root|TypeToken=stem
-33	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	36	comp:aux	_	AlignBegin=103332|AlignEnd=103444|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+33	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	35	comp:pred	_	AlignBegin=103332|AlignEnd=103444|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 34	=b	_	DET	DET	Case=Acc|Gender=Masc	33	det	_	AlignBegin=103444|AlignEnd=103557|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 35	aka	_	AUX	AUX	Aspect=Perf	36	comp/m	_	AlignBegin=103557|AlignEnd=103669|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
 36	-jeː	_	AUX	_	_	39	mod	_	AlignBegin=103669|AlignEnd=103781|DerPos=AUX|Gloss=-CVB.SMLT|TokenType=DerAff

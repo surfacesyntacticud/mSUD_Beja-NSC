@@ -333,7 +333,7 @@
 23	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	26	conj:coord	_	AlignBegin=62666|AlignEnd=62816|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 24	=t	_	DET	DET	Definite=Ind|Gender=Fem	23	det	_	AlignBegin=62816|AlignEnd=62966|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 25	tam	_	VERB	V2	VerbClass=2	26	comp/m	_	AlignBegin=62966|AlignEnd=63115|Gloss=eat|RX=[V2]|TokenType=Root
-26	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	29	comp:aux	_	AlignBegin=63115|AlignEnd=63264|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+26	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	29	comp:pred	_	AlignBegin=63115|AlignEnd=63264|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 27	=t	_	DET	DET	Definite=Ind|Gender=Fem	26	det	_	AlignBegin=63264|AlignEnd=63414|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 28	ni-	_	PRON	PNG	Number=Plur|Person=1	29	subj/m	_	AlignBegin=63414|AlignEnd=63638|Gloss=1PL-|RX=[PNG]-|TokenType=InflAff
 29	ki	_	AUX	AUX	Aspect=Perf	0	root	_	AlignBegin=63638|AlignEnd=63863|Gloss=become/PFV|RX=[AUX].[PRF]|TokenType=Root
@@ -769,7 +769,7 @@
 9	ʔaraːw	_	NOUN	N	_	11	comp:pred	_	AlignBegin=138568|AlignEnd=138784|Gloss=friend|RX=[SBJ].[N]|TokenType=Root
 10	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	9	udep@poss	_	AlignBegin=138784|AlignEnd=139000|Gloss==POSS.1SG.NOM|RX==[PRO]|TokenType=Clit
 11	aka	_	VERB	V1, IRG	VerbClass=1	12	comp/m	_	AlignBegin=139000|AlignEnd=139215|Gloss=become|RX=[V1].[IRG]|TokenType=Root
-12	-jeː	_	AUX	CVB	VerbForm=Conv	15	comp:obj	_	AlignBegin=139215|AlignEnd=139431|DerPos=VERB|Gloss=-CVB.SMLT|TokenType=DerAff
+12	-jeː	_	AUX	CVB	VerbForm=Conv	15	mod	_	AlignBegin=139215|AlignEnd=139431|DerPos=VERB|Gloss=-CVB.SMLT|TokenType=DerAff
 13	hoːj	_	ADP	PRO	Case=Abl	15	comp:obl	_	AlignBegin=139431|AlignEnd=139862|Gloss=LOC|RX=[POSTP]|TokenType=Root
 14	giːg	_	VERB	V2	VerbClass=2	15	comp/m	_	AlignBegin=139862|AlignEnd=139969|Gloss=leave|ReportedSpeech=Yes|RX=[V2]|TokenType=Root
 15	-is	_	AUX	V2	VerbClass=2|Voice=Cau	20	comp:obj	_	AlignBegin=139969|AlignEnd=140077|DerPos=VERB|Gloss=-CAUS|Reported=Yes|RX=-[V2].[DER]|TokenType=DerAff

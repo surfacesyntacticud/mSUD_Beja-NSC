@@ -539,7 +539,7 @@
 15	=t	_	CCONJ	CONJ	_	13	cc	_	AlignBegin=98089|AlignEnd=98192|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 16	//	_	PUNCT	PUNCT	_	13	punct	_	AlignBegin=98192|AlignEnd=98843|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 17	nʔa	_	VERB	V1	VerbClass=1	18	comp/m	_	AlignBegin=98843|AlignEnd=98985|Gloss=be_down|RX=[V1].[IRG]|TokenType=Root
-18	-ti	_	AUX	CVB	VerbForm=Conv	19	compound:svc	_	AlignBegin=98985|AlignEnd=99128|DerPos=NOUN|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+18	-ti	_	AUX	CVB	VerbForm=Conv	19	compound:svc	_	AlignBegin=98985|AlignEnd=99128|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 19	daː	_	VERB	V2	VerbClass=2	20	comp/m	_	AlignBegin=99128|AlignEnd=99271|Gloss=be_there|RX=[V2]|TokenType=Root
 20	-s	_	AUX	V2	VerbClass=2|Voice=Cau	22	comp:obj	_	AlignBegin=99271|AlignEnd=99414|DerPos=VERB|Gloss=-CAUS|RX=-[V2].[DER]|TokenType=DerAff
 21	i-	_	PRON	PNG	Person=3	22	subj/m	_	AlignBegin=99414|AlignEnd=99471|Gloss=3-|RX=[PNG]-|TokenType=InflAff
@@ -650,7 +650,7 @@
 8	doːr	_	NOUN	N	Gender=Masc	13	mod	_	AlignBegin=116880|AlignEnd=117027|Gloss=time|RX=[N].[M]|TokenType=Root
 9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=117027|AlignEnd=117321|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 10	ʔas	_	VERB	V1	VerbClass=1	11	comp/m	_	AlignBegin=117321|AlignEnd=117436|Gloss=be_up|RX=[V1]|TokenType=Root
-11	-ti	_	AUX	CVB	VerbForm=Conv	13	compound:svc	_	AlignBegin=117436|AlignEnd=117551|DerPos=NOUN|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+11	-ti	_	AUX	CVB	VerbForm=Conv	13	compound:svc	_	AlignBegin=117436|AlignEnd=117551|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 12	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	13	subj/m	_	AlignBegin=117551|AlignEnd=117666|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 13	ngiːd	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=117666|AlignEnd=117782|Gloss=throw/IPFV|RX=[V1]|TokenType=Root
 14	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	13	discourse	_	AlignBegin=117782|AlignEnd=118013|Gloss=say/PFV.3PL|RX=[V1].[IRG]|TokenType=Root
@@ -1026,12 +1026,12 @@
 13	//	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=183546|AlignEnd=183840|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_16_Prophet_Fox_210-211
-# text = ʔakr -a aja -a ʤhari =b =wa =jaːj //
+# text = ʔakr -a aj -a ʤhari =b =wa =jaːj //
 # phonetic_text = ʔakra ajaː ʤharibwaːjaːj //
 # text_en =  you are thoroughly unlucky.
 1	ʔakr	_	VERB	V1	VerbClass=1	2	comp/m	_	AlignBegin=183840|AlignEnd=183947|Gloss=be_strong|RX=[V1]|TokenType=Root
 2	-a	_	AUX	CVB	VerbForm=Conv	3	mod	_	AlignBegin=183947|AlignEnd=184054|DerPos=ADJ|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
-3	aja	_	VERB	V1	VerbClass=1	4	comp/m	_	AlignBegin=184054|AlignEnd=184161|Gloss=die|RX=[V1].[IRG]|TokenType=Root
+3	aj	_	VERB	V1	VerbClass=1	4	comp/m	_	AlignBegin=184054|AlignEnd=184161|Gloss=die|RX=[V1].[IRG]|TokenType=Root
 4	-a	_	AUX	CVB	VerbForm=Conv	5	mod	_	AlignBegin=184161|AlignEnd=184269|DerPos=ADJ|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
 5	ʤhari	_	NOUN	N	Gender=Masc	7	comp	_	AlignBegin=184269|AlignEnd=184312|Gloss=chance|RX=[N].[M]|TokenType=Root
 6	=b	_	DET	DET	Case=Acc|Gender=Masc	5	det	_	AlignBegin=184355|AlignEnd=184398|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
@@ -1542,7 +1542,7 @@
 10	doːr	_	NOUN	N	Gender=Masc	14	mod	_	AlignBegin=265464|AlignEnd=265554|Gloss=time|RX=[N].[M]|TokenType=Root
 11	//	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=265554|AlignEnd=265733|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 12	gibit	_	VERB	V1	VerbClass=1	13	comp/m	_	AlignBegin=265733|AlignEnd=265864|Gloss=sip|RX=[V1]|TokenType=Root
-13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:obj	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:aux	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 14	dannʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=265995|AlignEnd=266258|Gloss=do/IPFV.3SG|RX=[V1].[IRG]|TokenType=Root
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=266258|AlignEnd=266520|Gloss=say/PFV.3PL|RX=[V1].[IRG]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=266520|AlignEnd=266891|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -1574,7 +1574,7 @@
 19	doːr	_	NOUN	N	Gender=Masc	24	mod	_	AlignBegin=270960|AlignEnd=271093|Gloss=time|RX=[N].[M]|TokenType=Root
 20	/	_	PUNCT	PUNCT	_	19	punct	_	AlignBegin=271093|AlignEnd=271359|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 21	ʔas	_	VERB	V1	VerbClass=1	22	comp/m	_	AlignBegin=271359|AlignEnd=271516|Gloss=be_up|RX=[V1]|TokenType=Root
-22	-ti	_	AUX	CVB	VerbForm=Conv	24	compound:svc	_	AlignBegin=271516|AlignEnd=271674|DerPos=NOUN|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+22	-ti	_	AUX	CVB	VerbForm=Conv	24	compound:svc	_	AlignBegin=271516|AlignEnd=271674|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 23	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	24	subj/m	_	AlignBegin=271674|AlignEnd=271831|Gloss=3SG.F-|RX=[PNG]-|TokenType=InflAff
 24	ngiːd	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=271831|AlignEnd=271989|Gloss=throw/IPFV|RX=[V1]|TokenType=Root
 25	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=271989|AlignEnd=272821|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -1584,7 +1584,7 @@
 # phonetic_text = ʔasti tingiːdhoːb / wʔamuːl hoːgeːti jʔeːtiːt / bhoːt hoːj dannʔi eːn / igirmaːj // {laughter}
 # text_en = When it throws it upwards, after the milk container has come back down, it wounded him on he head, they said, on the head.
 1	ʔas	_	VERB	V1	VerbClass=1	2	comp/m	_	AlignBegin=272821|AlignEnd=272941|Gloss=be_up|RX=[V1]|TokenType=Root
-2	-ti	_	AUX	CVB	VerbForm=Conv	4	compound:svc	_	AlignBegin=272941|AlignEnd=273062|DerPos=NOUN|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+2	-ti	_	AUX	CVB	VerbForm=Conv	4	compound:svc	_	AlignBegin=272941|AlignEnd=273062|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 3	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	4	subj/m	_	AlignBegin=273062|AlignEnd=273142|Gloss=3SG.F-|RX=[PNG]-|TokenType=InflAff
 4	ngiːd	_	VERB	V1	Aspect=Imp|VerbClass=1	5	comp	_	AlignBegin=273142|AlignEnd=273222|Gloss=throw/IPFV|RX=[V1]|TokenType=Root
 5	=hoːb	_	SCONJ	CONJ	_	11	mod	_	AlignBegin=273222|AlignEnd=273303|Gloss==when|RX==[CONJ]|TokenType=Clit
@@ -1592,9 +1592,9 @@
 7	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	8	det	_	AlignBegin=273545|AlignEnd=273690|Gloss=DEF.SG.M=|RX=[DET]=|TokenType=Clit
 8	ʔamuːl	_	NOUN	N	Gender=Masc	11	subj	_	AlignBegin=273690|AlignEnd=273836|Gloss=milk_container|RX=[SBJ].[N].[M]|TokenType=Root
 9	hoːg	_	VERB	V2	VerbClass=2	10	comp/m	_	AlignBegin=273836|AlignEnd=273981|Gloss=go_downstream|RX=[V2]|TokenType=Root
-10	-eːti	_	AUX	CVB	VerbForm=Conv	11	mod	_	AlignBegin=273981|AlignEnd=274127|DerPos=NOUN|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+10	-eːti	_	AUX	CVB	VerbForm=Conv	11	mod	_	AlignBegin=273981|AlignEnd=274127|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 11	jʔ	_	VERB	V2	VerbClass=2	12	comp/m	_	AlignBegin=274127|AlignEnd=274272|Gloss=come|RX=[V2].[IRG]|TokenType=Root
-12	-eːtiːt	_	AUX	CVB	VerbForm=Conv	17	mod	_	AlignBegin=274272|AlignEnd=274418|DerPos=NOUN|Gloss=-CVB.SEQ|RX=-.|TokenType=DerAff
+12	-eːtiːt	_	AUX	CVB	VerbForm=Conv	17	mod	_	AlignBegin=274272|AlignEnd=274418|DerPos=VERB|Gloss=-CVB.SEQ|RX=-.|TokenType=DerAff
 13	/	_	PUNCT	PUNCT	_	12	punct	_	AlignBegin=274418|AlignEnd=274710|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 14	bhoː	_	NOUN	N	Gender=Fem	17	comp:obj	_	AlignBegin=274710|AlignEnd=274822|Gloss=slit|RX=[N].[F]|TokenType=Root
 15	=t	_	DET	DET	Gender=Fem	14	det	_	AlignBegin=274822|AlignEnd=274935|Gloss==INDF.F|RX==[DET]|TokenType=Clit
