@@ -649,11 +649,11 @@
 12	/	_	PUNCT	DEM	_	11	punct	_	AlignBegin=129401|AlignEnd=129753|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 13	toːt	_	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	AlignBegin=129753|AlignEnd=129929|Gloss=PROX.SG.F.ACC|RX=[DEM]|TokenType=Root
 14	ti=	_	DET	N	Gender=Fem	15	det	_	AlignBegin=129929|AlignEnd=130106|Gloss=DEF.F=|RX=[N].[F]=|TokenType=Clit
-15	takat	_	NOUN	REL	Gender=Fem	17	subj	_	AlignBegin=130106|AlignEnd=130194|Gloss=woman|RX=[N].[F]|TokenType=Root
-16	ti=	_	SCONJ	V2	Gender=Fem	17	comp	_	AlignBegin=130194|AlignEnd=130282|Gloss=DEF.F=|RX=[REL]=|TokenType=Clit
-17	waːw	_	VERB	TAM.PNG	VerbClass=2	19	comp	_	AlignBegin=130282|AlignEnd=130370|Gloss=weep|RX=[V2]|TokenType=Root
+15	takat	_	NOUN	REL	Gender=Fem	20	comp:obj	_	AlignBegin=130106|AlignEnd=130194|Gloss=woman|RX=[N].[F]|TokenType=Root
+16	ti=	_	SCONJ	V2	Gender=Fem	15	mod@relcl	_	AlignBegin=130194|AlignEnd=130282|Gloss=DEF.F=|RX=[REL]=|TokenType=Clit
+17	waːw	_	VERB	TAM.PNG	VerbClass=2	16	comp	_	AlignBegin=130282|AlignEnd=130370|Gloss=weep|RX=[V2]|TokenType=Root
 18	-ti	_	PRON	REL	Aspect=Aor|Gender=Fem|Number=Plur	17	subj/m	_	AlignBegin=130370|AlignEnd=130459|Gloss=-AOR.SSG.F|RX=-[TAM].[PNG]|TokenType=InflAff
-19	=t	_	SCONJ	V2	Definite=Ind|Gender=Fem	20	comp:obj	_	AlignBegin=130459|AlignEnd=130576|Gloss==INDF.F|RX==[REL]|TokenType=Clit
+19	=t	_	SCONJ	V2	Definite=Ind|Gender=Fem	17	comp:obj	_	AlignBegin=130459|AlignEnd=130576|Gloss==INDF.F|RX==[REL]|TokenType=Clit
 20	rh	_	VERB	TAM.PNG	_	22	comp	_	AlignBegin=130576|AlignEnd=130694|Gloss=see|RX=[V2]|TokenType=Root
 21	-i	_	PRON	CONJ	Person=3	20	subj/m	_	AlignBegin=130694|AlignEnd=130812|Gloss=-AOR.3SG.M|RX=-[TAM].[PNG]|TokenType=InflAff
 22	=hoːb	_	SCONJ	PUNCT	_	28	mod	_	AlignBegin=130812|AlignEnd=131165|Gloss=when/=when|RX==[CONJ]|TokenType=Clit

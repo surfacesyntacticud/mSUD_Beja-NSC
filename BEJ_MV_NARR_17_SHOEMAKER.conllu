@@ -375,7 +375,7 @@
 11	wana	_	ADV	ADV	_	13	mod	_	AlignBegin=69702|AlignEnd=69966|Gloss=in_the_morning|RX=[ADV]|TokenType=Root
 12	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	13	subj/m	_	AlignBegin=69966|AlignEnd=70054|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 13	dilib	_	VERB	V1	Aspect=Perf|VerbClass=1	14	comp	_	AlignBegin=70054|AlignEnd=70142|Gloss=sell/PFV|RX=[V1]|TokenType=Root
-14	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	17	comp@relcl	_	AlignBegin=70142|AlignEnd=70230|Gloss==REL.F|RX==[CONJ]|TokenType=Clit
+14	=eːt	_	SCONJ	CONJ.REL	Gender=Fem|PronType=Rel	17	mod	_	AlignBegin=70142|AlignEnd=70230|Gloss==REL.F|RX==[CONJ]|TokenType=Clit
 15	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=70230|AlignEnd=70494|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 16	ti=	_	DET	DET	Definite=Def|Gender=Fem	17	det	_	AlignBegin=70494|AlignEnd=70573|Gloss=DEF.F=|RX=[DET]=|TokenType=Clit
 17	giɖʔa	_	NOUN	N	Gender=Fem	19	comp	_	AlignBegin=70573|AlignEnd=70653|Gloss=shoe|RX=[N].[F]|TokenType=Root
@@ -450,7 +450,7 @@
 3	-eːti	_	AUX	CVB	VerbForm=Conv	4	mod	_	AlignBegin=84737|AlignEnd=84893|DerPos=NOUN|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 4	jʔ	_	VERB	V2	VerbClass=2	6	comp	_	AlignBegin=84893|AlignEnd=84997|Gloss=come|RX=[V2].[IRG]|TokenType=Root
 5	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	4	subj/m	_	AlignBegin=84997|AlignEnd=85101|Gloss=-AOR.3SG.M|RX=-[TAM].[PNG]|TokenType=InflAff
-6	=jeːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	8	comp@relcl	_	AlignBegin=85101|AlignEnd=85206|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
+6	=jeːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	8	mod	_	AlignBegin=85101|AlignEnd=85206|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
 7	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	8	det	_	AlignBegin=85206|AlignEnd=85362|Gloss=DEF.SG.M.ACC=|RX=[DET]=|TokenType=Clit
 8	doːr	_	NOUN	N	Gender=Masc	27	mod	_	AlignBegin=85362|AlignEnd=85518|Gloss=time|RX=[N].[M]|TokenType=Root
 9	eːt	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	AlignBegin=85518|AlignEnd=85831|Gloss=PROX.PL.F.ACC|RX=[DEM]|TokenType=Root
@@ -698,7 +698,7 @@
 1	bass	_	PART	PTCL	Foreign=Yes	6	mod	_	AlignBegin=122627|AlignEnd=122921|Gloss=only|Lang=ar|RX=[PTCL].[BORR].[ARA]|TokenType=Root
 2	rajjh	_	VERB	V2	VerbClass=2	3	comp/m	_	AlignBegin=122921|AlignEnd=122994|Gloss=calm_down|RX=[V2]|TokenType=Root
 3	-am	_	AUX	V2	VerbClass=2	4	comp/m	_	AlignBegin=122994|AlignEnd=123068|DerPos=VERB|Gloss=-MID|RX=-[V2].[DER]|TokenType=DerAff
-4	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	6	comp:aux	_	AlignBegin=123068|AlignEnd=123141|DerPos=NOUN|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+4	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	6	comp:pred	_	AlignBegin=123068|AlignEnd=123141|DerPos=NOUN|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 5	=b	_	DET	DET	Case=Acc|Gender=Masc	4	det	_	AlignBegin=123141|AlignEnd=123215|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 6	aka	_	AUX	AUX	Aspect=Perf	7	comp/m	_	AlignBegin=123215|AlignEnd=123362|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
 7	-jeː	_	AUX	CVB	VerbForm=Conv	15	mod	_	AlignBegin=123362|AlignEnd=123509|DerPos=VERB|Gloss=-CVB.SMLT|RX=-.|TokenType=DerAff
