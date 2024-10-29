@@ -525,7 +525,7 @@
 # phonetic_text = hamilaːb akatijeː kaːmujt // harawaːb harawaːbu // kihaːjwa //
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_03_CAMEL.WAV
 1	hamil	_	VERB	V2	VerbClass=2	2	comp/m	_	AlignBegin=94772|AlignEnd=94898|Gloss=let|RX=[V2]|TokenType=Root
-2	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	5	comp:aux	_	AlignBegin=94898|AlignEnd=95025|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+2	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	5	comp:pred	_	AlignBegin=94898|AlignEnd=95025|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 3	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	2	det	_	AlignBegin=95025|AlignEnd=95152|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 4	a-	_	PRON	PNG	Number=Sing|Person=1	5	subj/m	_	AlignBegin=95152|AlignEnd=95279|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
 5	kati	_	VERB	AUX	Aspect=Imp	6	comp	_	AlignBegin=95279|AlignEnd=95406|Gloss=become\IPFV|RX=[AUX].[PRF]|TokenType=Root
@@ -593,7 +593,7 @@
 23	haːj	_	ADP	POSTP	Case=Com	24	mod	_	AlignBegin=106043|AlignEnd=106329|Gloss=COM|RX=[POSTP]|TokenType=Root
 24	jʔ	_	VERB	V2	VerbClass=2	26	comp	_	AlignBegin=106329|AlignEnd=106424|Gloss=come|RX=[V2].[IRG]|TokenType=Root
 25	-eːn	_	PRON	TAM.PNG	Aspect=Imp|Number=Plur|Person=3	24	subj/m	_	AlignBegin=106424|AlignEnd=106519|Gloss=-IPFV.3PL|RX=-[TAM].[PNG]|TokenType=InflAff
-26	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	28	comp:obj	_	AlignBegin=106519|AlignEnd=106615|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
+26	=eːb	_	SCONJ	CONJ.REL	Gender=Masc	28	comp:obj	_	AlignBegin=106519|AlignEnd=106615|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
 27	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	28	subj/m	_	AlignBegin=106615|AlignEnd=106710|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 28	kati	_	VERB	V1	Aspect=Imp|VerbClass=1	29	comp	_	AlignBegin=106710|AlignEnd=106805|Gloss=become\IPFV|RX=[V1].[IRG]|TokenType=Root
 29	=jeːk	_	SCONJ	CONJ	_	36	mod	_	AlignBegin=106805|AlignEnd=106901|Gloss==if|RX==[CONJ]|TokenType=Clit
@@ -782,7 +782,7 @@
 6	iː-	_	PRON	PNG	Person=3	7	subj/m	_	AlignBegin=139803|AlignEnd=139901|Gloss=3-|RX=[PNG]-|TokenType=InflAff
 7	d	_	AUX	AUX.FUT	Aspect=Aor	9	comp	_	AlignBegin=139901|AlignEnd=140000|Gloss=say\AOR|RX=[AUX].[FUT]|TokenType=Root
 8	-n	_	PRON	PNG	Number=Plur	7	subj/m	_	AlignBegin=140000|AlignEnd=140098|Gloss=-PL|RX=-[PNG]|TokenType=InflAff
-9	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	10	comp:obj	_	AlignBegin=140098|AlignEnd=140197|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
+9	=eːb	_	SCONJ	CONJ.REL	Gender=Masc	10	comp:obj	_	AlignBegin=140098|AlignEnd=140197|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
 10	hiːs	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=140197|AlignEnd=140394|Gloss=think|RX=[V2]|TokenType=Root
 11	-an	_	PRON	TAM.PNG	Aspect=Perf|Number=Sing|Person=1	10	subj/m	_	AlignBegin=140394|AlignEnd=140591|Gloss=-PFV.1SG|RX=-[TAM].[PNG]|TokenType=InflAff
 12	/	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=140591|AlignEnd=140985|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -1022,10 +1022,10 @@
 # phonetic_text = halboːbal iki /
 # text_en = (and its belly) was flapping a lot.
 1	halboːb	_	VERB	V2	VerbClass=2	2	comp/m	_	AlignBegin=184919|AlignEnd=185090|Gloss=swing|RX=[V2]|TokenType=Root
-2	-a	_	AUX	CVB	VerbForm=Conv	5	comp:pred	_	AlignBegin=185090|AlignEnd=185261|DerPos=VERB|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
+2	-a	_	AUX	CVB	VerbForm=Conv	5	comp:aux	_	AlignBegin=185090|AlignEnd=185261|DerPos=VERB|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
 3	-l	_	PART	_	Degree=Aug	2	mod/m	_	AlignBegin=185261|AlignEnd=185433|Gloss=-AUG|RX=-.|TokenType=InflAff
 4	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	5	subj/m	_	AlignBegin=185433|AlignEnd=185690|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
-5	ki	_	VERB	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=185690|AlignEnd=185948|Gloss=become\PFV|RX=[V1].[IRG]|TokenType=Root
+5	ki	_	AUX	V1	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=185690|AlignEnd=185948|Gloss=become\PFV|RX=[V1].[IRG]|TokenType=Root
 6	/	_	PUNCT	PUNCT	_	5	punct	_	AlignBegin=185948|AlignEnd=186463|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_03_camel_208-211

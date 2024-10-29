@@ -620,7 +620,7 @@
 8	=da	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=111233|AlignEnd=111298|Gloss==DIR|RX==[POSTP]|TokenType=Clit
 9	/	_	PUNCT	_	_	8	punct	_	AlignBegin=111298|AlignEnd=111615|Gloss=/|TokenType=Break
 10	jʔ	_	VERB	V2	VerbClass=2	11	comp/m	_	AlignBegin=111615|AlignEnd=111735|Gloss=come|RX=[V2].[IRG]|TokenType=Root
-11	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	15	comp:pred	_	AlignBegin=111735|AlignEnd=111855|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+11	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	15	comp:aux	_	AlignBegin=111735|AlignEnd=111855|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 12	=joːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	11	comp:obj	_	AlignBegin=111855|AlignEnd=111974|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
 13	ka=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	15	mod	_	AlignBegin=111974|AlignEnd=112046|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
 14	a-	_	PRON	PNG	Number=Sing|Person=1	15	subj/m	_	AlignBegin=112046|AlignEnd=112118|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
@@ -934,7 +934,7 @@
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=161068|AlignEnd=161658|Gloss=/|TokenType=Break
 16	whiː	_	ADP	POSTP	_	17	comp:obl	_	AlignBegin=161658|AlignEnd=161985|Gloss=under|RX=[POSTP]|TokenType=Root
 17	sʔa	_	VERB	V1	VerbClass=1	18	comp/m	_	AlignBegin=161985|AlignEnd=162094|Gloss=sit|RX=[V1].[DER]|TokenType=Root
-18	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	20	comp:pred	_	AlignBegin=162094|AlignEnd=162203|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+18	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	20	comp:aux	_	AlignBegin=162094|AlignEnd=162203|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 19	=b	_	DET	DET	Case=Acc|Gender=Masc	18	det	_	AlignBegin=162203|AlignEnd=162312|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 20	aka	_	AUX	AUX	Aspect=Perf	21	comp/m	_	AlignBegin=162312|AlignEnd=162476|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
 21	-jeː	_	AUX	_	_	23	mod	_	AlignBegin=162476|AlignEnd=162639|DerPos=VERB|Gloss=-CVB.SMLT|TokenType=DerAff
@@ -1166,7 +1166,7 @@
 2	/	_	PUNCT	_	_	1	punct	_	AlignBegin=196844|AlignEnd=197101|Gloss=/|TokenType=Break
 3	a-	_	PRON	PNG	Number=Sing|Person=1	4	subj/m	_	AlignBegin=197477|AlignEnd=197575|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
 4	jan	_	VERB	V1	Aspect=Perf|VerbClass=1	5	comp	_	AlignBegin=197575|AlignEnd=197673|Gloss=die\PFV|RX=[V1].[IRG]|TokenType=Root
-5	=eːb	_	SCONJ	CONJ.REL	Gender=Masc|PronType=Rel	6	comp:obj	_	AlignBegin=197673|AlignEnd=197770|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
+5	=eːb	_	SCONJ	CONJ.REL	Gender=Masc	6	comp:obj	_	AlignBegin=197673|AlignEnd=197770|Gloss==REL.M|RX==[CONJ]|TokenType=Clit
 6	rhi	_	VERB	V2	VerbClass=2	9	comp:obj	_	AlignBegin=197770|AlignEnd=197916|Gloss=see|Reported=Yes|RX=[V2]|TokenType=Root
 7	-tnija	_	PRON	TAM.PNG	Aspect=Imp|Gender=Masc|Number=Sing|Person=2	6	subj/m	_	AlignBegin=197916|AlignEnd=198063|Gloss=-IPFV.2SG.M|RX=-[TAM].[PNG]|TokenType=InflAff
 8	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	9	subj/m	_	AlignBegin=198063|AlignEnd=198209|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff

@@ -225,7 +225,7 @@
 3	iːjʔaː	_	NOUN	N	Gender=Fem|Number=Plur	6	comp:obj	_	AlignBegin=43034|AlignEnd=43243|Gloss=milk|RX=[N].[PL].[F]|TokenType=Root
 4	=t	_	DET	DET	Definite=Ind|Gender=Fem	3	det	_	AlignBegin=43243|AlignEnd=43452|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 5	tib	_	VERB	V1	VerbClass=1	6	comp/m	_	AlignBegin=43452|AlignEnd=43591|Gloss=fill|RX=[V1]|TokenType=Root
-6	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	9	comp:pred	_	AlignBegin=43591|AlignEnd=43730|DerPos=NOUN|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+6	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	9	comp:aux	_	AlignBegin=43591|AlignEnd=43730|DerPos=NOUN|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 7	=b	_	DET	DET	Case=Acc|Definite=Ind|Gender=Masc	6	det	_	AlignBegin=43730|AlignEnd=43870|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 8	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	9	subj/m	_	AlignBegin=43870|AlignEnd=44009|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 9	kti	_	AUX	AUX	Aspect=Perf	10	comp	_	AlignBegin=44009|AlignEnd=44148|Gloss=become\AOR|RX=[AUX].[PRF]|TokenType=Root
@@ -333,7 +333,7 @@
 23	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	26	conj:coord	_	AlignBegin=62666|AlignEnd=62816|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 24	=t	_	DET	DET	Definite=Ind|Gender=Fem	23	det	_	AlignBegin=62816|AlignEnd=62966|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 25	tam	_	VERB	V2	VerbClass=2	26	comp/m	_	AlignBegin=62966|AlignEnd=63115|Gloss=eat|RX=[V2]|TokenType=Root
-26	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	29	comp:pred	_	AlignBegin=63115|AlignEnd=63264|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+26	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	29	comp:aux	_	AlignBegin=63115|AlignEnd=63264|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 27	=t	_	DET	DET	Definite=Ind|Gender=Fem	26	det	_	AlignBegin=63264|AlignEnd=63414|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 28	ni-	_	PRON	PNG	Number=Plur|Person=1	29	subj/m	_	AlignBegin=63414|AlignEnd=63638|Gloss=1PL-|RX=[PNG]-|TokenType=InflAff
 29	ki	_	AUX	AUX	Aspect=Perf	0	root	_	AlignBegin=63638|AlignEnd=63863|Gloss=become\PFV|RX=[AUX].[PRF]|TokenType=Root
@@ -674,7 +674,7 @@
 # phonetic_text = iki saroːjka / whanʤar sallaman /
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_01_SHELTER.WAV
 1	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	2	subj/m	_	AlignBegin=124427|AlignEnd=124599|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
-2	ki	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	9	mod	_	AlignBegin=124599|AlignEnd=124771|Gloss=become\PFV|RX=[V1].[IRG]|TokenType=Root
+2	ki	_	AUX	V1, IRG	Aspect=Perf|VerbClass=1	9	mod	_	AlignBegin=124599|AlignEnd=124771|Gloss=become\PFV|RX=[V1].[IRG]|TokenType=Root
 3	sar	_	VERB	V1	VerbClass=1|Voice=Mid	4	comp/m	_	AlignBegin=124771|AlignEnd=124885|Gloss=be_awake\MID|RX=[V1].[DER]|TokenType=Root
 4	-oːj	_	SCONJ	N	_	5	comp	_	AlignBegin=124885|AlignEnd=125000|DerPos=NOUN|Gloss=-N.AC|RX=-[N].[V]|TokenType=DerAff
 5	=ka	_	ADP	POSTP	_	2	subj	_	AlignBegin=125000|AlignEnd=125115|Gloss==DISTR|RX==[POSTP]|TokenType=Clit
@@ -889,7 +889,7 @@
 7	dh	_	ADP	POSTP	_	10	comp:obl	_	AlignBegin=158686|AlignEnd=158783|Gloss=DIR|RX=[POSTP]|TokenType=Root
 8	=i	_	PRON	PRO	Case=Acc|Number=Sing|Person=1|Poss=Yes	7	comp	_	AlignBegin=158783|AlignEnd=158881|Gloss==POSS.1SG.ACC|RX==[PRO]|TokenType=Clit
 9	ti-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	10	subj/m	_	AlignBegin=158881|AlignEnd=158978|Gloss=3SG.F-|RX=[PNG]-|TokenType=InflAff
-10	ki	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	12	comp:obj	_	AlignBegin=158978|AlignEnd=159076|Gloss=become\PFV|Reported=Yes|ReportedSpeech=Yes|RX=[V1].[IRG]|TokenType=Root
+10	ki	_	AUX	V1, IRG	Aspect=Perf|VerbClass=1	12	comp:obj	_	AlignBegin=158978|AlignEnd=159076|Gloss=become\PFV|Reported=Yes|ReportedSpeech=Yes|RX=[V1].[IRG]|TokenType=Root
 11	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	12	subj/m	_	AlignBegin=159076|AlignEnd=159173|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 12	di	_	VERB	V1, IRG	Aspect=Perf|VerbClass=1	0	root	_	AlignBegin=159173|AlignEnd=159271|Gloss=say\PFV|RX=[V1].[IRG]|TokenType=Root
 13	eːn	_	VERB	V1, IRG	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	12	discourse	_	AlignBegin=159271|AlignEnd=159466|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root

@@ -314,7 +314,7 @@
 11	nafs	_	PRON	PRO	Reflex=Yes	13	subj	_	AlignBegin=55170|AlignEnd=55290|Gloss=self|RX=[SBJ].[PRO].[REFL]|TokenType=Root
 12	=i	_	PRON	PRO	Case=Nom|Number=Sing|Person=1|Poss=Yes	11	udep@poss	_	AlignBegin=55290|AlignEnd=55410|Gloss==POSS.1SG.NOM|RX==[PRO]|TokenType=Clit
 13	hasam	_	VERB	V2	VerbClass=2	14	comp/m	_	AlignBegin=55410|AlignEnd=55530|Gloss=go_past|RX=[V2]|TokenType=Root
-14	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	16	comp:pred	_	AlignBegin=55530|AlignEnd=55650|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+14	-a	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	16	comp:aux	_	AlignBegin=55530|AlignEnd=55650|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 15	=b	_	DET	DET	Case=Acc|Gender=Masc	14	det	_	AlignBegin=55650|AlignEnd=55770|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 16	aka	_	AUX	AUX	Aspect=Perf	17	comp/m	_	AlignBegin=55770|AlignEnd=55950|Gloss=become|RX=[AUX].[PRF]|TokenType=Root
 17	-jeː	_	AUX	_	_	19	comp:obj	_	AlignBegin=55950|AlignEnd=56130|DerPos=VERB|Gloss=-CVB.SMLT|TokenType=DerAff
@@ -353,9 +353,9 @@
 22	xawaːʤa	_	NOUN	N	Gender=Masc	24	subj	_	AlignBegin=61279|AlignEnd=61440|Gloss=foreigner|RX=[SBJ].[N].[M].[BORR].[ARA]|TokenType=Root
 23	dhaj	_	ADP	POSTP	_	24	comp	_	AlignBegin=61440|AlignEnd=61763|Gloss=DIR|RX=[POSTP]|TokenType=Root
 24	hi	_	VERB	V1	VerbClass=1	25	comp/m	_	AlignBegin=61763|AlignEnd=61925|Gloss=give|RX=[V1].[IRG]|TokenType=Root
-25	-ja	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	27	comp:aux	_	AlignBegin=61925|AlignEnd=62086|DerPos=NOUN|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
+25	-ja	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	27	comp:pred	_	AlignBegin=61925|AlignEnd=62086|DerPos=NOUN|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
 26	iː-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	27	subj/m	_	AlignBegin=62086|AlignEnd=62194|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
-27	kti	_	AUX	AUX	Aspect=Aor	28	comp	_	AlignBegin=62194|AlignEnd=62302|Gloss=become\AOR|RX=[AUX].[PRF]|TokenType=Root
+27	kti	_	VERB	AUX	Aspect=Aor	28	comp	_	AlignBegin=62194|AlignEnd=62302|Gloss=become\AOR|RX=[AUX].[PRF]|TokenType=Root
 28	=jeːb	_	SCONJ	CONJ.REL	Gender=Masc|Number=Sing|PronType=Rel	14	mod@relcl	_	AlignBegin=62302|AlignEnd=62409|Gloss==REL.SG.M|RX==[CONJ]|TokenType=Clit
 29	/	_	PUNCT	_	_	28	punct	_	AlignBegin=62409|AlignEnd=62731|Gloss=/|TokenType=Break
 30	hasam	_	VERB	V2	VerbClass=2	0	root	_	AlignBegin=62731|AlignEnd=62890|Gloss=go_past|RX=[V2]|TokenType=Root
