@@ -126,10 +126,10 @@
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=20283|AlignEnd=20580|Gloss=/|TokenType=Break
 12	beːti	_	ADP	POSTP	_	13	mod	_	AlignBegin=20580|AlignEnd=20964|Gloss=towards|RX=[POSTP]|TokenType=Root
 13	tar	_	VERB	V1	VerbClass=1	14	comp/m	_	AlignBegin=20964|AlignEnd=21156|Gloss=turn_aside|RX=[V1].[DER]|TokenType=Root
-14	-tiːt	_	AUX	_	_	16	mod	_	AlignBegin=21156|AlignEnd=21348|DerPos=NOUN|Gloss=-CVB.SEQ|TokenType=DerAff
+14	-tiːt	_	AUX	_	_	16	mod	_	AlignBegin=21156|AlignEnd=21348|DerPos=VERB|Gloss=-CVB.SEQ|TokenType=DerAff
 15	/	_	PUNCT	_	_	14	punct	_	AlignBegin=21348|AlignEnd=21732|Gloss=/|TokenType=Break
 16	sakana	_	VERB	V2	VerbClass=2	17	comp/m	_	AlignBegin=21732|AlignEnd=21997|Gloss=ask_for_news|RX=[V2]|TokenType=Root
-17	-ja	_	AUX	_	_	20	comp:aux	_	AlignBegin=21997|AlignEnd=22262|DerPos=NOUN|Gloss=-CVB.MNR|TokenType=DerAff
+17	-ja	_	AUX	_	_	20	comp:aux	_	AlignBegin=21997|AlignEnd=22262|DerPos=VERB|Gloss=-CVB.MNR|TokenType=DerAff
 18	/	_	PUNCT	_	_	17	punct	_	AlignBegin=22262|AlignEnd=22793|Gloss=/|TokenType=Break
 19	a-	_	PRON	PNG	Number=Sing|Person=1	20	subj/m	_	AlignBegin=22793|AlignEnd=22878|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
 20	ni	_	AUX	V1	Aspect=Perf|VerbClass=1	24	conj:coord	_	AlignBegin=22878|AlignEnd=22963|Gloss=say\PFV|RX=[AUX].[VOL]|TokenType=Root
@@ -398,7 +398,7 @@
 10	kaːm	_	NOUN	N	_	17	comp:obj	_	AlignBegin=59102|AlignEnd=59230|Gloss=camel|RX=[N]|TokenType=Root
 11	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	10	udep@poss	_	AlignBegin=59230|AlignEnd=59359|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
 12	rh	_	VERB	V2	VerbClass=2	13	comp/m	_	AlignBegin=59359|AlignEnd=59445|Gloss=see|RX=[V2]|TokenType=Root
-13	-aː	_	AUX	_	_	17	comp:aux	_	AlignBegin=59445|AlignEnd=59531|DerPos=NOUN|Gloss=-CVB.MNR|TokenType=DerAff
+13	-aː	_	AUX	_	_	17	comp:aux	_	AlignBegin=59445|AlignEnd=59531|DerPos=VERB|Gloss=-CVB.MNR|TokenType=DerAff
 14	=b	_	DET	DET	Case=Acc|Gender=Masc	13	det	_	AlignBegin=59531|AlignEnd=59616|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit
 15	ka=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	17	mod	_	AlignBegin=59616|AlignEnd=59702|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
 16	a-	_	PRON	PNG	Number=Sing|Person=1	17	subj/m	_	AlignBegin=59702|AlignEnd=59788|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
