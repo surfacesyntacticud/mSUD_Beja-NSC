@@ -270,7 +270,7 @@
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=44809|AlignEnd=45053|Gloss=/|TokenType=Break
 12	heːlaj	_	NOUN	N	Gender=Masc	18	vocative	_	AlignBegin=45053|AlignEnd=45263|Gloss=hare|RX=[N].[M]|TokenType=Root
 13	/	_	PUNCT	_	_	12	punct	_	AlignBegin=45263|AlignEnd=45473|Gloss=/|TokenType=Break
-14	naː	_	NOUN	N	Gender=Fem	18	comp:aux	_	AlignBegin=45473|AlignEnd=45595|Gloss=thing|RX=[N].[F]|TokenType=Root
+14	naː	_	NOUN	N	Gender=Fem	18	comp:pred	_	AlignBegin=45473|AlignEnd=45595|Gloss=thing|RX=[N].[F]|TokenType=Root
 15	=t	_	DET	DET	Gender=Fem	14	det	_	AlignBegin=45595|AlignEnd=45717|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 16	ki=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	18	mod	_	AlignBegin=45717|AlignEnd=45798|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
 17	t-	_	PRON	PNG	Gender=Fem|Number=Sing|Person=3	18	subj/m	_	AlignBegin=45798|AlignEnd=45879|Gloss=3SG.F-|RX=[PNG]-|TokenType=InflAff
@@ -399,7 +399,7 @@
 11	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	10	udep@poss	_	AlignBegin=59230|AlignEnd=59359|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
 12	rh	_	VERB	V2	VerbClass=2	13	comp/m	_	AlignBegin=59359|AlignEnd=59445|Gloss=see|RX=[V2]|TokenType=Root
 13	-aː	_	AUX	_	_	17	comp:aux	_	AlignBegin=59445|AlignEnd=59531|DerPos=VERB|Gloss=-CVB.MNR|TokenType=DerAff
-14	-b	_	PRON	DET	Case=Acc|Gender=Masc	13	subj/m	_	AlignBegin=59531|AlignEnd=59616|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit|wordform==b
+14	-b	_	PRON	DET	Case=Acc|Gender=Masc	13	subj/m	_	AlignBegin=59531|AlignEnd=59616|Gloss==INDF.M.ACC|RX==[DET]|TokenType=InflAff|wordform==b
 15	ka=	_	PART	PTCL	Aspect=Imp|Polarity=Neg	17	mod	_	AlignBegin=59616|AlignEnd=59702|Gloss=NEG.IPFV=|RX=[PTCL]=|TokenType=Clit
 16	a-	_	PRON	PNG	Number=Sing|Person=1	17	subj/m	_	AlignBegin=59702|AlignEnd=59788|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
 17	ki	_	AUX	AUX	Aspect=Perf	19	comp:obj	_	AlignBegin=59788|AlignEnd=59873|Gloss=become\PFV|Reported=Yes|RX=[AUX].[NEG]|TokenType=Root

@@ -505,7 +505,7 @@
 11	ʔakr	_	VERB	V1	VerbClass=1	12	comp/m	_	AlignBegin=93910|AlignEnd=93995|Gloss=be_strong|RX=[V1]|TokenType=Root
 12	-aː	_	AUX	CVB	VerbForm=Conv	9	mod	_	AlignBegin=93995|AlignEnd=94080|DerPos=VERB|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
 13	=ka	_	ADP	POSTP	Degree=Cmp	12	mod	_	AlignBegin=94080|AlignEnd=94165|Gloss==CMPR|RX==[POSTP]|TokenType=Clit
-14	-b	_	PRON	DET	Case=Acc|Gender=Masc	12	subj/m	_	AlignBegin=94165|AlignEnd=94250|Gloss==INDF.M.ACC|RX==[DET]|TokenType=Clit|wordform==b
+14	-b	_	PRON	DET	Case=Acc|Gender=Masc	12	subj/m	_	AlignBegin=94165|AlignEnd=94250|Gloss==INDF.M.ACC|RX==[DET]|TokenType=InflAff|wordform==b
 15	ʃibib	_	VERB	V1	VerbClass=1	23	conj:coord	_	AlignBegin=94250|AlignEnd=94391|Gloss=look|RX=[V1]|TokenType=Root
 16	-na	_	PRON	TAM.PNG	Mood=Imp|Number=Plur	15	subj/m	_	AlignBegin=94391|AlignEnd=94532|Gloss=-IMP.PL|RX=-[TAM].[PNG]|TokenType=InflAff
 17	=t	_	CCONJ	CONJ	_	15	cc	_	AlignBegin=94532|AlignEnd=94674|Gloss==COORD|RX==[CONJ]|TokenType=Clit
@@ -567,7 +567,7 @@
 43	daːwri	_	ADJ	ADJ	_	34	mod	_	AlignBegin=103990|AlignEnd=104296|Gloss=beautiful|RX=[ADJ]|TokenType=Root
 44	ah	_	VERB	V1	VerbClass=1	45	comp/m	_	AlignBegin=104296|AlignEnd=104397|Gloss=be_there|RX=[V1].[IRG]|TokenType=Root
 45	-aː	_	AUX	CVB	VerbForm=Conv	51	mod	_	AlignBegin=104397|AlignEnd=104499|DerPos=VERB|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
-46	-t	_	PRON	DET	Gender=Fem	45	subj/m	_	AlignBegin=104499|AlignEnd=104601|Gloss==INDF.F|RX==[DET]|TokenType=Clit|wordform==t
+46	-t	_	PRON	DET	Gender=Fem	45	subj/m	_	AlignBegin=104499|AlignEnd=104601|Gloss==INDF.F|RX==[DET]|TokenType=InflAff|wordform==t
 47	/	_	PUNCT	PUNCT	_	45	punct	_	AlignBegin=104601|AlignEnd=104907|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 48	hajjʔajikʷ	_	VERB	V2	VerbClass=2	49	comp/m	_	AlignBegin=104907|AlignEnd=105073|Gloss=swing|RX=[V2]|TokenType=Root
 49	-tiːt	_	AUX	CVB	VerbForm=Conv	51	mod	_	AlignBegin=105073|AlignEnd=105240|DerPos=VERB|Gloss=-CVB.SEQ|RX=-.|TokenType=DerAff
@@ -688,7 +688,7 @@
 3	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=122403|AlignEnd=122728|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 4	ʔaː	_	NOUN	N	Gender=Fem|Number=Plur	2	mod	_	AlignBegin=122728|AlignEnd=122833|Gloss=milk|RX=[N].[PL].[F]|TokenType=Root
 5	=t	_	DET	DET	Gender=Fem	4	det	_	AlignBegin=122833|AlignEnd=122938|Gloss==INDF.F|RX==[DET]|TokenType=Clit
-6	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	2	comp:obl	_	AlignBegin=122938|AlignEnd=123043|Gloss==LOC.PL|RX==[POSTP]|TokenType=Clit
+6	=eːb	_	ADP	POSTP	Case=Loc|Number=Plur	2	udep	_	AlignBegin=122938|AlignEnd=123043|Gloss==LOC.PL|RX==[POSTP]|TokenType=Clit
 7	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	8	subj/m	_	AlignBegin=123043|AlignEnd=123200|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 8	kati	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=123200|AlignEnd=123358|Gloss=become\IPFV|RX=[V1].[IRG]|TokenType=Root
 9	/	_	PUNCT	PUNCT	_	8	punct	_	AlignBegin=123358|AlignEnd=123674|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -716,11 +716,11 @@
 5	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=126247|AlignEnd=126642|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 6	t=	_	DET	DET	Definite=Def|Gender=Fem	7	det	_	AlignBegin=126642|AlignEnd=126726|Gloss=DEF.F=|RX=[DET]=|TokenType=Clit
 7	ʔaraw	_	NOUN	N	Number=Plur	13	comp:obj	_	AlignBegin=126726|AlignEnd=126810|Gloss=friend\PL|RX=[N]|TokenType=Root
-8	-i	_	PART	SUFX	_	7	comp/m	_	AlignBegin=126810|AlignEnd=126895|Gloss=-ABST|RX=-[SUFX]|TokenType=InflAff
+8	-i	_	X	SUFX	_	7	mod/m	_	AlignBegin=126810|AlignEnd=126895|Gloss=-ABST|RX=-[SUFX]|TokenType=InflAff
 9	toːn	_	DET	DEM	Case=Acc|Deixis=Prox|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	AlignBegin=126895|AlignEnd=127148|Gloss=PROX.SG.F.ACC|RX=[DEM]|TokenType=Root
 10	rh	_	VERB	V2	VerbClass=2	11	comp/m	_	AlignBegin=127148|AlignEnd=127211|Gloss=see|RX=[V2]|TokenType=Root
 11	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	13	comp:pred	_	AlignBegin=127211|AlignEnd=127274|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
-12	-t	_	PRON	DET	Gender=Fem	11	subj/m	_	AlignBegin=127274|AlignEnd=127337|Gloss==INDF.F|RX==[DET]|TokenType=Clit|wordform==t
+12	-t	_	PRON	DET	Gender=Fem	11	subj/m	_	AlignBegin=127274|AlignEnd=127337|Gloss==INDF.F|RX==[DET]|TokenType=InflAff|wordform==t
 13	=u	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	14	comp	_	AlignBegin=127337|AlignEnd=127401|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
 14	akoː	_	SCONJ	PTCL	_	19	mod	_	AlignBegin=127401|AlignEnd=127654|Gloss=given_that|RX=[PTCL]|TokenType=Root
 15	/	_	PUNCT	PUNCT	_	14	punct	_	AlignBegin=127654|AlignEnd=127907|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -749,7 +749,7 @@
 38	/	_	PUNCT	PUNCT	_	36	punct	_	AlignBegin=133536|AlignEnd=134863|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 39	rh	_	VERB	V2	VerbClass=2	40	comp/m	_	AlignBegin=134863|AlignEnd=134927|Gloss=see|RX=[V2]|TokenType=Root
 40	-aː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	42	comp:pred	_	AlignBegin=134927|AlignEnd=134991|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
-41	-t	_	PRON	DET	Gender=Fem	40	subj/m	_	AlignBegin=134991|AlignEnd=135056|Gloss==INDF.F|RX==[DET]|TokenType=Clit|wordform==t
+41	-t	_	PRON	DET	Gender=Fem	40	subj/m	_	AlignBegin=134991|AlignEnd=135056|Gloss==INDF.F|RX==[DET]|TokenType=InflAff|wordform==t
 42	=u	_	AUX	N.COP	Number=Sing|Person=1|VerbType=Cop	43	comp	_	AlignBegin=135056|AlignEnd=135120|Gloss==COP.1SG|RX==[PRED].[N]|TokenType=Clit
 43	=it	_	SCONJ	CONJ	_	30	dislocated:mod	_	AlignBegin=135120|AlignEnd=135185|Gloss==CSL|RX==[CONJ]|TokenType=Clit
 44	//	_	PUNCT	PUNCT	_	30	punct	_	AlignBegin=135185|AlignEnd=136104|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -1542,7 +1542,7 @@
 10	doːr	_	NOUN	N	Gender=Masc	14	mod	_	AlignBegin=265464|AlignEnd=265554|Gloss=time|RX=[N].[M]|TokenType=Root
 11	//	_	PUNCT	PUNCT	_	10	punct	_	AlignBegin=265554|AlignEnd=265733|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 12	gibit	_	VERB	V1	VerbClass=1	13	comp/m	_	AlignBegin=265733|AlignEnd=265864|Gloss=sip|RX=[V1]|TokenType=Root
-13	-ti	_	AUX	CVB	VerbForm=Conv	14	comp:svc	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
+13	-ti	_	AUX	CVB	VerbForm=Conv	14	compound:svc	_	AlignBegin=265864|AlignEnd=265995|DerPos=VERB|Gloss=-CVB.GNRL|RX=-.|TokenType=DerAff
 14	dannʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	0	root	_	AlignBegin=265995|AlignEnd=266258|Gloss=do\IPFV.3SG|RX=[V1].[IRG]|TokenType=Root
 15	eːn	_	VERB	V1	Aspect=Perf|Number=Plur|Person=3|VerbClass=1	14	discourse	_	AlignBegin=266258|AlignEnd=266520|Gloss=say\PFV.3PL|RX=[V1].[IRG]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	17	punct	_	AlignBegin=266520|AlignEnd=266891|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -1628,7 +1628,7 @@
 2	-a	_	AUX	CVB	VerbForm=Conv	3	mod	_	AlignBegin=280676|AlignEnd=280794|DerPos=VERB|Gloss=-CVB.MNR|RX=-.|TokenType=DerAff
 3	naː	_	VERB	V2	VerbClass=2	4	comp/m	_	AlignBegin=280794|AlignEnd=280853|Gloss=spend_the_night|RX=[V2]|TokenType=Root
 4	-jaː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	6	comp:pred	_	AlignBegin=280853|AlignEnd=280912|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
-5	-t	_	PRON	DET	Gender=Fem	4	subj/m	_	AlignBegin=280912|AlignEnd=280971|Gloss==INDF.F|RX==[DET]|TokenType=Clit|wordform==t
+5	-t	_	PRON	DET	Gender=Fem	4	subj/m	_	AlignBegin=280912|AlignEnd=280971|Gloss==INDF.F|RX==[DET]|TokenType=InflAff|wordform==t
 6	=i	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	11	conj:coord	_	AlignBegin=280971|AlignEnd=281030|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
 7	kʷiːkʷʔaːj	_	NOUN	N	Gender=Masc	9	conj:redup	_	AlignBegin=281030|AlignEnd=281266|Gloss=crow|RX=[N].[M]|TokenType=Root
 8	/	_	PUNCT	PUNCT	_	7	punct	_	AlignBegin=281266|AlignEnd=281772|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
