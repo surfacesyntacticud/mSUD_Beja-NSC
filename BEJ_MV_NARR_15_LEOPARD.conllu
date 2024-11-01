@@ -384,8 +384,8 @@
 # phonetic_text = jaː iraːnaj / oː= jhaːm ʈabʔ -a / ba= a- kʷinh -aj ak -aː =b =u =it /
 # text = jaː iraːnaj / oː= jhaːm ʈabʔ -a /
 # text_en =  "Gosh! hit the leopard!' '(I said).
-1	jaː	_	PART	PTCL	_	2	vocative	_	AlignBegin=62796|AlignEnd=63039|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-2	iraːnaj	_	INTJ	_	_	6	discourse	_	AlignBegin=63039|AlignEnd=63282|Gloss=gosh|RX=[EXCL]|TokenType=Root
+1	jaː	_	PART	PTCL	_	2	mod	_	AlignBegin=62796|AlignEnd=63039|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+2	iraːnaj	_	INTJ	_	ExtPos=INTJ	6	discourse	_	AlignBegin=63039|AlignEnd=63282|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=63282|AlignEnd=63525|Gloss=/|TokenType=Break
 4	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	5	det	_	AlignBegin=63525|AlignEnd=63704|Gloss=DEF.SG.M.ACC=|RX=[DET]=|TokenType=Clit
 5	jhaːm	_	NOUN	N	Gender=Masc	6	comp:obj	_	AlignBegin=63704|AlignEnd=63883|Gloss=leopard|RX=[N].[M]|TokenType=Root
@@ -433,7 +433,7 @@
 9	ni	_	VERB	V1	Aspect=Perf|VerbClass=1	10	comp	_	AlignBegin=68067|AlignEnd=68185|Gloss=say\PFV|RX=[V1].[IRG]|TokenType=Root
 10	=hoːb	_	SCONJ	CONJ	_	13	mod	_	AlignBegin=68185|AlignEnd=68304|Gloss==when|RX==[CONJ]|TokenType=Clit
 11	/	_	PUNCT	_	_	10	punct	_	AlignBegin=68304|AlignEnd=68659|Gloss=/|TokenType=Break
-12	hoː	_	PRON	PRO	Number=Sing|Person=1	13	comp:obj	_	AlignBegin=69145|AlignEnd=69361|Gloss=1SG.DAT\ABL|RX=[PRO]|TokenType=Root
+12	hoː	_	PRON	PRO	Number=Sing|Person=1	13	comp:obj	_	AlignBegin=69145|AlignEnd=69361|Gloss=1SG.DAT/ABL|RX=[PRO]|TokenType=Root
 13	ʃinh	_	VERB	V1	VerbClass=1	14	comp/m	_	AlignBegin=69361|AlignEnd=69469|Gloss=take_care|RX=[V1]|TokenType=Root
 14	-at	_	SCONJ	N.V	_	16	comp:aux	_	AlignBegin=69469|AlignEnd=69577|DerPos=NOUN|Gloss=-VN|RX=-[N].[V]|TokenType=DerAff
 15	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	16	subj/m	_	AlignBegin=69577|AlignEnd=69685|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
@@ -640,7 +640,7 @@
 22	a-	_	PRON	PNG	Number=Sing|Person=1	23	subj/m	_	AlignBegin=101660|AlignEnd=101808|Gloss=1SG-|RX=[PNG]-|TokenType=InflAff
 23	nʈʔi	_	VERB	V1	Aspect=Imp|VerbClass=1	25	udep	_	AlignBegin=101808|AlignEnd=101955|Gloss=hit\IPFV|Reported=Yes|RX=[V1]|TokenType=Root|TypeToken=stem
 24	oː=	_	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Sing	25	det	_	AlignBegin=101955|AlignEnd=102029|Gloss=DEF.SG.M.ACC=|RX=[DET]=|TokenType=Clit
-25	mi-	_	SCONJ	N.V	ExtPos=NOUN	30	conj:coord	_	AlignBegin=102029|AlignEnd=102103|DerPos=NOUN|Gloss=N.AC-|RX=[N].[V]-|TokenType=DerAff
+25	mi-	_	SCONJ	N.V	_	30	conj:coord	_	AlignBegin=102029|AlignEnd=102103|DerPos=NOUN|Gloss=N.AC-|RX=[N].[V]-|TokenType=DerAff
 26	jaːd	_	VERB	V1	VerbClass=1	25	comp/m	_	AlignBegin=102103|AlignEnd=102177|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 27	=wa	_	CCONJ	CONJ	_	26	cc	_	AlignBegin=102177|AlignEnd=102250|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 28	/	_	PUNCT	_	_	26	punct	_	AlignBegin=102250|AlignEnd=102546|Gloss=/|TokenType=Break

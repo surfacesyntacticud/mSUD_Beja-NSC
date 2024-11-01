@@ -456,8 +456,8 @@
 # text_en = gosh, us...
 # phonetic_text = ja iraːnaj aːn hinin /
 # sound_url = https://corporan.huma-num.fr/Archives/media/BEJ/WAV/BEJ_MV_NARR_03_CAMEL.WAV
-1	ja	_	PART	PTCL	_	4	discourse	_	AlignBegin=83812|AlignEnd=84054|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-2	iraːnaj	_	INTJ	_	_	4	discourse	_	AlignBegin=84054|AlignEnd=84296|Gloss=gosh|RX=[EXCL]|TokenType=Root
+1	ja	_	PART	PTCL	_	4	discourse	_	AlignBegin=83812|AlignEnd=84054|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+2	iraːnaj	_	INTJ	_	ExtPos=INTJ	4	discourse	_	AlignBegin=84054|AlignEnd=84296|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 3	aːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	AlignBegin=84296|AlignEnd=84538|Gloss=PROX.PL.M.NOM|RX=[DEM]|TokenType=Root
 4	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1	0	root	_	AlignBegin=84538|AlignEnd=84780|Gloss=1PL.NOM|RX=[SBJ].[PRO]|TokenType=Root
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=84780|AlignEnd=85022|TokenType=Break
@@ -909,7 +909,7 @@
 11	rhi	_	VERB	V2	VerbClass=2	12	comp/m	_	AlignBegin=164800|AlignEnd=164879|Gloss=see|RX=[V2]|TokenType=Root
 12	-s	_	AUX	V2	VerbClass=2|Voice=Cau	13	comp/m	_	AlignBegin=164879|AlignEnd=164958|DerPos=VERB|Gloss=-CAUS|RX=-[V2].[DER]|TokenType=DerAff
 13	-at	_	SCONJ	N.V	_	15	comp:pred	_	AlignBegin=164958|AlignEnd=165037|DerPos=NOUN|Gloss=-VN|RX=-[N].[V]|TokenType=DerAff
-14	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	13	udep	_	AlignBegin=165037|AlignEnd=165116|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
+14	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	13	comp:obj	_	AlignBegin=165037|AlignEnd=165116|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
 15	ʔeːnaj	_	AUX	AUX	Aspect=Imp|Mood=Pot|Number=Plur|Person=1	0	root	_	AlignBegin=165116|AlignEnd=165432|Gloss=come\IPFV.1PL|Reported=Yes|RX=[AUX].[POT]|TokenType=Root
 16	//	_	PUNCT	PUNCT	_	24	punct	_	AlignBegin=165432|AlignEnd=165748|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 17	mali	_	PART	PTCL	_	18	comp/m	_	AlignBegin=165748|AlignEnd=165945|Gloss=two|RX=[PTCL]|TokenType=Root
@@ -1185,8 +1185,8 @@
 # text = jaː iraːnaj aːn hinin / tiːlal =eː -nan =i tiːlal -eː =ka // tʔa areː / geː / ni- raːkʷ =hoːk ni- jad =aj // mali -a doːr / dʔi -jaː =t rhi -is -a =hoːn eːn =heːb //
 # phonetic_text = jaː iraːnaj aːn hinin / tiːlaleːnani tiːlaleːka // tʔa areː / geː / niraːkʷhoːk nijadaj // malja doːr / dʔijaːt rhisaːhoːn eːnheːb //
 # text_en = "Gosh, us, whatever our ideas before,  now, then, really,  we will be terrified of you, so do it once more, and show us!", they told me.
-1	jaː	_	PART	PTCL	_	2	vocative	_	AlignBegin=212557|AlignEnd=212786|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-2	iraːnaj	_	INTJ	_	_	4	discourse	_	AlignBegin=212786|AlignEnd=213015|Gloss=gosh|RX=[EXCL]|TokenType=Root
+1	jaː	_	PART	PTCL	_	2	mod	_	AlignBegin=212557|AlignEnd=212786|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+2	iraːnaj	_	INTJ	_	ExtPos=INTJ	4	discourse	_	AlignBegin=212786|AlignEnd=213015|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 3	aːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	AlignBegin=213015|AlignEnd=213244|Gloss=PROX.PL.M.NOM|RX=[DEM]|TokenType=Root
 4	hinin	_	PRON	PRO	Case=Nom|Number=Plur|Person=1	7	subj	_	AlignBegin=213244|AlignEnd=213473|Gloss=1PL.NOM|RX=[SBJ].[PRO]|TokenType=Root
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=213473|AlignEnd=214243|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break

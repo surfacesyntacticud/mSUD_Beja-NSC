@@ -48,8 +48,8 @@
 44	-an	_	PRON	PNG	Number=Plur|Person=3	43	subj/m	_	AlignBegin=11181|AlignEnd=11325|Gloss=-3PL|RX=-[PNG]|TokenType=InflAff
 45	=it	_	SCONJ	CONJ	_	56	mod	_	AlignBegin=11325|AlignEnd=11469|Gloss==CSL|RX==[CONJ]|TokenType=Clit
 46	/	_	PUNCT	PUNCT	_	45	punct	_	AlignBegin=11469|AlignEnd=12213|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
-47	jaː	_	PART	PTCL	_	48	vocative	_	AlignBegin=12213|AlignEnd=12355|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-48	iraːnaj	_	INTJ	_	_	53	discourse	_	AlignBegin=12355|AlignEnd=12497|Gloss=gosh|RX=[EXCL]|TokenType=Root
+47	jaː	_	PART	PTCL	_	48	mod	_	AlignBegin=12213|AlignEnd=12355|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+48	iraːnaj	_	INTJ	_	ExtPos=INTJ	53	discourse	_	AlignBegin=12355|AlignEnd=12497|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 49	/	_	PUNCT	PUNCT	_	48	punct	_	AlignBegin=12497|AlignEnd=12639|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 50	girba	_	ADJ	ADJ	_	51	mod	_	AlignBegin=12639|AlignEnd=12881|Gloss=strange|RX=[ADJ]|TokenType=Root
 51	mijʔat	_	NOUN	N	Gender=Masc	53	comp:obj	_	AlignBegin=12881|AlignEnd=13124|Gloss=footprint|RX=[N].[M]|TokenType=Root
@@ -482,8 +482,8 @@
 12	-i	_	PRON	TAM.PNG	Aspect=Aor|Gender=Masc|Number=Sing|Person=3	11	subj/m	_	AlignBegin=97718|AlignEnd=97795|Gloss=-AOR.3SG.M|RX=-[TAM].[PNG]|TokenType=InflAff
 13	=t	_	CCONJ	CONJ	_	11	cc	_	AlignBegin=97795|AlignEnd=97873|Gloss==COORD|RX==[CONJ]|TokenType=Clit
 14	/	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=97873|AlignEnd=98105|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
-15	jaː	_	PART	PTCL	_	16	vocative	_	AlignBegin=98105|AlignEnd=98307|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-16	iraːnaj	_	INTJ	_	_	24	discourse	_	AlignBegin=98307|AlignEnd=98510|Gloss=gosh|RX=[EXCL]|TokenType=Root
+15	jaː	_	PART	PTCL	_	16	mod	_	AlignBegin=98105|AlignEnd=98307|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+16	iraːnaj	_	INTJ	_	ExtPos=INTJ	24	discourse	_	AlignBegin=98307|AlignEnd=98510|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 17	uːn	_	DET	DEM	Case=Nom|Deixis=Prox|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	AlignBegin=98510|AlignEnd=98713|Gloss=PROX.SG.M.NOM|RX=[DEM]|TokenType=Root
 18	ani	_	PRON	PRO	Case=Nom|Number=Sing|Person=1	24	subj	_	AlignBegin=98713|AlignEnd=98916|Gloss=1SG.NOM|RX=[SBJ].[PRO]|TokenType=Root
 19	/	_	PUNCT	PUNCT	_	18	punct	_	AlignBegin=98916|AlignEnd=99710|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
@@ -695,7 +695,7 @@
 3	dannʔi	_	AUX	AUX.EMPH	Aspect=Imp	4	comp	_	AlignBegin=138292|AlignEnd=138425|Gloss=do\IPFV.3SG|RX=[AUX].[EMPH]|TokenType=Root
 4	=hoːb	_	SCONJ	CONJ	_	16	mod	_	AlignBegin=138425|AlignEnd=138558|Gloss==when|RX==[CONJ]|TokenType=Clit
 5	/	_	PUNCT	PUNCT	_	4	punct	_	AlignBegin=138558|AlignEnd=138825|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
-6	jhaː	_	INTJ	PTCL	Gender=Masc|Number=Sing	10	vocative	_	AlignBegin=138825|AlignEnd=139144|Gloss=ADRF.SG.M|RX=[PTCL]|TokenType=Root
+6	jhaː	_	INTJ	PTCL	Gender=Masc|Number=Sing	10	discourse	_	AlignBegin=138825|AlignEnd=139144|Gloss=ADRF.SG.M|RX=[PTCL]|TokenType=Root
 7	naːnaːt	naːnaːt	ADV	_	PronType=Int	8	comp	_	Gloss=how|RX=[PRO].[INTER]|TokenType=Root
 8	=iː	_	ADP	POSTP	Case=Abl|Number=Sing	10	mod	_	AlignBegin=139357|AlignEnd=139464|Gloss==ABL.SG|RX==[POSTP]|TokenType=Clit
 9	ti-	_	PRON	PNG	Number=Sing|Person=2	10	subj/m	_	AlignBegin=139464|AlignEnd=139570|Gloss=2SG-|RX=[PNG]-|TokenType=InflAff

@@ -290,7 +290,7 @@
 14	/	_	PUNCT	PUNCT	_	11	punct	_	AlignBegin=42933|AlignEnd=43276|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 
 # sent_id = BEJ_MV_NARR_12_witch_053-059
-# text = mmmmm mmmmm / tiː- d =hoːb / haːl =oːk =i i- di =hoːb // ti- di eːn //
+# text = mmmmm mmmmm / tiː- d =hoːb / haːl =oːk -i i- di =hoːb // ti- di eːn //
 # phonetic_text = mmmmm mmmmm / tiːdhoːb / haːloːki idihoːb // tidi eːn //
 # text_en =  when she said: "mmmmm, mmmmm",  when he said: "what's the matter with you?",  she said so, they said.
 1	mmmmm	_	INTJ	ONOM	_	2	conj:redup	_	AlignBegin=43276|AlignEnd=43646|Gloss=mmmmm|RX=[ONOM]|TokenType=Root
@@ -302,7 +302,7 @@
 7	/	_	PUNCT	PUNCT	_	6	punct	_	AlignBegin=44584|AlignEnd=45344|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 8	haːl	_	NOUN	N	Gender=Masc	12	comp:obj	_	AlignBegin=45344|AlignEnd=45469|Gloss=state|Reported=Yes|RX=[N].[M]|TokenType=Root
 9	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	8	udep@poss	_	AlignBegin=45469|AlignEnd=45595|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
-10	=i	_	PART	PNG	Gender=Fem	8	mod	_	AlignBegin=45595|AlignEnd=45721|Gloss==ADRE.F|RX==[PNG]|TokenType=Clit
+10	-i	_	DET	PNG	Gender=Fem	9	det/m	_	AlignBegin=45595|AlignEnd=45721|Gloss==ADRE.F|RX==[PNG]|TokenType=Clit
 11	i-	_	PRON	PNG	Gender=Masc|Number=Sing|Person=3	12	subj/m	_	AlignBegin=45721|AlignEnd=45846|Gloss=3SG.M-|RX=[PNG]-|TokenType=InflAff
 12	di	_	VERB	V1	Aspect=Perf|VerbClass=1	13	comp	_	AlignBegin=45846|AlignEnd=45972|Gloss=say\PFV|RX=[V1].[IRG]|TokenType=Root
 13	=hoːb	_	SCONJ	CONJ	_	16	mod	_	AlignBegin=45972|AlignEnd=46098|Gloss==when|RX==[CONJ]|TokenType=Clit

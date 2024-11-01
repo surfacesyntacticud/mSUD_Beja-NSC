@@ -409,7 +409,7 @@
 1	jʔ	_	VERB	V2	VerbClass=2	3	comp	_	AlignBegin=87696|AlignEnd=87796|Gloss=come|RX=[V2].[IRG]|TokenType=Root
 2	-an	_	PRON	TAM.PNG	Aspect=Perf|Number=Sing|Person=1	1	subj/m	_	AlignBegin=87796|AlignEnd=87897|Gloss=-PFV.1SG|RX=-[TAM].[PNG]|TokenType=InflAff
 3	=it	_	SCONJ	CONJ	_	17	mod	_	AlignBegin=87897|AlignEnd=87998|Gloss==CSL|RX==[CONJ]|TokenType=Clit
-4	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	3	comp	_	AlignBegin=87998|AlignEnd=88099|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
+4	=hoːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2	3	comp:obj	_	AlignBegin=87998|AlignEnd=88099|Gloss==OBJ.2SG|RX==[PRO]|TokenType=Clit
 5	/	_	PUNCT	PUNCT	_	3	punct	_	AlignBegin=88099|AlignEnd=89017|Gloss=PUNCT|RX=[PUNCT]|TokenType=Break
 6	mʔari	_	NOUN	N	Gender=Fem	17	comp:obj	_	AlignBegin=89017|AlignEnd=89168|Gloss=food|RX=[N].[F]|TokenType=Root
 7	=t	_	DET	DET	Gender=Fem	6	det	_	AlignBegin=89168|AlignEnd=89319|Gloss==INDF.F|RX==[DET]|TokenType=Clit
@@ -778,7 +778,7 @@
 # phonetic_text = naːn hoːk immarrijaːtu //
 # text_en = "What has happened to you?
 1	naːn	_	PRON	PRO	PronType=Int	5	mod	_	AlignBegin=153683|AlignEnd=153978|Gloss=what|RX=[PRO].[Q]|TokenType=Root
-2	hoːk	_	PRON	PRO	Number=Sing|Person=2	3	comp:obl	_	AlignBegin=153978|AlignEnd=154274|Gloss=2SG.DAT\ABL|RX=[PRO]|TokenType=Root
+2	hoːk	_	PRON	PRO	Number=Sing|Person=2	3	comp:obl	_	AlignBegin=153978|AlignEnd=154274|Gloss=2SG.DAT/ABL|RX=[PRO]|TokenType=Root
 3	am-	_	AUX	V1	VerbClass=1|Voice=Rcp	5	comp/m	_	AlignBegin=154274|AlignEnd=154333|DerPos=VERB|Gloss=RECP-|RX=[V1].[DER]-|TokenType=DerAff
 4	mar~ri	_	VERB	V1	VerbClass=1	3	comp/m	_	AlignBegin=154333|AlignEnd=154392|Gloss=find\PLAC|RX=[V1].[DER]|TokenType=Root
 5	-jaː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	7	comp:pred	_	AlignBegin=154392|AlignEnd=154451|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff
@@ -997,7 +997,7 @@
 # phonetic_text = wʔalif widijaːb iːktijeːb eːjawnat / tʔarteː / ahiːt teːbi eːn //
 # text_en = They give her the thousand dinars that he had mentioned, and she goes to her daughters to give them to them, they said.
 1	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	2	det	_	AlignBegin=189556|AlignEnd=189760|Gloss=DEF.SG.M=|RX=[DET]=|TokenType=Clit
-2	alif	_	NUM	NUM	ExtPos=NOUN	10	comp:obj	_	AlignBegin=189760|AlignEnd=189964|Gloss=thousand|RX=[NUM]|TokenType=Root
+2	alif	_	NUM	NUM	_	10	comp:obj	_	AlignBegin=189760|AlignEnd=189964|Gloss=thousand|RX=[NUM]|TokenType=Root
 3	wi=	_	PRON	CONJ.REL	Gender=Masc|Number=Sing|PronType=Rel	8	comp:obj	_	AlignBegin=189964|AlignEnd=190066|Gloss=REL.M=|RX=[CONJ]=|TokenType=Clit
 4	di	_	VERB	V1	VerbClass=1	5	comp/m	_	AlignBegin=190066|AlignEnd=190168|Gloss=say|RX=[V1].[IRG]|TokenType=Root
 5	-jaː	_	AUX	CVB	Aspect=Perf|VerbForm=Conv	8	comp:pred	_	AlignBegin=190168|AlignEnd=190270|DerPos=VERB|Gloss=-CVB.MNR|RX=-[PRF]|TokenType=DerAff

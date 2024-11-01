@@ -184,7 +184,7 @@
 5	raːt	_	VERB	V2	VerbClass=2	6	comp/m	_	AlignBegin=28744|AlignEnd=28957|Gloss=ask|RX=[V2]|TokenType=Root
 6	-eːtiːt	_	AUX	_	_	37	mod	_	AlignBegin=28957|AlignEnd=29170|DerPos=VERB|Gloss=-CVB.SEQ|TokenType=DerAff
 7	/	_	PUNCT	_	_	6	punct	_	AlignBegin=29170|AlignEnd=29597|Gloss=/|TokenType=Break
-8	jhaː	_	INTJ	PTCL	Case=Voc|Gender=Masc|Number=Sing	11	vocative	_	AlignBegin=29597|AlignEnd=29927|Gloss=ADRF.SG.M|RX=[PTCL]|TokenType=Root
+8	jhaː	_	INTJ	PTCL	Case=Voc|Gender=Masc|Number=Sing	11	discourse	_	AlignBegin=29597|AlignEnd=29927|Gloss=ADRF.SG.M|RX=[PTCL]|TokenType=Root
 9	haːl	_	NOUN	N	Gender=Masc	11	comp:pred	_	AlignBegin=29927|AlignEnd=30037|Gloss=state|RX=[N].[M]|TokenType=Root
 10	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	9	udep@poss	_	AlignBegin=30037|AlignEnd=30147|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
 11	=i	_	AUX	N.COP	Number=Sing|Person=3|VerbType=Cop	16	conj:coord	_	AlignBegin=30147|AlignEnd=30257|Gloss==COP.3SG|RX==[PRED].[N]|TokenType=Clit
@@ -424,8 +424,8 @@
 3	=t	_	DET	DET	Gender=Fem	2	det	_	AlignBegin=69050|AlignEnd=69116|Gloss==INDF.F|RX==[DET]|TokenType=Clit
 4	=i	_	ADP	CASE	Case=Gen	5	comp	_	AlignBegin=69116|AlignEnd=69182|Gloss==GEN|RX==[CASE]|TokenType=Clit|wordform=-i
 5	=da	_	ADP	POSTP	_	22	comp:obl	_	AlignBegin=69182|AlignEnd=69250|Gloss==DIR|RX==[POSTP]|TokenType=Clit
-6	jaː	_	PART	PTCL	_	7	vocative	_	AlignBegin=69250|AlignEnd=69582|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-7	iraːni	_	INTJ	_	_	19	discourse	_	AlignBegin=69582|AlignEnd=69914|Gloss=gosh|RX=[EXCL]|TokenType=Root
+6	jaː	_	PART	PTCL	_	7	mod	_	AlignBegin=69250|AlignEnd=69582|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+7	iraːni	_	INTJ	_	ExtPos=INTJ	19	discourse	_	AlignBegin=69582|AlignEnd=69914|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 8	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	9	det	_	AlignBegin=69914|AlignEnd=70025|Gloss=DEF.SG.M=|RX=[DET]=|TokenType=Clit
 9	ʔoːr	_	NOUN	N	_	19	comp:obj	_	AlignBegin=70025|AlignEnd=70136|Gloss=child|RX=[N]|TokenType=Root
 10	=oːk	_	PRON	PRO	Case=Acc|Number=Sing|Person=2|Poss=Yes	9	udep@poss	_	AlignBegin=70136|AlignEnd=70246|Gloss==POSS.2SG.ACC|RX==[PRO]|TokenType=Clit
@@ -595,8 +595,8 @@
 # phonetic_text = jaː iraːni / w= ʔoːr beːt =heːb hiːreːr -eːtiːt / jʔ -eːtiːt =heːb // oːt ## ti= karaːma =t =i ti- firʔi =jeːt / i- ktim -n =heːb // deː =t =i // i- ndi eːn //
 # text = jaː iraːni / wʔoːr beːtheːb hiːreːreːtiːt / jʔeːtiːtheːb //  oːt / tikaraːmati tifirʔijeːt / iktimnheːb // deːti // indi eːn //
 # text_en = Gosh! after the boy has walked and come towards me: "These alms my mother has given have arrived to me," he says, they said.
-1	jaː	_	PART	PTCL	_	2	discourse	_	AlignBegin=100545|AlignEnd=100775|Gloss=ADRF|RX=[PTCL]|TokenType=Root
-2	iraːni	_	INTJ	_	_	9	discourse	_	AlignBegin=100775|AlignEnd=101005|Gloss=gosh|RX=[EXCL]|TokenType=Root
+1	jaː	_	PART	PTCL	_	2	mod	_	AlignBegin=100545|AlignEnd=100775|Gloss=ADRF|InIdiom=Yes|RX=[PTCL]|TokenType=Root
+2	iraːni	_	INTJ	_	ExtPos=INTJ	9	discourse	_	AlignBegin=100775|AlignEnd=101005|Gloss=gosh|Idiom=Yes|RX=[EXCL]|TokenType=Root
 3	/	_	PUNCT	_	_	2	punct	_	AlignBegin=101005|AlignEnd=101235|Gloss=/|TokenType=Break
 4	w=	_	DET	DET	Definite=Def|Gender=Masc|Number=Sing	5	det	_	AlignBegin=101235|AlignEnd=101450|Gloss=DEF.SG.M=|RX=[DET]=|TokenType=Clit
 5	ʔoːr	_	NOUN	N	_	9	subj	_	AlignBegin=101450|AlignEnd=101665|Gloss=child|RX=[SBJ].[N]|TokenType=Root
